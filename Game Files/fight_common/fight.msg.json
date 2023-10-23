@@ -1,0 +1,4660 @@
+{
+  "startOffset" : 0,
+  "fixedFileSize" : 0,
+  "file" : {
+    "name" : "fight.msg",
+    "folder" : {
+      "path" : "\/Game Files\/fight_common"
+    }
+  },
+  "strings" : [
+    {
+      "id" : 1426,
+      "text" : "[Pokemon 16]'s [Item 41] activated."
+    },
+    {
+      "id" : 20001,
+      "text" : "[Pokemon 15]'s [Ability 26]\nprevents [Pokemon 16]'s\n[Ability 27] from working!"
+    },
+    {
+      "id" : 20002,
+      "text" : "[36]"
+    },
+    {
+      "id" : 20003,
+      "text" : "[13] gained [14]\n[Quantity 47] Exp. Points![Clear Window]"
+    },
+    {
+      "id" : 20004,
+      "text" : "\u0000a boosted"
+    },
+    {
+      "id" : 20005,
+      "text" : "a boosted"
+    },
+    {
+      "id" : 20006,
+      "text" : "[13] grew to\nLv. [Quantity 47]![Clear Window]"
+    },
+    {
+      "id" : 20007,
+      "text" : "[13] learned\n[14]![Dialogue End]"
+    },
+    {
+      "id" : 20008,
+      "text" : "[13] is trying to\nlearn [14].[Dialogue End]"
+    },
+    {
+      "id" : 20009,
+      "text" : "But [13] can't learn\nmore than four moves.[Dialogue End]"
+    },
+    {
+      "id" : 20010,
+      "text" : "Delete a move to make\nroom for [14]?"
+    },
+    {
+      "id" : 20011,
+      "text" : "[13] forgot\n[14].[Clear Window]"
+    },
+    {
+      "id" : 20012,
+      "text" : "[Pause]{20}Stop learning\n[14]?"
+    },
+    {
+      "id" : 20013,
+      "text" : "[13] did not learn\n[14].[Dialogue End]"
+    },
+    {
+      "id" : 20014,
+      "text" : "Use next Pokémon?"
+    },
+    {
+      "id" : 20015,
+      "text" : "[Pokemon 16] avoided the move!"
+    },
+    {
+      "id" : 20016,
+      "text" : "[Pokemon 16] protected itself!"
+    },
+    {
+      "id" : 20017,
+      "text" : "[Pokemon 16] avoided damage with\n[Ability 27]!"
+    },
+    {
+      "id" : 20018,
+      "text" : "[Pokemon 16] makes Ground\nmoves miss with [Ability 27]!"
+    },
+    {
+      "id" : 20019,
+      "text" : "[Pokemon 16] avoided the attack!"
+    },
+    {
+      "id" : 20020,
+      "text" : "It doesn't affect [Pokemon 16]..."
+    },
+    {
+      "id" : 20021,
+      "text" : "[Pokemon 15] fainted!"
+    },
+    {
+      "id" : 20022,
+      "text" : "[Pokemon 16] fainted!"
+    },
+    {
+      "id" : 20023,
+      "text" : "[7]{01}[Player Battle 19] got $[75] for winning![Dialogue End]"
+    },
+    {
+      "id" : 20024,
+      "text" : "[Player Battle 19] is out of usable\nPokémon![Dialogue End]"
+    },
+    {
+      "id" : 20025,
+      "text" : "[Player Battle 19] whited out![Dialogue End]"
+    },
+    {
+      "id" : 20026,
+      "text" : "Hit [Quantity 47] time(s)!"
+    },
+    {
+      "id" : 20027,
+      "text" : "[Pokemon 18] fell asleep!"
+    },
+    {
+      "id" : 20028,
+      "text" : "[Pokemon 30]'s [Ability 28]\nmade [Pokemon 18] sleep."
+    },
+    {
+      "id" : 20029,
+      "text" : "[Pokemon 16] is already asleep!"
+    },
+    {
+      "id" : 20030,
+      "text" : "[Pokemon 15] is already asleep!"
+    },
+    {
+      "id" : 20031,
+      "text" : "[Pokemon 16] wasn't affected!"
+    },
+    {
+      "id" : 20032,
+      "text" : "[Pokemon 18] was poisoned!"
+    },
+    {
+      "id" : 20033,
+      "text" : "[Pokemon 30]'s [Ability 28]\npoisoned [Pokemon 18]!"
+    },
+    {
+      "id" : 20034,
+      "text" : "[Pokemon 15] is hurt by poison!"
+    },
+    {
+      "id" : 20035,
+      "text" : "[Pokemon 16] is already poisoned."
+    },
+    {
+      "id" : 20036,
+      "text" : "[Pokemon 18] is badly poisoned!"
+    },
+    {
+      "id" : 20037,
+      "text" : "[Pokemon 16] had its energy\ndrained!"
+    },
+    {
+      "id" : 20038,
+      "text" : "[Pokemon 18] was burned!"
+    },
+    {
+      "id" : 20039,
+      "text" : "[Pokemon 30]'s [Ability 28]\nburned [Pokemon 18]!"
+    },
+    {
+      "id" : 20040,
+      "text" : "[Pokemon 15] is hurt by its burn!"
+    },
+    {
+      "id" : 20041,
+      "text" : "But it failed!"
+    },
+    {
+      "id" : 20042,
+      "text" : "[Pokemon 18] was frozen solid!"
+    },
+    {
+      "id" : 20043,
+      "text" : "[Pokemon 30]'s [Ability 28]\nfroze [Pokemon 18] solid!"
+    },
+    {
+      "id" : 20044,
+      "text" : "[Pokemon 15] is frozen solid!"
+    },
+    {
+      "id" : 20045,
+      "text" : "[Pokemon 16] was defrosted!"
+    },
+    {
+      "id" : 20046,
+      "text" : "[Pokemon 15] was defrosted!"
+    },
+    {
+      "id" : 20047,
+      "text" : "[Pokemon 15] was defrosted by\n[Move 40]!"
+    },
+    {
+      "id" : 20048,
+      "text" : "[Pokemon 18] is paralyzed!\nIt may be unable to move!"
+    },
+    {
+      "id" : 20049,
+      "text" : "[Pokemon 30]'s [Ability 28]\nparalyzed [Pokemon 18]!\nIt may be unable to move!"
+    },
+    {
+      "id" : 20050,
+      "text" : "[Pokemon 15] is paralyzed!\nIt can't move!"
+    },
+    {
+      "id" : 20051,
+      "text" : "[Pokemon 16] is already paralyzed!"
+    },
+    {
+      "id" : 20052,
+      "text" : "[Pokemon 16] was healed of\nparalysis!"
+    },
+    {
+      "id" : 20053,
+      "text" : "[Pokemon 16]'s dream was eaten!"
+    },
+    {
+      "id" : 20054,
+      "text" : "[Pokemon 16]'s [13]\nwon't go higher!"
+    },
+    {
+      "id" : 20055,
+      "text" : "[Pokemon 16]'s [13]\nwon't go lower!"
+    },
+    {
+      "id" : 20056,
+      "text" : "[Pokemon 15] is confused!"
+    },
+    {
+      "id" : 20057,
+      "text" : "[Pokemon 15] snapped out of\nits confusion!"
+    },
+    {
+      "id" : 20058,
+      "text" : "[Pokemon 18] became confused!"
+    },
+    {
+      "id" : 20059,
+      "text" : "[Pokemon 16] is already confused!"
+    },
+    {
+      "id" : 20060,
+      "text" : "[Pokemon 16] fell in love!"
+    },
+    {
+      "id" : 20061,
+      "text" : "[Pokemon 15] is in love with\n[Pokemon 30]!"
+    },
+    {
+      "id" : 20062,
+      "text" : "[Pokemon 15] is immobilized by\nlove!"
+    },
+    {
+      "id" : 20063,
+      "text" : "[Pokemon 16] was blown away!"
+    },
+    {
+      "id" : 20064,
+      "text" : "[Pokemon 15] transformed into\nthe [13] type!"
+    },
+    {
+      "id" : 20065,
+      "text" : "[Pokemon 15] flinched!"
+    },
+    {
+      "id" : 20066,
+      "text" : "[Pokemon 16] regained health!"
+    },
+    {
+      "id" : 20067,
+      "text" : "[Pokemon 16]'s HP is full!"
+    },
+    {
+      "id" : 20068,
+      "text" : "[Pokemon 32]'s\n[Move 40] raised Sp. Def a little!"
+    },
+    {
+      "id" : 20069,
+      "text" : "[Pokemon 32]'s\n[Move 40] raised Defense!"
+    },
+    {
+      "id" : 20070,
+      "text" : "[Pokemon 32]'s\n[Move 40] raised Defense a little!"
+    },
+    {
+      "id" : 20071,
+      "text" : "The tailwind blew\nfrom behind."
+    },
+    {
+      "id" : 20072,
+      "text" : "[Pokemon 16] is protected by\nSafeguard!"
+    },
+    {
+      "id" : 20073,
+      "text" : "[Pokemon 32]'s Tailwind\npetered out."
+    },
+    {
+      "id" : 20074,
+      "text" : "[Pokemon 15] went to sleep!"
+    },
+    {
+      "id" : 20075,
+      "text" : "[Pokemon 15] slept and became\nhealthy!"
+    },
+    {
+      "id" : 20076,
+      "text" : "[Pokemon 15] whipped up\na whirlwind!"
+    },
+    {
+      "id" : 20077,
+      "text" : "[Pokemon 15] took in sunlight!"
+    },
+    {
+      "id" : 20078,
+      "text" : "[Pokemon 15] lowered its head!"
+    },
+    {
+      "id" : 20079,
+      "text" : "[Pokemon 15] is glowing!"
+    },
+    {
+      "id" : 20080,
+      "text" : "[Pokemon 15] flew up high!"
+    },
+    {
+      "id" : 20081,
+      "text" : "[Pokemon 15] dug a hole!"
+    },
+    {
+      "id" : 20082,
+      "text" : "[Pokemon 15] hid underwater!"
+    },
+    {
+      "id" : 20083,
+      "text" : "[Pokemon 15] sprang up!"
+    },
+    {
+      "id" : 20084,
+      "text" : "[Pokemon 16] was squeezed by\n[Pokemon 15]'s Bind!"
+    },
+    {
+      "id" : 20085,
+      "text" : "[Pokemon 16] was trapped in\nthe vortex!"
+    },
+    {
+      "id" : 20086,
+      "text" : "[Pokemon 16] was trapped by\nSand Tomb!"
+    },
+    {
+      "id" : 20087,
+      "text" : "[Pokemon 16] was Infested by\n[Pokemon 15]!"
+    },
+    {
+      "id" : 20088,
+      "text" : "[Pokemon 15] Clamped\n[Pokemon 16]!"
+    },
+    {
+      "id" : 20089,
+      "text" : "[Pokemon 15] is hurt by\n[13]!"
+    },
+    {
+      "id" : 20090,
+      "text" : "[Pokemon 15] was freed from\n[13]!"
+    },
+    {
+      "id" : 20091,
+      "text" : "[Pokemon 15] kept going and\ncrashed!"
+    },
+    {
+      "id" : 20092,
+      "text" : "It twisted the\ndimensions!"
+    },
+    {
+      "id" : 20093,
+      "text" : "[Pokemon 30] is protected\nby Mist!"
+    },
+    {
+      "id" : 20094,
+      "text" : "[Pokemon 15] is getting pumped!"
+    },
+    {
+      "id" : 20095,
+      "text" : "[Pokemon 15] is hit with recoil!"
+    },
+    {
+      "id" : 20096,
+      "text" : "[Pokemon 15] protected itself!"
+    },
+    {
+      "id" : 20097,
+      "text" : "[Pokemon 15] is buffeted by the\nSandstorm!"
+    },
+    {
+      "id" : 20098,
+      "text" : "[Pokemon 15] is stricken by Hail!"
+    },
+    {
+      "id" : 20099,
+      "text" : "The [13] wore off!"
+    },
+    {
+      "id" : 20100,
+      "text" : "[Pokemon 16] was seeded!"
+    },
+    {
+      "id" : 20101,
+      "text" : "[Pokemon 16] evaded the attack!"
+    },
+    {
+      "id" : 20102,
+      "text" : "[Pokemon 15]'s health is sapped\nby Leech Seed!"
+    },
+    {
+      "id" : 20103,
+      "text" : "[Pokemon 15] is fast asleep."
+    },
+    {
+      "id" : 20104,
+      "text" : "[Pokemon 15] woke up!"
+    },
+    {
+      "id" : 20105,
+      "text" : "But [Pokemon 30]'s Uproar\nkept it awake!"
+    },
+    {
+      "id" : 20106,
+      "text" : "[Pokemon 15] woke up due to\nthe Uproar!"
+    },
+    {
+      "id" : 20107,
+      "text" : "[Pokemon 15] caused an Uproar!"
+    },
+    {
+      "id" : 20108,
+      "text" : "[Pokemon 15] is making an\nUproar!"
+    },
+    {
+      "id" : 20109,
+      "text" : "[Pokemon 15] calmed down."
+    },
+    {
+      "id" : 20110,
+      "text" : "But [Pokemon 16] can't sleep in\nan Uproar!"
+    },
+    {
+      "id" : 20111,
+      "text" : "[Pokemon 15] StockpileD [Quantity 47]!"
+    },
+    {
+      "id" : 20112,
+      "text" : "[Pokemon 15] can't Stockpile\nany more!"
+    },
+    {
+      "id" : 20113,
+      "text" : "But [Pokemon 16] can't sleep in\nan Uproar!"
+    },
+    {
+      "id" : 20114,
+      "text" : "But the Uproar kept [Pokemon 16]\nawake!"
+    },
+    {
+      "id" : 20115,
+      "text" : "[Pokemon 16] stayed awake\nusing its [Ability 27]!"
+    },
+    {
+      "id" : 20116,
+      "text" : "[Pokemon 15] is storing energy!"
+    },
+    {
+      "id" : 20117,
+      "text" : "[Pokemon 15] unleashed energy!"
+    },
+    {
+      "id" : 20118,
+      "text" : "[Pokemon 15] became confused out\nof fatigue!"
+    },
+    {
+      "id" : 20119,
+      "text" : "[7]{01}[Player Battle 19] picked up $[Quantity 47]!"
+    },
+    {
+      "id" : 20120,
+      "text" : "[Pokemon 16] is unaffected!"
+    },
+    {
+      "id" : 20121,
+      "text" : "[Pokemon 15] transformed into\n[13]!"
+    },
+    {
+      "id" : 20122,
+      "text" : "[Pokemon 15] made a Substitute!"
+    },
+    {
+      "id" : 20123,
+      "text" : "[Pokemon 15] already has\na Substitute!"
+    },
+    {
+      "id" : 20124,
+      "text" : "The Substitute took damage for\n[Pokemon 16]!"
+    },
+    {
+      "id" : 20125,
+      "text" : "[Pokemon 16]'s Substitute\nfaded!"
+    },
+    {
+      "id" : 20126,
+      "text" : "[Pokemon 15] must recharge!"
+    },
+    {
+      "id" : 20127,
+      "text" : "[Pokemon 16]'s Rage is building!"
+    },
+    {
+      "id" : 20128,
+      "text" : "[Pokemon 16]'s [13]\nwas disabled!"
+    },
+    {
+      "id" : 20129,
+      "text" : "[Pokemon 15] is disabled no more!"
+    },
+    {
+      "id" : 20130,
+      "text" : "[Pokemon 16] got an Encore!"
+    },
+    {
+      "id" : 20131,
+      "text" : "[Pokemon 15]'s Encore ended!"
+    },
+    {
+      "id" : 20132,
+      "text" : "[Pokemon 15] took aim at\n[Pokemon 16]!"
+    },
+    {
+      "id" : 20133,
+      "text" : "[Pokemon 15] SketchED\n[13]!"
+    },
+    {
+      "id" : 20134,
+      "text" : "[Pokemon 15] is trying to take its\nfoe with it!"
+    },
+    {
+      "id" : 20135,
+      "text" : "[Pokemon 16] took\n[Pokemon 15] with it!"
+    },
+    {
+      "id" : 20136,
+      "text" : "Reduced [Pokemon 16]'s\n[13] by [Quantity 47]!"
+    },
+    {
+      "id" : 20137,
+      "text" : "[Pokemon 15] stole\n[Pokemon 16]'s [Item 41]!"
+    },
+    {
+      "id" : 20138,
+      "text" : "[Pokemon 16] can't escape now!"
+    },
+    {
+      "id" : 20139,
+      "text" : "[Pokemon 16] fell into\na Nightmare!"
+    },
+    {
+      "id" : 20140,
+      "text" : "[Pokemon 15] is locked in\na Nightmare!"
+    },
+    {
+      "id" : 20141,
+      "text" : "[Pokemon 15] cut its own HP and\nlaid a Curse on [Pokemon 16]!"
+    },
+    {
+      "id" : 20142,
+      "text" : "[Pokemon 15] is afflicted by\nthe Curse!"
+    },
+    {
+      "id" : 20143,
+      "text" : "[67]'s\nteam had Spikes scattered around it!"
+    },
+    {
+      "id" : 20144,
+      "text" : "[Pokemon 30] is hurt by Spikes!"
+    },
+    {
+      "id" : 20145,
+      "text" : "[Pokemon 15] identified\n[Pokemon 16]!"
+    },
+    {
+      "id" : 20146,
+      "text" : "[Pokemon 15]'s Perish count fell\nto [Quantity 47]!"
+    },
+    {
+      "id" : 20147,
+      "text" : "[Pokemon 15] braced itself!"
+    },
+    {
+      "id" : 20148,
+      "text" : "[Pokemon 16]'s [Item 41]\nweakened the move!"
+    },
+    {
+      "id" : 20149,
+      "text" : "Magnitude [Quantity 47]!"
+    },
+    {
+      "id" : 20150,
+      "text" : "[Pokemon 15] cut its own HP and\nmaximized Attack!"
+    },
+    {
+      "id" : 20151,
+      "text" : "[Pokemon 15] copied\n[Pokemon 16]'s stat changes!"
+    },
+    {
+      "id" : 20152,
+      "text" : "[Pokemon 15] got free of\n[Pokemon 16]'s [13]!"
+    },
+    {
+      "id" : 20153,
+      "text" : "[Pokemon 15] shed Leech Seed!"
+    },
+    {
+      "id" : 20154,
+      "text" : "[Pokemon 15] blew away Spikes!"
+    },
+    {
+      "id" : 20155,
+      "text" : "[Pokemon 15] foresaw an attack!"
+    },
+    {
+      "id" : 20156,
+      "text" : "[Pokemon 16] took\n[13]'s attack!"
+    },
+    {
+      "id" : 20157,
+      "text" : "[Pokemon 15] chose\n[Move 40] as its destiny!"
+    },
+    {
+      "id" : 20158,
+      "text" : "[13]'s attack!"
+    },
+    {
+      "id" : 20159,
+      "text" : "The screen blocks\nspread moves!"
+    },
+    {
+      "id" : 20160,
+      "text" : "[Pokemon 15] began charging\npower!"
+    },
+    {
+      "id" : 20161,
+      "text" : "Nature Power turned into\n[Move 40]!"
+    },
+    {
+      "id" : 20162,
+      "text" : "[Pokemon 15]'s status returned\nto normal!"
+    },
+    {
+      "id" : 20163,
+      "text" : "[Pokemon 16] was subjected\nto Torment!"
+    },
+    {
+      "id" : 20164,
+      "text" : "[Pokemon 15] is tightening its\nfocus!"
+    },
+    {
+      "id" : 20165,
+      "text" : "[Pokemon 16] fell for the Taunt!"
+    },
+    {
+      "id" : 20166,
+      "text" : "[Pokemon 15] is ready to help\n[Pokemon 16]!"
+    },
+    {
+      "id" : 20167,
+      "text" : "[Pokemon 15] switched items with\nits target!"
+    },
+    {
+      "id" : 20168,
+      "text" : "[Pokemon 15] obtained\n[13]."
+    },
+    {
+      "id" : 20169,
+      "text" : "[Pokemon 16] obtained\n[14]."
+    },
+    {
+      "id" : 20170,
+      "text" : "[Pokemon 15] copied\n[Pokemon 16]'s [Ability 27]!"
+    },
+    {
+      "id" : 20171,
+      "text" : "[Pokemon 15] made a Wish!"
+    },
+    {
+      "id" : 20172,
+      "text" : "[13]'s Wish came true!"
+    },
+    {
+      "id" : 20173,
+      "text" : "[Pokemon 15] planted its roots!"
+    },
+    {
+      "id" : 20174,
+      "text" : "[Pokemon 15] was healed\nby shadow terrain!"
+    },
+    {
+      "id" : 20175,
+      "text" : "[Pokemon 16] anchored itself with\nits roots!"
+    },
+    {
+      "id" : 20176,
+      "text" : "[Pokemon 15] made\n[Pokemon 16] drowsy!"
+    },
+    {
+      "id" : 20177,
+      "text" : "[Pokemon 15] knocked off\n[Pokemon 16]'s [Item 41]!"
+    },
+    {
+      "id" : 20178,
+      "text" : "[Pokemon 15] swapped abilities\nwith its target!"
+    },
+    {
+      "id" : 20179,
+      "text" : "[Pokemon 15] sealed the\nopponent's move!"
+    },
+    {
+      "id" : 20180,
+      "text" : "[Pokemon 15] wants the opponent\nto bear a Grudge!"
+    },
+    {
+      "id" : 20181,
+      "text" : "[Pokemon 15]'s [13]\nlost all its PP due to the Grudge!"
+    },
+    {
+      "id" : 20182,
+      "text" : "[Pokemon 15] shrouded itself\nin [Move 40]!"
+    },
+    {
+      "id" : 20183,
+      "text" : "[Pokemon 15]'s [Move 40]\nwas reflected by Magic Bounce!"
+    },
+    {
+      "id" : 20184,
+      "text" : "[Pokemon 15] waits for its target\nto make a move!"
+    },
+    {
+      "id" : 20185,
+      "text" : "[Pokemon 16] Snatched\n[Pokemon 30]'s move!"
+    },
+    {
+      "id" : 20186,
+      "text" : "The aura weakens regular moves!"
+    },
+    {
+      "id" : 20187,
+      "text" : "Fire's power was weakened!"
+    },
+    {
+      "id" : 20188,
+      "text" : "[Pokemon 15] found\none [Item 41]!"
+    },
+    {
+      "id" : 20189,
+      "text" : "A soothing aroma wafted through\nthe area!"
+    },
+    {
+      "id" : 20190,
+      "text" : "This item can't be used now."
+    },
+    {
+      "id" : 20191,
+      "text" : "For [Pokemon 30], the\n[Item 41] [13]!"
+    },
+    {
+      "id" : 20192,
+      "text" : "[Pokemon 30] used\n[Item 41] to hustle!"
+    },
+    {
+      "id" : 20193,
+      "text" : "[Pokemon 15] lost its focus and\ncouldn't move!"
+    },
+    {
+      "id" : 20194,
+      "text" : "[Pokemon 16] was dragged out!"
+    },
+    {
+      "id" : 20195,
+      "text" : "The wall shattered!"
+    },
+    {
+      "id" : 20196,
+      "text" : "But it had no effect!"
+    },
+    {
+      "id" : 20197,
+      "text" : "[Pokemon 17] has no moves left!"
+    },
+    {
+      "id" : 20198,
+      "text" : "[Pokemon 17]'s [Move 40]\nis disabled!"
+    },
+    {
+      "id" : 20199,
+      "text" : "[Pokemon 17] can't use the same\nmove twice in a row due to the\nTorment!"
+    },
+    {
+      "id" : 20200,
+      "text" : "[Pokemon 17] can't use\n[Move 40]. It must attack!"
+    },
+    {
+      "id" : 20201,
+      "text" : "[Pokemon 17] can't use the\nsealed [Move 40]!"
+    },
+    {
+      "id" : 20202,
+      "text" : "[Pokemon 30]'s [Ability 28]\nactivated!"
+    },
+    {
+      "id" : 20203,
+      "text" : "[Pokemon 30]'s [Ability 28]\nactivated!"
+    },
+    {
+      "id" : 20204,
+      "text" : "[Pokemon 16] was protected\nby [Ability 27]!"
+    },
+    {
+      "id" : 20205,
+      "text" : "[Pokemon 16]'s [Ability 27]\nprevents [Pokemon 15] from using\n[Move 40]!"
+    },
+    {
+      "id" : 20206,
+      "text" : "[Pokemon 16] restored HP using\nits [Ability 27]!"
+    },
+    {
+      "id" : 20207,
+      "text" : "[Pokemon 16]'s [Ability 27]\nmade [Move 40] useless!"
+    },
+    {
+      "id" : 20208,
+      "text" : "[Pokemon 16]'s [Ability 27]\nmade it the [13] type!"
+    },
+    {
+      "id" : 20209,
+      "text" : "[Pokemon 18]'s [Ability 27]\nprevents paralysis!"
+    },
+    {
+      "id" : 20210,
+      "text" : "[Pokemon 16]'s [Ability 27]\nprevents romance!"
+    },
+    {
+      "id" : 20211,
+      "text" : "[Pokemon 18]'s [Ability 27]\nprevents poisoning!"
+    },
+    {
+      "id" : 20212,
+      "text" : "[Pokemon 16]'s [Ability 27]\nprevents confusion!"
+    },
+    {
+      "id" : 20213,
+      "text" : "[Pokemon 16]'s [Ability 27]\nraised its fire power!"
+    },
+    {
+      "id" : 20214,
+      "text" : "[Pokemon 16] anchors itself\nwith [Ability 27]!"
+    },
+    {
+      "id" : 20215,
+      "text" : "[Pokemon 30]'s [Ability 28]\ncuts [Pokemon 16]'s Attack!"
+    },
+    {
+      "id" : 20216,
+      "text" : "[Pokemon 30]'s [Ability 28]\nprevents stat loss!"
+    },
+    {
+      "id" : 20217,
+      "text" : "[Pokemon 15] was damaged on contact!"
+    },
+    {
+      "id" : 20218,
+      "text" : "[Pokemon 30] Traced\n[13]'s [14]!"
+    },
+    {
+      "id" : 20219,
+      "text" : "[Pokemon 18]'s [Ability 29]\nprevents the move!"
+    },
+    {
+      "id" : 20220,
+      "text" : "[Pokemon 16]'s [Ability 27]\nblocks [Move 40]!"
+    },
+    {
+      "id" : 20221,
+      "text" : "[Pokemon 30]'s [Ability 28]\nblocks [Move 40]!"
+    },
+    {
+      "id" : 20222,
+      "text" : "[Pokemon 15]'s [Ability 26]\nrestored some HP!"
+    },
+    {
+      "id" : 20223,
+      "text" : "[Pokemon 30]'s [Ability 28]\nwhipped up a sandstorm!"
+    },
+    {
+      "id" : 20224,
+      "text" : "[Pokemon 30]'s [Ability 28]\nintensified the sun's rays!"
+    },
+    {
+      "id" : 20225,
+      "text" : "[Pokemon 30]'s [Ability 28]\nprevents [13] loss!"
+    },
+    {
+      "id" : 20226,
+      "text" : "[Pokemon 16]'s [Ability 27]\ninfatuated [Pokemon 15]!"
+    },
+    {
+      "id" : 20227,
+      "text" : "[Pokemon 16]'s [Ability 27]\nmade [Move 40] ineffective!"
+    },
+    {
+      "id" : 20228,
+      "text" : "[Pokemon 30]'s [Ability 28]\ncured its [13] problem!"
+    },
+    {
+      "id" : 20229,
+      "text" : "It sucked up the Liquid Ooze!"
+    },
+    {
+      "id" : 20230,
+      "text" : "[Pokemon 30] transformed!"
+    },
+    {
+      "id" : 20231,
+      "text" : "[Pokemon 16]'s [Ability 27]\ntook the attack!"
+    },
+    {
+      "id" : 20232,
+      "text" : "[13]'s [Ability 28]\nprevents [14] from\nswitching out!"
+    },
+    {
+      "id" : 20233,
+      "text" : "[Pokemon 16]'s [Ability 27]\nprevented [Pokemon 30]'s\n[13] from working!"
+    },
+    {
+      "id" : 20234,
+      "text" : "[Pokemon 30]'s [Ability 28]\nmade it ineffective!"
+    },
+    {
+      "id" : 20235,
+      "text" : "[Pokemon 18]'s [Ability 29]\nprevents flinching!"
+    },
+    {
+      "id" : 20236,
+      "text" : "[Pokemon 15]'s [Ability 26]\nprevents [Pokemon 16]'s\n[Ability 27] from working!"
+    },
+    {
+      "id" : 20237,
+      "text" : "[Pokemon 30]'s [Ability 28]\ncured its [13] problem!"
+    },
+    {
+      "id" : 20238,
+      "text" : "[Pokemon 30]'s [Ability 28]\nhad no effect on [Pokemon 18]!"
+    },
+    {
+      "id" : 20239,
+      "text" : "sharply"
+    },
+    {
+      "id" : 20240,
+      "text" : "rose"
+    },
+    {
+      "id" : 20241,
+      "text" : "harshly"
+    },
+    {
+      "id" : 20242,
+      "text" : "fell"
+    },
+    {
+      "id" : 20243,
+      "text" : "[Pokemon 15]'s\n[13] [14]\n[65]!"
+    },
+    {
+      "id" : 20244,
+      "text" : "[Pokemon 16]'s\n[13] [14]\n[65]!"
+    },
+    {
+      "id" : 20245,
+      "text" : "Using [Item 41], the [13]\nof [Pokemon 30] [14]\n[65]!"
+    },
+    {
+      "id" : 20246,
+      "text" : "[Pokemon 15]'s\n[13] [14]\n[65]!"
+    },
+    {
+      "id" : 20247,
+      "text" : "[Pokemon 16]'s\n[13] [14]\n[65]!"
+    },
+    {
+      "id" : 20248,
+      "text" : "[Pokemon 15]'s stats won't go any\nhigher!"
+    },
+    {
+      "id" : 20249,
+      "text" : "[Pokemon 16]'s stats won't go\nany lower!"
+    },
+    {
+      "id" : 20250,
+      "text" : "A critical hit!"
+    },
+    {
+      "id" : 20251,
+      "text" : "It's a one-hit KO!"
+    },
+    {
+      "id" : 20252,
+      "text" : "[Pause]{20}1, [Pause]{0f}2, and...[Pause]{0f} ...[Pause]{0f} ...\n[Pause]{0f}Poof![Dialogue End]"
+    },
+    {
+      "id" : 20253,
+      "text" : "And...[Dialogue End]"
+    },
+    {
+      "id" : 20254,
+      "text" : "SM moves can't be forgotten now.[Dialogue End]"
+    },
+    {
+      "id" : 20255,
+      "text" : "It's not very effective..."
+    },
+    {
+      "id" : 20256,
+      "text" : "It's super effective!"
+    },
+    {
+      "id" : 20257,
+      "text" : "Got away safely!"
+    },
+    {
+      "id" : 20258,
+      "text" : "[Player Battle 19] defeated\n[37]!"
+    },
+    {
+      "id" : 20259,
+      "text" : "Player beat [37]\nand [38]!"
+    },
+    {
+      "id" : 20260,
+      "text" : "Player lost against\n[37]!"
+    },
+    {
+      "id" : 20261,
+      "text" : "Player lost to [37]\nand [38]!"
+    },
+    {
+      "id" : 20262,
+      "text" : "Player tied against\n[37]!"
+    },
+    {
+      "id" : 20263,
+      "text" : "Player tied against [37]\nand [38]!"
+    },
+    {
+      "id" : 20264,
+      "text" : "But nothing happened!"
+    },
+    {
+      "id" : 20265,
+      "text" : "But it failed!"
+    },
+    {
+      "id" : 20266,
+      "text" : "It hurt itself in its confusion!"
+    },
+    {
+      "id" : 20267,
+      "text" : "The Mirror Move failed!"
+    },
+    {
+      "id" : 20268,
+      "text" : "It started to rain!"
+    },
+    {
+      "id" : 20269,
+      "text" : "A downpour started!"
+    },
+    {
+      "id" : 20270,
+      "text" : "Rain continues to fall."
+    },
+    {
+      "id" : 20271,
+      "text" : "The downpour continues."
+    },
+    {
+      "id" : 20272,
+      "text" : "The rain stopped."
+    },
+    {
+      "id" : 20273,
+      "text" : "A sandstorm brewed!"
+    },
+    {
+      "id" : 20274,
+      "text" : "The sandstorm rages."
+    },
+    {
+      "id" : 20275,
+      "text" : "The sandstorm subsided."
+    },
+    {
+      "id" : 20276,
+      "text" : "The sunlight got bright!"
+    },
+    {
+      "id" : 20277,
+      "text" : "The sunlight is strong."
+    },
+    {
+      "id" : 20278,
+      "text" : "The sunlight faded."
+    },
+    {
+      "id" : 20279,
+      "text" : "It started to hail!"
+    },
+    {
+      "id" : 20280,
+      "text" : "Hail continues to fall."
+    },
+    {
+      "id" : 20281,
+      "text" : "The hail stopped."
+    },
+    {
+      "id" : 20282,
+      "text" : "But it failed to Spit up a thing!"
+    },
+    {
+      "id" : 20283,
+      "text" : "But it failed to Swallow a thing!"
+    },
+    {
+      "id" : 20284,
+      "text" : "All stat changes were eliminated!"
+    },
+    {
+      "id" : 20285,
+      "text" : "Coins scattered everywhere!"
+    },
+    {
+      "id" : 20286,
+      "text" : "It was too weak to make\na Substitute!"
+    },
+    {
+      "id" : 20287,
+      "text" : "The battlers shared their pain!"
+    },
+    {
+      "id" : 20288,
+      "text" : "A bell chimed!"
+    },
+    {
+      "id" : 20289,
+      "text" : "All affected Pokémon will faint in\nthree turns!"
+    },
+    {
+      "id" : 20290,
+      "text" : "There's no PP left for this move!"
+    },
+    {
+      "id" : 20291,
+      "text" : "But there was no PP left for the move!"
+    },
+    {
+      "id" : 20292,
+      "text" : "[Pokemon 15] ignored\norders while asleep!"
+    },
+    {
+      "id" : 20293,
+      "text" : "[Pokemon 15] ignored orders!"
+    },
+    {
+      "id" : 20294,
+      "text" : "[Pokemon 15] began to nap!"
+    },
+    {
+      "id" : 20295,
+      "text" : "[Pokemon 15] is\nloafing around!"
+    },
+    {
+      "id" : 20296,
+      "text" : "[Pokemon 15] won't obey!"
+    },
+    {
+      "id" : 20297,
+      "text" : "[Pokemon 15] turned away!"
+    },
+    {
+      "id" : 20298,
+      "text" : "[Pokemon 15] pretended\nto not notice!"
+    },
+    {
+      "id" : 20299,
+      "text" : "[Pokemon 15] learned\n[13]!"
+    },
+    {
+      "id" : 20300,
+      "text" : "[Player Battle 19] defeated\n[Foe Tr Class 34] [Foe Tr Name 35]![93][94][Dialogue End]"
+    },
+    {
+      "id" : 20301,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nwould like to battle!"
+    },
+    {
+      "id" : 20302,
+      "text" : "[37]\nwants to battle!"
+    },
+    {
+      "id" : 20303,
+      "text" : "[37] and\n[37] want to battle!"
+    },
+    {
+      "id" : 20304,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nsent out [Pokemon 22]!"
+    },
+    {
+      "id" : 20305,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nsent out [Pokemon 22] and\n[Pokemon 23]!"
+    },
+    {
+      "id" : 20306,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nsent out [13]!"
+    },
+    {
+      "id" : 20307,
+      "text" : "[37] sent out\n[Pokemon 22]!"
+    },
+    {
+      "id" : 20308,
+      "text" : "[37] sent out\n[Pokemon 22] and [Pokemon 23]!"
+    },
+    {
+      "id" : 20309,
+      "text" : "[37] sent out\n[Pokemon 24]!\n[38] sent out\n[Pokemon 25]!"
+    },
+    {
+      "id" : 20310,
+      "text" : "[37] sent out\n[13]!"
+    },
+    {
+      "id" : 20311,
+      "text" : "[39] sent out\n[13]!"
+    },
+    {
+      "id" : 20312,
+      "text" : "Go! [Switch Pokemon 20]!"
+    },
+    {
+      "id" : 20313,
+      "text" : "Go! [Switch Pokemon 21] and\n[Switch Pokemon 20]!"
+    },
+    {
+      "id" : 20314,
+      "text" : "Go! [13]!"
+    },
+    {
+      "id" : 20315,
+      "text" : "Do it! [13]!"
+    },
+    {
+      "id" : 20316,
+      "text" : "Go for it, [13]!"
+    },
+    {
+      "id" : 20317,
+      "text" : "Your foe's weak!\nGet 'em, [13]!"
+    },
+    {
+      "id" : 20318,
+      "text" : "<Trainer_MYName2> sent out\n<MY_TMONS2>!\nGo! <MY_TMONS>!"
+    },
+    {
+      "id" : 20319,
+      "text" : "[13], that's enough!\nCome back!"
+    },
+    {
+      "id" : 20320,
+      "text" : "[13], come back!"
+    },
+    {
+      "id" : 20321,
+      "text" : "[13], OK!\nCome back!"
+    },
+    {
+      "id" : 20322,
+      "text" : "[13], good!\nCome back!"
+    },
+    {
+      "id" : 20323,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]"
+    },
+    {
+      "id" : 20324,
+      "text" : "[37] withdrew\n[13]!"
+    },
+    {
+      "id" : 20325,
+      "text" : "[39] withdrew\n[13]!"
+    },
+    {
+      "id" : 20326,
+      "text" : "Foe"
+    },
+    {
+      "id" : 20327,
+      "text" : "Foe's party"
+    },
+    {
+      "id" : 20328,
+      "text" : "Ally's party"
+    },
+    {
+      "id" : 20329,
+      "text" : "Foe's party is"
+    },
+    {
+      "id" : 20330,
+      "text" : "Ally's party is"
+    },
+    {
+      "id" : 20331,
+      "text" : "Foe's party"
+    },
+    {
+      "id" : 20332,
+      "text" : "Ally's party"
+    },
+    {
+      "id" : 20333,
+      "text" : "[Pokemon 15] used\n[Move 40][14]"
+    },
+    {
+      "id" : 20334,
+      "text" : "!"
+    },
+    {
+      "id" : 20335,
+      "text" : "!"
+    },
+    {
+      "id" : 20336,
+      "text" : "!"
+    },
+    {
+      "id" : 20337,
+      "text" : "!"
+    },
+    {
+      "id" : 20338,
+      "text" : "!"
+    },
+    {
+      "id" : 20339,
+      "text" : "HP"
+    },
+    {
+      "id" : 20340,
+      "text" : "Attack"
+    },
+    {
+      "id" : 20341,
+      "text" : "Defense"
+    },
+    {
+      "id" : 20342,
+      "text" : "Speed"
+    },
+    {
+      "id" : 20343,
+      "text" : "Sp. Atk"
+    },
+    {
+      "id" : 20344,
+      "text" : "Sp. Def"
+    },
+    {
+      "id" : 20345,
+      "text" : "accuracy"
+    },
+    {
+      "id" : 20346,
+      "text" : "evasiveness"
+    },
+    {
+      "id" : 20347,
+      "text" : "[Player Battle 19] used [Item 41]!"
+    },
+    {
+      "id" : 20348,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nused [Item 41]!"
+    },
+    {
+      "id" : 20349,
+      "text" : "It dodged the thrown Ball!\nThis Pokémon can't be caught!"
+    },
+    {
+      "id" : 20350,
+      "text" : "You missed the Pokémon!"
+    },
+    {
+      "id" : 20351,
+      "text" : "Oh, no!\nThe [Pokemon 22] broke free!"
+    },
+    {
+      "id" : 20352,
+      "text" : "Aww!\nIt appeared to be caught!"
+    },
+    {
+      "id" : 20353,
+      "text" : "Aargh!\nAlmost had it!"
+    },
+    {
+      "id" : 20354,
+      "text" : "Shoot!\nIt was so close, too!"
+    },
+    {
+      "id" : 20355,
+      "text" : "Gotcha!\n[Pokemon 22] was caught![Dialogue End]"
+    },
+    {
+      "id" : 20356,
+      "text" : "Gotcha!\n[Pokemon 22] was caught![Pause]{7f}"
+    },
+    {
+      "id" : 20357,
+      "text" : "Give a nickname to the captured\n[Pokemon 22]?"
+    },
+    {
+      "id" : 20358,
+      "text" : "[Pokemon 22] was sent to\nthe PC Storage System.[Wait Input 109]"
+    },
+    {
+      "id" : 20359,
+      "text" : "someone's"
+    },
+    {
+      "id" : 20360,
+      "text" : "[Pokemon 22]'s data was added to\nthe Pokédex.[Dialogue End]"
+    },
+    {
+      "id" : 20361,
+      "text" : "It is raining."
+    },
+    {
+      "id" : 20362,
+      "text" : "A sandstorm is raging."
+    },
+    {
+      "id" : 20363,
+      "text" : "The Box is full!\nYou can't catch any more![Dialogue End]"
+    },
+    {
+      "id" : 20364,
+      "text" : "Enigma Berry"
+    },
+    {
+      "id" : 20365,
+      "text" : " Berry"
+    },
+    {
+      "id" : 20366,
+      "text" : "[Pokemon 30]'s [Item 41]\ncured paralysis!"
+    },
+    {
+      "id" : 20367,
+      "text" : "[Pokemon 30]'s [Item 41]\ncured poison!"
+    },
+    {
+      "id" : 20368,
+      "text" : "[Pokemon 30]'s [Item 41]\nhealed its burn!"
+    },
+    {
+      "id" : 20369,
+      "text" : "[Pokemon 30]'s [Item 41]\ndefrosted it!"
+    },
+    {
+      "id" : 20370,
+      "text" : "[Pokemon 30]'s [Item 41]\nwoke it from its sleep!"
+    },
+    {
+      "id" : 20371,
+      "text" : "[Pokemon 30]'s [Item 41]\nsnapped it out of its confusion!"
+    },
+    {
+      "id" : 20372,
+      "text" : "[Pokemon 30]'s [Item 41]\ncured its [13] problem!"
+    },
+    {
+      "id" : 20373,
+      "text" : "[Pokemon 30]'s [Item 41]\nnormalized its status!"
+    },
+    {
+      "id" : 20374,
+      "text" : "[Pokemon 30]'s [Item 41]\nrestored health!"
+    },
+    {
+      "id" : 20375,
+      "text" : "[Pokemon 30]'s [Item 41]\nrestored [13]'s PP!"
+    },
+    {
+      "id" : 20376,
+      "text" : "[Pokemon 30]'s [Item 41]\nrestored its status!"
+    },
+    {
+      "id" : 20377,
+      "text" : "[Pokemon 30]'s [Item 41]\nrestored its HP a little!"
+    },
+    {
+      "id" : 20378,
+      "text" : "[Item 41] allows the use of\nonly [Move 40]!"
+    },
+    {
+      "id" : 20379,
+      "text" : "[Pokemon 16] hung on just\nbarely!"
+    },
+    {
+      "id" : 20380,
+      "text" : "\u0000What?\n[13] is evolving!"
+    },
+    {
+      "id" : 20381,
+      "text" : "What?\n[13] is evolving!"
+    },
+    {
+      "id" : 20382,
+      "text" : "Congratulations! Your [13]\nevolved into [14]![Dialogue End]"
+    },
+    {
+      "id" : 20383,
+      "text" : "Huh? [13] stopped\nevolving![Dialogue End]"
+    },
+    {
+      "id" : 20384,
+      "text" : "[Pokemon 17]"
+    },
+    {
+      "id" : 20385,
+      "text" : "What will [Player Battle 19] do?"
+    },
+    {
+      "id" : 20386,
+      "text" : "[Pause]{10}Link standby..."
+    },
+    {
+      "id" : 20387,
+      "text" : "<SCOL=0x0d0e0f>[12]PP\nType\/"
+    },
+    {
+      "id" : 20388,
+      "text" : "<SCOL=0x0d0e0f>[12]"
+    },
+    {
+      "id" : 20389,
+      "text" : "[12]<SCOL=0x0d0e0f>Which move should\nbe forgotten?"
+    },
+    {
+      "id" : 20390,
+      "text" : "[12]<SCOL=0x0d0e0f>Yes\nNo"
+    },
+    {
+      "id" : 20391,
+      "text" : "[12]<SCOL=0x0d0e0f>Switch which moves?"
+    },
+    {
+      "id" : 20392,
+      "text" : "[12]<SCOL=0x0d0e0f>"
+    },
+    {
+      "id" : 20393,
+      "text" : "→"
+    },
+    {
+      "id" : 20394,
+      "text" : "＋"
+    },
+    {
+      "id" : 20395,
+      "text" : "−"
+    },
+    {
+      "id" : 20396,
+      "text" : "HP"
+    },
+    {
+      "id" : 20397,
+      "text" : "Attack"
+    },
+    {
+      "id" : 20398,
+      "text" : "Defense"
+    },
+    {
+      "id" : 20399,
+      "text" : "Sp. Atk"
+    },
+    {
+      "id" : 20400,
+      "text" : "Sp. Def"
+    },
+    {
+      "id" : 20401,
+      "text" : "sleep"
+    },
+    {
+      "id" : 20402,
+      "text" : "poison"
+    },
+    {
+      "id" : 20403,
+      "text" : "burn"
+    },
+    {
+      "id" : 20404,
+      "text" : "paralysis"
+    },
+    {
+      "id" : 20405,
+      "text" : "ice"
+    },
+    {
+      "id" : 20406,
+      "text" : "confusion"
+    },
+    {
+      "id" : 20407,
+      "text" : "love"
+    },
+    {
+      "id" : 20408,
+      "text" : "\u0000GMMBR"
+    },
+    {
+      "id" : 20409,
+      "text" : "GMMBR"
+    },
+    {
+      "id" : 20410,
+      "text" : "GMMBR"
+    },
+    {
+      "id" : 20411,
+      "text" : "are\n"
+    },
+    {
+      "id" : 20412,
+      "text" : "are\n"
+    },
+    {
+      "id" : 20413,
+      "text" : "Bad Egg"
+    },
+    {
+      "id" : 20414,
+      "text" : "[11]Win"
+    },
+    {
+      "id" : 20415,
+      "text" : "[11]Loss"
+    },
+    {
+      "id" : 20416,
+      "text" : "[11]Tie"
+    },
+    {
+      "id" : 20417,
+      "text" : " is"
+    },
+    {
+      "id" : 20418,
+      "text" : "#'s"
+    },
+    {
+      "id" : 20419,
+      "text" : "was too spicy!"
+    },
+    {
+      "id" : 20420,
+      "text" : "was too dry!"
+    },
+    {
+      "id" : 20421,
+      "text" : "was too sweet!"
+    },
+    {
+      "id" : 20422,
+      "text" : "was too bitter!"
+    },
+    {
+      "id" : 20423,
+      "text" : "was too sour!"
+    },
+    {
+      "id" : 20424,
+      "text" : "[13] can't be switched out!"
+    },
+    {
+      "id" : 20425,
+      "text" : "[13] is already in battle!"
+    },
+    {
+      "id" : 20426,
+      "text" : "[13] is already selected."
+    },
+    {
+      "id" : 20427,
+      "text" : "[13] has no energy left\nfor battle!"
+    },
+    {
+      "id" : 20428,
+      "text" : "[13]'s Pokémon can't be\nswitched out with one of yours!"
+    },
+    {
+      "id" : 20429,
+      "text" : "[Pokemon 30] fainted!"
+    },
+    {
+      "id" : 20430,
+      "text" : "Oh!\nA Shadow Pokémon!"
+    },
+    {
+      "id" : 20431,
+      "text" : "?!\nWhat is that?"
+    },
+    {
+      "id" : 20432,
+      "text" : "[Player Battle 19] called [Pokemon 15]!"
+    },
+    {
+      "id" : 20433,
+      "text" : "[Pokemon 15]!"
+    },
+    {
+      "id" : 20434,
+      "text" : "[Pokemon 15] eagerly responded to\nthe call!"
+    },
+    {
+      "id" : 20435,
+      "text" : "[Pokemon 15] came to its senses\nfrom the Trainer's call!"
+    },
+    {
+      "id" : 20436,
+      "text" : "It's no good!\nIt's ignoring orders!"
+    },
+    {
+      "id" : 20437,
+      "text" : "It's no good!\nIt's not listening!"
+    },
+    {
+      "id" : 20438,
+      "text" : "[Pokemon 15] failed to hear!"
+    },
+    {
+      "id" : 20439,
+      "text" : "[Pokemon 15] came to its senses."
+    },
+    {
+      "id" : 20440,
+      "text" : "\u0000[Player Battle 19] threw a Snag Ball!"
+    },
+    {
+      "id" : 20441,
+      "text" : "[Player Battle 19] threw a Snag Ball!"
+    },
+    {
+      "id" : 20442,
+      "text" : "The Snag Machine charges after use.\nIt can't be used again right away."
+    },
+    {
+      "id" : 20443,
+      "text" : "\u0000No!\nIt broke free of the Ball!"
+    },
+    {
+      "id" : 20444,
+      "text" : "No!\nIt broke free of the Ball!"
+    },
+    {
+      "id" : 20445,
+      "text" : "Oh, no! That one looked like it was\nsecurely snagged!"
+    },
+    {
+      "id" : 20446,
+      "text" : "Aargh!\nAlmost had it!"
+    },
+    {
+      "id" : 20447,
+      "text" : "Shoot!\nIt was so close, too!"
+    },
+    {
+      "id" : 20448,
+      "text" : "Gotcha!\n[Pokemon 22] was caught![93][94]"
+    },
+    {
+      "id" : 20449,
+      "text" : "[Pokemon 15] is in Rage Mode!\nIt won't accept an item!"
+    },
+    {
+      "id" : 20450,
+      "text" : "[Pokemon 15]'s aura is getting\nunstable!\nIt entered Rage Mode!"
+    },
+    {
+      "id" : 20451,
+      "text" : "[Pokemon 15] is in Rage Mode!"
+    },
+    {
+      "id" : 20452,
+      "text" : "[MsgID 77]'s [87]"
+    },
+    {
+      "id" : 20453,
+      "text" : "[MsgID 77]'s Pokémon is"
+    },
+    {
+      "id" : 20454,
+      "text" : "[MsgID 77] and [87]'s Pokémon are"
+    },
+    {
+      "id" : 20455,
+      "text" : "[Foe Tr Class 34] [Foe Tr Name 35]\nwithdrew [Pokemon 22]!"
+    },
+    {
+      "id" : 20456,
+      "text" : "[MsgID 77]'s Pokémon"
+    },
+    {
+      "id" : 20457,
+      "text" : "[MsgID 77] and [87]'s Pokémon"
+    },
+    {
+      "id" : 20458,
+      "text" : "[MsgID 77]'s Pokémon's"
+    },
+    {
+      "id" : 20459,
+      "text" : "[MsgID 77] and [87]'s Pokémon's"
+    },
+    {
+      "id" : 20460,
+      "text" : "[Pokemon 32]'s\n[Move 40] raised Sp. Def!"
+    },
+    {
+      "id" : 20461,
+      "text" : "A shadowy aura filled the sky!"
+    },
+    {
+      "id" : 20462,
+      "text" : "Bursts of light showered from\nthe shadowy aura!"
+    },
+    {
+      "id" : 20463,
+      "text" : "The shadowy aura faded away!"
+    },
+    {
+      "id" : 20464,
+      "text" : "The flashing light strikes\n[Pokemon 15]!"
+    },
+    {
+      "id" : 20465,
+      "text" : "The foe's [Move 40]\nwas eliminated!"
+    },
+    {
+      "id" : 20466,
+      "text" : "The foe's [Move 40] and\n[13] were eliminated!"
+    },
+    {
+      "id" : 20467,
+      "text" : "The foe's [Move 40],\n[13], and [14]\nwere eliminated!"
+    },
+    {
+      "id" : 20468,
+      "text" : "PP"
+    },
+    {
+      "id" : 20469,
+      "text" : "Move Type"
+    },
+    {
+      "id" : 20470,
+      "text" : "A wild [Pokemon 22] appeared!"
+    },
+    {
+      "id" : 20471,
+      "text" : "The wild [Pokemon 22] grew tired\nand fled![Wait Input 109]"
+    },
+    {
+      "id" : 20472,
+      "text" : "The wild [Pokemon 22]\nwas defeated![93][94][Wait Input 109]"
+    },
+    {
+      "id" : 20473,
+      "text" : "Gotcha!\n[Pokemon 22] was caught!"
+    },
+    {
+      "id" : 20474,
+      "text" : "Aww!\nIt appeared to be caught!"
+    },
+    {
+      "id" : 20475,
+      "text" : "Aargh!\nAlmost had it!"
+    },
+    {
+      "id" : 20476,
+      "text" : "[Player Battle 19] threw\nthe [Item 41]!"
+    },
+    {
+      "id" : 20477,
+      "text" : "Oh!\n[Pokemon 22] appeared!"
+    },
+    {
+      "id" : 20478,
+      "text" : "[Pokemon 22] grew tired\nand fled![Wait Input 109]"
+    },
+    {
+      "id" : 20479,
+      "text" : "[Pokemon 22] was defeated![93][94][Wait Input 109]"
+    },
+    {
+      "id" : 20480,
+      "text" : "It's no good!\nYou need the Snag Machine to\nsnag the Pokémon![Wait Input 109]"
+    },
+    {
+      "id" : 20481,
+      "text" : "It's not a Shadow Pokémon![Wait Input 109]"
+    },
+    {
+      "id" : 20482,
+      "text" : "[Pokemon 22] joined your party![Wait Input 109]"
+    },
+    {
+      "id" : 20483,
+      "text" : "[Pokemon 15] was stricken by\nthe attack's rebound!"
+    },
+    {
+      "id" : 20484,
+      "text" : "Krane: [Player Field 43]!\nThe Aura Reader is responding!\nThat's a Shadow Pokémon![110]Krane: Hurry, [Player Field 43], hurry!\nThrow a Poké Ball at it![Wait Input 109]"
+    },
+    {
+      "id" : 20486,
+      "text" : "Mystery Man Ardos defeated\nThug Zook![Wait Input 109]"
+    },
+    {
+      "id" : 20487,
+      "text" : "Snagem Gang Biden lost to Thug Zook![Wait Input 109]"
+    },
+    {
+      "id" : 20488,
+      "text" : "The maximum number of turns has\nbeen played!"
+    },
+    {
+      "id" : 20489,
+      "text" : "[Pokemon 15] lost some HP!"
+    },
+    {
+      "id" : 20490,
+      "text" : "[Pokemon 15] fled from battle![Wait Input 109]"
+    },
+    {
+      "id" : 20491,
+      "text" : "[Pokemon 22] fled somewhere...[Wait Input 109]"
+    },
+    {
+      "id" : 20492,
+      "text" : "\u0000[Pokemon 22] fled somewhere...[Clear Window]"
+    },
+    {
+      "id" : 20493,
+      "text" : "[Pokemon 22] fled somewhere...[Clear Window]"
+    },
+    {
+      "id" : 20494,
+      "text" : "[Pokemon 22] joined your party![Clear Window]"
+    },
+    {
+      "id" : 20495,
+      "text" : "[Pokemon 22] was sent to\nthe PC Storage System.[Dialogue End]"
+    },
+    {
+      "id" : 20496,
+      "text" : "The Pokémon's aura...\nIt's over 9000!"
+    },
+    {
+      "id" : 20497,
+      "text" : "Connection to the Game Boy Advance\nsystem has failed.\nEnding the battle."
+    },
+    {
+      "id" : 20498,
+      "text" : "There are no Master Balls left.[Wait Input 109]"
+    },
+    {
+      "id" : 22001,
+      "text" : "[Speaker]: What the--?\nYou're not supposed to be tough![Wait Input 109]"
+    },
+    {
+      "id" : 22002,
+      "text" : "[Speaker]: You're our worst\nnightmare![Wait Input 109]"
+    },
+    {
+      "id" : 22003,
+      "text" : "[Speaker]: Uppity brat![Wait Input 109]"
+    },
+    {
+      "id" : 22004,
+      "text" : "[Speaker]: Uppity brat![Wait Input 109]"
+    },
+    {
+      "id" : 22005,
+      "text" : "[Speaker]: Now you've done it![Wait Input 109]"
+    },
+    {
+      "id" : 22006,
+      "text" : "[Speaker]: Now you've done it![Wait Input 109]"
+    },
+    {
+      "id" : 22007,
+      "text" : "[Speaker]: I hate brats![Wait Input 109]"
+    },
+    {
+      "id" : 22008,
+      "text" : "[Speaker]: I hate brats![Wait Input 109]"
+    },
+    {
+      "id" : 22009,
+      "text" : "[Speaker]: Oh, Mama, I've lost![Wait Input 109]"
+    },
+    {
+      "id" : 22010,
+      "text" : "[Speaker]: Oh, Mama, I've lost![Wait Input 109]"
+    },
+    {
+      "id" : 22011,
+      "text" : "[Speaker]: I feel crushing defeat\nsixfold![Wait Input 109]"
+    },
+    {
+      "id" : 22012,
+      "text" : "[Speaker]: I feel crushing fatigue\nsixfold![Wait Input 109]"
+    },
+    {
+      "id" : 22013,
+      "text" : "[Speaker]: Oh, my!\nI'm not supposed to lose to you![Wait Input 109]"
+    },
+    {
+      "id" : 22014,
+      "text" : "[Speaker]: Oh, yeah?\nWell, I'll just run away![Wait Input 109]"
+    },
+    {
+      "id" : 22015,
+      "text" : "[Speaker]: Go right ahead!\nFeel free to wander and look around![Wait Input 109]"
+    },
+    {
+      "id" : 22016,
+      "text" : "[Speaker]: Are you really a kid?[Wait Input 109]"
+    },
+    {
+      "id" : 22017,
+      "text" : "[Speaker]: Why?\nWhat'd I do to deserve this?[Wait Input 109]"
+    },
+    {
+      "id" : 22018,
+      "text" : "[Speaker]: Didn't someone raise\nyou properly?\nHow could you come in and make a mess\nof our place?[Wait Input 109]"
+    },
+    {
+      "id" : 22019,
+      "text" : "[Speaker]: Take whatever you want!\nBut, please, leave me alone![Wait Input 109]"
+    },
+    {
+      "id" : 22020,
+      "text" : "[Speaker]: Calm down, please!\nAnd then leave quietly![Wait Input 109]"
+    },
+    {
+      "id" : 22021,
+      "text" : "[Speaker]: Oh, my gosh!\nThat shook me up![Wait Input 109]"
+    },
+    {
+      "id" : 22022,
+      "text" : "[Speaker]: I shouldn't have come out![Wait Input 109]"
+    },
+    {
+      "id" : 22023,
+      "text" : "[Speaker]: There's nothing cute\nabout you, brat![Wait Input 109]"
+    },
+    {
+      "id" : 22024,
+      "text" : "[Speaker]: How dare you!\nI mean, really![Wait Input 109]"
+    },
+    {
+      "id" : 22025,
+      "text" : "[Speaker]: This is no place for\nbattles, too![Wait Input 109]"
+    },
+    {
+      "id" : 22026,
+      "text" : "[Speaker]: Beaten by a kid?![Wait Input 109]"
+    },
+    {
+      "id" : 22027,
+      "text" : "[Speaker]: Nope, I'm just no good\nat battling![Wait Input 109]"
+    },
+    {
+      "id" : 22028,
+      "text" : "[Speaker]: You're good, punk...[Wait Input 109]"
+    },
+    {
+      "id" : 22029,
+      "text" : "[Speaker]: What on earth?\nHow could you be strong?[Wait Input 109]"
+    },
+    {
+      "id" : 22030,
+      "text" : "[Speaker]: I'll never get my\npromotion like this![Wait Input 109]"
+    },
+    {
+      "id" : 22031,
+      "text" : "[Speaker]: Don't you have better\nthings to do than hang around here?[Wait Input 109]"
+    },
+    {
+      "id" : 22032,
+      "text" : "[Speaker]: Uppity brat![Wait Input 109]"
+    },
+    {
+      "id" : 22033,
+      "text" : "[Speaker]: Yeah, I hope that makes\nyou real proud!\nA star like you swatting me down![Wait Input 109]"
+    },
+    {
+      "id" : 22034,
+      "text" : "[Speaker]: I wish I could get out of\nthis racket already...\nBut, my brothers need me...[Wait Input 109]"
+    },
+    {
+      "id" : 22035,
+      "text" : "[Speaker]: Now you've done it![Wait Input 109]"
+    },
+    {
+      "id" : 22036,
+      "text" : "[Speaker]: Yeah, we went to\nPhenac, but not because we had nothing\nto do![Wait Input 109]"
+    },
+    {
+      "id" : 22037,
+      "text" : "[Speaker]: You really must have\nnothing to do, hey?[Wait Input 109]"
+    },
+    {
+      "id" : 22038,
+      "text" : "[Speaker]: Oh, Mama, I've lost![Wait Input 109]"
+    },
+    {
+      "id" : 22039,
+      "text" : "[Speaker]: Oh, Mama, I've lost![Wait Input 109]"
+    },
+    {
+      "id" : 22040,
+      "text" : "[Speaker]: I feel crushed by the\nwasted effort sixfold![Wait Input 109]"
+    },
+    {
+      "id" : 22041,
+      "text" : "[Speaker]: I feel crushing humiliation\nsixfold![Wait Input 109]"
+    },
+    {
+      "id" : 22101,
+      "text" : "May: I put everything I've\nlearned into that battle![Wait Input 109]"
+    },
+    {
+      "id" : 22102,
+      "text" : "May: Waaaah!\nI couldn't properly use everything I've\nlearned![Wait Input 109]"
+    },
+    {
+      "id" : 22103,
+      "text" : "Chris: That's it!\nWe've won![Wait Input 109]"
+    },
+    {
+      "id" : 22104,
+      "text" : "Chris: Waaaah!\nYou're making me lose confidence![Wait Input 109]"
+    },
+    {
+      "id" : 22105,
+      "text" : "Brady: I feel like I just aced my\ncollege entrance exam![Wait Input 109]"
+    },
+    {
+      "id" : 22106,
+      "text" : "Brady: I'm going to need remedial\nlessons![Wait Input 109]"
+    },
+    {
+      "id" : 22107,
+      "text" : "[Speaker]: Hoho!\nNot good enough yet![Wait Input 109]"
+    },
+    {
+      "id" : 22108,
+      "text" : "[Speaker]: Hoho!\nWell done, my boy![Wait Input 109]"
+    },
+    {
+      "id" : 22109,
+      "text" : "[Speaker]: No one can beat my\nShroomish![Wait Input 109]"
+    },
+    {
+      "id" : 22110,
+      "text" : "[Speaker]: You're very good!\nYou must be to beat my Shroomish![Wait Input 109]"
+    },
+    {
+      "id" : 22111,
+      "text" : "[Speaker]: Well done!\nGood job, Poochyena and Sunkern![Wait Input 109]"
+    },
+    {
+      "id" : 22112,
+      "text" : "[Speaker]: Hm, hm.\nA fine battle indeed![Wait Input 109]"
+    },
+    {
+      "id" : 22113,
+      "text" : "[Speaker]: Didn't I tell you?\nYou should never let down your guard.[Wait Input 109]"
+    },
+    {
+      "id" : 22114,
+      "text" : "[Speaker]: Well, I lost that rather\nhandily.[Wait Input 109]"
+    },
+    {
+      "id" : 22115,
+      "text" : "[Speaker]: You need to refine your\nstrategy a lot more![Wait Input 109]"
+    },
+    {
+      "id" : 22116,
+      "text" : "[Speaker]: Aww!\nYou wrecked my strategy![Wait Input 109]"
+    },
+    {
+      "id" : 22117,
+      "text" : "[Speaker]: Oh, no.\nYou won't get much out of training\nhere if you're losing to me.[Wait Input 109]"
+    },
+    {
+      "id" : 22118,
+      "text" : "[Speaker]: Good going![Wait Input 109]"
+    },
+    {
+      "id" : 22119,
+      "text" : "[Speaker]: That's the best you\ncan do?[Wait Input 109]"
+    },
+    {
+      "id" : 22120,
+      "text" : "[Speaker]: Awesome![Wait Input 109]"
+    },
+    {
+      "id" : 22121,
+      "text" : "[Speaker]: Are you serious?\nYou'd really lose here?[Wait Input 109]"
+    },
+    {
+      "id" : 22122,
+      "text" : "[Speaker]: Hah!\nMy team's not good enough\nfor a battle![Wait Input 109]"
+    },
+    {
+      "id" : 22123,
+      "text" : "[Speaker]: My victory was assured\nbefore the battle even started![Wait Input 109]"
+    },
+    {
+      "id" : 22124,
+      "text" : "[Speaker]: I didn't foresee you\nwinning at all![Wait Input 109]"
+    },
+    {
+      "id" : 22125,
+      "text" : "[Speaker]: Isn't it terrifying to\nknow that you can't get away from me?[Wait Input 109]"
+    },
+    {
+      "id" : 22126,
+      "text" : "[Speaker]: I let the win get away![Wait Input 109]"
+    },
+    {
+      "id" : 22127,
+      "text" : "[Speaker]: What, you're finished\nalready?[Wait Input 109]"
+    },
+    {
+      "id" : 22128,
+      "text" : "[Speaker]: I'm not surprised you\nwon.[Wait Input 109]"
+    },
+    {
+      "id" : 22129,
+      "text" : "[Speaker]: Humph.\nDidn't have the time to put up a feeble\nstruggle.[Wait Input 109]"
+    },
+    {
+      "id" : 22130,
+      "text" : "[Speaker]: Oh, how infuriating!\nIt makes me want to flail about![Wait Input 109]"
+    },
+    {
+      "id" : 22131,
+      "text" : "[Speaker]: When all's said and\ndone, Pokémon possessing both cute\nand strong qualities are best.[Wait Input 109]"
+    },
+    {
+      "id" : 22132,
+      "text" : "[Speaker]: Oh, but you know, you\nhaven't bested my Pokémon in terms\nof cuteness![Wait Input 109]"
+    },
+    {
+      "id" : 22133,
+      "text" : "[Speaker]: Good job![Wait Input 109]"
+    },
+    {
+      "id" : 22134,
+      "text" : "[Speaker]: Good effort![Wait Input 109]"
+    },
+    {
+      "id" : 22135,
+      "text" : "[Speaker]: Did you learn how\nimportant defense is?[Wait Input 109]"
+    },
+    {
+      "id" : 22136,
+      "text" : "[Speaker]: Oh, no, no...\nWe're done for![Wait Input 109]"
+    },
+    {
+      "id" : 22137,
+      "text" : "[Speaker]: Don't let this deter you.\nCome back and train with us again![Wait Input 109]"
+    },
+    {
+      "id" : 22138,
+      "text" : "[Speaker]: Well, well.\nYou're pretty strong.[Wait Input 109]"
+    },
+    {
+      "id" : 22139,
+      "text" : "[Speaker]: Hmm...\nDropping out in just Area 2...\nThat's not much to cheer about.[Wait Input 109]"
+    },
+    {
+      "id" : 22140,
+      "text" : "[Speaker]: I knew it.\nThis was too easy for you.[Wait Input 109]"
+    },
+    {
+      "id" : 22141,
+      "text" : "[Speaker]: Heheh.\nYou weren't expecting this, were you?[Wait Input 109]"
+    },
+    {
+      "id" : 22142,
+      "text" : "[Speaker]: Whoops!\nDone like dinner![Wait Input 109]"
+    },
+    {
+      "id" : 22143,
+      "text" : "[Speaker]: You won't find any joy\nin defeat![Wait Input 109]"
+    },
+    {
+      "id" : 22144,
+      "text" : "[Speaker]: Oops!\nI end up with the loss![Wait Input 109]"
+    },
+    {
+      "id" : 22145,
+      "text" : "[Speaker]: Winning is fun, isn't it?[Wait Input 109]"
+    },
+    {
+      "id" : 22146,
+      "text" : "[Speaker]: There's no fun in losing![Wait Input 109]"
+    },
+    {
+      "id" : 22147,
+      "text" : "[Speaker]: Tough Dark Pokémon\nand Rock Pokémon give me the shivers![Wait Input 109]"
+    },
+    {
+      "id" : 22148,
+      "text" : "[Speaker]: Oooarrgh!\nThat's it for this guy![Wait Input 109]"
+    },
+    {
+      "id" : 22149,
+      "text" : "[Speaker]: Three cheers for Grass\nPokémon![Wait Input 109]"
+    },
+    {
+      "id" : 22150,
+      "text" : "[Speaker]: My pride and joy![Wait Input 109]"
+    },
+    {
+      "id" : 22151,
+      "text" : "[Speaker]: Oh, yeah![Wait Input 109]"
+    },
+    {
+      "id" : 22152,
+      "text" : "[Speaker]: How could you be so\ncruel to knock out my adorable\nPokemon?[Wait Input 109]"
+    },
+    {
+      "id" : 22153,
+      "text" : "[Speaker]: The path to higher\ntraining will inevitably include defeats.[Wait Input 109]"
+    },
+    {
+      "id" : 22154,
+      "text" : "[Speaker]: You've quite impressed\nme, youngster.[Wait Input 109]"
+    },
+    {
+      "id" : 22155,
+      "text" : "[Speaker]: Well, that's that![Wait Input 109]"
+    },
+    {
+      "id" : 22156,
+      "text" : "[Speaker]: Gah, close!\nIt just didn't quite work![Wait Input 109]"
+    },
+    {
+      "id" : 22157,
+      "text" : "[Speaker]: Fufufu!\nNice try. Thanks for coming![Wait Input 109]"
+    },
+    {
+      "id" : 22158,
+      "text" : "[Speaker]: Oh, no, wait!\nNope! Too late![Wait Input 109]"
+    },
+    {
+      "id" : 22159,
+      "text" : "[Speaker]: Oh, is that all?\nI thought you'd do a little better than\nthat.[Wait Input 109]"
+    },
+    {
+      "id" : 22160,
+      "text" : "[Speaker]: Hmmm!\nYou are decent![Wait Input 109]"
+    },
+    {
+      "id" : 22161,
+      "text" : "[Speaker]: Maybe Area 4 is out of\nyour league yet?[Wait Input 109]"
+    },
+    {
+      "id" : 22162,
+      "text" : "[Speaker]: Wait, you are strong![Wait Input 109]"
+    },
+    {
+      "id" : 22163,
+      "text" : "[Speaker]: It looks like the Psychic\ntype is a tough matchup for you.[Wait Input 109]"
+    },
+    {
+      "id" : 22164,
+      "text" : "[Speaker]: You knew how to handle\nPsychic Pokémon![Wait Input 109]"
+    },
+    {
+      "id" : 22165,
+      "text" : "[Speaker]: Maybe I should have\ngone easier on you?[Wait Input 109]"
+    },
+    {
+      "id" : 22166,
+      "text" : "[Speaker]: I wish you wouldn't have\nbeen so rough with me.[Wait Input 109]"
+    },
+    {
+      "id" : 22167,
+      "text" : "[Speaker]: Fwofofofo![Wait Input 109]"
+    },
+    {
+      "id" : 22168,
+      "text" : "[Speaker]: Urggggh!\nDarn! Darn! Darn![Wait Input 109]"
+    },
+    {
+      "id" : 22169,
+      "text" : "[Speaker]: Mmm, hmm!\nWhat a great feeling![Wait Input 109]"
+    },
+    {
+      "id" : 22170,
+      "text" : "[Speaker]: Aww, no!\nWhat a horrible feeling![Wait Input 109]"
+    },
+    {
+      "id" : 22171,
+      "text" : "[Speaker]: Weak would be a good\nword to describe your Pokémon.[Wait Input 109]"
+    },
+    {
+      "id" : 22172,
+      "text" : "[Speaker]: My poor Grimer![Wait Input 109]"
+    },
+    {
+      "id" : 22173,
+      "text" : "[Speaker]: The challenger fails!\nThat sound right?[Wait Input 109]"
+    },
+    {
+      "id" : 22174,
+      "text" : "[Speaker]: Oh, I lost!\nI'll use my ninjutsu to get away!\nJust kidding![Wait Input 109]"
+    },
+    {
+      "id" : 22175,
+      "text" : "[Speaker]: Yay![Wait Input 109]"
+    },
+    {
+      "id" : 22176,
+      "text" : "[Speaker]: Losing a battle like\nthis...\nThis won't do![Wait Input 109]"
+    },
+    {
+      "id" : 22177,
+      "text" : "[Speaker]: Learn from your losses![Wait Input 109]"
+    },
+    {
+      "id" : 22178,
+      "text" : "[Speaker]: Good battle![Wait Input 109]"
+    },
+    {
+      "id" : 22179,
+      "text" : "[Speaker]: Is that it?\nAfter all you did to get here?[Wait Input 109]"
+    },
+    {
+      "id" : 22180,
+      "text" : "[Speaker]: Yes, yes!\nThat's the way to do it![Wait Input 109]"
+    },
+    {
+      "id" : 22181,
+      "text" : "[Speaker]: You should make another\nchallenge when you've raised your\nPokémon some more.[Wait Input 109]"
+    },
+    {
+      "id" : 22182,
+      "text" : "[Speaker]: Good job!\nYou've been raising your Pokémon\nproperly![Wait Input 109]"
+    },
+    {
+      "id" : 22183,
+      "text" : "[Speaker]: I'm the winner by\ninfatuation![Wait Input 109]"
+    },
+    {
+      "id" : 22184,
+      "text" : "[Speaker]: Losing makes me weak in\nmy knees![Wait Input 109]"
+    },
+    {
+      "id" : 22185,
+      "text" : "[Speaker]: Striking the right\nbalance!\nThat's important![Wait Input 109]"
+    },
+    {
+      "id" : 22186,
+      "text" : "[Speaker]: I'm floored![Wait Input 109]"
+    },
+    {
+      "id" : 22187,
+      "text" : "[Speaker]: Come again, all right?[Wait Input 109]"
+    },
+    {
+      "id" : 22188,
+      "text" : "[Speaker]: Grr!\nYou're a tough one![Wait Input 109]"
+    },
+    {
+      "id" : 22189,
+      "text" : "[Speaker]: Did you find that\nelectrifying?[Wait Input 109]"
+    },
+    {
+      "id" : 22190,
+      "text" : "[Speaker]: You're so mean to win![Wait Input 109]"
+    },
+    {
+      "id" : 22191,
+      "text" : "[Speaker]: You came here just so you\ncould lose?[Wait Input 109]"
+    },
+    {
+      "id" : 22192,
+      "text" : "[Speaker]: Whew...\nAll right, I lost![Wait Input 109]"
+    },
+    {
+      "id" : 22193,
+      "text" : "[Speaker]: Well, how about that?\nThanks for your effort. Do come again![Wait Input 109]"
+    },
+    {
+      "id" : 22194,
+      "text" : "[Speaker]: I expected this![Wait Input 109]"
+    },
+    {
+      "id" : 22195,
+      "text" : "[Speaker]: Maybe I didn't do the\nright thing by going all out.[Wait Input 109]"
+    },
+    {
+      "id" : 22196,
+      "text" : "[Speaker]: Gwaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22197,
+      "text" : "[Speaker]: I hope I contributed to\nyour training.[Wait Input 109]"
+    },
+    {
+      "id" : 22198,
+      "text" : "[Speaker]: You're already strong!\nYou don't need training![Wait Input 109]"
+    },
+    {
+      "id" : 22199,
+      "text" : "[Speaker]: Oh, too bad!\nYou came close![Wait Input 109]"
+    },
+    {
+      "id" : 22200,
+      "text" : "[Speaker]: Too much![Wait Input 109]"
+    },
+    {
+      "id" : 22201,
+      "text" : "[Speaker]: Did you see?\nI'm the model of stability![Wait Input 109]"
+    },
+    {
+      "id" : 22202,
+      "text" : "[Speaker]: Ohh...\nYou showed me up![Wait Input 109]"
+    },
+    {
+      "id" : 22203,
+      "text" : "[Speaker]: It's time to say farewell![Wait Input 109]"
+    },
+    {
+      "id" : 22204,
+      "text" : "[Speaker]: I'm done for![Wait Input 109]"
+    },
+    {
+      "id" : 22205,
+      "text" : "[Speaker]: So undisciplined![Wait Input 109]"
+    },
+    {
+      "id" : 22206,
+      "text" : "[Speaker]: Remarkable![Wait Input 109]"
+    },
+    {
+      "id" : 22207,
+      "text" : "[Speaker]: My Pokémon aren't final\nevolutions, but you bet they're tough![Wait Input 109]"
+    },
+    {
+      "id" : 22208,
+      "text" : "[Speaker]: I love tough Trainers,\ntoo![Wait Input 109]"
+    },
+    {
+      "id" : 22209,
+      "text" : "[Speaker]: The ability Levitate is\nuseful, don't you think?[Wait Input 109]"
+    },
+    {
+      "id" : 22210,
+      "text" : "[Speaker]: My victory just floated\naway![Wait Input 109]"
+    },
+    {
+      "id" : 22211,
+      "text" : "[Speaker]: Oh, you're not what I\nwas expecting.[Wait Input 109]"
+    },
+    {
+      "id" : 22212,
+      "text" : "[Speaker]: You beat me?\nThat has to count for something![Wait Input 109]"
+    },
+    {
+      "id" : 22213,
+      "text" : "[Speaker]: It's determination that\ncarries you through![Wait Input 109]"
+    },
+    {
+      "id" : 22214,
+      "text" : "[Speaker]: Wiped out![Wait Input 109]"
+    },
+    {
+      "id" : 22215,
+      "text" : "[Speaker]: My Pokémon returned to\nsnatch victory from you.\nHow did you find them?[Wait Input 109]"
+    },
+    {
+      "id" : 22216,
+      "text" : "[Speaker]: After all I did to get my\nPokémon back up to snuff![Wait Input 109]"
+    },
+    {
+      "id" : 22217,
+      "text" : "[Speaker]: I got myself motivated\nand got me the win![Wait Input 109]"
+    },
+    {
+      "id" : 22218,
+      "text" : "[Speaker]: I got myself motivated,\nbut I still lost![Wait Input 109]"
+    },
+    {
+      "id" : 22219,
+      "text" : "[Speaker]: It looks as if this is the end of\nthe line for your skill level.[Wait Input 109]"
+    },
+    {
+      "id" : 22220,
+      "text" : "[Speaker]: Well played![Wait Input 109]"
+    },
+    {
+      "id" : 22221,
+      "text" : "[Speaker]: The win flew into my\nhands![Wait Input 109]"
+    },
+    {
+      "id" : 22222,
+      "text" : "[Speaker]: Oh, it's so unfair![Wait Input 109]"
+    },
+    {
+      "id" : 22223,
+      "text" : "[Speaker]: You can try all you want.\nIt's all meaningless if you don't get\nthe results![Wait Input 109]"
+    },
+    {
+      "id" : 22224,
+      "text" : "[Speaker]: Not bad![Wait Input 109]"
+    },
+    {
+      "id" : 22225,
+      "text" : "[Speaker]: Despite a valiant effort,\nthe challenger goes down in defeat![Wait Input 109]"
+    },
+    {
+      "id" : 22226,
+      "text" : "[Speaker]: Amazing!\nThe challenger has won![Wait Input 109]"
+    },
+    {
+      "id" : 22227,
+      "text" : "[Speaker]: Oh, you're a weakling?\nGee, that's boring.[Wait Input 109]"
+    },
+    {
+      "id" : 22228,
+      "text" : "[Speaker]: That was fun, but I lost![Wait Input 109]"
+    },
+    {
+      "id" : 22229,
+      "text" : "[Speaker]: You may be adorable,\nbut there's no leeway in battle.[Wait Input 109]"
+    },
+    {
+      "id" : 22230,
+      "text" : "[Speaker]: You look so cute, but\nyou're seriously tough![Wait Input 109]"
+    },
+    {
+      "id" : 22231,
+      "text" : "[Speaker]: Ah, yes.\nThis is how a battle should be waged.[Wait Input 109]"
+    },
+    {
+      "id" : 22232,
+      "text" : "[Speaker]: Oh, what's this?\nI lost, it seems.[Wait Input 109]"
+    },
+    {
+      "id" : 22233,
+      "text" : "[Speaker]: Yes, yes.\nThank you so much![Wait Input 109]"
+    },
+    {
+      "id" : 22234,
+      "text" : "[Speaker]: Sigh...\nI'm feeling so run-down.[Wait Input 109]"
+    },
+    {
+      "id" : 22235,
+      "text" : "[Speaker]: Like a flower, I let my talent\nburst into bloom![Wait Input 109]"
+    },
+    {
+      "id" : 22236,
+      "text" : "[Speaker]: Like a delicate flower,\nmy talent blew away...[Wait Input 109]"
+    },
+    {
+      "id" : 22237,
+      "text" : "[Speaker]: When I win, everything\ntastes so much better!\nI'd better watch my belly!\nHahaha![Wait Input 109]"
+    },
+    {
+      "id" : 22238,
+      "text" : "[Speaker]: Bleah!\nI'll drown my sorrows with some\ncomfort food![Wait Input 109]"
+    },
+    {
+      "id" : 22239,
+      "text" : "[Speaker]: You must be\ndisappointed![Wait Input 109]"
+    },
+    {
+      "id" : 22240,
+      "text" : "[Speaker]: Urgh!\nBeaten thoroughly![Wait Input 109]"
+    },
+    {
+      "id" : 22241,
+      "text" : "[Speaker]: Oh, well!\nAdios![Wait Input 109]"
+    },
+    {
+      "id" : 22242,
+      "text" : "[Speaker]: Woaaarrgh![Wait Input 109]"
+    },
+    {
+      "id" : 22243,
+      "text" : "[Speaker]: Rudder hard starboard![Wait Input 109]"
+    },
+    {
+      "id" : 22244,
+      "text" : "[Speaker]: Rudder hard port![Wait Input 109]"
+    },
+    {
+      "id" : 22245,
+      "text" : "[Speaker]: Train some more before\nyou come, okay?[Wait Input 109]"
+    },
+    {
+      "id" : 22246,
+      "text" : "[Speaker]: Oh, my gosh![Wait Input 109]"
+    },
+    {
+      "id" : 22247,
+      "text" : "[Speaker]: How's that?![Wait Input 109]"
+    },
+    {
+      "id" : 22248,
+      "text" : "[Speaker]: What's that?![Wait Input 109]"
+    },
+    {
+      "id" : 22249,
+      "text" : "[Speaker]: Perfect![Wait Input 109]"
+    },
+    {
+      "id" : 22250,
+      "text" : "[Speaker]: That was supposed to be\nperfect![Wait Input 109]"
+    },
+    {
+      "id" : 22251,
+      "text" : "[Speaker]: Come again!\nI'll be waiting right here![Wait Input 109]"
+    },
+    {
+      "id" : 22252,
+      "text" : "[Speaker]: Wha...\nI lost...[Wait Input 109]"
+    },
+    {
+      "id" : 22253,
+      "text" : "[Speaker]: Hah!\nThat's your best?[Wait Input 109]"
+    },
+    {
+      "id" : 22254,
+      "text" : "[Speaker]: Urk![Wait Input 109]"
+    },
+    {
+      "id" : 22255,
+      "text" : "[Speaker]: Well?\nAren't Dark Pokémon wonderful?[Wait Input 109]"
+    },
+    {
+      "id" : 22256,
+      "text" : "[Speaker]: Oh, dear.\nThe Dark type lost.[Wait Input 109]"
+    },
+    {
+      "id" : 22257,
+      "text" : "[Speaker]: Victory is mine![Wait Input 109]"
+    },
+    {
+      "id" : 22258,
+      "text" : "[Speaker]: Defeated![Wait Input 109]"
+    },
+    {
+      "id" : 22259,
+      "text" : "[Speaker]: Looks like it's all over\nfor you![Wait Input 109]"
+    },
+    {
+      "id" : 22260,
+      "text" : "[Speaker]: Very impressive![Wait Input 109]"
+    },
+    {
+      "id" : 22261,
+      "text" : "[Speaker]: I'm strong wherever\nI go.\nEven on a mountain![Wait Input 109]"
+    },
+    {
+      "id" : 22262,
+      "text" : "[Speaker]: Pulverized![Wait Input 109]"
+    },
+    {
+      "id" : 22263,
+      "text" : "[Speaker]: How was that?![Wait Input 109]"
+    },
+    {
+      "id" : 22264,
+      "text" : "[Speaker]: Agagagaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22265,
+      "text" : "[Speaker]: I'm kind of surprised.\nYou're not very strong at all.[Wait Input 109]"
+    },
+    {
+      "id" : 22266,
+      "text" : "[Speaker]: Oh, yeah.\nYou really are strong after all.[Wait Input 109]"
+    },
+    {
+      "id" : 22267,
+      "text" : "[Speaker]: Hey, hey!\nYou're allowed to go all out![Wait Input 109]"
+    },
+    {
+      "id" : 22268,
+      "text" : "[Speaker]: You didn't have to really\ngo all out![Wait Input 109]"
+    },
+    {
+      "id" : 22269,
+      "text" : "[Speaker]: Bye-bye![Wait Input 109]"
+    },
+    {
+      "id" : 22270,
+      "text" : "[Speaker]: You're joking![Wait Input 109]"
+    },
+    {
+      "id" : 22271,
+      "text" : "[Speaker]: You're not going to win,\nif that's the only reason you're in this![Wait Input 109]"
+    },
+    {
+      "id" : 22272,
+      "text" : "[Speaker]: Oh!\nThat was good![Wait Input 109]"
+    },
+    {
+      "id" : 22273,
+      "text" : "[Speaker]: Don't cry![Wait Input 109]"
+    },
+    {
+      "id" : 22274,
+      "text" : "[Speaker]: Waaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22275,
+      "text" : "[Speaker]: Nice try![Wait Input 109]"
+    },
+    {
+      "id" : 22276,
+      "text" : "[Speaker]: You're the real deal![Wait Input 109]"
+    },
+    {
+      "id" : 22277,
+      "text" : "[Speaker]: Uh-oh!\nYou poor thing![Wait Input 109]"
+    },
+    {
+      "id" : 22278,
+      "text" : "[Speaker]: Wah!\nI lost that one![Wait Input 109]"
+    },
+    {
+      "id" : 22279,
+      "text" : "[Speaker]: Bingo!\nThe win goes to me![Wait Input 109]"
+    },
+    {
+      "id" : 22280,
+      "text" : "[Speaker]: Swept aside![Wait Input 109]"
+    },
+    {
+      "id" : 22281,
+      "text" : "[Speaker]: Let the rain of victory\nfall![Wait Input 109]"
+    },
+    {
+      "id" : 22282,
+      "text" : "[Speaker]: Wash this away with\ntears of rain...[Wait Input 109]"
+    },
+    {
+      "id" : 22283,
+      "text" : "[Speaker]: Like grains of sand,\nvictory trickled from your fingers![Wait Input 109]"
+    },
+    {
+      "id" : 22284,
+      "text" : "[Speaker]: Grr...\nA loss has all the flavor of sand...[Wait Input 109]"
+    },
+    {
+      "id" : 22285,
+      "text" : "[Speaker]: Well?\nI'm pretty amazing, huh?[Wait Input 109]"
+    },
+    {
+      "id" : 22286,
+      "text" : "[Speaker]: Eek!\nWe're done for![Wait Input 109]"
+    },
+    {
+      "id" : 22287,
+      "text" : "[Speaker]: You see?\ntough Pokémon are\nfundamental![Wait Input 109]"
+    },
+    {
+      "id" : 22288,
+      "text" : "[Speaker]: Whoaaaaaaaar![Wait Input 109]"
+    },
+    {
+      "id" : 22289,
+      "text" : "[Speaker]: I know plenty about\nbattling and Mt. Battle![Wait Input 109]"
+    },
+    {
+      "id" : 22290,
+      "text" : "[Speaker]: I know plenty about\nMt. Battle![Wait Input 109]"
+    },
+    {
+      "id" : 22291,
+      "text" : "[Speaker]: The challenger is down!\nHe finally ran out of steam![Wait Input 109]"
+    },
+    {
+      "id" : 22292,
+      "text" : "[Speaker]: The challenger has won!\nWhat an outstanding victory![Wait Input 109]"
+    },
+    {
+      "id" : 22293,
+      "text" : "[Speaker]: Whoa, yeah![Wait Input 109]"
+    },
+    {
+      "id" : 22294,
+      "text" : "[Speaker]: Whoa, no![Wait Input 109]"
+    },
+    {
+      "id" : 22295,
+      "text" : "[Speaker]: Winning puts me in a\nsunny mood![Wait Input 109]"
+    },
+    {
+      "id" : 22296,
+      "text" : "[Speaker]: Losing casts a shadow in\nmy heart![Wait Input 109]"
+    },
+    {
+      "id" : 22297,
+      "text" : "[Speaker]: Kaboom![Wait Input 109]"
+    },
+    {
+      "id" : 22298,
+      "text" : "[Speaker]: Kaboom![Wait Input 109]"
+    },
+    {
+      "id" : 22299,
+      "text" : "[Speaker]: You're still in need of much\ntraining![Wait Input 109]"
+    },
+    {
+      "id" : 22300,
+      "text" : "[Speaker]: Magnificent![Wait Input 109]"
+    },
+    {
+      "id" : 22301,
+      "text" : "[Speaker]: Waaah! I knew it!\nWe weren't ready![Wait Input 109]"
+    },
+    {
+      "id" : 22302,
+      "text" : "[Speaker]: Waaaah!\nYou're making me lose confidence![Wait Input 109]"
+    },
+    {
+      "id" : 22303,
+      "text" : "[Speaker]: I feel like I failed my\nschool graduation exam![Wait Input 109]"
+    },
+    {
+      "id" : 22304,
+      "text" : "[Speaker]: I put everything I've\nlearned into that battle![Wait Input 109]"
+    },
+    {
+      "id" : 22305,
+      "text" : "[Speaker]: Waaaah!\nI couldn't properly use everything I've\nlearned![Wait Input 109]"
+    },
+    {
+      "id" : 22306,
+      "text" : "[Speaker]: That's it!\nWe've won![Wait Input 109]"
+    },
+    {
+      "id" : 22307,
+      "text" : "[Speaker]: Waaaah!\nYou're making me lose confidence![Wait Input 109]"
+    },
+    {
+      "id" : 22308,
+      "text" : "[Speaker]: I feel like I just aced my\ncollege entrance exam![Wait Input 109]"
+    },
+    {
+      "id" : 22309,
+      "text" : "[Speaker]: I'm going to need\nremedial lessons![Wait Input 109]"
+    },
+    {
+      "id" : 22310,
+      "text" : "[Speaker]: That's it?\nYou're telling me that's the best you\ncan manage?[Wait Input 109]"
+    },
+    {
+      "id" : 22311,
+      "text" : "[Speaker]: Bravo![Wait Input 109]"
+    },
+    {
+      "id" : 22401,
+      "text" : "[Speaker]: What? I lost?\nI can't go back to the Lair like this![Wait Input 109]"
+    },
+    {
+      "id" : 22601,
+      "text" : "[Speaker]: Wroooar!\nWhat'll I do? What'll I do?\nGorigan's going to chew me out again![Wait Input 109]"
+    },
+    {
+      "id" : 22602,
+      "text" : "[Speaker]: But you're just a kid![Wait Input 109]"
+    },
+    {
+      "id" : 22603,
+      "text" : "[Speaker]: I'll have to get stronger\nShadow Pokémon![Wait Input 109]"
+    },
+    {
+      "id" : 22604,
+      "text" : "[Speaker]: Waaah!\nI failed to punish you![Wait Input 109]"
+    },
+    {
+      "id" : 22605,
+      "text" : "[Speaker]: Losing to a boy like\nyou...\nI'll be out on the street begging for\na job![Wait Input 109]"
+    },
+    {
+      "id" : 22606,
+      "text" : "[Speaker]: What, just brute force?[Wait Input 109]"
+    },
+    {
+      "id" : 22607,
+      "text" : "[Speaker]: Keep quiet on the shop\nfloor, please![Wait Input 109]"
+    },
+    {
+      "id" : 22608,
+      "text" : "[Speaker]: Knocked aside as if I\nwere a pylon![Wait Input 109]"
+    },
+    {
+      "id" : 22609,
+      "text" : "[Speaker]: Oh, I so don't like you![Wait Input 109]"
+    },
+    {
+      "id" : 22610,
+      "text" : "[Speaker]: I lost?\nI'm in shock![Wait Input 109]"
+    },
+    {
+      "id" : 22611,
+      "text" : "[Speaker]: You're not supposed\nto win![Wait Input 109]"
+    },
+    {
+      "id" : 22612,
+      "text" : "[Speaker]: Gadzooks![Wait Input 109]"
+    },
+    {
+      "id" : 22613,
+      "text" : "[Speaker]: Oh, no!\nMy calculations are all out of whack![Wait Input 109]"
+    },
+    {
+      "id" : 22614,
+      "text" : "[Speaker]: Some welcoming party this is!\nIt turned into my going-away party![Wait Input 109]"
+    },
+    {
+      "id" : 22615,
+      "text" : "[Speaker]: I have you beat in chest-\nmuscle size![Wait Input 109]"
+    },
+    {
+      "id" : 22616,
+      "text" : "[Speaker]: You can't have it!\nGive back the System Lever![Wait Input 109]"
+    },
+    {
+      "id" : 22617,
+      "text" : "[Speaker]: Gorigan![Wait Input 109]"
+    },
+    {
+      "id" : 22618,
+      "text" : "[Speaker]: Ugaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22619,
+      "text" : "[Speaker]: I got the short end of\nthat one![Wait Input 109]"
+    },
+    {
+      "id" : 22620,
+      "text" : "[Speaker]: But...\nThis can't be happening![Wait Input 109]"
+    },
+    {
+      "id" : 22701,
+      "text" : "[Speaker]: The kid's tough![Wait Input 109]"
+    },
+    {
+      "id" : 22702,
+      "text" : "[Speaker]: Ahahahaha!\nYou're so strong, all I can do is laugh\nabout this![Wait Input 109]"
+    },
+    {
+      "id" : 22703,
+      "text" : "[Speaker]: Oh...\nI've been crushed.[Wait Input 109]"
+    },
+    {
+      "id" : 22704,
+      "text" : "[Speaker]: That was good, you.\nYou shook me up![Wait Input 109]"
+    },
+    {
+      "id" : 22705,
+      "text" : "[Speaker]: Gwah!\nI didn't expect to lose![Wait Input 109]"
+    },
+    {
+      "id" : 22706,
+      "text" : "[Speaker]: Oh, boo!\nNow look what you've done![Wait Input 109]"
+    },
+    {
+      "id" : 22707,
+      "text" : "[Speaker]: Aiyeeh!\nI'm sorry for losing so easily![Wait Input 109]"
+    },
+    {
+      "id" : 22708,
+      "text" : "[Speaker]: I lost after talking big...\nHow humiliating![Wait Input 109]"
+    },
+    {
+      "id" : 22709,
+      "text" : "[Speaker]: Whoa!\nYou're seriously too much![Wait Input 109]"
+    },
+    {
+      "id" : 22710,
+      "text" : "[Speaker]: Gwooah!\nI was counting on a hot battle![Wait Input 109]"
+    },
+    {
+      "id" : 22711,
+      "text" : "[Speaker]: Master Greevil better not\nhave seen this![Wait Input 109]"
+    },
+    {
+      "id" : 22712,
+      "text" : "[Speaker]: Oh, please!\nPlease don't be so angry that this is\na dead end![Wait Input 109]"
+    },
+    {
+      "id" : 22713,
+      "text" : "[Speaker]: No way![Wait Input 109]"
+    },
+    {
+      "id" : 22714,
+      "text" : "[Speaker]: We lost![Wait Input 109]"
+    },
+    {
+      "id" : 22715,
+      "text" : "[Speaker]: This is the worst!\nI'm just not good enough![Wait Input 109]"
+    },
+    {
+      "id" : 22716,
+      "text" : "[Speaker]: I just can't battle in this\nwicked heat![Wait Input 109]"
+    },
+    {
+      "id" : 22717,
+      "text" : "[Speaker]: It's too hot here.\nI can't focus my mind at all![Wait Input 109]"
+    },
+    {
+      "id" : 22718,
+      "text" : "[Speaker]: Wha...\nWhaaaaat?![Wait Input 109]"
+    },
+    {
+      "id" : 22719,
+      "text" : "[Speaker]: Gwaaaaaaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22720,
+      "text" : "[Speaker]: We'll beat an orderly\ntactical retreat.\nFarewell![Wait Input 109]"
+    },
+    {
+      "id" : 22721,
+      "text" : "[Speaker]: You're so much stronger\nthan I expected.\nYou've put the fear in me![Wait Input 109]"
+    },
+    {
+      "id" : 22722,
+      "text" : "[Speaker]: Whoops!\nYou swept me right off my feet![Wait Input 109]"
+    },
+    {
+      "id" : 22723,
+      "text" : "[Speaker]: Gyaaah!\nWhat happened?![Wait Input 109]"
+    },
+    {
+      "id" : 22724,
+      "text" : "[Speaker]: My plan!\nIt was supposed to be perfect![Wait Input 109]"
+    },
+    {
+      "id" : 22725,
+      "text" : "[Speaker]: I'm sorry to have held\nyou up![Wait Input 109]"
+    },
+    {
+      "id" : 22726,
+      "text" : "[Speaker]: This is trouble...\nIf something's not done...[Wait Input 109]"
+    },
+    {
+      "id" : 22727,
+      "text" : "[Speaker]: Graaah!\nWe're doomed![Wait Input 109]"
+    },
+    {
+      "id" : 22728,
+      "text" : "[Speaker]: Gaaah!\nThis isn't happening!\nIt's not real![Wait Input 109]"
+    },
+    {
+      "id" : 22729,
+      "text" : "[Speaker]: We lost.\nTotally...[Wait Input 109]"
+    },
+    {
+      "id" : 22730,
+      "text" : "[Speaker]: The correct answer is...\nYes, it's Citadark Isle![Wait Input 109]"
+    },
+    {
+      "id" : 22731,
+      "text" : "[Speaker]: Sorry!\nI give up!\nBut just today![Wait Input 109]"
+    },
+    {
+      "id" : 22732,
+      "text" : "[Speaker]: Lugia![Wait Input 109]"
+    },
+    {
+      "id" : 22733,
+      "text" : "[Speaker]: Gwaaaaaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 22801,
+      "text" : "[Speaker]: You really are a nasty\nchild![Wait Input 109]"
+    },
+    {
+      "id" : 22802,
+      "text" : "[Speaker]: Whee!\nAnd we're down-and-out![Wait Input 109]"
+    },
+    {
+      "id" : 22803,
+      "text" : "[Speaker]: I gave you that Disc\nCase to get you out of here, too![Wait Input 109]"
+    },
+    {
+      "id" : 22804,
+      "text" : "[Speaker]: I'm not supposed to be\nlosing here like this.\nThis won't do![Wait Input 109]"
+    },
+    {
+      "id" : 22805,
+      "text" : "[Speaker]: Help me![Wait Input 109]"
+    },
+    {
+      "id" : 22806,
+      "text" : "[Speaker]: Sell me some Revives,\ntoo![Wait Input 109]"
+    },
+    {
+      "id" : 22807,
+      "text" : "[Speaker]: Why couldn't you have\njust ignored what we were doing?[Wait Input 109]"
+    },
+    {
+      "id" : 22808,
+      "text" : "[Speaker]: You watch, this town will\nfall to Cipher one day![Wait Input 109]"
+    },
+    {
+      "id" : 22809,
+      "text" : "[Speaker]: Take it easy!\nDon't be so rough![Wait Input 109]"
+    },
+    {
+      "id" : 22810,
+      "text" : "[Speaker]: Yeah, steal our\nPokémon, will you?[Wait Input 109]"
+    },
+    {
+      "id" : 22811,
+      "text" : "[Speaker]: You have no\nappreciation for our work![Wait Input 109]"
+    },
+    {
+      "id" : 22812,
+      "text" : "[Speaker]: Tch!\nI blew that one![Wait Input 109]"
+    },
+    {
+      "id" : 22813,
+      "text" : "[Speaker]: I got beaten by some\nlittle kid![Wait Input 109]"
+    },
+    {
+      "id" : 22814,
+      "text" : "[Speaker]: Okay, so it's me that\ngets lost![Wait Input 109]"
+    },
+    {
+      "id" : 22815,
+      "text" : "[Speaker]: Aww, no![Wait Input 109]"
+    },
+    {
+      "id" : 22816,
+      "text" : "[Speaker]: Duh! No![Wait Input 109]"
+    },
+    {
+      "id" : 22817,
+      "text" : "[Speaker]: You're our worst\nnightmare![Wait Input 109]"
+    },
+    {
+      "id" : 22818,
+      "text" : "[Speaker]: Uppity brat![Wait Input 109]"
+    },
+    {
+      "id" : 22819,
+      "text" : "[Speaker]: Now you've done it![Wait Input 109]"
+    },
+    {
+      "id" : 22820,
+      "text" : "[Speaker]: I hate brats![Wait Input 109]"
+    },
+    {
+      "id" : 22821,
+      "text" : "[Speaker]: Oh, Mama, I've lost![Wait Input 109]"
+    },
+    {
+      "id" : 22822,
+      "text" : "[Speaker]: I feel crushing\ndisappointment sixfold![Wait Input 109]"
+    },
+    {
+      "id" : 22823,
+      "text" : "[Speaker]: Battled like a true hero![Wait Input 109]"
+    },
+    {
+      "id" : 22824,
+      "text" : "[Speaker]: I simply can't get fired\nup without an audience![Wait Input 109]"
+    },
+    {
+      "id" : 22901,
+      "text" : "[Speaker]: Gwooh![Wait Input 109]"
+    },
+    {
+      "id" : 22902,
+      "text" : "[Speaker]: I lost, but hey, I worked\nup a good sweat![Wait Input 109]"
+    },
+    {
+      "id" : 22903,
+      "text" : "[Speaker]: I feel like crying![Wait Input 109]"
+    },
+    {
+      "id" : 22904,
+      "text" : "[Speaker]: Oh, we had to lose![Wait Input 109]"
+    },
+    {
+      "id" : 22905,
+      "text" : "[Speaker]: I didn't count on\nlosing...\nWhat a surprise.[Wait Input 109]"
+    },
+    {
+      "id" : 22906,
+      "text" : "[Speaker]: I underestimated you.\nThought you were just a kid.[Wait Input 109]"
+    },
+    {
+      "id" : 22907,
+      "text" : "[Speaker]: Darn it all!\nPlayed things too aggressively![Wait Input 109]"
+    },
+    {
+      "id" : 22908,
+      "text" : "[Speaker]: B-beaten by a punk like\nyou... Groan...[Wait Input 109]"
+    },
+    {
+      "id" : 22909,
+      "text" : "[Speaker]: You're tougher than that\nsecurity guard at the entrance![Wait Input 109]"
+    },
+    {
+      "id" : 22910,
+      "text" : "[Speaker]: You're a little kid!\nYou should lighten up![Wait Input 109]"
+    },
+    {
+      "id" : 22911,
+      "text" : "[Speaker]: You lot!\nDoesn't Cipher frighten you?![Wait Input 109]"
+    },
+    {
+      "id" : 22912,
+      "text" : "[Speaker]: Miss Anika![Wait Input 109]"
+    },
+    {
+      "id" : 22913,
+      "text" : "[Speaker]: Why did the elevator\nhave to stop on this floor?![Wait Input 109]"
+    },
+    {
+      "id" : 22914,
+      "text" : "[Speaker]: You startled me!\nYou threw me off my battle plan![Wait Input 109]"
+    },
+    {
+      "id" : 22915,
+      "text" : "[Speaker]: What's going on here?!\nWhat's a tough guy like you doing here?![Wait Input 109]"
+    },
+    {
+      "id" : 22916,
+      "text" : "[Speaker]: Giiiah![Wait Input 109]"
+    },
+    {
+      "id" : 22917,
+      "text" : "[Speaker]: Uh-uh!\nThis is not right![Wait Input 109]"
+    },
+    {
+      "id" : 22918,
+      "text" : "[Speaker]: Gwaah!\nAre you some kind of a battling pro?![Wait Input 109]"
+    },
+    {
+      "id" : 22919,
+      "text" : "[Speaker]: Gwoh!\nI thought I trained my party to be\ntough![Wait Input 109]"
+    },
+    {
+      "id" : 23001,
+      "text" : "[Speaker]: I bow to your skill![Wait Input 109]"
+    },
+    {
+      "id" : 23002,
+      "text" : "[Speaker]: Ah, most impressive\nindeed![Wait Input 109]"
+    },
+    {
+      "id" : 23003,
+      "text" : "[Speaker]: Ah, yes.\nStrong as ever. Very good.[Wait Input 109]"
+    },
+    {
+      "id" : 23004,
+      "text" : "[Speaker]: Argh, no![Wait Input 109]"
+    },
+    {
+      "id" : 23005,
+      "text" : "[Speaker]: So I have a bad sense of\ndirection!\nIt's nothing to make fun of![Wait Input 109]"
+    },
+    {
+      "id" : 23006,
+      "text" : "[Speaker]: Doomed![Wait Input 109]"
+    },
+    {
+      "id" : 23007,
+      "text" : "[Speaker]: Wow, that was\nsomething.[Wait Input 109]"
+    },
+    {
+      "id" : 23008,
+      "text" : "[Speaker]: Handed the loss![Wait Input 109]"
+    },
+    {
+      "id" : 23009,
+      "text" : "[Speaker]: Oh dear, oh me, oh my![Wait Input 109]"
+    },
+    {
+      "id" : 23010,
+      "text" : "[Speaker]: Hot!\nA hot battle that was![Wait Input 109]"
+    },
+    {
+      "id" : 23011,
+      "text" : "[Speaker]: Oh!\nBravo! I say, bravo![Wait Input 109]"
+    },
+    {
+      "id" : 23101,
+      "text" : "[Speaker]: Whoa!\nHe really is tough![Wait Input 109]"
+    },
+    {
+      "id" : 23102,
+      "text" : "[Speaker]: What was that?\nMy Shadow Pokémon!\nWas that...\nWas it a snag?[Wait Input 109]"
+    },
+    {
+      "id" : 23103,
+      "text" : "[Speaker]: Whoa!\nIt's no fluke. The kid is tough![Wait Input 109]"
+    },
+    {
+      "id" : 23104,
+      "text" : "[Speaker]: Oh!\nI knew it, but bravo!\nI repeat, bravo![Wait Input 109]"
+    },
+    {
+      "id" : 23201,
+      "text" : "[Speaker]: Y-your power...\nWhere does it come from?![Wait Input 109]"
+    },
+    {
+      "id" : 23202,
+      "text" : "[Speaker]: Mmm-hmm, I lose.\nYou really are quite wonderful.[Wait Input 109]"
+    },
+    {
+      "id" : 23203,
+      "text" : "[Speaker]: Would you lose?\nNo, sir![Wait Input 109]"
+    },
+    {
+      "id" : 23204,
+      "text" : "[Speaker]: You showed me who's best![Wait Input 109]"
+    },
+    {
+      "id" : 23205,
+      "text" : "[Speaker]: The sting of the salt spray...\nIt brings tears to my eyes.[Wait Input 109]"
+    },
+    {
+      "id" : 23206,
+      "text" : "[Speaker]: Battling with you, I can't find\nthe right groove at all.[Wait Input 109]"
+    },
+    {
+      "id" : 23207,
+      "text" : "[Speaker]: Humph!\nI may have lost at battling, but on the dance\nfloor I have you beat!\nFuhohoho![Wait Input 109]"
+    },
+    {
+      "id" : 23208,
+      "text" : "[Speaker]: This Pokémon was too weak![Wait Input 109]"
+    },
+    {
+      "id" : 23301,
+      "text" : "[Speaker]: I shouldn't have done\nsomething this strenuous right after\neating...[Wait Input 109]"
+    },
+    {
+      "id" : 23302,
+      "text" : "[Speaker]: Tch...\nI get handed the loss.\nI still need seasoning.[Wait Input 109]"
+    },
+    {
+      "id" : 23303,
+      "text" : "[Speaker]: Tch...\nI get handed the loss again.[Wait Input 109]"
+    },
+    {
+      "id" : 23401,
+      "text" : "[Speaker]: Whatever the outcome,\nthat sure was harsh![Wait Input 109]"
+    },
+    {
+      "id" : 23402,
+      "text" : "[Speaker]: Have we met somewhere\nbefore?[Wait Input 109]"
+    },
+    {
+      "id" : 23403,
+      "text" : "[Speaker]: Losing a battle hurts.\nIt cuts me to the bone![Wait Input 109]"
+    },
+    {
+      "id" : 23404,
+      "text" : "[Speaker]: Aww!\nIt's not going to work unless we put\ntargets to sleep![Wait Input 109]"
+    },
+    {
+      "id" : 23405,
+      "text" : "[Speaker]: Waaaaugh![Wait Input 109]"
+    },
+    {
+      "id" : 23406,
+      "text" : "[Speaker]: What the...?!\nWhat's with your toughness?![Wait Input 109]"
+    },
+    {
+      "id" : 23407,
+      "text" : "[Speaker]: You're tougher than\na grown-up![Wait Input 109]"
+    },
+    {
+      "id" : 23408,
+      "text" : "[Speaker]: Hawaaaaah![Wait Input 109]"
+    },
+    {
+      "id" : 23409,
+      "text" : "[Speaker]: Trying to take you head\non was a bad idea![Wait Input 109]"
+    },
+    {
+      "id" : 23410,
+      "text" : "[Speaker]: Nwoooooh![Wait Input 109]"
+    },
+    {
+      "id" : 23501,
+      "text" : "[Speaker]: Chobin lost![Wait Input 109]"
+    },
+    {
+      "id" : 23502,
+      "text" : "[Speaker]: Chobin lost!\nChobin lost![Wait Input 109]"
+    },
+    {
+      "id" : 23503,
+      "text" : "[Speaker]: You're battling me!"
+    },
+    {
+      "id" : 23504,
+      "text" : "[Speaker]: I beat you![Wait Input 109]"
+    },
+    {
+      "id" : 23505,
+      "text" : "[Speaker]: Chobin lost!\nChobin lost!\nChobin lost![Wait Input 109]"
+    },
+    {
+      "id" : 23506,
+      "text" : "[Speaker]: Chobin lost!\nLost with Robo Groudon!\nChobin lost![Wait Input 109]"
+    },
+    {
+      "id" : 23507,
+      "text" : "[Speaker]: Chobin lost after all!\nOops, Chobin said it again![Wait Input 109]"
+    },
+    {
+      "id" : 23508,
+      "text" : "[Speaker]: Chobin lost!\nChobin, no![Wait Input 109]"
+    },
+    {
+      "id" : 23601,
+      "text" : "[Speaker]: You messed up my\nrhythm!\nI just can't, no, I just can't do it![Wait Input 109]"
+    },
+    {
+      "id" : 24001,
+      "text" : "[Speaker]: I'm the first in line!\nI'll leave you tingling with shock!"
+    },
+    {
+      "id" : 24002,
+      "text" : "[Speaker]: Well?\nDidn't I say I'd leave you shocked?[Wait Input 109]"
+    },
+    {
+      "id" : 24003,
+      "text" : "[Speaker]: Oh, you![Wait Input 109]"
+    },
+    {
+      "id" : 24004,
+      "text" : "[Speaker]: Fufufu.\nCheck 'em out!\nMy Pokémon form a golden trio!"
+    },
+    {
+      "id" : 24005,
+      "text" : "[Speaker]: So?\nHad enough?[Wait Input 109]"
+    },
+    {
+      "id" : 24006,
+      "text" : "[Speaker]: My golden trio![Wait Input 109]"
+    },
+    {
+      "id" : 24007,
+      "text" : "[Speaker]: You're aiming to beat me?\nThat's not about to happen!"
+    },
+    {
+      "id" : 24008,
+      "text" : "[Speaker]: I told you, didn't I?\nYou're not about to beat me![Wait Input 109]"
+    },
+    {
+      "id" : 24009,
+      "text" : "[Speaker]: Grrr!\nYou've beaten me, all right.[Wait Input 109]"
+    },
+    {
+      "id" : 24010,
+      "text" : "[Speaker]: You'll win the title if you\ncan beat me.\nBring it on!"
+    },
+    {
+      "id" : 24011,
+      "text" : "[Speaker]: Too bad for you!\nYou'd better start over again![Wait Input 109]"
+    },
+    {
+      "id" : 24012,
+      "text" : "[Speaker]: Wow, you're good!\nYou've won the title![Wait Input 109]"
+    },
+    {
+      "id" : 24013,
+      "text" : "[Speaker]: You're going to beat me?\nNot for another million years!"
+    },
+    {
+      "id" : 24014,
+      "text" : "[Speaker]: Trying to beat me is a bad\nidea!\nIt's never going to happen![Wait Input 109]"
+    },
+    {
+      "id" : 24015,
+      "text" : "[Speaker]: I lost?\nIt's not supposed to happen for another\nmillion years![Wait Input 109]"
+    },
+    {
+      "id" : 24016,
+      "text" : "[Speaker]: My adorable Pokémon will\nleave your team shattered and broken!"
+    },
+    {
+      "id" : 24017,
+      "text" : "[Speaker]: Did my cute Pokémon break\nyour will to battle?[Wait Input 109]"
+    },
+    {
+      "id" : 24018,
+      "text" : "[Speaker]: If it's about cuteness,\nmy Pokémon have yours beat![Wait Input 109]"
+    },
+    {
+      "id" : 24019,
+      "text" : "[Speaker]: All right, then.\nHere goes!"
+    },
+    {
+      "id" : 24020,
+      "text" : "[Speaker]: Those that rule the weather\nrule in Pokémon battles, too![Wait Input 109]"
+    },
+    {
+      "id" : 24021,
+      "text" : "[Speaker]: The weather is fickle![Wait Input 109]"
+    },
+    {
+      "id" : 24022,
+      "text" : "[Speaker]: Oh!\nA new set of specimens to be examined!"
+    },
+    {
+      "id" : 24023,
+      "text" : "[Speaker]: Hmm...\nAs research specimens go, you're not quite\nright.[Wait Input 109]"
+    },
+    {
+      "id" : 24024,
+      "text" : "[Speaker]: I was beaten before I could\ndo any research![Wait Input 109]"
+    },
+    {
+      "id" : 24025,
+      "text" : "[Speaker]: All right, now!\nI'll do my best!"
+    },
+    {
+      "id" : 24026,
+      "text" : "[Speaker]: Huh? What's with you?\nYou're not all that tough at all.[Wait Input 109]"
+    },
+    {
+      "id" : 24027,
+      "text" : "[Speaker]: My precious pokemon![Wait Input 109]"
+    },
+    {
+      "id" : 24028,
+      "text" : "[Speaker]: Now, now, now, now!\nLet's get started!"
+    },
+    {
+      "id" : 24029,
+      "text" : "[Speaker]: There's no way that my cute\nand darling Pokémon were about to lose![Wait Input 109]"
+    },
+    {
+      "id" : 24030,
+      "text" : "[Speaker]: Oh, how could you!\nHow could you be so awful to my adorable\nPokémon?[Wait Input 109]"
+    },
+    {
+      "id" : 24031,
+      "text" : "[Speaker]: There are no weak spots in\nthe way I battle!"
+    },
+    {
+      "id" : 24032,
+      "text" : "[Speaker]: Hah!\nHahaha![Wait Input 109]"
+    },
+    {
+      "id" : 24033,
+      "text" : "[Speaker]: Groan...\nYou exposed all my weaknesses.[Wait Input 109]"
+    },
+    {
+      "id" : 24034,
+      "text" : "[Speaker]: Hey, punk!\nThe battle's not started, but you're already\nshaking?"
+    },
+    {
+      "id" : 24035,
+      "text" : "[Speaker]: Hey, punk!\nYou and your Pokémon couldn't match\nmy intensity![Wait Input 109]"
+    },
+    {
+      "id" : 24036,
+      "text" : "[Speaker]: Trying to intimidate you\nbefore the match didn't work, I guess.[Wait Input 109]"
+    },
+    {
+      "id" : 24037,
+      "text" : "[Speaker]: Sit back and have a good\nlook at my elegant aerial battle!"
+    },
+    {
+      "id" : 24038,
+      "text" : "[Speaker]: Aren't Bird Pokémon simply\nthe best?[Wait Input 109]"
+    },
+    {
+      "id" : 24039,
+      "text" : "[Speaker]: Oh...\nYou've made me a bird with broken\nwings...[Wait Input 109]"
+    },
+    {
+      "id" : 24040,
+      "text" : "[Speaker]: A sphere's the perfect\nshape.\nDon't you agree?"
+    },
+    {
+      "id" : 24041,
+      "text" : "[Speaker]: My perfectly spherical\nPokémon got me the perfect result I wanted![Wait Input 109]"
+    },
+    {
+      "id" : 24042,
+      "text" : "[Speaker]: My spherical Pokémon are\nperfectly shaped, but this battle's gone less\nthan perfectly![Wait Input 109]"
+    },
+    {
+      "id" : 24043,
+      "text" : "[Speaker]: Whoever wins or loses,\nlet there be no hard feelings, okay?\nOf course, I will win!"
+    },
+    {
+      "id" : 24044,
+      "text" : "[Speaker]: Tough luck, kid!\nThat's what a battle's about![Wait Input 109]"
+    },
+    {
+      "id" : 24045,
+      "text" : "[Speaker]: Whoa! I give!\nI lost that one![Wait Input 109]"
+    },
+    {
+      "id" : 24046,
+      "text" : "[Speaker]: If you can beat me, then\nyou're the champ...\nHowever, that possibility doesn't exist."
+    },
+    {
+      "id" : 24047,
+      "text" : "[Speaker]: You had no chance of\nwinning against my intellect.[Wait Input 109]"
+    },
+    {
+      "id" : 24048,
+      "text" : "[Speaker]: How is this possible?\nMy superior intellect was bested in battle?[Wait Input 109]"
+    },
+    {
+      "id" : 24049,
+      "text" : "[Speaker]: Okay, it's time to battle!\nLet's battle!"
+    },
+    {
+      "id" : 24050,
+      "text" : "[Speaker]: Curled up, got on a roll,\nand we got the win![Wait Input 109]"
+    },
+    {
+      "id" : 24051,
+      "text" : "[Speaker]: Curled up, got on a roll,\nand it was all downhill after that![Wait Input 109]"
+    },
+    {
+      "id" : 24052,
+      "text" : "[Speaker]: It doesn't matter what\nPokémon you have.\nCut their speed, and they're easy pickings!"
+    },
+    {
+      "id" : 24053,
+      "text" : "[Speaker]: My strategy is perfect![Wait Input 109]"
+    },
+    {
+      "id" : 24054,
+      "text" : "[Speaker]: Urgh!\nMy plan to take away your speed didn't work![Wait Input 109]"
+    },
+    {
+      "id" : 24055,
+      "text" : "[Speaker]: You're lucky!\nYou get to see my fabulous combo move!"
+    },
+    {
+      "id" : 24056,
+      "text" : "[Speaker]: Pow!\nEverything worked exactly right![Wait Input 109]"
+    },
+    {
+      "id" : 24057,
+      "text" : "[Speaker]: Hmm...\nI thought it was a perfect combo.[Wait Input 109]"
+    },
+    {
+      "id" : 24058,
+      "text" : "[Speaker]: I'll teach you how awesome\nBird Pokémon can be!"
+    },
+    {
+      "id" : 24059,
+      "text" : "[Speaker]: How do you like it?\nDo you understand how awesome Bird Pokémon\nare now?[Wait Input 109]"
+    },
+    {
+      "id" : 24060,
+      "text" : "[Speaker]: I lost the battle, but do you\nunderstand how awesome Bird Pokémon\nare now?[Wait Input 109]"
+    },
+    {
+      "id" : 24061,
+      "text" : "[Speaker]: I have many kinds of\nFighting Pokémon.\nSonny, can your Pokémon withstand them?"
+    },
+    {
+      "id" : 24062,
+      "text" : "[Speaker]: Fwohoho!\nHow one commands Pokémon in a battle\nis a demonstration of one's skill![Wait Input 109]"
+    },
+    {
+      "id" : 24063,
+      "text" : "[Speaker]: Well done!\nYou have a very good grasp on how Pokémon\nshould battle.[Wait Input 109]"
+    },
+    {
+      "id" : 24064,
+      "text" : "[Speaker]: Let me show you that you\ncan't always win by relying only on brute force."
+    },
+    {
+      "id" : 24065,
+      "text" : "[Speaker]: Exploiting the opponent's\npower to win is a most enjoyable aspect\nof battling![Wait Input 109]"
+    },
+    {
+      "id" : 24066,
+      "text" : "[Speaker]: Why, you little...\nYou've shown me up![Wait Input 109]"
+    },
+    {
+      "id" : 24067,
+      "text" : "[Speaker]: I love rain!\nIt accentuates my beauty!"
+    },
+    {
+      "id" : 24068,
+      "text" : "[Speaker]: Let the rain wash away your\ntears![Wait Input 109]"
+    },
+    {
+      "id" : 24069,
+      "text" : "[Speaker]: I needed more rain to fall![Wait Input 109]"
+    },
+    {
+      "id" : 24070,
+      "text" : "[Speaker]: I'm a TV weatherperson!\nThis battle's weather will go from sunny\nto a Sunny Day!"
+    },
+    {
+      "id" : 24071,
+      "text" : "[Speaker]: It's going to be another\nglorious day tomorrow![Wait Input 109]"
+    },
+    {
+      "id" : 24072,
+      "text" : "[Speaker]: Sigh...\nMy emotions are cloudy, followed by rain...[Wait Input 109]"
+    },
+    {
+      "id" : 24073,
+      "text" : "[Speaker]: You need plenty of sleep to\ngrow strong and healthy!"
+    },
+    {
+      "id" : 24074,
+      "text" : "[Speaker]: Good night![Wait Input 109]"
+    },
+    {
+      "id" : 24075,
+      "text" : "[Speaker]: Good night![Wait Input 109]"
+    },
+    {
+      "id" : 24076,
+      "text" : "[Speaker]: Maybe I'll take it easy on\nyou just a little bit."
+    },
+    {
+      "id" : 24077,
+      "text" : "[Speaker]: Well, I said I would take it\neasy just a little bit.[Wait Input 109]"
+    },
+    {
+      "id" : 24078,
+      "text" : "[Speaker]: I lost...\nI should dance to forget.[Wait Input 109]"
+    },
+    {
+      "id" : 24079,
+      "text" : "[Speaker]: Trainers who win battles\nhave qualities that let them win!"
+    },
+    {
+      "id" : 24080,
+      "text" : "[Speaker]: Winning Trainers know how\nto use moves properly![Wait Input 109]"
+    },
+    {
+      "id" : 24081,
+      "text" : "[Speaker]: I lost with my HM move![Wait Input 109]"
+    },
+    {
+      "id" : 24082,
+      "text" : "[Speaker]: Awaken, my Pokémon!"
+    },
+    {
+      "id" : 24083,
+      "text" : "[Speaker]: What an eye-opening\nvictory![Wait Input 109]"
+    },
+    {
+      "id" : 24084,
+      "text" : "[Speaker]: What an eye-opening loss![Wait Input 109]"
+    },
+    {
+      "id" : 24085,
+      "text" : "[Speaker]: I'm always friendly with\nPokémon!"
+    },
+    {
+      "id" : 24086,
+      "text" : "[Speaker]: My close friendships with\nPokémon make me strong![Wait Input 109]"
+    },
+    {
+      "id" : 24087,
+      "text" : "[Speaker]: Oh, no!\nLook what you've done to my Pokémon![Wait Input 109]"
+    },
+    {
+      "id" : 24088,
+      "text" : "[Speaker]: Let me introduce you to\na peculiar world of mystery!"
+    },
+    {
+      "id" : 24089,
+      "text" : "[Speaker]: My peculiar qualities made\nyou lose completely![Wait Input 109]"
+    },
+    {
+      "id" : 24090,
+      "text" : "[Speaker]: There was nothing peculiar\nabout that match![Wait Input 109]"
+    },
+    {
+      "id" : 24091,
+      "text" : "[Speaker]: This is a semifinal match!\nAre you prepared to lose?"
+    },
+    {
+      "id" : 24092,
+      "text" : "[Speaker]: The win goes to me![Wait Input 109]"
+    },
+    {
+      "id" : 24093,
+      "text" : "[Speaker]: You're special![Wait Input 109]"
+    },
+    {
+      "id" : 24094,
+      "text" : "[Speaker]: I'm looking forward to\na tasty victory!"
+    },
+    {
+      "id" : 24095,
+      "text" : "[Speaker]: Thank you for a most\ndelicious victory![Wait Input 109]"
+    },
+    {
+      "id" : 24096,
+      "text" : "[Speaker]: Losing doesn't taste very\ngood at all...[Wait Input 109]"
+    },
+    {
+      "id" : 24097,
+      "text" : "[Speaker]: Cipher Green here!"
+    },
+    {
+      "id" : 24098,
+      "text" : "[Speaker]: You got weeded out![Wait Input 109]"
+    },
+    {
+      "id" : 24099,
+      "text" : "[Speaker]: I got rooted.[Wait Input 109]"
+    },
+    {
+      "id" : 24100,
+      "text" : "[Speaker]: I'll show you why they call\nme the gatekeeper of Pyrite."
+    },
+    {
+      "id" : 24101,
+      "text" : "[Speaker]: Don't come back, punk![Wait Input 109]"
+    },
+    {
+      "id" : 24102,
+      "text" : "[Speaker]: Locked out...[Wait Input 109]"
+    },
+    {
+      "id" : 24103,
+      "text" : "[Speaker]: Lovrina'll chew me out if\nI lose again."
+    },
+    {
+      "id" : 24104,
+      "text" : "[Speaker]: I did it![Wait Input 109]"
+    },
+    {
+      "id" : 24105,
+      "text" : "[Speaker]: I'm in so much trouble.[Wait Input 109]"
+    },
+    {
+      "id" : 24106,
+      "text" : "[Speaker]: Did Naps lose again?\nI'll have to #PunishHim later but\nnow it's #MyTurn!"
+    },
+    {
+      "id" : 24107,
+      "text" : "[Speaker]: #GetRekt![Wait Input 109]"
+    },
+    {
+      "id" : 24108,
+      "text" : "[Speaker]: #NoFair![Wait Input 109]"
+    },
+    {
+      "id" : 24109,
+      "text" : "[Speaker]: Do you know what they call\nme?\nThey call me the storm bringer!"
+    },
+    {
+      "id" : 24110,
+      "text" : "[Speaker]: I stormed to victory![Wait Input 109]"
+    },
+    {
+      "id" : 24111,
+      "text" : "[Speaker]: Darn!\nMy feelings are stormy after this loss![Wait Input 109]"
+    },
+    {
+      "id" : 24112,
+      "text" : "[Speaker]: Let me show you what a\nGym Leader can do!"
+    },
+    {
+      "id" : 24113,
+      "text" : "[Speaker]: You need more training.[Wait Input 109]"
+    },
+    {
+      "id" : 24114,
+      "text" : "[Speaker]: I need more training.[Wait Input 109]"
+    },
+    {
+      "id" : 24115,
+      "text" : "[Speaker]: I'll crush you this time!"
+    },
+    {
+      "id" : 24116,
+      "text" : "[Speaker]: My muscles show my strength![Wait Input 109]"
+    },
+    {
+      "id" : 24117,
+      "text" : "[Speaker]: I-I Lost?.[Wait Input 109]"
+    },
+    {
+      "id" : 24118,
+      "text" : "[Speaker]: I've got some secret techs\nto catch you off guard!"
+    },
+    {
+      "id" : 24119,
+      "text" : "[Speaker]: You're too predictable.[Wait Input 109]"
+    },
+    {
+      "id" : 24120,
+      "text" : "[Speaker]: You saw through my tactics.[Wait Input 109]"
+    },
+    {
+      "id" : 24121,
+      "text" : "[Speaker]: Check out my seismic moves."
+    },
+    {
+      "id" : 24122,
+      "text" : "[Speaker]: Hit the road.[Wait Input 109]"
+    },
+    {
+      "id" : 24123,
+      "text" : "[Speaker]: You really ground me up.[Wait Input 109]"
+    },
+    {
+      "id" : 24124,
+      "text" : "[Speaker]: I'll stall you out of\nall your pp."
+    },
+    {
+      "id" : 24125,
+      "text" : "[Speaker]: Guess you got impatient![Wait Input 109]"
+    },
+    {
+      "id" : 24126,
+      "text" : "[Speaker]: You broke our defenses!?.[Wait Input 109]"
+    },
+    {
+      "id" : 24127,
+      "text" : "[Speaker]: YOU AGAIN?!"
+    },
+    {
+      "id" : 24128,
+      "text" : "[Speaker]: I'm the greatest![Wait Input 109]"
+    },
+    {
+      "id" : 24129,
+      "text" : "[Speaker]: You're crampin' my style.[Wait Input 109]"
+    },
+    {
+      "id" : 24130,
+      "text" : "[Speaker]: This time, I will crush you and pulverize you!"
+    },
+    {
+      "id" : 24131,
+      "text" : "[Speaker]: That's for wrecking my\nfactory!\nDon't you forget it![Wait Input 109]"
+    },
+    {
+      "id" : 24132,
+      "text" : "[Speaker]: Why?\nWhy can't I ever beat you?![Wait Input 109]"
+    },
+    {
+      "id" : 24133,
+      "text" : "[Speaker]: Roar, my dragons!"
+    },
+    {
+      "id" : 24134,
+      "text" : "[Speaker]: Did my dragons scare you?[Wait Input 109]"
+    },
+    {
+      "id" : 24135,
+      "text" : "[Speaker]: You weren't scared at all.[Wait Input 109]"
+    },
+    {
+      "id" : 24136,
+      "text" : "[Speaker]: Run away while you can."
+    },
+    {
+      "id" : 24137,
+      "text" : "[Speaker]: I told you to run.[Wait Input 109]"
+    },
+    {
+      "id" : 24138,
+      "text" : "[Speaker]: I should have run away![Wait Input 109]"
+    },
+    {
+      "id" : 24139,
+      "text" : "[Speaker]: I held back last time.\nYou won't win this one."
+    },
+    {
+      "id" : 24140,
+      "text" : "[Speaker]: This is how I play for real.[Wait Input 109]"
+    },
+    {
+      "id" : 24141,
+      "text" : "[Speaker]: I can't catch a break![Wait Input 109]"
+    },
+    {
+      "id" : 24142,
+      "text" : "[Speaker]: I won't let you keep ruining\nSangem Gang's reputation like this."
+    },
+    {
+      "id" : 24143,
+      "text" : "[Speaker]: Don't cross Snagem Gang again.[Wait Input 109]"
+    },
+    {
+      "id" : 24144,
+      "text" : "[Speaker]: I'll admit it. You're tough\nkid. Snagem Gang could really\nuse someone competent like you.[Wait Input 109]"
+    },
+    {
+      "id" : 24145,
+      "text" : "[Speaker]: I'll sink you."
+    },
+    {
+      "id" : 24146,
+      "text" : "[Speaker]: You're all washed up.[Wait Input 109]"
+    },
+    {
+      "id" : 24147,
+      "text" : "[Speaker]: You rinsed me.[Wait Input 109]"
+    },
+    {
+      "id" : 24148,
+      "text" : "[Speaker]: We meet again, buddy.\nYeeehah. We're burning up!"
+    },
+    {
+      "id" : 24149,
+      "text" : "[Speaker]: It's my win this time![Wait Input 109]"
+    },
+    {
+      "id" : 24150,
+      "text" : "[Speaker]: whew, you smoked my team.[Wait Input 109]"
+    },
+    {
+      "id" : 24151,
+      "text" : "[Speaker]: Hohoho. It's you again.\nReady for my sweet, sweet moves\ndarling? Try and keep up!"
+    },
+    {
+      "id" : 24152,
+      "text" : "[Speaker]: I'm in the groove.[Wait Input 109]"
+    },
+    {
+      "id" : 24153,
+      "text" : "[Speaker]: The tempo was too fast![Wait Input 109]"
+    },
+    {
+      "id" : 24154,
+      "text" : "[Speaker]: I'll flood the whole arena\nto defeat you this time."
+    },
+    {
+      "id" : 24155,
+      "text" : "[Speaker]: I'm unstoppable in the rain.[Wait Input 109]"
+    },
+    {
+      "id" : 24156,
+      "text" : "[Speaker]: You made my deluge look\nlike a puddle. You're strong.\nI concede to you.[Wait Input 109]"
+    },
+    {
+      "id" : 24157,
+      "text" : "[Speaker]: Time to get hot and sweaty."
+    },
+    {
+      "id" : 24158,
+      "text" : "[Speaker]: Can't stand the heat?[Wait Input 109]"
+    },
+    {
+      "id" : 24159,
+      "text" : "[Speaker]: I got burned.[Wait Input 109]"
+    },
+    {
+      "id" : 24160,
+      "text" : "[Speaker]: You won't get past me again."
+    },
+    {
+      "id" : 24161,
+      "text" : "[Speaker]: I finally stopped you.[Wait Input 109]"
+    },
+    {
+      "id" : 24162,
+      "text" : "[Speaker]: It's like I'm not even here![Wait Input 109]"
+    },
+    {
+      "id" : 24163,
+      "text" : "[Speaker]: I may be old but I have\na lot of experience.\nDon't hold back!"
+    },
+    {
+      "id" : 24164,
+      "text" : "[Speaker]: I told you not to go\neasy on me.[Wait Input 109]"
+    },
+    {
+      "id" : 24165,
+      "text" : "[Speaker]: You went all out.\nWe didn't stand a chance![Wait Input 109]"
+    },
+    {
+      "id" : 24166,
+      "text" : "[Speaker]: I've been to Mt.Battle to hone\nmy skills since our last encounter.\nI won't lose!"
+    },
+    {
+      "id" : 24167,
+      "text" : "[Speaker]: Your team lacks discipline.[Wait Input 109]"
+    },
+    {
+      "id" : 24168,
+      "text" : "[Speaker]: I still need more training.[Wait Input 109]"
+    },
+    {
+      "id" : 24169,
+      "text" : "[Speaker]: Chobin fine tuned the machines.\nThey're oiled up and charged to 100%."
+    },
+    {
+      "id" : 24170,
+      "text" : "[Speaker]: I collected some useful data.[Wait Input 109]"
+    },
+    {
+      "id" : 24171,
+      "text" : "[Speaker]: There was still some input lag.\nI must return to the lab![Wait Input 109]"
+    },
+    {
+      "id" : 24172,
+      "text" : "[Speaker]: I have to hold back on Mt.Battle.\nI come here to go all out!"
+    },
+    {
+      "id" : 24173,
+      "text" : "[Speaker]: Come to Mt.Battle some time.\nYou need more training.[Wait Input 109]"
+    },
+    {
+      "id" : 24174,
+      "text" : "[Speaker]: Maybe I should train on\nMt.Battle myself![Wait Input 109]"
+    },
+    {
+      "id" : 24175,
+      "text" : "[Speaker]: You took everything from me!\nYears of hard work down the drain!\nI'll make you pay for your\ninsolence."
+    },
+    {
+      "id" : 24176,
+      "text" : "[Speaker]: Crushing your team is so\nsatisfying.[Wait Input 109]"
+    },
+    {
+      "id" : 24177,
+      "text" : "[Speaker]: Aarrghh![Wait Input 109]"
+    },
+    {
+      "id" : 24178,
+      "text" : "[Speaker]: Welcome to Orre Colosseum's\nfinal challenge.\nLet me show you what a hacker\ncan do!"
+    },
+    {
+      "id" : 24179,
+      "text" : "[Speaker]: I made the game.\nWhat did you really expect?[Wait Input 109]"
+    },
+    {
+      "id" : 24180,
+      "text" : "[Speaker]: Thanks for playing XG!\nDon't forget to check out Mt.Battle.\nThere's a surprise at the top.[Wait Input 109]"
+    },
+    {
+      "id" : 24501,
+      "text" : "[Speaker]: I'm a novice at battling.\nI hope I can keep up!"
+    },
+    {
+      "id" : 24502,
+      "text" : "[Speaker]: Ah, I see!\nA battle isn't all that difficult.[Wait Input 109]"
+    },
+    {
+      "id" : 24503,
+      "text" : "[Speaker]: I see...\nIt isn't quite that easy to win.[Wait Input 109]"
+    },
+    {
+      "id" : 24504,
+      "text" : "[Speaker]: Hello! Glad to meet you!\nShall we battle, then?"
+    },
+    {
+      "id" : 24505,
+      "text" : "[Speaker]: Well, how about that!\nI guess I've won![Wait Input 109]"
+    },
+    {
+      "id" : 24506,
+      "text" : "[Speaker]: I guess we didn't get loud\nenough to get the job done...[Wait Input 109]"
+    },
+    {
+      "id" : 24507,
+      "text" : "[Speaker]: My Venonat is poisonous!\nDo you have anything with poison?"
+    },
+    {
+      "id" : 24508,
+      "text" : "[Speaker]: You certainly had a weak\npoint![Wait Input 109]"
+    },
+    {
+      "id" : 24509,
+      "text" : "[Speaker]: I didn't have any luck with\nme![Wait Input 109]"
+    },
+    {
+      "id" : 24510,
+      "text" : "[Speaker]: Careful!\nTouching my Pokémon will hurt!"
+    },
+    {
+      "id" : 24511,
+      "text" : "[Speaker]: Sheesh.\nTry to get it together, man.[Wait Input 109]"
+    },
+    {
+      "id" : 24512,
+      "text" : "[Speaker]: Where did my victory go?[Wait Input 109]"
+    },
+    {
+      "id" : 24513,
+      "text" : "[Speaker]: Okay!\nHere we come!"
+    },
+    {
+      "id" : 24514,
+      "text" : "[Speaker]: You're kidding!\nThere's really someone weaker than me?[Wait Input 109]"
+    },
+    {
+      "id" : 24515,
+      "text" : "[Speaker]: It's your win![Wait Input 109]"
+    },
+    {
+      "id" : 24516,
+      "text" : "[Speaker]: My Pokémon's too tough.\nIt's a lot to handle, I tell ya!"
+    },
+    {
+      "id" : 24517,
+      "text" : "[Speaker]: What do you think?\nWhat an unbeatable combination, huh?[Wait Input 109]"
+    },
+    {
+      "id" : 24518,
+      "text" : "[Speaker]: Aww!\nYou took us down![Wait Input 109]"
+    },
+    {
+      "id" : 24519,
+      "text" : "[Speaker]: I'm not losing!\nI absolutely will not lose!"
+    },
+    {
+      "id" : 24520,
+      "text" : "[Speaker]: Nwohoho!\nI'm not prepared to lose yet, not by a long shot![Wait Input 109]"
+    },
+    {
+      "id" : 24521,
+      "text" : "[Speaker]: Noooo![Wait Input 109]"
+    },
+    {
+      "id" : 24522,
+      "text" : "[Speaker]: Youngster, how will you cope\nwith a technician with decades of experience?"
+    },
+    {
+      "id" : 24523,
+      "text" : "[Speaker]: Fwofwofwo!\nNo youngster will show me up yet![Wait Input 109]"
+    },
+    {
+      "id" : 24524,
+      "text" : "[Speaker]: Oh, how could you be so \ncruel?\nShow some respect to your seniors![Wait Input 109]"
+    },
+    {
+      "id" : 24525,
+      "text" : "[Speaker]: There's no Pokémon under\na truck, maybe you'll just find a Muk!\nDo you like it?\nI'm writing a song!"
+    },
+    {
+      "id" : 24526,
+      "text" : "[Speaker]: I'm so special!\nI'm good at writing songs and battling![Wait Input 109]"
+    },
+    {
+      "id" : 24527,
+      "text" : "[Speaker]: Aiyeeh!\nI can't battle as well as I write songs![Wait Input 109]"
+    },
+    {
+      "id" : 24528,
+      "text" : "[Speaker]: Hmm?\nYou're thinking that you'll win?\nLet me correct you!"
+    },
+    {
+      "id" : 24529,
+      "text" : "[Speaker]: Oh, too very bad!\nCome again, now![Wait Input 109]"
+    },
+    {
+      "id" : 24530,
+      "text" : "[Speaker]: Well, I'll be!\nYou're pretty darn good![Wait Input 109]"
+    },
+    {
+      "id" : 24531,
+      "text" : "[Speaker]: This battle's with me!\nLet's go!"
+    },
+    {
+      "id" : 24532,
+      "text" : "[Speaker]: Heheh!\nWe did it![Wait Input 109]"
+    },
+    {
+      "id" : 24533,
+      "text" : "[Speaker]: Aww, man!\nI'm not losing next time![Wait Input 109]"
+    },
+    {
+      "id" : 24534,
+      "text" : "[Speaker]: Did you know?\nOffense is the best defense."
+    },
+    {
+      "id" : 24535,
+      "text" : "[Speaker]: Be bold in victory![Wait Input 109]"
+    },
+    {
+      "id" : 24536,
+      "text" : "[Speaker]: Be furtive in defeat...[Wait Input 109]"
+    },
+    {
+      "id" : 24537,
+      "text" : "[Speaker]: Muscles are what Pokémon\nand their Trainers should work on!"
+    },
+    {
+      "id" : 24538,
+      "text" : "[Speaker]: Whoaaaah, yeeaah![Wait Input 109]"
+    },
+    {
+      "id" : 24539,
+      "text" : "[Speaker]: I should get in some weight\ntraining with my Machamp.[Wait Input 109]"
+    },
+    {
+      "id" : 24540,
+      "text" : "[Speaker]: From my speedy arrival,\nwe'll quickly move to a speedy battle!"
+    },
+    {
+      "id" : 24541,
+      "text" : "[Speaker]: A speedy victory![Wait Input 109]"
+    },
+    {
+      "id" : 24542,
+      "text" : "[Speaker]: A speedy defeat...[Wait Input 109]"
+    },
+    {
+      "id" : 24543,
+      "text" : "[Speaker]: To win battles, you need to\noverwhelm opponents with willpower!"
+    },
+    {
+      "id" : 24544,
+      "text" : "[Speaker]: You're still learning.\nYou won't win often the way you are.[Wait Input 109]"
+    },
+    {
+      "id" : 24545,
+      "text" : "[Speaker]: You need willpower to stand\nafter taking a loss, too.[Wait Input 109]"
+    },
+    {
+      "id" : 24546,
+      "text" : "[Speaker]: I'll go to battle with the\nPokémon that sailed the seas with me!"
+    },
+    {
+      "id" : 24547,
+      "text" : "[Speaker]: The ties that bind my\nPokémon and I, that's what let us win![Wait Input 109]"
+    },
+    {
+      "id" : 24548,
+      "text" : "[Speaker]: I think I need to go sail far,\nfar away...[Wait Input 109]"
+    },
+    {
+      "id" : 24549,
+      "text" : "[Speaker]: Can you feel it?\nWe're in for an electrifying time!"
+    },
+    {
+      "id" : 24550,
+      "text" : "[Speaker]: Did you find my victory\nelectrifying?[Wait Input 109]"
+    },
+    {
+      "id" : 24551,
+      "text" : "[Speaker]: I shorted the circuit!\nBzzzzzt![Wait Input 109]"
+    },
+    {
+      "id" : 24552,
+      "text" : "[Speaker]: We'll battle until it consumes\nus in its fiery intensity leaving only one!"
+    },
+    {
+      "id" : 24553,
+      "text" : "[Speaker]: Wow, that was so hot!\nI'm drenched in sweat![Wait Input 109]"
+    },
+    {
+      "id" : 24554,
+      "text" : "[Speaker]: Bleah...\nFlamed out and crashed...[Wait Input 109]"
+    },
+    {
+      "id" : 24555,
+      "text" : "[Speaker]: I got up early today so I\ncould prepare for this battle."
+    },
+    {
+      "id" : 24556,
+      "text" : "[Speaker]: Thank you, try again![Wait Input 109]"
+    },
+    {
+      "id" : 24557,
+      "text" : "[Speaker]: Urgh!\nI'm going to bed early tonight![Wait Input 109]"
+    },
+    {
+      "id" : 24558,
+      "text" : "[Speaker]: I prefer Pokémon that float\nand sway in the air.\nBut my battle style is solidly grounded!"
+    },
+    {
+      "id" : 24559,
+      "text" : "[Speaker]: Humph.\nMy victory is solid and unshakeable![Wait Input 109]"
+    },
+    {
+      "id" : 24560,
+      "text" : "[Speaker]: Y-you won?\nI feel dizzy and wobbly...[Wait Input 109]"
+    },
+    {
+      "id" : 26001,
+      "text" : "[Speaker]: The tempo's off!\nThis won't do, won't do at all![Wait Input 109]"
+    },
+    {
+      "id" : 26002,
+      "text" : "[Speaker]: Dancing and battling,\nthey're not the same, no, no![Wait Input 109]"
+    },
+    {
+      "id" : 26003,
+      "text" : "[Speaker]: Okay, now I'm furious!\nIt's hopeless![Wait Input 109]"
+    },
+    {
+      "id" : 26004,
+      "text" : "[Speaker]: If it's about cutting dance\nsteps, I won't lose![Wait Input 109]"
+    },
+    {
+      "id" : 26005,
+      "text" : "[Speaker]: Woohoo!\nSo I lost![Wait Input 109]"
+    },
+    {
+      "id" : 26006,
+      "text" : "[Speaker]: I can't get into rhythm\nwith you, not at all![Wait Input 109]"
+    },
+    {
+      "id" : 26007,
+      "text" : "[Speaker]: I'm ready and set to go!\nYou can bring it on whenever!"
+    },
+    {
+      "id" : 26008,
+      "text" : "[Speaker]: Ooh, I so wanted to\ndance some more.\nBaby, you need to develop a little more\nspine like a good bass line.[Wait Input 109]"
+    },
+    {
+      "id" : 26009,
+      "text" : "[Speaker]: I was ready, but not\nenough!\nIt won't be me losing the next time![Wait Input 109]"
+    },
+    {
+      "id" : 26010,
+      "text" : "[Speaker]: Could you soar above my\nelegant dance steps?"
+    },
+    {
+      "id" : 26011,
+      "text" : "[Speaker]: My dance steps are\nperfection!\nFuhohoho![Wait Input 109]"
+    },
+    {
+      "id" : 26012,
+      "text" : "[Speaker]: My timing slipped!\nOh, how vexing![Wait Input 109]"
+    },
+    {
+      "id" : 26013,
+      "text" : "[Speaker]: What I call my grooving\nstyle, can you keep up with it?"
+    },
+    {
+      "id" : 26014,
+      "text" : "[Speaker]: Whoah, yeah!\nI'm in the groove!\nFuhohohoho![Wait Input 109]"
+    },
+    {
+      "id" : 26015,
+      "text" : "[Speaker]: That groove wasn't very\ngroovy...[Wait Input 109]"
+    },
+    {
+      "id" : 26016,
+      "text" : "[Speaker]: Hey, baby, it's you\nagain!\nThis time, I'm putting you out of the\ncompetition!"
+    },
+    {
+      "id" : 26017,
+      "text" : "[Speaker]: Fuhohohoho!\nWatch me scoop the championship,\nbaby![Wait Input 109]"
+    },
+    {
+      "id" : 26018,
+      "text" : "[Speaker]: If this is about dancing,\nyou're not in my league, baby.[Wait Input 109]"
+    },
+    {
+      "id" : 26019,
+      "text" : "[Speaker]: Hey, baby, not you\nagain!\nThis time, I'm not going to forgive you!"
+    },
+    {
+      "id" : 26020,
+      "text" : "[Speaker]: Fuhohohoho!\nMy dancing was perfection today,\npure and simple![Wait Input 109]"
+    },
+    {
+      "id" : 26021,
+      "text" : "[Speaker]: Oh, the tempo is all\nwrong again!\nIt won't do at all![Wait Input 109]"
+    },
+    {
+      "id" : 26022,
+      "text" : "[Speaker]: I'm your dance partner\nthis time."
+    },
+    {
+      "id" : 26023,
+      "text" : "[Speaker]: Oh, you're not quite\nwhat I expected at all, baby.[Wait Input 109]"
+    },
+    {
+      "id" : 26024,
+      "text" : "[Speaker]: The tempo is off!\nIt won't do at all![Wait Input 109]"
+    },
+    {
+      "id" : 26025,
+      "text" : "[Speaker]: With my gorgeously\nelegant dance steps, I'll send you\npacking!"
+    },
+    {
+      "id" : 26026,
+      "text" : "[Speaker]: You're not up for the\npart.\nGo practice your dance steps![Wait Input 109]"
+    },
+    {
+      "id" : 26027,
+      "text" : "[Speaker]: My gorgeously elegant\ndance steps aren't easy, you know![Wait Input 109]"
+    },
+    {
+      "id" : 26028,
+      "text" : "[Speaker]: Oh, you are so unlucky\nto have to face me!\nLet the music play!"
+    },
+    {
+      "id" : 26029,
+      "text" : "[Speaker]: Oh, you.\nYou should face it, you're not ready\nfor me, baby.[Wait Input 109]"
+    },
+    {
+      "id" : 26030,
+      "text" : "[Speaker]: You've beaten me through\nand through and thoroughly, too!\nThis won't do at all, not at all![Wait Input 109]"
+    }
+  ]
+}

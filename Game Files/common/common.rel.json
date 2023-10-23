@@ -1,0 +1,7840 @@
+{
+  "startOffset" : 320116,
+  "fixedFileSize" : 56432,
+  "file" : {
+    "name" : "common.rel",
+    "folder" : {
+      "path" : "\/Game Files\/common"
+    }
+  },
+  "strings" : [
+    {
+      "id" : 1000,
+      "text" : "Knock Off"
+    },
+    {
+      "id" : 1001,
+      "text" : "Bulbasaur"
+    },
+    {
+      "id" : 1002,
+      "text" : "Ivysaur"
+    },
+    {
+      "id" : 1003,
+      "text" : "Venusaur"
+    },
+    {
+      "id" : 1004,
+      "text" : "Charmander"
+    },
+    {
+      "id" : 1005,
+      "text" : "Charmeleon"
+    },
+    {
+      "id" : 1006,
+      "text" : "Charizard"
+    },
+    {
+      "id" : 1007,
+      "text" : "Squirtle"
+    },
+    {
+      "id" : 1008,
+      "text" : "Wartortle"
+    },
+    {
+      "id" : 1009,
+      "text" : "Blastoise"
+    },
+    {
+      "id" : 1010,
+      "text" : "Caterpie"
+    },
+    {
+      "id" : 1011,
+      "text" : "Metapod"
+    },
+    {
+      "id" : 1012,
+      "text" : "Butterfree"
+    },
+    {
+      "id" : 1013,
+      "text" : "Weedle"
+    },
+    {
+      "id" : 1014,
+      "text" : "Kakuna"
+    },
+    {
+      "id" : 1015,
+      "text" : "Beedrill"
+    },
+    {
+      "id" : 1016,
+      "text" : "Pidgey"
+    },
+    {
+      "id" : 1017,
+      "text" : "Pidgeotto"
+    },
+    {
+      "id" : 1018,
+      "text" : "Pidgeot"
+    },
+    {
+      "id" : 1019,
+      "text" : "Rattata"
+    },
+    {
+      "id" : 1020,
+      "text" : "Raticate"
+    },
+    {
+      "id" : 1021,
+      "text" : "Spearow"
+    },
+    {
+      "id" : 1022,
+      "text" : "Fearow"
+    },
+    {
+      "id" : 1023,
+      "text" : "Ekans"
+    },
+    {
+      "id" : 1024,
+      "text" : "Arbok"
+    },
+    {
+      "id" : 1025,
+      "text" : "Pikachu"
+    },
+    {
+      "id" : 1026,
+      "text" : "Raichu"
+    },
+    {
+      "id" : 1027,
+      "text" : "Sandshrew"
+    },
+    {
+      "id" : 1028,
+      "text" : "Sandslash"
+    },
+    {
+      "id" : 1029,
+      "text" : "Nidoran♀"
+    },
+    {
+      "id" : 1030,
+      "text" : "Nidorina"
+    },
+    {
+      "id" : 1031,
+      "text" : "Nidoqueen"
+    },
+    {
+      "id" : 1032,
+      "text" : "Nidoran♂"
+    },
+    {
+      "id" : 1033,
+      "text" : "Nidorino"
+    },
+    {
+      "id" : 1034,
+      "text" : "Nidoking"
+    },
+    {
+      "id" : 1035,
+      "text" : "Clefairy"
+    },
+    {
+      "id" : 1036,
+      "text" : "Clefable"
+    },
+    {
+      "id" : 1037,
+      "text" : "Vulpix"
+    },
+    {
+      "id" : 1038,
+      "text" : "Ninetales"
+    },
+    {
+      "id" : 1039,
+      "text" : "Jigglypuff"
+    },
+    {
+      "id" : 1040,
+      "text" : "Wigglytuff"
+    },
+    {
+      "id" : 1041,
+      "text" : "Zubat"
+    },
+    {
+      "id" : 1042,
+      "text" : "Golbat"
+    },
+    {
+      "id" : 1043,
+      "text" : "Oddish"
+    },
+    {
+      "id" : 1044,
+      "text" : "Gloom"
+    },
+    {
+      "id" : 1045,
+      "text" : "Vileplume"
+    },
+    {
+      "id" : 1046,
+      "text" : "Paras"
+    },
+    {
+      "id" : 1047,
+      "text" : "Parasect"
+    },
+    {
+      "id" : 1048,
+      "text" : "???"
+    },
+    {
+      "id" : 1049,
+      "text" : "Venomoth"
+    },
+    {
+      "id" : 1050,
+      "text" : "Diglett"
+    },
+    {
+      "id" : 1051,
+      "text" : "Dugtrio"
+    },
+    {
+      "id" : 1052,
+      "text" : "Meowth"
+    },
+    {
+      "id" : 1053,
+      "text" : "Persian"
+    },
+    {
+      "id" : 1054,
+      "text" : "Psyduck"
+    },
+    {
+      "id" : 1055,
+      "text" : "Golduck"
+    },
+    {
+      "id" : 1056,
+      "text" : "Mankey"
+    },
+    {
+      "id" : 1057,
+      "text" : "Primeape"
+    },
+    {
+      "id" : 1058,
+      "text" : "Growlithe"
+    },
+    {
+      "id" : 1059,
+      "text" : "Arcanine"
+    },
+    {
+      "id" : 1060,
+      "text" : "Poliwag"
+    },
+    {
+      "id" : 1061,
+      "text" : "Poliwhirl"
+    },
+    {
+      "id" : 1062,
+      "text" : "Poliwrath"
+    },
+    {
+      "id" : 1063,
+      "text" : "Abra"
+    },
+    {
+      "id" : 1064,
+      "text" : "Kadabra"
+    },
+    {
+      "id" : 1065,
+      "text" : "Alakazam"
+    },
+    {
+      "id" : 1066,
+      "text" : "Machop"
+    },
+    {
+      "id" : 1067,
+      "text" : "Machoke"
+    },
+    {
+      "id" : 1068,
+      "text" : "Machamp"
+    },
+    {
+      "id" : 1069,
+      "text" : "Bellsprout"
+    },
+    {
+      "id" : 1070,
+      "text" : "Weepinbell"
+    },
+    {
+      "id" : 1071,
+      "text" : "Victreebel"
+    },
+    {
+      "id" : 1072,
+      "text" : "Tentacool"
+    },
+    {
+      "id" : 1073,
+      "text" : "Tentacruel"
+    },
+    {
+      "id" : 1074,
+      "text" : "Geodude"
+    },
+    {
+      "id" : 1075,
+      "text" : "Graveler"
+    },
+    {
+      "id" : 1076,
+      "text" : "Golem"
+    },
+    {
+      "id" : 1077,
+      "text" : "Ponyta"
+    },
+    {
+      "id" : 1078,
+      "text" : "Rapidash"
+    },
+    {
+      "id" : 1079,
+      "text" : "Slowpoke"
+    },
+    {
+      "id" : 1080,
+      "text" : "Slowbro"
+    },
+    {
+      "id" : 1081,
+      "text" : "Magnemite"
+    },
+    {
+      "id" : 1082,
+      "text" : "Magneton"
+    },
+    {
+      "id" : 1083,
+      "text" : "Farfetch'd"
+    },
+    {
+      "id" : 1084,
+      "text" : "Doduo"
+    },
+    {
+      "id" : 1085,
+      "text" : "Dodrio"
+    },
+    {
+      "id" : 1086,
+      "text" : "Seel"
+    },
+    {
+      "id" : 1087,
+      "text" : "Dewgong"
+    },
+    {
+      "id" : 1088,
+      "text" : "Grimer"
+    },
+    {
+      "id" : 1089,
+      "text" : "Muk"
+    },
+    {
+      "id" : 1090,
+      "text" : "Shellder"
+    },
+    {
+      "id" : 1091,
+      "text" : "Cloyster"
+    },
+    {
+      "id" : 1092,
+      "text" : "Gastly"
+    },
+    {
+      "id" : 1093,
+      "text" : "Haunter"
+    },
+    {
+      "id" : 1094,
+      "text" : "Gengar"
+    },
+    {
+      "id" : 1095,
+      "text" : "Onix"
+    },
+    {
+      "id" : 1096,
+      "text" : "Drowzee"
+    },
+    {
+      "id" : 1097,
+      "text" : "_"
+    },
+    {
+      "id" : 1098,
+      "text" : "Krabby"
+    },
+    {
+      "id" : 1099,
+      "text" : "Kingler"
+    },
+    {
+      "id" : 1100,
+      "text" : "Voltorb"
+    },
+    {
+      "id" : 1101,
+      "text" : "Electrode"
+    },
+    {
+      "id" : 1102,
+      "text" : "Exeggcute"
+    },
+    {
+      "id" : 1103,
+      "text" : "Exeggutor"
+    },
+    {
+      "id" : 1104,
+      "text" : "Cubone"
+    },
+    {
+      "id" : 1105,
+      "text" : "Marowak"
+    },
+    {
+      "id" : 1106,
+      "text" : "Hitmonlee"
+    },
+    {
+      "id" : 1107,
+      "text" : "Hitmonchan"
+    },
+    {
+      "id" : 1108,
+      "text" : "Lickitung"
+    },
+    {
+      "id" : 1109,
+      "text" : "Koffing"
+    },
+    {
+      "id" : 1110,
+      "text" : "Weezing"
+    },
+    {
+      "id" : 1111,
+      "text" : "Rhyhorn"
+    },
+    {
+      "id" : 1112,
+      "text" : "Rhydon"
+    },
+    {
+      "id" : 1113,
+      "text" : "Chansey"
+    },
+    {
+      "id" : 1114,
+      "text" : "Tangela"
+    },
+    {
+      "id" : 1115,
+      "text" : "Kangaskhan"
+    },
+    {
+      "id" : 1116,
+      "text" : "Horsea"
+    },
+    {
+      "id" : 1117,
+      "text" : "Seadra"
+    },
+    {
+      "id" : 1118,
+      "text" : "Goldeen"
+    },
+    {
+      "id" : 1119,
+      "text" : "Seaking"
+    },
+    {
+      "id" : 1120,
+      "text" : "Staryu"
+    },
+    {
+      "id" : 1121,
+      "text" : "Starmie"
+    },
+    {
+      "id" : 1122,
+      "text" : "Mr. Mime"
+    },
+    {
+      "id" : 1123,
+      "text" : "Scyther"
+    },
+    {
+      "id" : 1124,
+      "text" : "Jynx"
+    },
+    {
+      "id" : 1125,
+      "text" : "Electabuzz"
+    },
+    {
+      "id" : 1126,
+      "text" : "Magmar"
+    },
+    {
+      "id" : 1127,
+      "text" : "Pinsir"
+    },
+    {
+      "id" : 1128,
+      "text" : "Tauros"
+    },
+    {
+      "id" : 1129,
+      "text" : "Magikarp"
+    },
+    {
+      "id" : 1130,
+      "text" : "Gyarados"
+    },
+    {
+      "id" : 1131,
+      "text" : "Lapras"
+    },
+    {
+      "id" : 1132,
+      "text" : "Ditto"
+    },
+    {
+      "id" : 1133,
+      "text" : "Eevee"
+    },
+    {
+      "id" : 1134,
+      "text" : "Vaporeon"
+    },
+    {
+      "id" : 1135,
+      "text" : "Jolteon"
+    },
+    {
+      "id" : 1136,
+      "text" : "Flareon"
+    },
+    {
+      "id" : 1137,
+      "text" : "Porygon"
+    },
+    {
+      "id" : 1138,
+      "text" : "Omanyte"
+    },
+    {
+      "id" : 1139,
+      "text" : "Omastar"
+    },
+    {
+      "id" : 1140,
+      "text" : "Kabuto"
+    },
+    {
+      "id" : 1141,
+      "text" : "Kabutops"
+    },
+    {
+      "id" : 1142,
+      "text" : "Aerodactyl"
+    },
+    {
+      "id" : 1143,
+      "text" : "Snorlax"
+    },
+    {
+      "id" : 1144,
+      "text" : "Articuno"
+    },
+    {
+      "id" : 1145,
+      "text" : "Zapdos"
+    },
+    {
+      "id" : 1146,
+      "text" : "Moltres"
+    },
+    {
+      "id" : 1147,
+      "text" : "Dratini"
+    },
+    {
+      "id" : 1148,
+      "text" : "Dragonair"
+    },
+    {
+      "id" : 1149,
+      "text" : "Dragonite"
+    },
+    {
+      "id" : 1150,
+      "text" : "Mewtwo"
+    },
+    {
+      "id" : 1151,
+      "text" : "Mew"
+    },
+    {
+      "id" : 1152,
+      "text" : "Chikorita"
+    },
+    {
+      "id" : 1153,
+      "text" : "Bayleef"
+    },
+    {
+      "id" : 1154,
+      "text" : "Meganium"
+    },
+    {
+      "id" : 1155,
+      "text" : "Cyndaquil"
+    },
+    {
+      "id" : 1156,
+      "text" : "Quilava"
+    },
+    {
+      "id" : 1157,
+      "text" : "Typhlosion"
+    },
+    {
+      "id" : 1158,
+      "text" : "Totodile"
+    },
+    {
+      "id" : 1159,
+      "text" : "Croconaw"
+    },
+    {
+      "id" : 1160,
+      "text" : "Feraligatr"
+    },
+    {
+      "id" : 1161,
+      "text" : "Sentret"
+    },
+    {
+      "id" : 1162,
+      "text" : "Ninetales"
+    },
+    {
+      "id" : 1163,
+      "text" : "Hoothoot"
+    },
+    {
+      "id" : 1164,
+      "text" : "Noctowl"
+    },
+    {
+      "id" : 1165,
+      "text" : "Ledyba"
+    },
+    {
+      "id" : 1166,
+      "text" : "Ledian"
+    },
+    {
+      "id" : 1167,
+      "text" : "Spinarak"
+    },
+    {
+      "id" : 1168,
+      "text" : "Ariados"
+    },
+    {
+      "id" : 1169,
+      "text" : "Crobat"
+    },
+    {
+      "id" : 1170,
+      "text" : "Chinchou"
+    },
+    {
+      "id" : 1171,
+      "text" : "Lanturn"
+    },
+    {
+      "id" : 1172,
+      "text" : "Pichu"
+    },
+    {
+      "id" : 1173,
+      "text" : "Cleffa"
+    },
+    {
+      "id" : 1174,
+      "text" : "Igglybuff"
+    },
+    {
+      "id" : 1175,
+      "text" : "Togepi"
+    },
+    {
+      "id" : 1176,
+      "text" : "Togetic"
+    },
+    {
+      "id" : 1177,
+      "text" : "Natu"
+    },
+    {
+      "id" : 1178,
+      "text" : "Xatu"
+    },
+    {
+      "id" : 1179,
+      "text" : "Mareep"
+    },
+    {
+      "id" : 1180,
+      "text" : "Flaaffy"
+    },
+    {
+      "id" : 1181,
+      "text" : "Ampharos"
+    },
+    {
+      "id" : 1182,
+      "text" : "Bellossom"
+    },
+    {
+      "id" : 1183,
+      "text" : "Marill"
+    },
+    {
+      "id" : 1184,
+      "text" : "Azumarill"
+    },
+    {
+      "id" : 1185,
+      "text" : "Sudowoodo"
+    },
+    {
+      "id" : 1186,
+      "text" : "Politoed"
+    },
+    {
+      "id" : 1187,
+      "text" : "Hoppip"
+    },
+    {
+      "id" : 1188,
+      "text" : "Skiploom"
+    },
+    {
+      "id" : 1189,
+      "text" : "Jumpluff"
+    },
+    {
+      "id" : 1190,
+      "text" : "Aipom"
+    },
+    {
+      "id" : 1191,
+      "text" : "Sunkern"
+    },
+    {
+      "id" : 1192,
+      "text" : "Sunflora"
+    },
+    {
+      "id" : 1193,
+      "text" : "Yanma"
+    },
+    {
+      "id" : 1194,
+      "text" : "Wooper"
+    },
+    {
+      "id" : 1195,
+      "text" : "Quagsire"
+    },
+    {
+      "id" : 1196,
+      "text" : "Espeon"
+    },
+    {
+      "id" : 1197,
+      "text" : "Umbreon"
+    },
+    {
+      "id" : 1198,
+      "text" : "Murkrow"
+    },
+    {
+      "id" : 1199,
+      "text" : "Slowking"
+    },
+    {
+      "id" : 1200,
+      "text" : "Misdreavus"
+    },
+    {
+      "id" : 1201,
+      "text" : "Unown"
+    },
+    {
+      "id" : 1202,
+      "text" : "Wobbuffet"
+    },
+    {
+      "id" : 1203,
+      "text" : "Girafarig"
+    },
+    {
+      "id" : 1204,
+      "text" : "Pineco"
+    },
+    {
+      "id" : 1205,
+      "text" : "Forretress"
+    },
+    {
+      "id" : 1206,
+      "text" : "Dunsparce"
+    },
+    {
+      "id" : 1207,
+      "text" : "Gligar"
+    },
+    {
+      "id" : 1208,
+      "text" : "Steelix"
+    },
+    {
+      "id" : 1209,
+      "text" : "Snubbull"
+    },
+    {
+      "id" : 1210,
+      "text" : "Granbull"
+    },
+    {
+      "id" : 1211,
+      "text" : "Qwilfish"
+    },
+    {
+      "id" : 1212,
+      "text" : "Scizor"
+    },
+    {
+      "id" : 1213,
+      "text" : "Shuckle"
+    },
+    {
+      "id" : 1214,
+      "text" : "Heracross"
+    },
+    {
+      "id" : 1215,
+      "text" : "Sneasel"
+    },
+    {
+      "id" : 1216,
+      "text" : "Teddiursa"
+    },
+    {
+      "id" : 1217,
+      "text" : "Ursaring"
+    },
+    {
+      "id" : 1218,
+      "text" : "Slugma"
+    },
+    {
+      "id" : 1219,
+      "text" : "Magcargo"
+    },
+    {
+      "id" : 1220,
+      "text" : "Swinub"
+    },
+    {
+      "id" : 1221,
+      "text" : "Piloswine"
+    },
+    {
+      "id" : 1222,
+      "text" : "Corsola"
+    },
+    {
+      "id" : 1223,
+      "text" : "Remoraid"
+    },
+    {
+      "id" : 1224,
+      "text" : "Octillery"
+    },
+    {
+      "id" : 1225,
+      "text" : "Delibird"
+    },
+    {
+      "id" : 1226,
+      "text" : "Mantine"
+    },
+    {
+      "id" : 1227,
+      "text" : "Skarmory"
+    },
+    {
+      "id" : 1228,
+      "text" : "Houndour"
+    },
+    {
+      "id" : 1229,
+      "text" : "Houndoom"
+    },
+    {
+      "id" : 1230,
+      "text" : "Kingdra"
+    },
+    {
+      "id" : 1231,
+      "text" : "Phanpy"
+    },
+    {
+      "id" : 1232,
+      "text" : "Donphan"
+    },
+    {
+      "id" : 1233,
+      "text" : "Porygon2"
+    },
+    {
+      "id" : 1234,
+      "text" : "Stantler"
+    },
+    {
+      "id" : 1235,
+      "text" : "Smeargle"
+    },
+    {
+      "id" : 1236,
+      "text" : "Tyrogue"
+    },
+    {
+      "id" : 1237,
+      "text" : "Hitmontop"
+    },
+    {
+      "id" : 1238,
+      "text" : "Smoochum"
+    },
+    {
+      "id" : 1239,
+      "text" : "Elekid"
+    },
+    {
+      "id" : 1240,
+      "text" : "Magby"
+    },
+    {
+      "id" : 1241,
+      "text" : "Miltank"
+    },
+    {
+      "id" : 1242,
+      "text" : "Blissey"
+    },
+    {
+      "id" : 1243,
+      "text" : "Raikou"
+    },
+    {
+      "id" : 1244,
+      "text" : "Entei"
+    },
+    {
+      "id" : 1245,
+      "text" : "Suicune"
+    },
+    {
+      "id" : 1246,
+      "text" : "Larvitar"
+    },
+    {
+      "id" : 1247,
+      "text" : "Pupitar"
+    },
+    {
+      "id" : 1248,
+      "text" : "Tyranitar"
+    },
+    {
+      "id" : 1249,
+      "text" : "Lugia"
+    },
+    {
+      "id" : 1250,
+      "text" : "Ho-Oh"
+    },
+    {
+      "id" : 1251,
+      "text" : "Celebi"
+    },
+    {
+      "id" : 1252,
+      "text" : "Treecko"
+    },
+    {
+      "id" : 1253,
+      "text" : "Grovyle"
+    },
+    {
+      "id" : 1254,
+      "text" : "Sceptile"
+    },
+    {
+      "id" : 1255,
+      "text" : "Torchic"
+    },
+    {
+      "id" : 1256,
+      "text" : "Combusken"
+    },
+    {
+      "id" : 1257,
+      "text" : "Blaziken"
+    },
+    {
+      "id" : 1258,
+      "text" : "Mudkip"
+    },
+    {
+      "id" : 1259,
+      "text" : "Marshtomp"
+    },
+    {
+      "id" : 1260,
+      "text" : "Swampert"
+    },
+    {
+      "id" : 1261,
+      "text" : "Poochyena"
+    },
+    {
+      "id" : 1262,
+      "text" : "Mightyena"
+    },
+    {
+      "id" : 1263,
+      "text" : "Zigzagoon"
+    },
+    {
+      "id" : 1264,
+      "text" : "Linoone"
+    },
+    {
+      "id" : 1265,
+      "text" : "Wurmple"
+    },
+    {
+      "id" : 1266,
+      "text" : "Silcoon"
+    },
+    {
+      "id" : 1267,
+      "text" : "Beautifly"
+    },
+    {
+      "id" : 1268,
+      "text" : "Cascoon"
+    },
+    {
+      "id" : 1269,
+      "text" : "Dustox"
+    },
+    {
+      "id" : 1270,
+      "text" : "Lotad"
+    },
+    {
+      "id" : 1271,
+      "text" : "Lombre"
+    },
+    {
+      "id" : 1272,
+      "text" : "Ludicolo"
+    },
+    {
+      "id" : 1273,
+      "text" : "Seedot"
+    },
+    {
+      "id" : 1274,
+      "text" : "Nuzleaf"
+    },
+    {
+      "id" : 1275,
+      "text" : "Shiftry"
+    },
+    {
+      "id" : 1276,
+      "text" : "Taillow"
+    },
+    {
+      "id" : 1277,
+      "text" : "Swellow"
+    },
+    {
+      "id" : 1278,
+      "text" : "Wingull"
+    },
+    {
+      "id" : 1279,
+      "text" : "Pelipper"
+    },
+    {
+      "id" : 1280,
+      "text" : "Ralts"
+    },
+    {
+      "id" : 1281,
+      "text" : "Kirlia"
+    },
+    {
+      "id" : 1282,
+      "text" : "Gardevoir"
+    },
+    {
+      "id" : 1283,
+      "text" : "Surskit"
+    },
+    {
+      "id" : 1284,
+      "text" : "Masquerain"
+    },
+    {
+      "id" : 1285,
+      "text" : "Shroomish"
+    },
+    {
+      "id" : 1286,
+      "text" : "Breloom"
+    },
+    {
+      "id" : 1287,
+      "text" : "Slakoth"
+    },
+    {
+      "id" : 1288,
+      "text" : "Vigoroth"
+    },
+    {
+      "id" : 1289,
+      "text" : "Slaking"
+    },
+    {
+      "id" : 1290,
+      "text" : "Nincada"
+    },
+    {
+      "id" : 1291,
+      "text" : "Ninjask"
+    },
+    {
+      "id" : 1292,
+      "text" : "Shedinja"
+    },
+    {
+      "id" : 1293,
+      "text" : "Whismur"
+    },
+    {
+      "id" : 1294,
+      "text" : "Loudred"
+    },
+    {
+      "id" : 1295,
+      "text" : "Exploud"
+    },
+    {
+      "id" : 1296,
+      "text" : "Makuhita"
+    },
+    {
+      "id" : 1297,
+      "text" : "Hariyama"
+    },
+    {
+      "id" : 1298,
+      "text" : "Azurill"
+    },
+    {
+      "id" : 1299,
+      "text" : "Nosepass"
+    },
+    {
+      "id" : 1300,
+      "text" : "Skitty"
+    },
+    {
+      "id" : 1301,
+      "text" : "Delcatty"
+    },
+    {
+      "id" : 1302,
+      "text" : "Sableye"
+    },
+    {
+      "id" : 1303,
+      "text" : "Mawile"
+    },
+    {
+      "id" : 1304,
+      "text" : "Aron"
+    },
+    {
+      "id" : 1305,
+      "text" : "Lairon"
+    },
+    {
+      "id" : 1306,
+      "text" : "Aggron"
+    },
+    {
+      "id" : 1307,
+      "text" : "Meditite"
+    },
+    {
+      "id" : 1308,
+      "text" : "Medicham"
+    },
+    {
+      "id" : 1309,
+      "text" : "Electrike"
+    },
+    {
+      "id" : 1310,
+      "text" : "Manectric"
+    },
+    {
+      "id" : 1311,
+      "text" : "Plusle"
+    },
+    {
+      "id" : 1312,
+      "text" : "Minun"
+    },
+    {
+      "id" : 1313,
+      "text" : "Volbeat"
+    },
+    {
+      "id" : 1314,
+      "text" : "Illumise"
+    },
+    {
+      "id" : 1315,
+      "text" : "Roselia"
+    },
+    {
+      "id" : 1316,
+      "text" : "Gulpin"
+    },
+    {
+      "id" : 1317,
+      "text" : "Swalot"
+    },
+    {
+      "id" : 1318,
+      "text" : "Carvanha"
+    },
+    {
+      "id" : 1319,
+      "text" : "Sharpedo"
+    },
+    {
+      "id" : 1320,
+      "text" : "Wailmer"
+    },
+    {
+      "id" : 1321,
+      "text" : "Wailord"
+    },
+    {
+      "id" : 1322,
+      "text" : "Numel"
+    },
+    {
+      "id" : 1323,
+      "text" : "Camerupt"
+    },
+    {
+      "id" : 1324,
+      "text" : "Torkoal"
+    },
+    {
+      "id" : 1325,
+      "text" : "Spoink"
+    },
+    {
+      "id" : 1326,
+      "text" : "Grumpig"
+    },
+    {
+      "id" : 1327,
+      "text" : "Spinda"
+    },
+    {
+      "id" : 1328,
+      "text" : "Trapinch"
+    },
+    {
+      "id" : 1329,
+      "text" : "Vibrava"
+    },
+    {
+      "id" : 1330,
+      "text" : "Flygon"
+    },
+    {
+      "id" : 1331,
+      "text" : "Cacnea"
+    },
+    {
+      "id" : 1332,
+      "text" : "Cacturne"
+    },
+    {
+      "id" : 1333,
+      "text" : "Swablu"
+    },
+    {
+      "id" : 1334,
+      "text" : "Altaria"
+    },
+    {
+      "id" : 1335,
+      "text" : "Zangoose"
+    },
+    {
+      "id" : 1336,
+      "text" : "Seviper"
+    },
+    {
+      "id" : 1337,
+      "text" : "Lunatone"
+    },
+    {
+      "id" : 1338,
+      "text" : "Solrock"
+    },
+    {
+      "id" : 1339,
+      "text" : "Barboach"
+    },
+    {
+      "id" : 1340,
+      "text" : "Whiscash"
+    },
+    {
+      "id" : 1341,
+      "text" : "Corphish"
+    },
+    {
+      "id" : 1342,
+      "text" : "Crawdaunt"
+    },
+    {
+      "id" : 1343,
+      "text" : "Baltoy"
+    },
+    {
+      "id" : 1344,
+      "text" : "Claydol"
+    },
+    {
+      "id" : 1345,
+      "text" : "Lileep"
+    },
+    {
+      "id" : 1346,
+      "text" : "Cradily"
+    },
+    {
+      "id" : 1347,
+      "text" : "Anorith"
+    },
+    {
+      "id" : 1348,
+      "text" : "Armaldo"
+    },
+    {
+      "id" : 1349,
+      "text" : "Feebas"
+    },
+    {
+      "id" : 1350,
+      "text" : "Milotic"
+    },
+    {
+      "id" : 1351,
+      "text" : "Castform"
+    },
+    {
+      "id" : 1352,
+      "text" : "Kecleon"
+    },
+    {
+      "id" : 1353,
+      "text" : "Shuppet"
+    },
+    {
+      "id" : 1354,
+      "text" : "Banette"
+    },
+    {
+      "id" : 1355,
+      "text" : "Duskull"
+    },
+    {
+      "id" : 1356,
+      "text" : "Dusclops"
+    },
+    {
+      "id" : 1357,
+      "text" : "Tropius"
+    },
+    {
+      "id" : 1358,
+      "text" : "Chimecho"
+    },
+    {
+      "id" : 1359,
+      "text" : "Absol"
+    },
+    {
+      "id" : 1360,
+      "text" : "Wynaut"
+    },
+    {
+      "id" : 1361,
+      "text" : "Snorunt"
+    },
+    {
+      "id" : 1362,
+      "text" : "Glalie"
+    },
+    {
+      "id" : 1363,
+      "text" : "Spheal"
+    },
+    {
+      "id" : 1364,
+      "text" : "Sealeo"
+    },
+    {
+      "id" : 1365,
+      "text" : "Walrein"
+    },
+    {
+      "id" : 1366,
+      "text" : "Clamperl"
+    },
+    {
+      "id" : 1367,
+      "text" : "Huntail"
+    },
+    {
+      "id" : 1368,
+      "text" : "Gorebyss"
+    },
+    {
+      "id" : 1369,
+      "text" : "Relicanth"
+    },
+    {
+      "id" : 1370,
+      "text" : "Luvdisc"
+    },
+    {
+      "id" : 1371,
+      "text" : "Bagon"
+    },
+    {
+      "id" : 1372,
+      "text" : "Shelgon"
+    },
+    {
+      "id" : 1373,
+      "text" : "Salamence"
+    },
+    {
+      "id" : 1374,
+      "text" : "Beldum"
+    },
+    {
+      "id" : 1375,
+      "text" : "Metang"
+    },
+    {
+      "id" : 1376,
+      "text" : "Metagross"
+    },
+    {
+      "id" : 1377,
+      "text" : "Regirock"
+    },
+    {
+      "id" : 1378,
+      "text" : "Regice"
+    },
+    {
+      "id" : 1379,
+      "text" : "Registeel"
+    },
+    {
+      "id" : 1380,
+      "text" : "Latias"
+    },
+    {
+      "id" : 1381,
+      "text" : "Latios"
+    },
+    {
+      "id" : 1382,
+      "text" : "Kyogre"
+    },
+    {
+      "id" : 1383,
+      "text" : "Groudon"
+    },
+    {
+      "id" : 1384,
+      "text" : "Rayquaza"
+    },
+    {
+      "id" : 1385,
+      "text" : "Jirachi"
+    },
+    {
+      "id" : 1386,
+      "text" : "Deoxys"
+    },
+    {
+      "id" : 1387,
+      "text" : "Egg"
+    },
+    {
+      "id" : 1388,
+      "text" : "Bad Egg"
+    },
+    {
+      "id" : 1389,
+      "text" : "Bonsly"
+    },
+    {
+      "id" : 1390,
+      "text" : "Munchlax"
+    },
+    {
+      "id" : 1391,
+      "text" : "Wise Glasses"
+    },
+    {
+      "id" : 1393,
+      "text" : "Aura Stabiliser"
+    },
+    {
+      "id" : 1395,
+      "text" : "Wide Lens"
+    },
+    {
+      "id" : 1397,
+      "text" : "Lode Stone"
+    },
+    {
+      "id" : 1400,
+      "text" : "Dosha Berry"
+    },
+    {
+      "id" : 1401,
+      "text" : "Colbur Berry"
+    },
+    {
+      "id" : 1402,
+      "text" : "Haban Berry"
+    },
+    {
+      "id" : 1403,
+      "text" : "Yache Berry"
+    },
+    {
+      "id" : 1404,
+      "text" : "Payapa Berry"
+    },
+    {
+      "id" : 1405,
+      "text" : "Wacan Berry"
+    },
+    {
+      "id" : 1406,
+      "text" : "Rindo Berry"
+    },
+    {
+      "id" : 1407,
+      "text" : "Passho Berry"
+    },
+    {
+      "id" : 1408,
+      "text" : "Occa Berry"
+    },
+    {
+      "id" : 1409,
+      "text" : "Roseli Berry"
+    },
+    {
+      "id" : 1410,
+      "text" : "Babiri Berry"
+    },
+    {
+      "id" : 1411,
+      "text" : "Kasib Berry"
+    },
+    {
+      "id" : 1412,
+      "text" : "Tanga Berry"
+    },
+    {
+      "id" : 1413,
+      "text" : "Charti Berry"
+    },
+    {
+      "id" : 1414,
+      "text" : "Shuca Berry"
+    },
+    {
+      "id" : 1415,
+      "text" : "Kebia Berry"
+    },
+    {
+      "id" : 1416,
+      "text" : "Coba Berry"
+    },
+    {
+      "id" : 1417,
+      "text" : "Chople Berry"
+    },
+    {
+      "id" : 1418,
+      "text" : "Chilan Berry"
+    },
+    {
+      "id" : 1428,
+      "text" : "-"
+    },
+    {
+      "id" : 2001,
+      "text" : "Bullet Punch"
+    },
+    {
+      "id" : 2002,
+      "text" : "Dual Chop"
+    },
+    {
+      "id" : 2003,
+      "text" : "Focus Blast"
+    },
+    {
+      "id" : 2004,
+      "text" : "Aura Sphere"
+    },
+    {
+      "id" : 2005,
+      "text" : "Zen Headbutt"
+    },
+    {
+      "id" : 2006,
+      "text" : "Snarl"
+    },
+    {
+      "id" : 2007,
+      "text" : "Fire Punch"
+    },
+    {
+      "id" : 2008,
+      "text" : "Ice Punch"
+    },
+    {
+      "id" : 2009,
+      "text" : "Thunder Punch"
+    },
+    {
+      "id" : 2010,
+      "text" : "Bone Club"
+    },
+    {
+      "id" : 2011,
+      "text" : "Earth Power"
+    },
+    {
+      "id" : 2012,
+      "text" : "Hone Claws"
+    },
+    {
+      "id" : 2013,
+      "text" : "Grass Knot"
+    },
+    {
+      "id" : 2014,
+      "text" : "Swords Dance"
+    },
+    {
+      "id" : 2015,
+      "text" : "Poison Jab"
+    },
+    {
+      "id" : 2016,
+      "text" : "Gust"
+    },
+    {
+      "id" : 2017,
+      "text" : "Scald"
+    },
+    {
+      "id" : 2018,
+      "text" : "Shadow Bone"
+    },
+    {
+      "id" : 2019,
+      "text" : "Iron Head"
+    },
+    {
+      "id" : 2020,
+      "text" : "Shadow Fury"
+    },
+    {
+      "id" : 2021,
+      "text" : "Sucker Punch"
+    },
+    {
+      "id" : 2022,
+      "text" : "Drain Punch"
+    },
+    {
+      "id" : 2023,
+      "text" : "Baby Doll Eyes"
+    },
+    {
+      "id" : 2024,
+      "text" : "First Impression"
+    },
+    {
+      "id" : 2025,
+      "text" : "Flare Blitz"
+    },
+    {
+      "id" : 2026,
+      "text" : "Jump Kick"
+    },
+    {
+      "id" : 2027,
+      "text" : "Low Sweep"
+    },
+    {
+      "id" : 2028,
+      "text" : "Sand-Attack"
+    },
+    {
+      "id" : 2029,
+      "text" : "Headbutt"
+    },
+    {
+      "id" : 2030,
+      "text" : "Bug Buzz"
+    },
+    {
+      "id" : 2031,
+      "text" : "Draco Meteor"
+    },
+    {
+      "id" : 2032,
+      "text" : "Aurora Veil"
+    },
+    {
+      "id" : 2033,
+      "text" : "Tackle"
+    },
+    {
+      "id" : 2034,
+      "text" : "Body Slam"
+    },
+    {
+      "id" : 2035,
+      "text" : "Infestation"
+    },
+    {
+      "id" : 2036,
+      "text" : "X-Scissor"
+    },
+    {
+      "id" : 2037,
+      "text" : "Aqua Jet"
+    },
+    {
+      "id" : 2038,
+      "text" : "Double-Edge"
+    },
+    {
+      "id" : 2039,
+      "text" : "Stone Edge"
+    },
+    {
+      "id" : 2040,
+      "text" : "Bug Bite"
+    },
+    {
+      "id" : 2041,
+      "text" : "Shadow Sneak"
+    },
+    {
+      "id" : 2042,
+      "text" : "Pin Missile"
+    },
+    {
+      "id" : 2043,
+      "text" : "Quiver Dance"
+    },
+    {
+      "id" : 2044,
+      "text" : "Bite"
+    },
+    {
+      "id" : 2045,
+      "text" : "Growl"
+    },
+    {
+      "id" : 2046,
+      "text" : "Dragon Tail"
+    },
+    {
+      "id" : 2047,
+      "text" : "Sing"
+    },
+    {
+      "id" : 2048,
+      "text" : "Priority status moves."
+    },
+    {
+      "id" : 2049,
+      "text" : "Aqua Tail"
+    },
+    {
+      "id" : 2050,
+      "text" : "Disable"
+    },
+    {
+      "id" : 2051,
+      "text" : "Shadow Slobber"
+    },
+    {
+      "id" : 2052,
+      "text" : "Ember"
+    },
+    {
+      "id" : 2053,
+      "text" : "Flamethrower"
+    },
+    {
+      "id" : 2054,
+      "text" : "Trick Room"
+    },
+    {
+      "id" : 2055,
+      "text" : "Water Gun"
+    },
+    {
+      "id" : 2056,
+      "text" : "Hydro Pump"
+    },
+    {
+      "id" : 2057,
+      "text" : "Surf"
+    },
+    {
+      "id" : 2058,
+      "text" : "Ice Beam"
+    },
+    {
+      "id" : 2059,
+      "text" : "Blizzard"
+    },
+    {
+      "id" : 2060,
+      "text" : "Psybeam"
+    },
+    {
+      "id" : 2061,
+      "text" : "Bubblebeam"
+    },
+    {
+      "id" : 2062,
+      "text" : "Aurora Beam"
+    },
+    {
+      "id" : 2063,
+      "text" : "Hyper Beam"
+    },
+    {
+      "id" : 2064,
+      "text" : "Peck"
+    },
+    {
+      "id" : 2065,
+      "text" : "Drill Peck"
+    },
+    {
+      "id" : 2066,
+      "text" : "Dark Pulse"
+    },
+    {
+      "id" : 2067,
+      "text" : "Low Kick"
+    },
+    {
+      "id" : 2068,
+      "text" : "Counter"
+    },
+    {
+      "id" : 2069,
+      "text" : "Seismic Toss"
+    },
+    {
+      "id" : 2070,
+      "text" : "Play Rough"
+    },
+    {
+      "id" : 2071,
+      "text" : "Absorb"
+    },
+    {
+      "id" : 2072,
+      "text" : "Mega Drain"
+    },
+    {
+      "id" : 2073,
+      "text" : "Leech Seed"
+    },
+    {
+      "id" : 2074,
+      "text" : "Splash"
+    },
+    {
+      "id" : 2075,
+      "text" : "Razor Leaf"
+    },
+    {
+      "id" : 2076,
+      "text" : "Solarbeam"
+    },
+    {
+      "id" : 2077,
+      "text" : "Flame Charge"
+    },
+    {
+      "id" : 2078,
+      "text" : "Stun Spore"
+    },
+    {
+      "id" : 2079,
+      "text" : "Sleep Powder"
+    },
+    {
+      "id" : 2080,
+      "text" : "Shadow Tantrum"
+    },
+    {
+      "id" : 2081,
+      "text" : "Leech Life"
+    },
+    {
+      "id" : 2082,
+      "text" : "Dragon Rage"
+    },
+    {
+      "id" : 2083,
+      "text" : "Fire Spin"
+    },
+    {
+      "id" : 2084,
+      "text" : "Thunder Shock"
+    },
+    {
+      "id" : 2085,
+      "text" : "Thunderbolt"
+    },
+    {
+      "id" : 2086,
+      "text" : "Thunder Wave"
+    },
+    {
+      "id" : 2087,
+      "text" : "Thunder"
+    },
+    {
+      "id" : 2088,
+      "text" : "Rock Throw"
+    },
+    {
+      "id" : 2089,
+      "text" : "Earthquake"
+    },
+    {
+      "id" : 2090,
+      "text" : "Dragon Hammer"
+    },
+    {
+      "id" : 2091,
+      "text" : "Energy Ball"
+    },
+    {
+      "id" : 2092,
+      "text" : "Toxic"
+    },
+    {
+      "id" : 2093,
+      "text" : "Confusion"
+    },
+    {
+      "id" : 2094,
+      "text" : "Psychic"
+    },
+    {
+      "id" : 2095,
+      "text" : "Hypnosis"
+    },
+    {
+      "id" : 2096,
+      "text" : "Ice Shard"
+    },
+    {
+      "id" : 2097,
+      "text" : "Agility"
+    },
+    {
+      "id" : 2098,
+      "text" : "Quick Attack"
+    },
+    {
+      "id" : 2099,
+      "text" : "Icicle Crash"
+    },
+    {
+      "id" : 2100,
+      "text" : "Teleport"
+    },
+    {
+      "id" : 2101,
+      "text" : "Night Shade"
+    },
+    {
+      "id" : 2102,
+      "text" : "Tail Glow"
+    },
+    {
+      "id" : 2103,
+      "text" : "Screech"
+    },
+    {
+      "id" : 2104,
+      "text" : "Double Team"
+    },
+    {
+      "id" : 2105,
+      "text" : "Recover"
+    },
+    {
+      "id" : 2106,
+      "text" : "Seed Bomb"
+    },
+    {
+      "id" : 2107,
+      "text" : "Payback"
+    },
+    {
+      "id" : 2108,
+      "text" : "Smokescreen"
+    },
+    {
+      "id" : 2109,
+      "text" : "Confuse Ray"
+    },
+    {
+      "id" : 2110,
+      "text" : "Dragon Pulse"
+    },
+    {
+      "id" : 2111,
+      "text" : "Coil"
+    },
+    {
+      "id" : 2112,
+      "text" : "Shell Smash"
+    },
+    {
+      "id" : 2113,
+      "text" : "Light Screen"
+    },
+    {
+      "id" : 2114,
+      "text" : "Shadow Analysis"
+    },
+    {
+      "id" : 2115,
+      "text" : "Reflect"
+    },
+    {
+      "id" : 2116,
+      "text" : "Circle Throw"
+    },
+    {
+      "id" : 2117,
+      "text" : "Roost"
+    },
+    {
+      "id" : 2118,
+      "text" : "Hammer Arm"
+    },
+    {
+      "id" : 2119,
+      "text" : "Close Combat"
+    },
+    {
+      "id" : 2120,
+      "text" : "Shadow Combo"
+    },
+    {
+      "id" : 2121,
+      "text" : "Leaf Storm"
+    },
+    {
+      "id" : 2122,
+      "text" : "Lick"
+    },
+    {
+      "id" : 2123,
+      "text" : "Brave Bird"
+    },
+    {
+      "id" : 2124,
+      "text" : "Sludge"
+    },
+    {
+      "id" : 2125,
+      "text" : "Scrappy"
+    },
+    {
+      "id" : 2126,
+      "text" : "Fire Blast"
+    },
+    {
+      "id" : 2127,
+      "text" : "Waterfall"
+    },
+    {
+      "id" : 2128,
+      "text" : "Shadow Switch"
+    },
+    {
+      "id" : 2129,
+      "text" : "Fur Coat"
+    },
+    {
+      "id" : 2130,
+      "text" : "Power-Up Punch"
+    },
+    {
+      "id" : 2131,
+      "text" : "Head Smash"
+    },
+    {
+      "id" : 2132,
+      "text" : "Shadow Shake"
+    },
+    {
+      "id" : 2133,
+      "text" : "Psyshock"
+    },
+    {
+      "id" : 2134,
+      "text" : "Discharge"
+    },
+    {
+      "id" : 2135,
+      "text" : "Psychic Fangs"
+    },
+    {
+      "id" : 2136,
+      "text" : "Hi Jump Kick"
+    },
+    {
+      "id" : 2137,
+      "text" : "Glare"
+    },
+    {
+      "id" : 2138,
+      "text" : "Shadow Scream"
+    },
+    {
+      "id" : 2139,
+      "text" : "Shadow Claw"
+    },
+    {
+      "id" : 2140,
+      "text" : "Nasty Plot"
+    },
+    {
+      "id" : 2141,
+      "text" : "Solar Power"
+    },
+    {
+      "id" : 2142,
+      "text" : "Lovely Kiss"
+    },
+    {
+      "id" : 2143,
+      "text" : "Charge Beam"
+    },
+    {
+      "id" : 2144,
+      "text" : "Fiery Dance"
+    },
+    {
+      "id" : 2145,
+      "text" : "Lunge"
+    },
+    {
+      "id" : 2146,
+      "text" : "Disarming Voice"
+    },
+    {
+      "id" : 2147,
+      "text" : "Spore"
+    },
+    {
+      "id" : 2148,
+      "text" : "Gunk Shot"
+    },
+    {
+      "id" : 2149,
+      "text" : "Weakens contact moves."
+    },
+    {
+      "id" : 2150,
+      "text" : "Wood Hammer"
+    },
+    {
+      "id" : 2151,
+      "text" : "Foul Play"
+    },
+    {
+      "id" : 2152,
+      "text" : "Crabhammer"
+    },
+    {
+      "id" : 2153,
+      "text" : "Explosion"
+    },
+    {
+      "id" : 2154,
+      "text" : "Air Slash"
+    },
+    {
+      "id" : 2155,
+      "text" : "Prankster"
+    },
+    {
+      "id" : 2156,
+      "text" : "Rest"
+    },
+    {
+      "id" : 2157,
+      "text" : "Rock Slide"
+    },
+    {
+      "id" : 2158,
+      "text" : "Force Palm"
+    },
+    {
+      "id" : 2159,
+      "text" : "Rock Polish"
+    },
+    {
+      "id" : 2160,
+      "text" : "Cotton Guard"
+    },
+    {
+      "id" : 2161,
+      "text" : "Tri Attack"
+    },
+    {
+      "id" : 2162,
+      "text" : "Super Fang"
+    },
+    {
+      "id" : 2163,
+      "text" : "Slash"
+    },
+    {
+      "id" : 2164,
+      "text" : "Substitute"
+    },
+    {
+      "id" : 2165,
+      "text" : "Struggle"
+    },
+    {
+      "id" : 2166,
+      "text" : "Shadow Rush"
+    },
+    {
+      "id" : 2167,
+      "text" : "Draining Kiss"
+    },
+    {
+      "id" : 2168,
+      "text" : "Night Slash"
+    },
+    {
+      "id" : 2169,
+      "text" : "Dazzling Gleam"
+    },
+    {
+      "id" : 2170,
+      "text" : "Heart Stamp"
+    },
+    {
+      "id" : 2171,
+      "text" : "V-Create"
+    },
+    {
+      "id" : 2172,
+      "text" : "Flame Wheel"
+    },
+    {
+      "id" : 2173,
+      "text" : "Shadow Strike"
+    },
+    {
+      "id" : 2174,
+      "text" : "Curse"
+    },
+    {
+      "id" : 2175,
+      "text" : "Stomping Tantrum"
+    },
+    {
+      "id" : 2176,
+      "text" : "Fairy Wind"
+    },
+    {
+      "id" : 2177,
+      "text" : "Aeroblast"
+    },
+    {
+      "id" : 2178,
+      "text" : "Acrobatics"
+    },
+    {
+      "id" : 2179,
+      "text" : "Razor Shell"
+    },
+    {
+      "id" : 2180,
+      "text" : "Multiscale"
+    },
+    {
+      "id" : 2181,
+      "text" : "Powder Snow"
+    },
+    {
+      "id" : 2182,
+      "text" : "Protect"
+    },
+    {
+      "id" : 2183,
+      "text" : "Mach Punch"
+    },
+    {
+      "id" : 2184,
+      "text" : "Scary Face"
+    },
+    {
+      "id" : 2185,
+      "text" : "Feint Attack"
+    },
+    {
+      "id" : 2186,
+      "text" : "Sweet Kiss"
+    },
+    {
+      "id" : 2187,
+      "text" : "Belly Drum"
+    },
+    {
+      "id" : 2188,
+      "text" : "Sludge Bomb"
+    },
+    {
+      "id" : 2189,
+      "text" : "Mud-Slap"
+    },
+    {
+      "id" : 2190,
+      "text" : "Shadow Whip"
+    },
+    {
+      "id" : 2191,
+      "text" : "Spikes"
+    },
+    {
+      "id" : 2192,
+      "text" : "Zap Cannon"
+    },
+    {
+      "id" : 2193,
+      "text" : "Shadow Focus"
+    },
+    {
+      "id" : 2194,
+      "text" : "Destiny Bond"
+    },
+    {
+      "id" : 2195,
+      "text" : "Perish Song"
+    },
+    {
+      "id" : 2196,
+      "text" : "Icy Wind"
+    },
+    {
+      "id" : 2197,
+      "text" : "Shadow Guard"
+    },
+    {
+      "id" : 2198,
+      "text" : "Freeze Dry"
+    },
+    {
+      "id" : 2199,
+      "text" : "Lock-On"
+    },
+    {
+      "id" : 2200,
+      "text" : "Outrage"
+    },
+    {
+      "id" : 2201,
+      "text" : "Sandstorm"
+    },
+    {
+      "id" : 2202,
+      "text" : "Giga Drain"
+    },
+    {
+      "id" : 2203,
+      "text" : "Shadow Colours"
+    },
+    {
+      "id" : 2204,
+      "text" : "Charm"
+    },
+    {
+      "id" : 2205,
+      "text" : "Avalanche"
+    },
+    {
+      "id" : 2206,
+      "text" : "False Swipe"
+    },
+    {
+      "id" : 2207,
+      "text" : "Swagger"
+    },
+    {
+      "id" : 2208,
+      "text" : "Shadow Spirit"
+    },
+    {
+      "id" : 2209,
+      "text" : "Spark"
+    },
+    {
+      "id" : 2210,
+      "text" : "Fury Cutter"
+    },
+    {
+      "id" : 2211,
+      "text" : "Steel Wing"
+    },
+    {
+      "id" : 2212,
+      "text" : "Mean Look"
+    },
+    {
+      "id" : 2213,
+      "text" : "Fire Fang"
+    },
+    {
+      "id" : 2214,
+      "text" : "*"
+    },
+    {
+      "id" : 2215,
+      "text" : "Heal Bell"
+    },
+    {
+      "id" : 2216,
+      "text" : "Return"
+    },
+    {
+      "id" : 2217,
+      "text" : "Shadow Slap"
+    },
+    {
+      "id" : 2218,
+      "text" : "Psystrike"
+    },
+    {
+      "id" : 2219,
+      "text" : "Tailwind"
+    },
+    {
+      "id" : 2220,
+      "text" : "Pain Split"
+    },
+    {
+      "id" : 2221,
+      "text" : "Sacred Fire"
+    },
+    {
+      "id" : 2222,
+      "text" : "Bulldoze"
+    },
+    {
+      "id" : 2223,
+      "text" : "Dynamicpunch"
+    },
+    {
+      "id" : 2224,
+      "text" : "Megahorn"
+    },
+    {
+      "id" : 2225,
+      "text" : "Dragonbreath"
+    },
+    {
+      "id" : 2226,
+      "text" : "Baton Pass"
+    },
+    {
+      "id" : 2227,
+      "text" : "Encore"
+    },
+    {
+      "id" : 2228,
+      "text" : "Pursuit"
+    },
+    {
+      "id" : 2229,
+      "text" : "Shadow Speed"
+    },
+    {
+      "id" : 2230,
+      "text" : "Liquidation"
+    },
+    {
+      "id" : 2231,
+      "text" : "Iron Tail"
+    },
+    {
+      "id" : 2232,
+      "text" : "Metal Claw"
+    },
+    {
+      "id" : 2233,
+      "text" : "Lava Plume"
+    },
+    {
+      "id" : 2234,
+      "text" : "Morning Sun"
+    },
+    {
+      "id" : 2235,
+      "text" : "Synthesis"
+    },
+    {
+      "id" : 2236,
+      "text" : "Moonlight"
+    },
+    {
+      "id" : 2237,
+      "text" : "Shadow Freeze"
+    },
+    {
+      "id" : 2238,
+      "text" : "Cross Chop"
+    },
+    {
+      "id" : 2239,
+      "text" : "Hurricane"
+    },
+    {
+      "id" : 2240,
+      "text" : "Rain Dance"
+    },
+    {
+      "id" : 2241,
+      "text" : "Sunny Day"
+    },
+    {
+      "id" : 2242,
+      "text" : "Crunch"
+    },
+    {
+      "id" : 2243,
+      "text" : "Mirror Coat"
+    },
+    {
+      "id" : 2244,
+      "text" : "Shadow Fear"
+    },
+    {
+      "id" : 2245,
+      "text" : "Extremespeed"
+    },
+    {
+      "id" : 2246,
+      "text" : "Ancientpower"
+    },
+    {
+      "id" : 2247,
+      "text" : "Shadow Ball"
+    },
+    {
+      "id" : 2248,
+      "text" : "Wild Charge"
+    },
+    {
+      "id" : 2249,
+      "text" : "Ice Hammer"
+    },
+    {
+      "id" : 2250,
+      "text" : "Whirlpool"
+    },
+    {
+      "id" : 2251,
+      "text" : "Hex"
+    },
+    {
+      "id" : 2252,
+      "text" : "Fake Out"
+    },
+    {
+      "id" : 2253,
+      "text" : "Boomburst"
+    },
+    {
+      "id" : 2254,
+      "text" : "Shadow Chant"
+    },
+    {
+      "id" : 2255,
+      "text" : "Shadow Feint"
+    },
+    {
+      "id" : 2256,
+      "text" : "Shadow Throw"
+    },
+    {
+      "id" : 2257,
+      "text" : "Heat Wave"
+    },
+    {
+      "id" : 2258,
+      "text" : "Hail"
+    },
+    {
+      "id" : 2259,
+      "text" : "Shadow Tease"
+    },
+    {
+      "id" : 2260,
+      "text" : "Shadow Breeze"
+    },
+    {
+      "id" : 2261,
+      "text" : "Will-O-Wisp"
+    },
+    {
+      "id" : 2262,
+      "text" : "Shadow Max"
+    },
+    {
+      "id" : 2263,
+      "text" : "Facade"
+    },
+    {
+      "id" : 2264,
+      "text" : "Focus Punch"
+    },
+    {
+      "id" : 2265,
+      "text" : "Curse"
+    },
+    {
+      "id" : 2266,
+      "text" : "Wide Guard"
+    },
+    {
+      "id" : 2267,
+      "text" : "Shadow Snooze"
+    },
+    {
+      "id" : 2268,
+      "text" : "Shadow Boom"
+    },
+    {
+      "id" : 2269,
+      "text" : "Taunt"
+    },
+    {
+      "id" : 2270,
+      "text" : "Helping Hand"
+    },
+    {
+      "id" : 2271,
+      "text" : "Trick"
+    },
+    {
+      "id" : 2272,
+      "text" : "Shadow Madness"
+    },
+    {
+      "id" : 2273,
+      "text" : "Wish"
+    },
+    {
+      "id" : 2274,
+      "text" : "Assist"
+    },
+    {
+      "id" : 2275,
+      "text" : "Spiky Shield"
+    },
+    {
+      "id" : 2276,
+      "text" : "Superpower"
+    },
+    {
+      "id" : 2277,
+      "text" : "Shadow Giant"
+    },
+    {
+      "id" : 2278,
+      "text" : "High Horsepower"
+    },
+    {
+      "id" : 2279,
+      "text" : "Revenge"
+    },
+    {
+      "id" : 2280,
+      "text" : "Brick Break"
+    },
+    {
+      "id" : 2281,
+      "text" : "Yawn"
+    },
+    {
+      "id" : 2282,
+      "text" : "Ice Fang"
+    },
+    {
+      "id" : 2283,
+      "text" : "Endeavor"
+    },
+    {
+      "id" : 2284,
+      "text" : "Eruption"
+    },
+    {
+      "id" : 2285,
+      "text" : "Power Gem"
+    },
+    {
+      "id" : 2286,
+      "text" : "Trick Room"
+    },
+    {
+      "id" : 2287,
+      "text" : "U-Turn"
+    },
+    {
+      "id" : 2288,
+      "text" : "Shadow Burn"
+    },
+    {
+      "id" : 2289,
+      "text" : "Volt Switch"
+    },
+    {
+      "id" : 2290,
+      "text" : "Shadow Strength"
+    },
+    {
+      "id" : 2291,
+      "text" : "Shadow Crash"
+    },
+    {
+      "id" : 2292,
+      "text" : "Arm Thrust"
+    },
+    {
+      "id" : 2293,
+      "text" : "Shadow Knee"
+    },
+    {
+      "id" : 2294,
+      "text" : "Shadow Agility"
+    },
+    {
+      "id" : 2295,
+      "text" : "Flash Cannon"
+    },
+    {
+      "id" : 2296,
+      "text" : "Moonblast"
+    },
+    {
+      "id" : 2297,
+      "text" : "Featherdance"
+    },
+    {
+      "id" : 2298,
+      "text" : "Skill Swap"
+    },
+    {
+      "id" : 2299,
+      "text" : "Blaze Kick"
+    },
+    {
+      "id" : 2300,
+      "text" : "Shadow Terrain"
+    },
+    {
+      "id" : 2301,
+      "text" : "Shadow Fang"
+    },
+    {
+      "id" : 2302,
+      "text" : "Needle Arm"
+    },
+    {
+      "id" : 2303,
+      "text" : "Slack Off"
+    },
+    {
+      "id" : 2304,
+      "text" : "Hyper Voice"
+    },
+    {
+      "id" : 2305,
+      "text" : "Poison Fang"
+    },
+    {
+      "id" : 2306,
+      "text" : "Crush Claw"
+    },
+    {
+      "id" : 2307,
+      "text" : "Psycho Cut"
+    },
+    {
+      "id" : 2308,
+      "text" : "Sludge Wave"
+    },
+    {
+      "id" : 2309,
+      "text" : "Meteor Mash"
+    },
+    {
+      "id" : 2310,
+      "text" : "Astonish"
+    },
+    {
+      "id" : 2311,
+      "text" : "Shadow Sickness"
+    },
+    {
+      "id" : 2312,
+      "text" : "Drill Run"
+    },
+    {
+      "id" : 2313,
+      "text" : "Power Whip"
+    },
+    {
+      "id" : 2314,
+      "text" : "Hidden Power"
+    },
+    {
+      "id" : 2315,
+      "text" : "Overheat"
+    },
+    {
+      "id" : 2316,
+      "text" : "Dragon Ascent"
+    },
+    {
+      "id" : 2317,
+      "text" : "Rock Tomb"
+    },
+    {
+      "id" : 2318,
+      "text" : "Silver Wind"
+    },
+    {
+      "id" : 2319,
+      "text" : "Metal Sound"
+    },
+    {
+      "id" : 2320,
+      "text" : "Giga Impact"
+    },
+    {
+      "id" : 2321,
+      "text" : "Tickle"
+    },
+    {
+      "id" : 2322,
+      "text" : "Cosmic Power"
+    },
+    {
+      "id" : 2323,
+      "text" : "Water Spout"
+    },
+    {
+      "id" : 2324,
+      "text" : "Signal Beam"
+    },
+    {
+      "id" : 2325,
+      "text" : "Shadow Punch"
+    },
+    {
+      "id" : 2326,
+      "text" : "Extrasensory"
+    },
+    {
+      "id" : 2327,
+      "text" : "Sky Uppercut"
+    },
+    {
+      "id" : 2328,
+      "text" : "Sand Tomb"
+    },
+    {
+      "id" : 2329,
+      "text" : "Shadow Barrier"
+    },
+    {
+      "id" : 2330,
+      "text" : "Shadow Wave"
+    },
+    {
+      "id" : 2331,
+      "text" : "Bullet Seed"
+    },
+    {
+      "id" : 2332,
+      "text" : "Aerial Ace"
+    },
+    {
+      "id" : 2333,
+      "text" : "Icicle Spear"
+    },
+    {
+      "id" : 2334,
+      "text" : "Iron Defense"
+    },
+    {
+      "id" : 2335,
+      "text" : "Shadow Club"
+    },
+    {
+      "id" : 2336,
+      "text" : "Nuzzle"
+    },
+    {
+      "id" : 2337,
+      "text" : "Dragon Claw"
+    },
+    {
+      "id" : 2338,
+      "text" : "Feint"
+    },
+    {
+      "id" : 2339,
+      "text" : "Bulk Up"
+    },
+    {
+      "id" : 2340,
+      "text" : "Bounce"
+    },
+    {
+      "id" : 2341,
+      "text" : "Mud Shot"
+    },
+    {
+      "id" : 2342,
+      "text" : "Cross Poison"
+    },
+    {
+      "id" : 2343,
+      "text" : "Shadow Tribute"
+    },
+    {
+      "id" : 2344,
+      "text" : "Volt Tackle"
+    },
+    {
+      "id" : 2345,
+      "text" : "Shadow Turn"
+    },
+    {
+      "id" : 2346,
+      "text" : "Shadow Trip"
+    },
+    {
+      "id" : 2347,
+      "text" : "Calm Mind"
+    },
+    {
+      "id" : 2348,
+      "text" : "Leaf Blade"
+    },
+    {
+      "id" : 2349,
+      "text" : "Dragon Dance"
+    },
+    {
+      "id" : 2350,
+      "text" : "Rock Blast"
+    },
+    {
+      "id" : 2351,
+      "text" : "Shock Wave"
+    },
+    {
+      "id" : 2352,
+      "text" : "Water Pulse"
+    },
+    {
+      "id" : 2353,
+      "text" : "Doom Desire"
+    },
+    {
+      "id" : 2354,
+      "text" : "Psycho Boost"
+    },
+    {
+      "id" : 2355,
+      "text" : "Shadow Slam"
+    },
+    {
+      "id" : 2356,
+      "text" : "Shadow Stealth"
+    },
+    {
+      "id" : 2357,
+      "text" : "Shadow Edge"
+    },
+    {
+      "id" : 2358,
+      "text" : "Shadow Smash"
+    },
+    {
+      "id" : 2359,
+      "text" : "Shadow Pulse"
+    },
+    {
+      "id" : 2360,
+      "text" : "Shadow Burst"
+    },
+    {
+      "id" : 2361,
+      "text" : "Shadow Storm"
+    },
+    {
+      "id" : 2362,
+      "text" : "Shadow Blaze"
+    },
+    {
+      "id" : 2363,
+      "text" : "Shadow Bolt"
+    },
+    {
+      "id" : 2364,
+      "text" : "Shadow Chill"
+    },
+    {
+      "id" : 2365,
+      "text" : "Shadow Blast"
+    },
+    {
+      "id" : 2366,
+      "text" : "Shadow Sky"
+    },
+    {
+      "id" : 2367,
+      "text" : "Shadow Bully"
+    },
+    {
+      "id" : 2368,
+      "text" : "Shadow Soul"
+    },
+    {
+      "id" : 2369,
+      "text" : "Shadow Crush"
+    },
+    {
+      "id" : 2370,
+      "text" : "Shadow Slayer"
+    },
+    {
+      "id" : 2371,
+      "text" : "Shadow Star"
+    },
+    {
+      "id" : 2372,
+      "text" : "Shadow Hunter"
+    },
+    {
+      "id" : 2373,
+      "text" : "????"
+    },
+    {
+      "id" : 2501,
+      "text" : "[Spec Colour]{3cb4ffff}♂[Spec Colour]{ffffffff}"
+    },
+    {
+      "id" : 2502,
+      "text" : "[Spec Colour]{ff4682ff}♀[Spec Colour]{ffffffff}"
+    },
+    {
+      "id" : 2503,
+      "text" : "?"
+    },
+    {
+      "id" : 3001,
+      "text" : "Normal"
+    },
+    {
+      "id" : 3002,
+      "text" : "Fire"
+    },
+    {
+      "id" : 3003,
+      "text" : "Water"
+    },
+    {
+      "id" : 3004,
+      "text" : "Electr"
+    },
+    {
+      "id" : 3005,
+      "text" : "Grass"
+    },
+    {
+      "id" : 3006,
+      "text" : "Ice"
+    },
+    {
+      "id" : 3007,
+      "text" : "Fight"
+    },
+    {
+      "id" : 3008,
+      "text" : "Poison"
+    },
+    {
+      "id" : 3009,
+      "text" : "Ground"
+    },
+    {
+      "id" : 3010,
+      "text" : "Flying"
+    },
+    {
+      "id" : 3011,
+      "text" : "Psychc"
+    },
+    {
+      "id" : 3012,
+      "text" : "Bug"
+    },
+    {
+      "id" : 3013,
+      "text" : "Rock"
+    },
+    {
+      "id" : 3014,
+      "text" : "Ghost"
+    },
+    {
+      "id" : 3015,
+      "text" : "Dragon"
+    },
+    {
+      "id" : 3016,
+      "text" : "Dark"
+    },
+    {
+      "id" : 3017,
+      "text" : "Steel"
+    },
+    {
+      "id" : 3018,
+      "text" : "Fairy"
+    },
+    {
+      "id" : 3101,
+      "text" : "Aerilate"
+    },
+    {
+      "id" : 3102,
+      "text" : "Drizzle"
+    },
+    {
+      "id" : 3103,
+      "text" : "Speed Boost"
+    },
+    {
+      "id" : 3104,
+      "text" : "Battle Armour"
+    },
+    {
+      "id" : 3105,
+      "text" : "Sturdy"
+    },
+    {
+      "id" : 3106,
+      "text" : "Damp"
+    },
+    {
+      "id" : 3107,
+      "text" : "Limber"
+    },
+    {
+      "id" : 3108,
+      "text" : "Sand Veil"
+    },
+    {
+      "id" : 3109,
+      "text" : "Static"
+    },
+    {
+      "id" : 3110,
+      "text" : "Volt Absorb"
+    },
+    {
+      "id" : 3111,
+      "text" : "Water Absorb"
+    },
+    {
+      "id" : 3112,
+      "text" : "Super Luck"
+    },
+    {
+      "id" : 3113,
+      "text" : "Cloud Nine"
+    },
+    {
+      "id" : 3114,
+      "text" : "Compoundeyes"
+    },
+    {
+      "id" : 3115,
+      "text" : "Insomnia"
+    },
+    {
+      "id" : 3116,
+      "text" : "Color Change"
+    },
+    {
+      "id" : 3117,
+      "text" : "Immunity"
+    },
+    {
+      "id" : 3118,
+      "text" : "Flash Fire"
+    },
+    {
+      "id" : 3119,
+      "text" : "*"
+    },
+    {
+      "id" : 3120,
+      "text" : "*"
+    },
+    {
+      "id" : 3121,
+      "text" : "Unaware"
+    },
+    {
+      "id" : 3122,
+      "text" : "Intimidate"
+    },
+    {
+      "id" : 3123,
+      "text" : "Shadow Tag"
+    },
+    {
+      "id" : 3124,
+      "text" : "Rough Skin"
+    },
+    {
+      "id" : 3125,
+      "text" : "Wonder Guard"
+    },
+    {
+      "id" : 3126,
+      "text" : "Levitate"
+    },
+    {
+      "id" : 3127,
+      "text" : "Effect Spore"
+    },
+    {
+      "id" : 3128,
+      "text" : "Synchronize"
+    },
+    {
+      "id" : 3129,
+      "text" : "Clear Body"
+    },
+    {
+      "id" : 3130,
+      "text" : "Natural Cure"
+    },
+    {
+      "id" : 3131,
+      "text" : "Lightningrod"
+    },
+    {
+      "id" : 3132,
+      "text" : "Serene Grace"
+    },
+    {
+      "id" : 3133,
+      "text" : "Swift Swim"
+    },
+    {
+      "id" : 3134,
+      "text" : "Chlorophyll"
+    },
+    {
+      "id" : 3135,
+      "text" : "Sheer Force"
+    },
+    {
+      "id" : 3136,
+      "text" : "Trace"
+    },
+    {
+      "id" : 3137,
+      "text" : "Huge Power"
+    },
+    {
+      "id" : 3138,
+      "text" : "Poison Point"
+    },
+    {
+      "id" : 3139,
+      "text" : "Inner Focus"
+    },
+    {
+      "id" : 3140,
+      "text" : "Poison Touch"
+    },
+    {
+      "id" : 3141,
+      "text" : "*"
+    },
+    {
+      "id" : 3142,
+      "text" : "Sniper"
+    },
+    {
+      "id" : 3143,
+      "text" : "Soundproof"
+    },
+    {
+      "id" : 3144,
+      "text" : "Rain Dish"
+    },
+    {
+      "id" : 3145,
+      "text" : "Sand Stream"
+    },
+    {
+      "id" : 3146,
+      "text" : "Pressure"
+    },
+    {
+      "id" : 3147,
+      "text" : "Thick Fat"
+    },
+    {
+      "id" : 3148,
+      "text" : "Early Bird"
+    },
+    {
+      "id" : 3149,
+      "text" : "Flame Body"
+    },
+    {
+      "id" : 3150,
+      "text" : "Poison Heal"
+    },
+    {
+      "id" : 3151,
+      "text" : "Keen Eye"
+    },
+    {
+      "id" : 3152,
+      "text" : "Hyper Cutter"
+    },
+    {
+      "id" : 3153,
+      "text" : "Pickup"
+    },
+    {
+      "id" : 3154,
+      "text" : "Truant"
+    },
+    {
+      "id" : 3155,
+      "text" : "Hustle"
+    },
+    {
+      "id" : 3156,
+      "text" : "Cute Charm"
+    },
+    {
+      "id" : 3157,
+      "text" : "Trickster"
+    },
+    {
+      "id" : 3158,
+      "text" : "Moxie"
+    },
+    {
+      "id" : 3159,
+      "text" : "Forecast"
+    },
+    {
+      "id" : 3160,
+      "text" : "Rattled"
+    },
+    {
+      "id" : 3161,
+      "text" : "Shed Skin"
+    },
+    {
+      "id" : 3162,
+      "text" : "Guts"
+    },
+    {
+      "id" : 3163,
+      "text" : "Marvel Scale"
+    },
+    {
+      "id" : 3164,
+      "text" : "Liquid Ooze"
+    },
+    {
+      "id" : 3165,
+      "text" : "Mega Launcher"
+    },
+    {
+      "id" : 3166,
+      "text" : "Technician"
+    },
+    {
+      "id" : 3167,
+      "text" : "Gale Wings"
+    },
+    {
+      "id" : 3168,
+      "text" : "Pixilate"
+    },
+    {
+      "id" : 3169,
+      "text" : "Rock Head"
+    },
+    {
+      "id" : 3170,
+      "text" : "Drought"
+    },
+    {
+      "id" : 3171,
+      "text" : "Arena Trap"
+    },
+    {
+      "id" : 3172,
+      "text" : "Robotic"
+    },
+    {
+      "id" : 3173,
+      "text" : "*"
+    },
+    {
+      "id" : 3174,
+      "text" : "Pure Power"
+    },
+    {
+      "id" : 3175,
+      "text" : "Shell Armour"
+    },
+    {
+      "id" : 3176,
+      "text" : "Prevents stat drops."
+    },
+    {
+      "id" : 3177,
+      "text" : "Air Lock"
+    },
+    {
+      "id" : 3201,
+      "text" : "Hardy"
+    },
+    {
+      "id" : 3202,
+      "text" : "Lonely"
+    },
+    {
+      "id" : 3203,
+      "text" : "Brave"
+    },
+    {
+      "id" : 3204,
+      "text" : "Adamant"
+    },
+    {
+      "id" : 3205,
+      "text" : "Naughty"
+    },
+    {
+      "id" : 3206,
+      "text" : "Bold"
+    },
+    {
+      "id" : 3207,
+      "text" : "Docile"
+    },
+    {
+      "id" : 3208,
+      "text" : "Relaxed"
+    },
+    {
+      "id" : 3209,
+      "text" : "Impish"
+    },
+    {
+      "id" : 3210,
+      "text" : "Lax"
+    },
+    {
+      "id" : 3211,
+      "text" : "Timid"
+    },
+    {
+      "id" : 3212,
+      "text" : "Hasty"
+    },
+    {
+      "id" : 3213,
+      "text" : "Serious"
+    },
+    {
+      "id" : 3214,
+      "text" : "Jolly"
+    },
+    {
+      "id" : 3215,
+      "text" : "Naive"
+    },
+    {
+      "id" : 3216,
+      "text" : "Modest"
+    },
+    {
+      "id" : 3217,
+      "text" : "Mild"
+    },
+    {
+      "id" : 3218,
+      "text" : "Quiet"
+    },
+    {
+      "id" : 3219,
+      "text" : "Bashful"
+    },
+    {
+      "id" : 3220,
+      "text" : "Rash"
+    },
+    {
+      "id" : 3221,
+      "text" : "Calm"
+    },
+    {
+      "id" : 3222,
+      "text" : "Gentle"
+    },
+    {
+      "id" : 3223,
+      "text" : "Sassy"
+    },
+    {
+      "id" : 3224,
+      "text" : "Careful"
+    },
+    {
+      "id" : 3225,
+      "text" : "Quirky"
+    },
+    {
+      "id" : 3301,
+      "text" : "Makes normal moves flying."
+    },
+    {
+      "id" : 3302,
+      "text" : "Summons rain in battle."
+    },
+    {
+      "id" : 3303,
+      "text" : "Gradually boosts Speed."
+    },
+    {
+      "id" : 3304,
+      "text" : "Blocks critical hits."
+    },
+    {
+      "id" : 3305,
+      "text" : "Negates 1-hit KO attacks."
+    },
+    {
+      "id" : 3306,
+      "text" : "Prevents self-destruction."
+    },
+    {
+      "id" : 3307,
+      "text" : "Prevents paralysis."
+    },
+    {
+      "id" : 3308,
+      "text" : "Ups evasion in a sandstorm."
+    },
+    {
+      "id" : 3309,
+      "text" : "Paralyzes on contact."
+    },
+    {
+      "id" : 3310,
+      "text" : "Turns electricity into HP."
+    },
+    {
+      "id" : 3311,
+      "text" : "Changes water into HP."
+    },
+    {
+      "id" : 3312,
+      "text" : "Increases critical rate."
+    },
+    {
+      "id" : 3313,
+      "text" : "Negates weather effects."
+    },
+    {
+      "id" : 3314,
+      "text" : "Raises accuracy."
+    },
+    {
+      "id" : 3315,
+      "text" : "Prevents sleep."
+    },
+    {
+      "id" : 3316,
+      "text" : "Changes type to target's move."
+    },
+    {
+      "id" : 3317,
+      "text" : "Prevents poisoning."
+    },
+    {
+      "id" : 3318,
+      "text" : "Powers up if hit by fire."
+    },
+    {
+      "id" : 3319,
+      "text" : "*"
+    },
+    {
+      "id" : 3320,
+      "text" : "*"
+    },
+    {
+      "id" : 3321,
+      "text" : "Ignores stat boosts."
+    },
+    {
+      "id" : 3322,
+      "text" : "Lowers the foe's Attack."
+    },
+    {
+      "id" : 3323,
+      "text" : "Prevents the foe's escape."
+    },
+    {
+      "id" : 3324,
+      "text" : "Hurts to touch."
+    },
+    {
+      "id" : 3325,
+      "text" : "\"Supereffective\" hits."
+    },
+    {
+      "id" : 3326,
+      "text" : "Not hit by Ground attacks."
+    },
+    {
+      "id" : 3327,
+      "text" : "Leaves spores on contact."
+    },
+    {
+      "id" : 3328,
+      "text" : "Passes on status problems."
+    },
+    {
+      "id" : 3329,
+      "text" : "Prevents ability reduction."
+    },
+    {
+      "id" : 3330,
+      "text" : "Cures status upon switching."
+    },
+    {
+      "id" : 3331,
+      "text" : "Draws electrical moves."
+    },
+    {
+      "id" : 3332,
+      "text" : "Promotes added effects."
+    },
+    {
+      "id" : 3333,
+      "text" : "Raises Speed in rain."
+    },
+    {
+      "id" : 3334,
+      "text" : "Raises Speed in sunshine."
+    },
+    {
+      "id" : 3335,
+      "text" : "Powers secondary effect moves."
+    },
+    {
+      "id" : 3336,
+      "text" : "Copies special ability."
+    },
+    {
+      "id" : 3337,
+      "text" : "Raises Attack."
+    },
+    {
+      "id" : 3338,
+      "text" : "Poisons target on contact."
+    },
+    {
+      "id" : 3339,
+      "text" : "Prevents flinching."
+    },
+    {
+      "id" : 3340,
+      "text" : "Contact may poison."
+    },
+    {
+      "id" : 3341,
+      "text" : "*"
+    },
+    {
+      "id" : 3342,
+      "text" : "More powerful criticals."
+    },
+    {
+      "id" : 3343,
+      "text" : "Avoids sound-based moves."
+    },
+    {
+      "id" : 3344,
+      "text" : "Slight HP recovery in rain."
+    },
+    {
+      "id" : 3345,
+      "text" : "Summons a sandstorm."
+    },
+    {
+      "id" : 3346,
+      "text" : "Raises foe's PP usage."
+    },
+    {
+      "id" : 3347,
+      "text" : "Heat-and-cold protection."
+    },
+    {
+      "id" : 3348,
+      "text" : "Awakens quickly from sleep."
+    },
+    {
+      "id" : 3349,
+      "text" : "Burns the target on contact."
+    },
+    {
+      "id" : 3350,
+      "text" : "Heals when poisoned."
+    },
+    {
+      "id" : 3351,
+      "text" : "Prevents loss of accuracy."
+    },
+    {
+      "id" : 3352,
+      "text" : "Prevents Attack reduction."
+    },
+    {
+      "id" : 3353,
+      "text" : "May pick up items."
+    },
+    {
+      "id" : 3354,
+      "text" : "Moves only every two turns."
+    },
+    {
+      "id" : 3355,
+      "text" : "Trades accuracy for power."
+    },
+    {
+      "id" : 3356,
+      "text" : "Infatuates on contact."
+    },
+    {
+      "id" : 3357,
+      "text" : "*"
+    },
+    {
+      "id" : 3358,
+      "text" : "KOs raise attack."
+    },
+    {
+      "id" : 3359,
+      "text" : "Changes with the weather."
+    },
+    {
+      "id" : 3360,
+      "text" : "Speeds up when scared."
+    },
+    {
+      "id" : 3361,
+      "text" : "Heals the body by shedding."
+    },
+    {
+      "id" : 3362,
+      "text" : "Ups Attack if suffering."
+    },
+    {
+      "id" : 3363,
+      "text" : "Ups Defense if suffering."
+    },
+    {
+      "id" : 3364,
+      "text" : "Draining causes injury."
+    },
+    {
+      "id" : 3365,
+      "text" : "Powers aura\/pulse moves."
+    },
+    {
+      "id" : 3366,
+      "text" : "Powers weaker moves."
+    },
+    {
+      "id" : 3367,
+      "text" : "Flying moves go first."
+    },
+    {
+      "id" : 3368,
+      "text" : "Makes normal moves fairy."
+    },
+    {
+      "id" : 3369,
+      "text" : "Prevents recoil damage."
+    },
+    {
+      "id" : 3370,
+      "text" : "Summons sunlight in battle."
+    },
+    {
+      "id" : 3371,
+      "text" : "Prevents the foe's escape."
+    },
+    {
+      "id" : 3372,
+      "text" : "Prevents sleep."
+    },
+    {
+      "id" : 3373,
+      "text" : "*"
+    },
+    {
+      "id" : 3374,
+      "text" : "Doubles Attack."
+    },
+    {
+      "id" : 3375,
+      "text" : "Blocks critical hits."
+    },
+    {
+      "id" : 3377,
+      "text" : "Negates weather effects."
+    },
+    {
+      "id" : 3501,
+      "text" : "Phenac City"
+    },
+    {
+      "id" : 3502,
+      "text" : "Pyrite Town"
+    },
+    {
+      "id" : 3503,
+      "text" : "Agate Village"
+    },
+    {
+      "id" : 3504,
+      "text" : "Pokémon HQ Lab"
+    },
+    {
+      "id" : 3505,
+      "text" : "Gateon Port"
+    },
+    {
+      "id" : 3506,
+      "text" : "Cipher Lab"
+    },
+    {
+      "id" : 3508,
+      "text" : "Mt. Battle"
+    },
+    {
+      "id" : 3509,
+      "text" : "S.S. Libra"
+    },
+    {
+      "id" : 3510,
+      "text" : "Realgam Tower"
+    },
+    {
+      "id" : 3511,
+      "text" : "Cipher Key Lair"
+    },
+    {
+      "id" : 3512,
+      "text" : "Citadark Isle"
+    },
+    {
+      "id" : 3513,
+      "text" : "Outskirt Stand"
+    },
+    {
+      "id" : 3514,
+      "text" : "Snagem Hideout"
+    },
+    {
+      "id" : 3515,
+      "text" : "Kaminko's House"
+    },
+    {
+      "id" : 3517,
+      "text" : "Rock"
+    },
+    {
+      "id" : 3518,
+      "text" : "Oasis"
+    },
+    {
+      "id" : 3519,
+      "text" : "Cave"
+    },
+    {
+      "id" : 3520,
+      "text" : "Orre Colosseum"
+    },
+    {
+      "id" : 5001,
+      "text" : "Master Ball"
+    },
+    {
+      "id" : 5002,
+      "text" : "Ultra Ball"
+    },
+    {
+      "id" : 5003,
+      "text" : "Great Ball"
+    },
+    {
+      "id" : 5004,
+      "text" : "Poké Ball"
+    },
+    {
+      "id" : 5005,
+      "text" : "Shady Ball"
+    },
+    {
+      "id" : 5006,
+      "text" : "Net Ball"
+    },
+    {
+      "id" : 5007,
+      "text" : "Shade Ball"
+    },
+    {
+      "id" : 5008,
+      "text" : "Nest Ball"
+    },
+    {
+      "id" : 5009,
+      "text" : "Repeat Ball"
+    },
+    {
+      "id" : 5010,
+      "text" : "Timer Ball"
+    },
+    {
+      "id" : 5011,
+      "text" : "Luxury Ball"
+    },
+    {
+      "id" : 5012,
+      "text" : "Premier Ball"
+    },
+    {
+      "id" : 5013,
+      "text" : "Potion"
+    },
+    {
+      "id" : 5014,
+      "text" : "Antidote"
+    },
+    {
+      "id" : 5015,
+      "text" : "Burn Heal"
+    },
+    {
+      "id" : 5016,
+      "text" : "Ice Heal"
+    },
+    {
+      "id" : 5017,
+      "text" : "Awakening"
+    },
+    {
+      "id" : 5018,
+      "text" : "Parlyz Heal"
+    },
+    {
+      "id" : 5019,
+      "text" : "Full Restore"
+    },
+    {
+      "id" : 5020,
+      "text" : "Max Potion"
+    },
+    {
+      "id" : 5021,
+      "text" : "Hyper Potion"
+    },
+    {
+      "id" : 5022,
+      "text" : "Super Potion"
+    },
+    {
+      "id" : 5023,
+      "text" : "Full Heal"
+    },
+    {
+      "id" : 5024,
+      "text" : "Revive"
+    },
+    {
+      "id" : 5025,
+      "text" : "Max Revive"
+    },
+    {
+      "id" : 5026,
+      "text" : "Fresh Water"
+    },
+    {
+      "id" : 5027,
+      "text" : "Soda Pop"
+    },
+    {
+      "id" : 5028,
+      "text" : "Lemonade"
+    },
+    {
+      "id" : 5029,
+      "text" : "Moomoo Milk"
+    },
+    {
+      "id" : 5030,
+      "text" : "Energypowder"
+    },
+    {
+      "id" : 5031,
+      "text" : "Energy Root"
+    },
+    {
+      "id" : 5032,
+      "text" : "Heal Powder"
+    },
+    {
+      "id" : 5033,
+      "text" : "Revival Herb"
+    },
+    {
+      "id" : 5034,
+      "text" : "Ether"
+    },
+    {
+      "id" : 5035,
+      "text" : "Max Ether"
+    },
+    {
+      "id" : 5036,
+      "text" : "Elixir"
+    },
+    {
+      "id" : 5037,
+      "text" : "Max Elixir"
+    },
+    {
+      "id" : 5038,
+      "text" : "Lava Cookie"
+    },
+    {
+      "id" : 5039,
+      "text" : "Aura Filter"
+    },
+    {
+      "id" : 5040,
+      "text" : "Shadow Armour"
+    },
+    {
+      "id" : 5041,
+      "text" : "Life Orb"
+    },
+    {
+      "id" : 5042,
+      "text" : "Storm Drain"
+    },
+    {
+      "id" : 5043,
+      "text" : "Dark raises attack."
+    },
+    {
+      "id" : 5044,
+      "text" : "Berry Juice"
+    },
+    {
+      "id" : 5045,
+      "text" : "Sacred Ash"
+    },
+    {
+      "id" : 5046,
+      "text" : "_"
+    },
+    {
+      "id" : 5047,
+      "text" : "Powers ineffective moves."
+    },
+    {
+      "id" : 5048,
+      "text" : "Drops raise sp.atk."
+    },
+    {
+      "id" : 5049,
+      "text" : "Drops raise attack."
+    },
+    {
+      "id" : 5050,
+      "text" : "_"
+    },
+    {
+      "id" : 5051,
+      "text" : "Electricity raises speed."
+    },
+    {
+      "id" : 5052,
+      "text" : "HP Up"
+    },
+    {
+      "id" : 5053,
+      "text" : "Protein"
+    },
+    {
+      "id" : 5054,
+      "text" : "Iron"
+    },
+    {
+      "id" : 5055,
+      "text" : "Carbos"
+    },
+    {
+      "id" : 5056,
+      "text" : "Calcium"
+    },
+    {
+      "id" : 5057,
+      "text" : "Rare Candy"
+    },
+    {
+      "id" : 5058,
+      "text" : "PP Up"
+    },
+    {
+      "id" : 5059,
+      "text" : "Zinc"
+    },
+    {
+      "id" : 5060,
+      "text" : "PP Max"
+    },
+    {
+      "id" : 5061,
+      "text" : "Guard Spec"
+    },
+    {
+      "id" : 5062,
+      "text" : "Dire Hit"
+    },
+    {
+      "id" : 5063,
+      "text" : "X Attack"
+    },
+    {
+      "id" : 5064,
+      "text" : "X Defend"
+    },
+    {
+      "id" : 5065,
+      "text" : "X Speed"
+    },
+    {
+      "id" : 5066,
+      "text" : "X Accuracy"
+    },
+    {
+      "id" : 5067,
+      "text" : "X Special"
+    },
+    {
+      "id" : 5068,
+      "text" : "_"
+    },
+    {
+      "id" : 5069,
+      "text" : "_"
+    },
+    {
+      "id" : 5070,
+      "text" : "Weakens effective moves."
+    },
+    {
+      "id" : 5071,
+      "text" : "Download"
+    },
+    {
+      "id" : 5072,
+      "text" : "_"
+    },
+    {
+      "id" : 5073,
+      "text" : "Aura Booster"
+    },
+    {
+      "id" : 5074,
+      "text" : "Sun Stone"
+    },
+    {
+      "id" : 5075,
+      "text" : "Moon Stone"
+    },
+    {
+      "id" : 5076,
+      "text" : "Fire Stone"
+    },
+    {
+      "id" : 5077,
+      "text" : "Thunderstone"
+    },
+    {
+      "id" : 5078,
+      "text" : "Water Stone"
+    },
+    {
+      "id" : 5079,
+      "text" : "Leaf Stone"
+    },
+    {
+      "id" : 5080,
+      "text" : "Tinymushroom"
+    },
+    {
+      "id" : 5081,
+      "text" : "Big Mushroom"
+    },
+    {
+      "id" : 5082,
+      "text" : "Pearl"
+    },
+    {
+      "id" : 5083,
+      "text" : "Big Pearl"
+    },
+    {
+      "id" : 5084,
+      "text" : "Assault Vest"
+    },
+    {
+      "id" : 5085,
+      "text" : "Star Piece"
+    },
+    {
+      "id" : 5086,
+      "text" : "Nugget"
+    },
+    {
+      "id" : 5087,
+      "text" : "Heart Scale"
+    },
+    {
+      "id" : 5088,
+      "text" : "Orange Mail"
+    },
+    {
+      "id" : 5089,
+      "text" : "Harbor Mail"
+    },
+    {
+      "id" : 5090,
+      "text" : "GLITTER Mail"
+    },
+    {
+      "id" : 5091,
+      "text" : "Mech Mail"
+    },
+    {
+      "id" : 5092,
+      "text" : "Wood Mail"
+    },
+    {
+      "id" : 5093,
+      "text" : "Wave Mail"
+    },
+    {
+      "id" : 5094,
+      "text" : "BEAD Mail"
+    },
+    {
+      "id" : 5095,
+      "text" : "Shadow Mail"
+    },
+    {
+      "id" : 5096,
+      "text" : "Tropic Mail"
+    },
+    {
+      "id" : 5097,
+      "text" : "Dream Mail"
+    },
+    {
+      "id" : 5098,
+      "text" : "FAB Mail"
+    },
+    {
+      "id" : 5099,
+      "text" : "Retro Mail"
+    },
+    {
+      "id" : 5100,
+      "text" : "Cheri Berry"
+    },
+    {
+      "id" : 5101,
+      "text" : "Chesto Berry"
+    },
+    {
+      "id" : 5102,
+      "text" : "Pecha Berry"
+    },
+    {
+      "id" : 5103,
+      "text" : "Rawst Berry"
+    },
+    {
+      "id" : 5104,
+      "text" : "Aspear Berry"
+    },
+    {
+      "id" : 5105,
+      "text" : "Leppa Berry"
+    },
+    {
+      "id" : 5106,
+      "text" : "Oran Berry"
+    },
+    {
+      "id" : 5107,
+      "text" : "Persim Berry"
+    },
+    {
+      "id" : 5108,
+      "text" : "Lum Berry"
+    },
+    {
+      "id" : 5109,
+      "text" : "Sitrus Berry"
+    },
+    {
+      "id" : 5110,
+      "text" : "Figy Berry"
+    },
+    {
+      "id" : 5111,
+      "text" : "Wiki Berry"
+    },
+    {
+      "id" : 5112,
+      "text" : "Mago Berry"
+    },
+    {
+      "id" : 5113,
+      "text" : "Aguav Berry"
+    },
+    {
+      "id" : 5114,
+      "text" : "Iapapa Berry"
+    },
+    {
+      "id" : 5115,
+      "text" : "_"
+    },
+    {
+      "id" : 5116,
+      "text" : "_"
+    },
+    {
+      "id" : 5117,
+      "text" : "_"
+    },
+    {
+      "id" : 5118,
+      "text" : "_"
+    },
+    {
+      "id" : 5119,
+      "text" : "Snow Cloak"
+    },
+    {
+      "id" : 5120,
+      "text" : "_"
+    },
+    {
+      "id" : 5121,
+      "text" : "_"
+    },
+    {
+      "id" : 5122,
+      "text" : "Tinted Lens"
+    },
+    {
+      "id" : 5123,
+      "text" : "_"
+    },
+    {
+      "id" : 5124,
+      "text" : "Motor Drive"
+    },
+    {
+      "id" : 5125,
+      "text" : "Raises sp.atk in battle."
+    },
+    {
+      "id" : 5126,
+      "text" : "Sap Sipper"
+    },
+    {
+      "id" : 5127,
+      "text" : "_"
+    },
+    {
+      "id" : 5128,
+      "text" : "_"
+    },
+    {
+      "id" : 5129,
+      "text" : "Powers recoil moves."
+    },
+    {
+      "id" : 5130,
+      "text" : "_"
+    },
+    {
+      "id" : 5131,
+      "text" : "_"
+    },
+    {
+      "id" : 5132,
+      "text" : "_"
+    },
+    {
+      "id" : 5133,
+      "text" : "Justified"
+    },
+    {
+      "id" : 5134,
+      "text" : "Reckless"
+    },
+    {
+      "id" : 5135,
+      "text" : "Liechi Berry"
+    },
+    {
+      "id" : 5136,
+      "text" : "Ganlon Berry"
+    },
+    {
+      "id" : 5137,
+      "text" : "Salac Berry"
+    },
+    {
+      "id" : 5138,
+      "text" : "Petaya Berry"
+    },
+    {
+      "id" : 5139,
+      "text" : "Apicot Berry"
+    },
+    {
+      "id" : 5140,
+      "text" : "Lansat Berry"
+    },
+    {
+      "id" : 5141,
+      "text" : "Starf Berry"
+    },
+    {
+      "id" : 5142,
+      "text" : "Enigma Berry"
+    },
+    {
+      "id" : 5143,
+      "text" : "Brightpowder"
+    },
+    {
+      "id" : 5144,
+      "text" : "White Herb"
+    },
+    {
+      "id" : 5145,
+      "text" : "Macho Brace"
+    },
+    {
+      "id" : 5146,
+      "text" : "Exp. Share"
+    },
+    {
+      "id" : 5147,
+      "text" : "Quick Claw"
+    },
+    {
+      "id" : 5148,
+      "text" : "Soothe Bell"
+    },
+    {
+      "id" : 5149,
+      "text" : "Toxic Orb"
+    },
+    {
+      "id" : 5150,
+      "text" : "Choice Band"
+    },
+    {
+      "id" : 5151,
+      "text" : "King's Rock"
+    },
+    {
+      "id" : 5152,
+      "text" : "Insect Plate"
+    },
+    {
+      "id" : 5153,
+      "text" : "Amulet Coin"
+    },
+    {
+      "id" : 5154,
+      "text" : "Flame Orb"
+    },
+    {
+      "id" : 5155,
+      "text" : "Soul Dew"
+    },
+    {
+      "id" : 5156,
+      "text" : "Expert Belt"
+    },
+    {
+      "id" : 5157,
+      "text" : "Pixie Plate"
+    },
+    {
+      "id" : 5158,
+      "text" : "Yellow Flute"
+    },
+    {
+      "id" : 5159,
+      "text" : "Everstone"
+    },
+    {
+      "id" : 5160,
+      "text" : "Focus Sash"
+    },
+    {
+      "id" : 5161,
+      "text" : "Lucky Egg"
+    },
+    {
+      "id" : 5162,
+      "text" : "Scope Lens"
+    },
+    {
+      "id" : 5163,
+      "text" : "Iron Plate"
+    },
+    {
+      "id" : 5164,
+      "text" : "Leftovers"
+    },
+    {
+      "id" : 5165,
+      "text" : "Muscle Band"
+    },
+    {
+      "id" : 5166,
+      "text" : "Light Ball"
+    },
+    {
+      "id" : 5167,
+      "text" : "Earth Plate"
+    },
+    {
+      "id" : 5168,
+      "text" : "Stone Plate"
+    },
+    {
+      "id" : 5169,
+      "text" : "Meadow Plate"
+    },
+    {
+      "id" : 5170,
+      "text" : "Dread Plate"
+    },
+    {
+      "id" : 5171,
+      "text" : "Fist Plate"
+    },
+    {
+      "id" : 5172,
+      "text" : "Zap Plate"
+    },
+    {
+      "id" : 5173,
+      "text" : "Splash Plate"
+    },
+    {
+      "id" : 5174,
+      "text" : "Sky Plate"
+    },
+    {
+      "id" : 5175,
+      "text" : "Toxic Plate"
+    },
+    {
+      "id" : 5176,
+      "text" : "Icicle Plate"
+    },
+    {
+      "id" : 5177,
+      "text" : "Spooky Plate"
+    },
+    {
+      "id" : 5178,
+      "text" : "Mind Plate"
+    },
+    {
+      "id" : 5179,
+      "text" : "Flame Plate"
+    },
+    {
+      "id" : 5180,
+      "text" : "Draco Plate"
+    },
+    {
+      "id" : 5181,
+      "text" : "Silk Scarf"
+    },
+    {
+      "id" : 5182,
+      "text" : "Ability Capsule"
+    },
+    {
+      "id" : 5183,
+      "text" : "Shell Bell"
+    },
+    {
+      "id" : 5184,
+      "text" : "Rocky Helmet"
+    },
+    {
+      "id" : 5185,
+      "text" : "Lax Incense"
+    },
+    {
+      "id" : 5186,
+      "text" : "Eviolite"
+    },
+    {
+      "id" : 5187,
+      "text" : "Choice Specs"
+    },
+    {
+      "id" : 5188,
+      "text" : "Thick Club"
+    },
+    {
+      "id" : 5189,
+      "text" : "Choice Scarf"
+    },
+    {
+      "id" : 5190,
+      "text" : "Water raises sp.atk."
+    },
+    {
+      "id" : 5191,
+      "text" : "Grass raises attack."
+    },
+    {
+      "id" : 5192,
+      "text" : "_"
+    },
+    {
+      "id" : 5193,
+      "text" : "Filter"
+    },
+    {
+      "id" : 5194,
+      "text" : "_"
+    },
+    {
+      "id" : 5195,
+      "text" : "TM01"
+    },
+    {
+      "id" : 5196,
+      "text" : "TM02"
+    },
+    {
+      "id" : 5197,
+      "text" : "TM03"
+    },
+    {
+      "id" : 5198,
+      "text" : "TM04"
+    },
+    {
+      "id" : 5199,
+      "text" : "TM05"
+    },
+    {
+      "id" : 5200,
+      "text" : "TM06"
+    },
+    {
+      "id" : 5201,
+      "text" : "TM07"
+    },
+    {
+      "id" : 5202,
+      "text" : "TM08"
+    },
+    {
+      "id" : 5203,
+      "text" : "TM09"
+    },
+    {
+      "id" : 5204,
+      "text" : "TM10"
+    },
+    {
+      "id" : 5205,
+      "text" : "TM11"
+    },
+    {
+      "id" : 5206,
+      "text" : "TM12"
+    },
+    {
+      "id" : 5207,
+      "text" : "TM13"
+    },
+    {
+      "id" : 5208,
+      "text" : "TM14"
+    },
+    {
+      "id" : 5209,
+      "text" : "TM15"
+    },
+    {
+      "id" : 5210,
+      "text" : "TM16"
+    },
+    {
+      "id" : 5211,
+      "text" : "TM17"
+    },
+    {
+      "id" : 5212,
+      "text" : "TM18"
+    },
+    {
+      "id" : 5213,
+      "text" : "TM19"
+    },
+    {
+      "id" : 5214,
+      "text" : "TM20"
+    },
+    {
+      "id" : 5215,
+      "text" : "TM21"
+    },
+    {
+      "id" : 5216,
+      "text" : "TM22"
+    },
+    {
+      "id" : 5217,
+      "text" : "TM23"
+    },
+    {
+      "id" : 5218,
+      "text" : "TM24"
+    },
+    {
+      "id" : 5219,
+      "text" : "TM25"
+    },
+    {
+      "id" : 5220,
+      "text" : "TM26"
+    },
+    {
+      "id" : 5221,
+      "text" : "TM27"
+    },
+    {
+      "id" : 5222,
+      "text" : "TM28"
+    },
+    {
+      "id" : 5223,
+      "text" : "TM29"
+    },
+    {
+      "id" : 5224,
+      "text" : "TM30"
+    },
+    {
+      "id" : 5225,
+      "text" : "TM31"
+    },
+    {
+      "id" : 5226,
+      "text" : "TM32"
+    },
+    {
+      "id" : 5227,
+      "text" : "TM33"
+    },
+    {
+      "id" : 5228,
+      "text" : "TM34"
+    },
+    {
+      "id" : 5229,
+      "text" : "TM35"
+    },
+    {
+      "id" : 5230,
+      "text" : "TM36"
+    },
+    {
+      "id" : 5231,
+      "text" : "TM37"
+    },
+    {
+      "id" : 5232,
+      "text" : "TM38"
+    },
+    {
+      "id" : 5233,
+      "text" : "TM39"
+    },
+    {
+      "id" : 5234,
+      "text" : "TM40"
+    },
+    {
+      "id" : 5235,
+      "text" : "TM41"
+    },
+    {
+      "id" : 5236,
+      "text" : "TM42"
+    },
+    {
+      "id" : 5237,
+      "text" : "TM43"
+    },
+    {
+      "id" : 5238,
+      "text" : "TM44"
+    },
+    {
+      "id" : 5239,
+      "text" : "TM45"
+    },
+    {
+      "id" : 5240,
+      "text" : "TM46"
+    },
+    {
+      "id" : 5241,
+      "text" : "TM47"
+    },
+    {
+      "id" : 5242,
+      "text" : "TM48"
+    },
+    {
+      "id" : 5243,
+      "text" : "TM49"
+    },
+    {
+      "id" : 5244,
+      "text" : "TM50"
+    },
+    {
+      "id" : 5245,
+      "text" : "Safe Key"
+    },
+    {
+      "id" : 5246,
+      "text" : "Elevator Key"
+    },
+    {
+      "id" : 5247,
+      "text" : "せっけいず"
+    },
+    {
+      "id" : 5248,
+      "text" : "Machine Part"
+    },
+    {
+      "id" : 5249,
+      "text" : "さんかバッチ"
+    },
+    {
+      "id" : 5250,
+      "text" : "SD Card"
+    },
+    {
+      "id" : 5251,
+      "text" : "ID Card"
+    },
+    {
+      "id" : 5252,
+      "text" : "Music Disc"
+    },
+    {
+      "id" : 5253,
+      "text" : "Krane Memo 1"
+    },
+    {
+      "id" : 5254,
+      "text" : "ひっさつツール"
+    },
+    {
+      "id" : 5255,
+      "text" : "でんせつのエサ"
+    },
+    {
+      "id" : 5256,
+      "text" : "ガデリのカギ"
+    },
+    {
+      "id" : 5257,
+      "text" : "Krane Memo 2"
+    },
+    {
+      "id" : 5258,
+      "text" : "System Lever"
+    },
+    {
+      "id" : 5259,
+      "text" : "かいぞうパーツ"
+    },
+    {
+      "id" : 5260,
+      "text" : "Cologne Case"
+    },
+    {
+      "id" : 5261,
+      "text" : "Joy Scent"
+    },
+    {
+      "id" : 5262,
+      "text" : "Excite Scent"
+    },
+    {
+      "id" : 5263,
+      "text" : "Vivid Scent"
+    },
+    {
+      "id" : 5264,
+      "text" : "Poké Snack"
+    },
+    {
+      "id" : 5265,
+      "text" : "Sun Stone*"
+    },
+    {
+      "id" : 5266,
+      "text" : "Moon Stone*"
+    },
+    {
+      "id" : 5267,
+      "text" : "Disc Case"
+    },
+    {
+      "id" : 5268,
+      "text" : "Battle CD 01"
+    },
+    {
+      "id" : 5269,
+      "text" : "Battle CD 02"
+    },
+    {
+      "id" : 5270,
+      "text" : "Battle CD 03"
+    },
+    {
+      "id" : 5271,
+      "text" : "Battle CD 04"
+    },
+    {
+      "id" : 5272,
+      "text" : "Battle CD 05"
+    },
+    {
+      "id" : 5273,
+      "text" : "Battle CD 06"
+    },
+    {
+      "id" : 5274,
+      "text" : "Battle CD 07"
+    },
+    {
+      "id" : 5275,
+      "text" : "Battle CD 08"
+    },
+    {
+      "id" : 5276,
+      "text" : "Battle CD 09"
+    },
+    {
+      "id" : 5277,
+      "text" : "Battle CD 10"
+    },
+    {
+      "id" : 5278,
+      "text" : "Battle CD 11"
+    },
+    {
+      "id" : 5279,
+      "text" : "Battle CD 12"
+    },
+    {
+      "id" : 5280,
+      "text" : "Battle CD 13"
+    },
+    {
+      "id" : 5281,
+      "text" : "Battle CD 14"
+    },
+    {
+      "id" : 5282,
+      "text" : "Battle CD 15"
+    },
+    {
+      "id" : 5283,
+      "text" : "Battle CD 16"
+    },
+    {
+      "id" : 5284,
+      "text" : "Battle CD 17"
+    },
+    {
+      "id" : 5285,
+      "text" : "Battle CD 18"
+    },
+    {
+      "id" : 5286,
+      "text" : "Battle CD 19"
+    },
+    {
+      "id" : 5287,
+      "text" : "Battle CD 20"
+    },
+    {
+      "id" : 5288,
+      "text" : "Battle CD 21"
+    },
+    {
+      "id" : 5289,
+      "text" : "Battle CD 22"
+    },
+    {
+      "id" : 5290,
+      "text" : "Battle CD 23"
+    },
+    {
+      "id" : 5291,
+      "text" : "Battle CD 24"
+    },
+    {
+      "id" : 5292,
+      "text" : "Battle CD 25"
+    },
+    {
+      "id" : 5293,
+      "text" : "Battle CD 26"
+    },
+    {
+      "id" : 5294,
+      "text" : "Battle CD 27"
+    },
+    {
+      "id" : 5295,
+      "text" : "Battle CD 28"
+    },
+    {
+      "id" : 5296,
+      "text" : "Battle CD 29"
+    },
+    {
+      "id" : 5297,
+      "text" : "Battle CD 30"
+    },
+    {
+      "id" : 5298,
+      "text" : "Battle CD 31"
+    },
+    {
+      "id" : 5299,
+      "text" : "Battle CD 32"
+    },
+    {
+      "id" : 5300,
+      "text" : "Battle CD 33"
+    },
+    {
+      "id" : 5301,
+      "text" : "Battle CD 34"
+    },
+    {
+      "id" : 5302,
+      "text" : "Battle CD 35"
+    },
+    {
+      "id" : 5303,
+      "text" : "Battle CD 36"
+    },
+    {
+      "id" : 5304,
+      "text" : "Battle CD 37"
+    },
+    {
+      "id" : 5305,
+      "text" : "Battle CD 38"
+    },
+    {
+      "id" : 5306,
+      "text" : "Battle CD 39"
+    },
+    {
+      "id" : 5307,
+      "text" : "Battle CD 40"
+    },
+    {
+      "id" : 5308,
+      "text" : "Battle CD 41"
+    },
+    {
+      "id" : 5309,
+      "text" : "Battle CD 42"
+    },
+    {
+      "id" : 5310,
+      "text" : "Battle CD 43"
+    },
+    {
+      "id" : 5311,
+      "text" : "Battle CD 44"
+    },
+    {
+      "id" : 5312,
+      "text" : "Battle CD 45"
+    },
+    {
+      "id" : 5313,
+      "text" : "Battle CD 46"
+    },
+    {
+      "id" : 5314,
+      "text" : "Battle CD 47"
+    },
+    {
+      "id" : 5315,
+      "text" : "Battle CD 48"
+    },
+    {
+      "id" : 5316,
+      "text" : "Battle CD 49"
+    },
+    {
+      "id" : 5317,
+      "text" : "Battle CD 50"
+    },
+    {
+      "id" : 5318,
+      "text" : "Battle CD 51"
+    },
+    {
+      "id" : 5319,
+      "text" : "Battle CD 52"
+    },
+    {
+      "id" : 5320,
+      "text" : "TM51"
+    },
+    {
+      "id" : 5321,
+      "text" : "TM52"
+    },
+    {
+      "id" : 5322,
+      "text" : "TM53"
+    },
+    {
+      "id" : 5323,
+      "text" : "TM54"
+    },
+    {
+      "id" : 5324,
+      "text" : "SM01"
+    },
+    {
+      "id" : 5325,
+      "text" : "SM02"
+    },
+    {
+      "id" : 5326,
+      "text" : "SM03"
+    },
+    {
+      "id" : 5327,
+      "text" : "SM04"
+    },
+    {
+      "id" : 5328,
+      "text" : "Krane Memo 3"
+    },
+    {
+      "id" : 5329,
+      "text" : "Krane Memo 4"
+    },
+    {
+      "id" : 5330,
+      "text" : "Krane Memo 5"
+    },
+    {
+      "id" : 5332,
+      "text" : "Mayor's Note"
+    },
+    {
+      "id" : 5333,
+      "text" : "Output List"
+    },
+    {
+      "id" : 5334,
+      "text" : "Gonzap's Key"
+    },
+    {
+      "id" : 5335,
+      "text" : "Mirror Radar"
+    },
+    {
+      "id" : 5336,
+      "text" : "Bonsly Card"
+    },
+    {
+      "id" : 5337,
+      "text" : "Photo"
+    },
+    {
+      "id" : 5338,
+      "text" : "Voice Case 1"
+    },
+    {
+      "id" : 5339,
+      "text" : "Voice Case 2"
+    },
+    {
+      "id" : 5340,
+      "text" : "Voice Case 3"
+    },
+    {
+      "id" : 5341,
+      "text" : "Voice Case 4"
+    },
+    {
+      "id" : 5342,
+      "text" : "Voice Case 5"
+    },
+    {
+      "id" : 5343,
+      "text" : "Cry Analyzer"
+    },
+    {
+      "id" : 6001,
+      "text" : "Michael"
+    },
+    {
+      "id" : 6002,
+      "text" : "‱"
+    },
+    {
+      "id" : 6003,
+      "text" : "Jovi"
+    },
+    {
+      "id" : 6004,
+      "text" : "Zook"
+    },
+    {
+      "id" : 6005,
+      "text" : "Ardos"
+    },
+    {
+      "id" : 6006,
+      "text" : "Verich"
+    },
+    {
+      "id" : 6007,
+      "text" : "Emily"
+    },
+    {
+      "id" : 6008,
+      "text" : "Bob"
+    },
+    {
+      "id" : 6009,
+      "text" : "Kyle"
+    },
+    {
+      "id" : 6010,
+      "text" : "Bill"
+    },
+    {
+      "id" : 6011,
+      "text" : "Razzle"
+    },
+    {
+      "id" : 6012,
+      "text" : "Dazzle"
+    },
+    {
+      "id" : 6013,
+      "text" : "Billy"
+    },
+    {
+      "id" : 6014,
+      "text" : "Betty"
+    },
+    {
+      "id" : 6015,
+      "text" : "Perr"
+    },
+    {
+      "id" : 6016,
+      "text" : "Kaminko"
+    },
+    {
+      "id" : 6017,
+      "text" : "Ruby"
+    },
+    {
+      "id" : 6018,
+      "text" : "Lily"
+    },
+    {
+      "id" : 6019,
+      "text" : "Krane"
+    },
+    {
+      "id" : 6020,
+      "text" : "Dave"
+    },
+    {
+      "id" : 6021,
+      "text" : "Naps"
+    },
+    {
+      "id" : 6022,
+      "text" : "Dex"
+    },
+    {
+      "id" : 6023,
+      "text" : "Mitch"
+    },
+    {
+      "id" : 6024,
+      "text" : "Aidan"
+    },
+    {
+      "id" : 6025,
+      "text" : "Chobin"
+    },
+    {
+      "id" : 6026,
+      "text" : "Kandee"
+    },
+    {
+      "id" : 6027,
+      "text" : "Aya"
+    },
+    {
+      "id" : 6028,
+      "text" : "Dusty"
+    },
+    {
+      "id" : 6029,
+      "text" : "Sally"
+    },
+    {
+      "id" : 6030,
+      "text" : "Lola"
+    },
+    {
+      "id" : 6031,
+      "text" : "Dan"
+    },
+    {
+      "id" : 6032,
+      "text" : "Alex"
+    },
+    {
+      "id" : 6033,
+      "text" : "Parker"
+    },
+    {
+      "id" : 6034,
+      "text" : "Bella"
+    },
+    {
+      "id" : 6035,
+      "text" : "Eagun"
+    },
+    {
+      "id" : 6036,
+      "text" : "Gary"
+    },
+    {
+      "id" : 6037,
+      "text" : "Jill"
+    },
+    {
+      "id" : 6038,
+      "text" : "Sue"
+    },
+    {
+      "id" : 6039,
+      "text" : "Tim"
+    },
+    {
+      "id" : 6040,
+      "text" : "Red"
+    },
+    {
+      "id" : 6041,
+      "text" : "Blue"
+    },
+    {
+      "id" : 6042,
+      "text" : "Brown"
+    },
+    {
+      "id" : 6043,
+      "text" : "Yellow"
+    },
+    {
+      "id" : 6044,
+      "text" : "Purple"
+    },
+    {
+      "id" : 6045,
+      "text" : "Green"
+    },
+    {
+      "id" : 6046,
+      "text" : "Eldes"
+    },
+    {
+      "id" : 6047,
+      "text" : "Captain TIDE"
+    },
+    {
+      "id" : 6048,
+      "text" : "May"
+    },
+    {
+      "id" : 6049,
+      "text" : "Chris"
+    },
+    {
+      "id" : 6050,
+      "text" : "Brady"
+    },
+    {
+      "id" : 6051,
+      "text" : "Vander"
+    },
+    {
+      "id" : 6052,
+      "text" : "Pearl"
+    },
+    {
+      "id" : 6053,
+      "text" : "Cam"
+    },
+    {
+      "id" : 6054,
+      "text" : "Dylan"
+    },
+    {
+      "id" : 6055,
+      "text" : "Paul"
+    },
+    {
+      "id" : 6056,
+      "text" : "Trip"
+    },
+    {
+      "id" : 6057,
+      "text" : "Ria"
+    },
+    {
+      "id" : 6058,
+      "text" : "Jayla"
+    },
+    {
+      "id" : 6059,
+      "text" : "Sam"
+    },
+    {
+      "id" : 6060,
+      "text" : "Adam"
+    },
+    {
+      "id" : 6061,
+      "text" : "Nelly"
+    },
+    {
+      "id" : 6062,
+      "text" : "Max"
+    },
+    {
+      "id" : 6063,
+      "text" : "Nevil"
+    },
+    {
+      "id" : 6064,
+      "text" : "Koko"
+    },
+    {
+      "id" : 6065,
+      "text" : "John"
+    },
+    {
+      "id" : 6066,
+      "text" : "Jack"
+    },
+    {
+      "id" : 6067,
+      "text" : "Lovrina"
+    },
+    {
+      "id" : 6068,
+      "text" : "Mary"
+    },
+    {
+      "id" : 6069,
+      "text" : "Cameron"
+    },
+    {
+      "id" : 6070,
+      "text" : "Folly"
+    },
+    {
+      "id" : 6071,
+      "text" : "Trudly"
+    },
+    {
+      "id" : 6072,
+      "text" : "Johnson"
+    },
+    {
+      "id" : 6073,
+      "text" : "Duking"
+    },
+    {
+      "id" : 6074,
+      "text" : "Cail"
+    },
+    {
+      "id" : 6075,
+      "text" : "Dip"
+    },
+    {
+      "id" : 6076,
+      "text" : "Tammy"
+    },
+    {
+      "id" : 6077,
+      "text" : "Phil"
+    },
+    {
+      "id" : 6078,
+      "text" : "Davis"
+    },
+    {
+      "id" : 6079,
+      "text" : "Tyler"
+    },
+    {
+      "id" : 6080,
+      "text" : "Tommy"
+    },
+    {
+      "id" : 6081,
+      "text" : "Rowan"
+    },
+    {
+      "id" : 6082,
+      "text" : "Kevin"
+    },
+    {
+      "id" : 6083,
+      "text" : "Charles"
+    },
+    {
+      "id" : 6084,
+      "text" : "Jenny"
+    },
+    {
+      "id" : 6085,
+      "text" : "Megg"
+    },
+    {
+      "id" : 6086,
+      "text" : "Secc"
+    },
+    {
+      "id" : 6087,
+      "text" : "Anika"
+    },
+    {
+      "id" : 6088,
+      "text" : "Patty"
+    },
+    {
+      "id" : 6089,
+      "text" : "Nett"
+    },
+    {
+      "id" : 6090,
+      "text" : "Bitt"
+    },
+    {
+      "id" : 6091,
+      "text" : "Brad"
+    },
+    {
+      "id" : 6092,
+      "text" : "Ralph"
+    },
+    {
+      "id" : 6093,
+      "text" : "Molly"
+    },
+    {
+      "id" : 6094,
+      "text" : "Elon"
+    },
+    {
+      "id" : 6095,
+      "text" : "Rick"
+    },
+    {
+      "id" : 6096,
+      "text" : "Stuart"
+    },
+    {
+      "id" : 6097,
+      "text" : "Diana"
+    },
+    {
+      "id" : 6098,
+      "text" : "Lee"
+    },
+    {
+      "id" : 6099,
+      "text" : "Eddy"
+    },
+    {
+      "id" : 6100,
+      "text" : "Franky"
+    },
+    {
+      "id" : 6101,
+      "text" : "Exol"
+    },
+    {
+      "id" : 6102,
+      "text" : "Bonsly"
+    },
+    {
+      "id" : 6103,
+      "text" : "Mirror B."
+    },
+    {
+      "id" : 6104,
+      "text" : "Kit"
+    },
+    {
+      "id" : 6105,
+      "text" : "Ernie"
+    },
+    {
+      "id" : 6106,
+      "text" : "Trest"
+    },
+    {
+      "id" : 6107,
+      "text" : "FUVEL"
+    },
+    {
+      "id" : 6108,
+      "text" : "ROGG"
+    },
+    {
+      "id" : 6109,
+      "text" : "FELSA"
+    },
+    {
+      "id" : 6110,
+      "text" : "Justy"
+    },
+    {
+      "id" : 6111,
+      "text" : "Robin"
+    },
+    {
+      "id" : 6112,
+      "text" : "Sarah"
+    },
+    {
+      "id" : 6113,
+      "text" : "Clint"
+    },
+    {
+      "id" : 6114,
+      "text" : "Barry"
+    },
+    {
+      "id" : 6115,
+      "text" : "Zoey"
+    },
+    {
+      "id" : 6116,
+      "text" : "Cliff"
+    },
+    {
+      "id" : 6117,
+      "text" : "Bryce"
+    },
+    {
+      "id" : 6118,
+      "text" : "Corey"
+    },
+    {
+      "id" : 6119,
+      "text" : "Pat"
+    },
+    {
+      "id" : 6120,
+      "text" : "Craig"
+    },
+    {
+      "id" : 6121,
+      "text" : "Pam"
+    },
+    {
+      "id" : 6122,
+      "text" : "Julie"
+    },
+    {
+      "id" : 6123,
+      "text" : "Gavin"
+    },
+    {
+      "id" : 6124,
+      "text" : "Emma"
+    },
+    {
+      "id" : 6125,
+      "text" : "Harvey"
+    },
+    {
+      "id" : 6126,
+      "text" : "Barney"
+    },
+    {
+      "id" : 6127,
+      "text" : "Snattle"
+    },
+    {
+      "id" : 6128,
+      "text" : "Wakin"
+    },
+    {
+      "id" : 6129,
+      "text" : "Smarton"
+    },
+    {
+      "id" : 6130,
+      "text" : "Gorigan"
+    },
+    {
+      "id" : 6131,
+      "text" : "Willie"
+    },
+    {
+      "id" : 6132,
+      "text" : "Snake"
+    },
+    {
+      "id" : 6133,
+      "text" : "Biden"
+    },
+    {
+      "id" : 6134,
+      "text" : "C@SH"
+    },
+    {
+      "id" : 6135,
+      "text" : "ED_GE"
+    },
+    {
+      "id" : 6136,
+      "text" : "Ghost"
+    },
+    {
+      "id" : 6137,
+      "text" : "Skull-z"
+    },
+    {
+      "id" : 6138,
+      "text" : "Wolf"
+    },
+    {
+      "id" : 6139,
+      "text" : "Smoke"
+    },
+    {
+      "id" : 6140,
+      "text" : "Gonzap"
+    },
+    {
+      "id" : 6141,
+      "text" : "Helena"
+    },
+    {
+      "id" : 6142,
+      "text" : "Sid"
+    },
+    {
+      "id" : 6143,
+      "text" : "Immy"
+    },
+    {
+      "id" : 6144,
+      "text" : "Jonas"
+    },
+    {
+      "id" : 6145,
+      "text" : "Amelia"
+    },
+    {
+      "id" : 6146,
+      "text" : "Edna"
+    },
+    {
+      "id" : 6147,
+      "text" : "Tom"
+    },
+    {
+      "id" : 6148,
+      "text" : "Kim"
+    },
+    {
+      "id" : 6149,
+      "text" : "Stan"
+    },
+    {
+      "id" : 6150,
+      "text" : "Anne"
+    },
+    {
+      "id" : 6151,
+      "text" : "Eugene"
+    },
+    {
+      "id" : 6152,
+      "text" : "Matt"
+    },
+    {
+      "id" : 6153,
+      "text" : "Linas"
+    },
+    {
+      "id" : 6154,
+      "text" : "Steve"
+    },
+    {
+      "id" : 6155,
+      "text" : "Jay"
+    },
+    {
+      "id" : 6156,
+      "text" : "BARC"
+    },
+    {
+      "id" : 6157,
+      "text" : "Greevil"
+    },
+    {
+      "id" : 6158,
+      "text" : "Ark"
+    },
+    {
+      "id" : 6159,
+      "text" : "Nina"
+    },
+    {
+      "id" : 6160,
+      "text" : "Mario"
+    },
+    {
+      "id" : 6161,
+      "text" : "Rocky"
+    },
+    {
+      "id" : 6162,
+      "text" : "Jet"
+    },
+    {
+      "id" : 6163,
+      "text" : "Maya"
+    },
+    {
+      "id" : 6164,
+      "text" : "Justin"
+    },
+    {
+      "id" : 6165,
+      "text" : "Juan"
+    },
+    {
+      "id" : 6166,
+      "text" : "Nay"
+    },
+    {
+      "id" : 6167,
+      "text" : "Raja"
+    },
+    {
+      "id" : 6168,
+      "text" : "Myles"
+    },
+    {
+      "id" : 6169,
+      "text" : "null"
+    },
+    {
+      "id" : 6170,
+      "text" : "Aamir"
+    },
+    {
+      "id" : 6171,
+      "text" : "Katie"
+    },
+    {
+      "id" : 6172,
+      "text" : "Abdul"
+    },
+    {
+      "id" : 6173,
+      "text" : "Malik"
+    },
+    {
+      "id" : 6174,
+      "text" : "Cassy"
+    },
+    {
+      "id" : 6175,
+      "text" : "Graham"
+    },
+    {
+      "id" : 6176,
+      "text" : "Jamie"
+    },
+    {
+      "id" : 6177,
+      "text" : "Miley"
+    },
+    {
+      "id" : 6178,
+      "text" : "Hugo"
+    },
+    {
+      "id" : 6179,
+      "text" : "Nate"
+    },
+    {
+      "id" : 6180,
+      "text" : "Fraser"
+    },
+    {
+      "id" : 6181,
+      "text" : "Ollie"
+    },
+    {
+      "id" : 6182,
+      "text" : "Seb"
+    },
+    {
+      "id" : 6183,
+      "text" : "Grace"
+    },
+    {
+      "id" : 6184,
+      "text" : "Toby"
+    },
+    {
+      "id" : 6185,
+      "text" : "Bill"
+    },
+    {
+      "id" : 6186,
+      "text" : "Karen"
+    },
+    {
+      "id" : 6187,
+      "text" : "PoPo"
+    },
+    {
+      "id" : 6188,
+      "text" : "Mimi"
+    },
+    {
+      "id" : 6189,
+      "text" : "Nadia"
+    },
+    {
+      "id" : 6190,
+      "text" : "Joey"
+    },
+    {
+      "id" : 6191,
+      "text" : "Noah"
+    },
+    {
+      "id" : 6192,
+      "text" : "Beth"
+    },
+    {
+      "id" : 6193,
+      "text" : "Karl"
+    },
+    {
+      "id" : 6501,
+      "text" : "POPLET"
+    },
+    {
+      "id" : 6502,
+      "text" : "HABTEL"
+    },
+    {
+      "id" : 6503,
+      "text" : "KUPOL"
+    },
+    {
+      "id" : 6504,
+      "text" : "BASIN"
+    },
+    {
+      "id" : 6505,
+      "text" : "KLEASON"
+    },
+    {
+      "id" : 6506,
+      "text" : "MESTOL"
+    },
+    {
+      "id" : 6507,
+      "text" : "JORG"
+    },
+    {
+      "id" : 6508,
+      "text" : "HOLIT"
+    },
+    {
+      "id" : 6509,
+      "text" : "CLIKS"
+    },
+    {
+      "id" : 6510,
+      "text" : "HOROH"
+    },
+    {
+      "id" : 6511,
+      "text" : "LOGAN"
+    },
+    {
+      "id" : 6512,
+      "text" : "IVAL"
+    },
+    {
+      "id" : 6513,
+      "text" : "ASTOR"
+    },
+    {
+      "id" : 6514,
+      "text" : "HECTER"
+    },
+    {
+      "id" : 6515,
+      "text" : "LEEZ"
+    },
+    {
+      "id" : 6516,
+      "text" : "IFONG"
+    },
+    {
+      "id" : 6517,
+      "text" : "GEPLIN"
+    },
+    {
+      "id" : 6518,
+      "text" : "HAVEK"
+    },
+    {
+      "id" : 6519,
+      "text" : "GEPHERD"
+    },
+    {
+      "id" : 6520,
+      "text" : "ACEL"
+    },
+    {
+      "id" : 6521,
+      "text" : "BIXY"
+    },
+    {
+      "id" : 6522,
+      "text" : "ABONo"
+    },
+    {
+      "id" : 6523,
+      "text" : "AGORA"
+    },
+    {
+      "id" : 6524,
+      "text" : "DULIX"
+    },
+    {
+      "id" : 6525,
+      "text" : "CORD"
+    },
+    {
+      "id" : 6526,
+      "text" : "COKI"
+    },
+    {
+      "id" : 6527,
+      "text" : "BARSTO"
+    },
+    {
+      "id" : 6528,
+      "text" : "FREGO"
+    },
+    {
+      "id" : 6529,
+      "text" : "DACEL"
+    },
+    {
+      "id" : 6530,
+      "text" : "EKEOL"
+    },
+    {
+      "id" : 6531,
+      "text" : "HIPLOG"
+    },
+    {
+      "id" : 6532,
+      "text" : "HEZZY"
+    },
+    {
+      "id" : 6533,
+      "text" : "DOCOL"
+    },
+    {
+      "id" : 6534,
+      "text" : "FELTSA"
+    },
+    {
+      "id" : 6535,
+      "text" : "CABEN"
+    },
+    {
+      "id" : 6536,
+      "text" : "BURG"
+    },
+    {
+      "id" : 6537,
+      "text" : "KABEL"
+    },
+    {
+      "id" : 6538,
+      "text" : "DILSON"
+    },
+    {
+      "id" : 6539,
+      "text" : "CUKI"
+    },
+    {
+      "id" : 6540,
+      "text" : "BYNDS"
+    },
+    {
+      "id" : 6541,
+      "text" : "KILF"
+    },
+    {
+      "id" : 6542,
+      "text" : "CORBIN"
+    },
+    {
+      "id" : 6543,
+      "text" : "DIBIT"
+    },
+    {
+      "id" : 6544,
+      "text" : "Jack"
+    },
+    {
+      "id" : 6545,
+      "text" : "JODLET"
+    },
+    {
+      "id" : 6601,
+      "text" : "Cody"
+    },
+    {
+      "id" : 6602,
+      "text" : "Brian"
+    },
+    {
+      "id" : 6603,
+      "text" : "Anya"
+    },
+    {
+      "id" : 6604,
+      "text" : "George"
+    },
+    {
+      "id" : 6605,
+      "text" : "Amara"
+    },
+    {
+      "id" : 6606,
+      "text" : "Jojo"
+    },
+    {
+      "id" : 6607,
+      "text" : "Ahmed"
+    },
+    {
+      "id" : 6608,
+      "text" : "Chun"
+    },
+    {
+      "id" : 6609,
+      "text" : "Jamal"
+    },
+    {
+      "id" : 6610,
+      "text" : "Khalil"
+    },
+    {
+      "id" : 6611,
+      "text" : "Omar"
+    },
+    {
+      "id" : 6612,
+      "text" : "Yi"
+    },
+    {
+      "id" : 6613,
+      "text" : "Hakeem"
+    },
+    {
+      "id" : 6614,
+      "text" : "Mei"
+    },
+    {
+      "id" : 6615,
+      "text" : "Aaron"
+    },
+    {
+      "id" : 6616,
+      "text" : "Ace"
+    },
+    {
+      "id" : 6617,
+      "text" : "Adrian"
+    },
+    {
+      "id" : 6618,
+      "text" : "Tad"
+    },
+    {
+      "id" : 6619,
+      "text" : "Ayo"
+    },
+    {
+      "id" : 6620,
+      "text" : "Olu"
+    },
+    {
+      "id" : 6621,
+      "text" : "Kid"
+    },
+    {
+      "id" : 6622,
+      "text" : "Osman"
+    },
+    {
+      "id" : 6623,
+      "text" : "Juno"
+    },
+    {
+      "id" : 6624,
+      "text" : "Meek"
+    },
+    {
+      "id" : 6625,
+      "text" : "Kai"
+    },
+    {
+      "id" : 6626,
+      "text" : "Tara"
+    },
+    {
+      "id" : 6627,
+      "text" : "Emily"
+    },
+    {
+      "id" : 6628,
+      "text" : "Jade"
+    },
+    {
+      "id" : 6629,
+      "text" : "Diva"
+    },
+    {
+      "id" : 6630,
+      "text" : "Ava"
+    },
+    {
+      "id" : 6631,
+      "text" : "Megan"
+    },
+    {
+      "id" : 6632,
+      "text" : "Mia"
+    },
+    {
+      "id" : 6633,
+      "text" : "Ella"
+    },
+    {
+      "id" : 6634,
+      "text" : "Aria"
+    },
+    {
+      "id" : 6635,
+      "text" : "Rose"
+    },
+    {
+      "id" : 6636,
+      "text" : "Manny"
+    },
+    {
+      "id" : 6637,
+      "text" : "Luke"
+    },
+    {
+      "id" : 6638,
+      "text" : "Maddy"
+    },
+    {
+      "id" : 6639,
+      "text" : "Carlos"
+    },
+    {
+      "id" : 6640,
+      "text" : "Chris"
+    },
+    {
+      "id" : 6641,
+      "text" : "Liam"
+    },
+    {
+      "id" : 6642,
+      "text" : "Ethan"
+    },
+    {
+      "id" : 6643,
+      "text" : "Sofia"
+    },
+    {
+      "id" : 6644,
+      "text" : "Noah"
+    },
+    {
+      "id" : 6645,
+      "text" : "Oliver"
+    },
+    {
+      "id" : 6646,
+      "text" : "Chloe"
+    },
+    {
+      "id" : 6647,
+      "text" : "Mason"
+    },
+    {
+      "id" : 6648,
+      "text" : "Jimmy"
+    },
+    {
+      "id" : 6649,
+      "text" : "Eve"
+    },
+    {
+      "id" : 6650,
+      "text" : "Logan"
+    },
+    {
+      "id" : 6651,
+      "text" : "Jason"
+    },
+    {
+      "id" : 6652,
+      "text" : "Riley"
+    },
+    {
+      "id" : 6653,
+      "text" : "Huey"
+    },
+    {
+      "id" : 6654,
+      "text" : "Hannah"
+    },
+    {
+      "id" : 6655,
+      "text" : "Ben"
+    },
+    {
+      "id" : 6656,
+      "text" : "Henry"
+    },
+    {
+      "id" : 6657,
+      "text" : "Ellie"
+    },
+    {
+      "id" : 6658,
+      "text" : "Elijah"
+    },
+    {
+      "id" : 6659,
+      "text" : "Layla"
+    },
+    {
+      "id" : 6660,
+      "text" : "Mo"
+    },
+    {
+      "id" : 6661,
+      "text" : "Keira"
+    },
+    {
+      "id" : 6662,
+      "text" : "Wyatt"
+    },
+    {
+      "id" : 6663,
+      "text" : "Vicky"
+    },
+    {
+      "id" : 6664,
+      "text" : "Owen"
+    },
+    {
+      "id" : 6665,
+      "text" : "Caleb"
+    },
+    {
+      "id" : 6666,
+      "text" : "Isaac"
+    },
+    {
+      "id" : 6667,
+      "text" : "Ryan"
+    },
+    {
+      "id" : 6668,
+      "text" : "Rich"
+    },
+    {
+      "id" : 6669,
+      "text" : "Gabby"
+    },
+    {
+      "id" : 6670,
+      "text" : "Rob"
+    },
+    {
+      "id" : 6671,
+      "text" : "Neil"
+    },
+    {
+      "id" : 6672,
+      "text" : "David"
+    },
+    {
+      "id" : 6673,
+      "text" : "Josh"
+    },
+    {
+      "id" : 6674,
+      "text" : "Liz"
+    },
+    {
+      "id" : 6675,
+      "text" : "Nora"
+    },
+    {
+      "id" : 6676,
+      "text" : "Milla"
+    },
+    {
+      "id" : 6677,
+      "text" : "Andy"
+    },
+    {
+      "id" : 6678,
+      "text" : "Gray"
+    },
+    {
+      "id" : 6679,
+      "text" : "Gideon"
+    },
+    {
+      "id" : 6680,
+      "text" : "Levi"
+    },
+    {
+      "id" : 6681,
+      "text" : "Kora"
+    },
+    {
+      "id" : 6682,
+      "text" : "Bran"
+    },
+    {
+      "id" : 6683,
+      "text" : "Cory"
+    },
+    {
+      "id" : 6684,
+      "text" : "Scott"
+    },
+    {
+      "id" : 6685,
+      "text" : "Skylar"
+    },
+    {
+      "id" : 6686,
+      "text" : "Raj"
+    },
+    {
+      "id" : 6687,
+      "text" : "Peter"
+    },
+    {
+      "id" : 6688,
+      "text" : "Luis"
+    },
+    {
+      "id" : 6689,
+      "text" : "Gloria"
+    },
+    {
+      "id" : 6690,
+      "text" : "Teddy"
+    },
+    {
+      "id" : 6691,
+      "text" : "Leo"
+    },
+    {
+      "id" : 6692,
+      "text" : "Haley"
+    },
+    {
+      "id" : 6693,
+      "text" : "Claire"
+    },
+    {
+      "id" : 6694,
+      "text" : "Tim"
+    },
+    {
+      "id" : 6695,
+      "text" : "Penny"
+    },
+    {
+      "id" : 6696,
+      "text" : "Stars"
+    },
+    {
+      "id" : 6801,
+      "text" : "Abby"
+    },
+    {
+      "id" : 6802,
+      "text" : "Maxie"
+    },
+    {
+      "id" : 6803,
+      "text" : "Randy"
+    },
+    {
+      "id" : 6804,
+      "text" : "Jojo"
+    },
+    {
+      "id" : 6805,
+      "text" : "Jaden"
+    },
+    {
+      "id" : 6806,
+      "text" : "Lucy"
+    },
+    {
+      "id" : 6807,
+      "text" : "Ned"
+    },
+    {
+      "id" : 6808,
+      "text" : "Damon"
+    },
+    {
+      "id" : 6809,
+      "text" : "Stefan"
+    },
+    {
+      "id" : 6810,
+      "text" : "Lois"
+    },
+    {
+      "id" : 6811,
+      "text" : "Homer"
+    },
+    {
+      "id" : 6812,
+      "text" : "Rick"
+    },
+    {
+      "id" : 6813,
+      "text" : "Sally"
+    },
+    {
+      "id" : 6814,
+      "text" : "Paul"
+    },
+    {
+      "id" : 6815,
+      "text" : "Dean"
+    },
+    {
+      "id" : 6816,
+      "text" : "Joel"
+    },
+    {
+      "id" : 6817,
+      "text" : "Mike"
+    },
+    {
+      "id" : 6818,
+      "text" : "Ali"
+    },
+    {
+      "id" : 6819,
+      "text" : "Jenny"
+    },
+    {
+      "id" : 6820,
+      "text" : "Cam"
+    },
+    {
+      "id" : 6821,
+      "text" : "Annie"
+    },
+    {
+      "id" : 6822,
+      "text" : "Herb"
+    },
+    {
+      "id" : 6823,
+      "text" : "Tina"
+    },
+    {
+      "id" : 6824,
+      "text" : "Donna"
+    },
+    {
+      "id" : 6825,
+      "text" : "Sarah"
+    },
+    {
+      "id" : 6826,
+      "text" : "Axel"
+    },
+    {
+      "id" : 6827,
+      "text" : "Aaron"
+    },
+    {
+      "id" : 6828,
+      "text" : "Bryce"
+    },
+    {
+      "id" : 6829,
+      "text" : "Wayne"
+    },
+    {
+      "id" : 6830,
+      "text" : "Archie"
+    },
+    {
+      "id" : 6831,
+      "text" : "Nancy"
+    },
+    {
+      "id" : 6832,
+      "text" : "Haran"
+    },
+    {
+      "id" : 6833,
+      "text" : "GREEL"
+    },
+    {
+      "id" : 6834,
+      "text" : "HERLAM"
+    },
+    {
+      "id" : 6835,
+      "text" : "LESTOR"
+    },
+    {
+      "id" : 6836,
+      "text" : "LOBEL"
+    },
+    {
+      "id" : 6837,
+      "text" : "MAKEL"
+    },
+    {
+      "id" : 6838,
+      "text" : "LIMAR"
+    },
+    {
+      "id" : 6839,
+      "text" : "NAVU"
+    },
+    {
+      "id" : 6841,
+      "text" : "DAKS"
+    },
+    {
+      "id" : 6842,
+      "text" : "REKIX"
+    },
+    {
+      "id" : 6843,
+      "text" : "DARGS"
+    },
+    {
+      "id" : 6844,
+      "text" : "NAONo"
+    },
+    {
+      "id" : 6845,
+      "text" : "JEBOL"
+    },
+    {
+      "id" : 6846,
+      "text" : "LOAR"
+    },
+    {
+      "id" : 6847,
+      "text" : "FELPS"
+    },
+    {
+      "id" : 6848,
+      "text" : "LEST"
+    },
+    {
+      "id" : 6849,
+      "text" : "EBSON"
+    },
+    {
+      "id" : 6850,
+      "text" : "KLEPT"
+    },
+    {
+      "id" : 6901,
+      "text" : "CUDSY"
+    },
+    {
+      "id" : 6902,
+      "text" : "JUnder"
+    },
+    {
+      "id" : 6903,
+      "text" : "KOLSON"
+    },
+    {
+      "id" : 6904,
+      "text" : "SOPHEE"
+    },
+    {
+      "id" : 6905,
+      "text" : "OHLID"
+    },
+    {
+      "id" : 6906,
+      "text" : "Randy"
+    },
+    {
+      "id" : 6907,
+      "text" : "TOBIN"
+    },
+    {
+      "id" : 6908,
+      "text" : "TESSI"
+    },
+    {
+      "id" : 6909,
+      "text" : "SCRIB"
+    },
+    {
+      "id" : 6910,
+      "text" : "ROSIL"
+    },
+    {
+      "id" : 6911,
+      "text" : "LOBIN"
+    },
+    {
+      "id" : 6912,
+      "text" : "GOSTIN"
+    },
+    {
+      "id" : 6913,
+      "text" : "SellOK"
+    },
+    {
+      "id" : 6914,
+      "text" : "GRON"
+    },
+    {
+      "id" : 6915,
+      "text" : "RUSTIX"
+    },
+    {
+      "id" : 6916,
+      "text" : "SendIL"
+    },
+    {
+      "id" : 6917,
+      "text" : "NoRBEL"
+    },
+    {
+      "id" : 6918,
+      "text" : "AGRIS"
+    },
+    {
+      "id" : 6919,
+      "text" : "OGOIN"
+    },
+    {
+      "id" : 6920,
+      "text" : "JUSK"
+    },
+    {
+      "id" : 6921,
+      "text" : "NILDON"
+    },
+    {
+      "id" : 6922,
+      "text" : "SOGLE"
+    },
+    {
+      "id" : 6923,
+      "text" : "OXLIN"
+    },
+    {
+      "id" : 6924,
+      "text" : "REGENI"
+    },
+    {
+      "id" : 6925,
+      "text" : "TABOR"
+    },
+    {
+      "id" : 6926,
+      "text" : "DARGUS"
+    },
+    {
+      "id" : 6927,
+      "text" : "NILED"
+    },
+    {
+      "id" : 6928,
+      "text" : "OKONA"
+    },
+    {
+      "id" : 6929,
+      "text" : "TENSIN"
+    },
+    {
+      "id" : 6930,
+      "text" : "MADSIN"
+    },
+    {
+      "id" : 6931,
+      "text" : "ELKAIN"
+    },
+    {
+      "id" : 6932,
+      "text" : "RAPEEL"
+    },
+    {
+      "id" : 6933,
+      "text" : "DODIN"
+    },
+    {
+      "id" : 6934,
+      "text" : "QUELIS"
+    },
+    {
+      "id" : 6935,
+      "text" : "POWIT"
+    },
+    {
+      "id" : 6936,
+      "text" : "MORKOR"
+    },
+    {
+      "id" : 6937,
+      "text" : "KERDIN"
+    },
+    {
+      "id" : 6938,
+      "text" : "KASTER"
+    },
+    {
+      "id" : 6939,
+      "text" : "LORGO"
+    },
+    {
+      "id" : 6940,
+      "text" : "KRITom"
+    },
+    {
+      "id" : 7001,
+      "text" : "[7]{00}Grand Master"
+    },
+    {
+      "id" : 7002,
+      "text" : "[7]{00}Mystery Man"
+    },
+    {
+      "id" : 7003,
+      "text" : "[7]{00}Cipher Admin"
+    },
+    {
+      "id" : 7004,
+      "text" : "[7]{00}Thug"
+    },
+    {
+      "id" : 7005,
+      "text" : "[7]{00}Recruit"
+    },
+    {
+      "id" : 7006,
+      "text" : "[7]{00}Snagem Head"
+    },
+    {
+      "id" : 7007,
+      "text" : "[7]{00}Robo Groudon"
+    },
+    {
+      "id" : 7008,
+      "text" : "[7]{00}Villain"
+    },
+    {
+      "id" : 7009,
+      "text" : "[7]{00}Myth Trainer"
+    },
+    {
+      "id" : 7010,
+      "text" : "[7]{00}Pregymleader"
+    },
+    {
+      "id" : 7011,
+      "text" : "[7]{00}Assistant"
+    },
+    {
+      "id" : 7012,
+      "text" : "[7]{00}Rogue"
+    },
+    {
+      "id" : 7013,
+      "text" : "[7]{00}Spy"
+    },
+    {
+      "id" : 7014,
+      "text" : "[7]{00}Cipher Peon"
+    },
+    {
+      "id" : 7015,
+      "text" : "[7]{00}Super Trainer"
+    },
+    {
+      "id" : 7016,
+      "text" : "[7]{00}Area Leader"
+    },
+    {
+      "id" : 7017,
+      "text" : "[7]{00}Cool Trainer"
+    },
+    {
+      "id" : 7018,
+      "text" : "[7]{00}Fun Old Man"
+    },
+    {
+      "id" : 7019,
+      "text" : "[7]{00}Curmudgeon"
+    },
+    {
+      "id" : 7020,
+      "text" : "[7]{00}Matron"
+    },
+    {
+      "id" : 7021,
+      "text" : "[7]{00}Casual Guy"
+    },
+    {
+      "id" : 7022,
+      "text" : "[7]{00}Gangster"
+    },
+    {
+      "id" : 7023,
+      "text" : "[7]{00}Chaser"
+    },
+    {
+      "id" : 7024,
+      "text" : "[7]{00}Hunter"
+    },
+    {
+      "id" : 7025,
+      "text" : "[7]{00}Rider"
+    },
+    {
+      "id" : 7026,
+      "text" : "[7]{00}Worker"
+    },
+    {
+      "id" : 7027,
+      "text" : "[7]{00}Researcher"
+    },
+    {
+      "id" : 7028,
+      "text" : "[7]{00}Navigator"
+    },
+    {
+      "id" : 7029,
+      "text" : "[7]{00}Sailor"
+    },
+    {
+      "id" : 7030,
+      "text" : "[7]{00}Casual Dude"
+    },
+    {
+      "id" : 7031,
+      "text" : "[7]{00}Beauty"
+    },
+    {
+      "id" : 7032,
+      "text" : "[7]{00}Bodybuilder"
+    },
+    {
+      "id" : 7033,
+      "text" : "[7]{00}Trendy Guy"
+    },
+    {
+      "id" : 7034,
+      "text" : "[7]{00}Hacker"
+    },
+    {
+      "id" : 7035,
+      "text" : "[7]{00}Newscaster"
+    },
+    {
+      "id" : 7036,
+      "text" : "[7]{00}Sim Trainer"
+    },
+    {
+      "id" : 7037,
+      "text" : "[7]{00}Commander"
+    },
+    {
+      "id" : 7038,
+      "text" : "[7]{00}Cipher R&D"
+    },
+    {
+      "id" : 7039,
+      "text" : "[7]{00}Cipher Admin"
+    },
+    {
+      "id" : 7040,
+      "text" : "[7]{00}Ex-Boss"
+    },
+    {
+      "id" : 7041,
+      "text" : "[7]{00}Cipher Peon"
+    },
+    {
+      "id" : 7042,
+      "text" : "[7]{00}Ranger"
+    },
+    {
+      "id" : 7043,
+      "text" : "[7]{00}Area Leader"
+    },
+    {
+      "id" : 7044,
+      "text" : "[7]{00} Shadow Genius"
+    },
+    {
+      "id" : 7045,
+      "text" : "[7]{00}Cipher Vice"
+    },
+    {
+      "id" : 7046,
+      "text" : "[7]{00}Heatah Lord"
+    },
+    {
+      "id" : 7047,
+      "text" : "[7]{00}Legend Slayer"
+    },
+    {
+      "id" : 10548,
+      "text" : "_"
+    },
+    {
+      "id" : 11001,
+      "text" : "Raises speed in sandstorm."
+    },
+    {
+      "id" : 11002,
+      "text" : "_"
+    },
+    {
+      "id" : 11003,
+      "text" : "_"
+    },
+    {
+      "id" : 11004,
+      "text" : "_"
+    },
+    {
+      "id" : 11005,
+      "text" : "Sandstorm powers moves."
+    },
+    {
+      "id" : 11006,
+      "text" : "_"
+    },
+    {
+      "id" : 11007,
+      "text" : "Hail doubles speed."
+    },
+    {
+      "id" : 11008,
+      "text" : "_"
+    },
+    {
+      "id" : 11009,
+      "text" : "Makes normal moves ice."
+    },
+    {
+      "id" : 11010,
+      "text" : "_"
+    },
+    {
+      "id" : 11011,
+      "text" : "_"
+    },
+    {
+      "id" : 11012,
+      "text" : "Magic Bounce"
+    },
+    {
+      "id" : 11013,
+      "text" : "_"
+    },
+    {
+      "id" : 11014,
+      "text" : "_"
+    },
+    {
+      "id" : 11015,
+      "text" : "Moves always hit."
+    },
+    {
+      "id" : 11016,
+      "text" : "_"
+    },
+    {
+      "id" : 11017,
+      "text" : "_"
+    },
+    {
+      "id" : 11018,
+      "text" : "Sand Force"
+    },
+    {
+      "id" : 11019,
+      "text" : "Can hit ghosts."
+    },
+    {
+      "id" : 11020,
+      "text" : "Snow Warning"
+    },
+    {
+      "id" : 11021,
+      "text" : "_"
+    },
+    {
+      "id" : 11022,
+      "text" : "_"
+    },
+    {
+      "id" : 11023,
+      "text" : "[7]{00}Won for clearing Lv 100\nat the Battle Tower."
+    },
+    {
+      "id" : 11024,
+      "text" : "_"
+    },
+    {
+      "id" : 11025,
+      "text" : "Always 5 hits."
+    },
+    {
+      "id" : 11026,
+      "text" : "Defiant"
+    },
+    {
+      "id" : 11027,
+      "text" : "Pure Heart"
+    },
+    {
+      "id" : 11028,
+      "text" : "Bulletproof"
+    },
+    {
+      "id" : 11029,
+      "text" : "Skill Link"
+    },
+    {
+      "id" : 11030,
+      "text" : "_"
+    },
+    {
+      "id" : 11031,
+      "text" : "Sand Rush"
+    },
+    {
+      "id" : 11032,
+      "text" : "_"
+    },
+    {
+      "id" : 11033,
+      "text" : "Powers up contact moves."
+    },
+    {
+      "id" : 11034,
+      "text" : "_"
+    },
+    {
+      "id" : 11035,
+      "text" : "Blocks projectile moves."
+    },
+    {
+      "id" : 11036,
+      "text" : "_"
+    },
+    {
+      "id" : 11037,
+      "text" : "Reflects status moves."
+    },
+    {
+      "id" : 11038,
+      "text" : "Mr.Tickles"
+    },
+    {
+      "id" : 11039,
+      "text" : "Fluffy"
+    },
+    {
+      "id" : 11040,
+      "text" : "Tough Claws"
+    },
+    {
+      "id" : 11041,
+      "text" : "Sunlight powers moves."
+    },
+    {
+      "id" : 11042,
+      "text" : "_"
+    },
+    {
+      "id" : 11043,
+      "text" : "Slush Rush"
+    },
+    {
+      "id" : 11044,
+      "text" : "_"
+    },
+    {
+      "id" : 11045,
+      "text" : "Bae"
+    },
+    {
+      "id" : 11046,
+      "text" : "Powers same type moves."
+    },
+    {
+      "id" : 11047,
+      "text" : "_"
+    },
+    {
+      "id" : 11048,
+      "text" : "Bubbles"
+    },
+    {
+      "id" : 11049,
+      "text" : "_"
+    },
+    {
+      "id" : 11050,
+      "text" : "_"
+    },
+    {
+      "id" : 11051,
+      "text" : "Weakens evil moves."
+    },
+    {
+      "id" : 11052,
+      "text" : "_"
+    },
+    {
+      "id" : 11053,
+      "text" : "_"
+    },
+    {
+      "id" : 11054,
+      "text" : "_"
+    },
+    {
+      "id" : 11055,
+      "text" : "_"
+    },
+    {
+      "id" : 11056,
+      "text" : "XG001"
+    },
+    {
+      "id" : 11057,
+      "text" : "_"
+    },
+    {
+      "id" : 11058,
+      "text" : "_"
+    },
+    {
+      "id" : 11059,
+      "text" : "_"
+    },
+    {
+      "id" : 11060,
+      "text" : "_"
+    },
+    {
+      "id" : 11061,
+      "text" : "_"
+    },
+    {
+      "id" : 11062,
+      "text" : "No Guard"
+    },
+    {
+      "id" : 11063,
+      "text" : "_"
+    },
+    {
+      "id" : 11064,
+      "text" : "_"
+    },
+    {
+      "id" : 11065,
+      "text" : "_"
+    },
+    {
+      "id" : 11066,
+      "text" : "_"
+    },
+    {
+      "id" : 11067,
+      "text" : "_"
+    },
+    {
+      "id" : 11068,
+      "text" : "Hail boosts evasion."
+    },
+    {
+      "id" : 11069,
+      "text" : "[7]{00}Ribbon awarded for\nclearing all difficulties."
+    },
+    {
+      "id" : 11070,
+      "text" : "_"
+    },
+    {
+      "id" : 11071,
+      "text" : "_"
+    },
+    {
+      "id" : 11072,
+      "text" : "_"
+    },
+    {
+      "id" : 11073,
+      "text" : "RoboKyogre"
+    },
+    {
+      "id" : 11074,
+      "text" : "Adaptability"
+    },
+    {
+      "id" : 11075,
+      "text" : "Cuddles"
+    },
+    {
+      "id" : 11076,
+      "text" : "Summons hail in battle."
+    },
+    {
+      "id" : 11077,
+      "text" : "_"
+    },
+    {
+      "id" : 11078,
+      "text" : "Heals when switching out."
+    },
+    {
+      "id" : 11079,
+      "text" : "RoboGroudn"
+    },
+    {
+      "id" : 11080,
+      "text" : "_"
+    },
+    {
+      "id" : 11081,
+      "text" : "_"
+    },
+    {
+      "id" : 11082,
+      "text" : "Kiss"
+    },
+    {
+      "id" : 11083,
+      "text" : "_"
+    },
+    {
+      "id" : 11084,
+      "text" : "Competitive"
+    },
+    {
+      "id" : 11085,
+      "text" : "Refrigerate"
+    },
+    {
+      "id" : 11086,
+      "text" : "_"
+    },
+    {
+      "id" : 11087,
+      "text" : "Max HP halves Damage."
+    },
+    {
+      "id" : 11088,
+      "text" : "Regenerator"
+    },
+    {
+      "id" : 11089,
+      "text" : "_"
+    },
+    {
+      "id" : 17006,
+      "text" : "[7]{00}[95]"
+    },
+    {
+      "id" : 17007,
+      "text" : "[95]"
+    },
+    {
+      "id" : 17008,
+      "text" : "[7]{03}[95]"
+    },
+    {
+      "id" : 17009,
+      "text" : "[7]{02}[95]"
+    },
+    {
+      "id" : 17010,
+      "text" : "[7]{04}[95]"
+    },
+    {
+      "id" : 17011,
+      "text" : "[7]{00}ON"
+    },
+    {
+      "id" : 17012,
+      "text" : "[7]{00}OFF"
+    },
+    {
+      "id" : 17013,
+      "text" : "[7]{00}[55]"
+    },
+    {
+      "id" : 17014,
+      "text" : "[55]"
+    },
+    {
+      "id" : 17015,
+      "text" : "[7]{03}[55]"
+    },
+    {
+      "id" : 17016,
+      "text" : "[7]{02}[55]"
+    },
+    {
+      "id" : 17017,
+      "text" : "[7]{04}[55]"
+    },
+    {
+      "id" : 17018,
+      "text" : "[7]{00}[97]"
+    },
+    {
+      "id" : 17019,
+      "text" : "[97]"
+    },
+    {
+      "id" : 17020,
+      "text" : "[7]{02}[97]"
+    },
+    {
+      "id" : 17021,
+      "text" : "[7]{00}[103]"
+    },
+    {
+      "id" : 17022,
+      "text" : "[103]"
+    },
+    {
+      "id" : 17023,
+      "text" : "[7]{02}[103]"
+    },
+    {
+      "id" : 17024,
+      "text" : "[7]{00}[101]"
+    },
+    {
+      "id" : 17025,
+      "text" : "[101]"
+    },
+    {
+      "id" : 17026,
+      "text" : "[7]{02}[101]"
+    },
+    {
+      "id" : 17027,
+      "text" : "[7]{00}[105]"
+    },
+    {
+      "id" : 17028,
+      "text" : "[105]"
+    },
+    {
+      "id" : 17029,
+      "text" : "[7]{02}[105]"
+    },
+    {
+      "id" : 17030,
+      "text" : "[7]{00}[83]{02}[97]"
+    },
+    {
+      "id" : 17031,
+      "text" : "[83]{02}[97]"
+    },
+    {
+      "id" : 17032,
+      "text" : "[7]{02}[83]{02}[97]"
+    },
+    {
+      "id" : 17033,
+      "text" : "[7]{00}[MsgID 77]"
+    },
+    {
+      "id" : 17034,
+      "text" : "[MsgID 77]"
+    },
+    {
+      "id" : 17035,
+      "text" : "[7]{02}[MsgID 77]"
+    },
+    {
+      "id" : 17036,
+      "text" : "[7]{00}[92]{fe}[55]"
+    },
+    {
+      "id" : 17037,
+      "text" : "[92]{fe}[55]"
+    },
+    {
+      "id" : 17038,
+      "text" : "[7]{02}[92]{fe}[55]"
+    },
+    {
+      "id" : 17095,
+      "text" : "[7]{00}HP"
+    },
+    {
+      "id" : 17096,
+      "text" : "[7]{00}Attack"
+    },
+    {
+      "id" : 17097,
+      "text" : "[7]{00}Defense"
+    },
+    {
+      "id" : 17098,
+      "text" : "[7]{00}Speed"
+    },
+    {
+      "id" : 17099,
+      "text" : "[7]{00}Sp. Atk"
+    },
+    {
+      "id" : 17100,
+      "text" : "[7]{00}Sp. Def"
+    },
+    {
+      "id" : 17101,
+      "text" : "[7]{00}+"
+    },
+    {
+      "id" : 17230,
+      "text" : "[7]{03}[105]"
+    },
+    {
+      "id" : 17232,
+      "text" : "[7]{00}[97]"
+    },
+    {
+      "id" : 17233,
+      "text" : "[7]{03}[97]"
+    },
+    {
+      "id" : 17234,
+      "text" : "[7]{04}[97]"
+    },
+    {
+      "id" : 17235,
+      "text" : "[7]{00}[103]"
+    },
+    {
+      "id" : 17236,
+      "text" : "[7]{03}[103]"
+    },
+    {
+      "id" : 17237,
+      "text" : "[7]{04}[103]"
+    },
+    {
+      "id" : 17238,
+      "text" : "[7]{00}[83]{02}[97]"
+    },
+    {
+      "id" : 17239,
+      "text" : "[7]{03}[83]{02}[97]"
+    },
+    {
+      "id" : 17240,
+      "text" : "[7]{04}[83]{02}[97]"
+    }
+  ]
+}

@@ -1,0 +1,3084 @@
+{
+  "startOffset" : 0,
+  "fixedFileSize" : 0,
+  "file" : {
+    "name" : "pocket_menu.msg",
+    "folder" : {
+      "path" : "\/Game Files\/pocket_menu"
+    }
+  },
+  "strings" : [
+    {
+      "id" : 1391,
+      "text" : "Wise Glasses"
+    },
+    {
+      "id" : 1392,
+      "text" : "Slightly boosts\npower of\nspecial moves."
+    },
+    {
+      "id" : 1393,
+      "text" : "Aura Stabiliser"
+    },
+    {
+      "id" : 1394,
+      "text" : "Boosts accuracy\nof shadow\nmoves."
+    },
+    {
+      "id" : 1395,
+      "text" : "Wide Lens"
+    },
+    {
+      "id" : 1396,
+      "text" : "Slightly boosts\naccuracy of\nmoves."
+    },
+    {
+      "id" : 1397,
+      "text" : "Lode Stone"
+    },
+    {
+      "id" : 1398,
+      "text" : "Enables evolution\nwithout a trade."
+    },
+    {
+      "id" : 1399,
+      "text" : "A hold item that\nups the critical-hit\nrate in a pinch."
+    },
+    {
+      "id" : 1400,
+      "text" : "Dosha Berry"
+    },
+    {
+      "id" : 1401,
+      "text" : "Colbur Berry"
+    },
+    {
+      "id" : 1402,
+      "text" : "Haban Berry"
+    },
+    {
+      "id" : 1403,
+      "text" : "Yache Berry"
+    },
+    {
+      "id" : 1404,
+      "text" : "Payapa Berry"
+    },
+    {
+      "id" : 1405,
+      "text" : "Wacan Berry"
+    },
+    {
+      "id" : 1406,
+      "text" : "Rindo Berry"
+    },
+    {
+      "id" : 1407,
+      "text" : "Passho Berry"
+    },
+    {
+      "id" : 1408,
+      "text" : "Occa Berry"
+    },
+    {
+      "id" : 1409,
+      "text" : "Roseli Berry"
+    },
+    {
+      "id" : 1410,
+      "text" : "Babiri Berry"
+    },
+    {
+      "id" : 1411,
+      "text" : "Kasib Berry"
+    },
+    {
+      "id" : 1412,
+      "text" : "Tanga Berry"
+    },
+    {
+      "id" : 1413,
+      "text" : "Charti Berry"
+    },
+    {
+      "id" : 1414,
+      "text" : "Shuca Berry"
+    },
+    {
+      "id" : 1415,
+      "text" : "Kebia Berry"
+    },
+    {
+      "id" : 1416,
+      "text" : "Coba Berry"
+    },
+    {
+      "id" : 1417,
+      "text" : "Chople Berry"
+    },
+    {
+      "id" : 1418,
+      "text" : "Chilan Berry"
+    },
+    {
+      "id" : 1419,
+      "text" : "A hold item\nthat weakens one\nnormal type move."
+    },
+    {
+      "id" : 1420,
+      "text" : "Weakens one\nsuper effective\nfighting move."
+    },
+    {
+      "id" : 1421,
+      "text" : "Weakens one\nsuper effective\nflying type move."
+    },
+    {
+      "id" : 1422,
+      "text" : "Weakens one\nsuper effective\npoison type move."
+    },
+    {
+      "id" : 1423,
+      "text" : "Weakens one\nsuper effective\nground type move."
+    },
+    {
+      "id" : 1424,
+      "text" : "Weakens one\nsuper effective\nrock type move."
+    },
+    {
+      "id" : 1425,
+      "text" : "Weakens one\nsuper effective\nbug type move."
+    },
+    {
+      "id" : 1427,
+      "text" : "Burns the holder\nat the end of\nthe turn."
+    },
+    {
+      "id" : 5005,
+      "text" : "Shady Ball"
+    },
+    {
+      "id" : 5007,
+      "text" : "Shade Ball"
+    },
+    {
+      "id" : 5013,
+      "text" : "Potion"
+    },
+    {
+      "id" : 5014,
+      "text" : "Antidote"
+    },
+    {
+      "id" : 5015,
+      "text" : "Burn Heal"
+    },
+    {
+      "id" : 5016,
+      "text" : "Ice Heal"
+    },
+    {
+      "id" : 5017,
+      "text" : "Awakening"
+    },
+    {
+      "id" : 5018,
+      "text" : "Parlyz Heal"
+    },
+    {
+      "id" : 5019,
+      "text" : "Full Restore"
+    },
+    {
+      "id" : 5020,
+      "text" : "Max Potion"
+    },
+    {
+      "id" : 5021,
+      "text" : "Hyper Potion"
+    },
+    {
+      "id" : 5022,
+      "text" : "Super Potion"
+    },
+    {
+      "id" : 5023,
+      "text" : "Full Heal"
+    },
+    {
+      "id" : 5025,
+      "text" : "Max Revive"
+    },
+    {
+      "id" : 5026,
+      "text" : "Fresh Water"
+    },
+    {
+      "id" : 5027,
+      "text" : "Soda Pop"
+    },
+    {
+      "id" : 5028,
+      "text" : "Lemonade"
+    },
+    {
+      "id" : 5029,
+      "text" : "Moomoo Milk"
+    },
+    {
+      "id" : 5033,
+      "text" : "Revival Herb"
+    },
+    {
+      "id" : 5034,
+      "text" : "Ether"
+    },
+    {
+      "id" : 5035,
+      "text" : "Max Ether"
+    },
+    {
+      "id" : 5036,
+      "text" : "Elixir"
+    },
+    {
+      "id" : 5037,
+      "text" : "Max Elixir"
+    },
+    {
+      "id" : 5038,
+      "text" : "Lava Cookie"
+    },
+    {
+      "id" : 5040,
+      "text" : "Shadow Armour"
+    },
+    {
+      "id" : 5041,
+      "text" : "Life Orb"
+    },
+    {
+      "id" : 5044,
+      "text" : "Berry Juice"
+    },
+    {
+      "id" : 5045,
+      "text" : "Sacred Ash"
+    },
+    {
+      "id" : 5052,
+      "text" : "HP Up"
+    },
+    {
+      "id" : 5053,
+      "text" : "Protein"
+    },
+    {
+      "id" : 5054,
+      "text" : "Iron"
+    },
+    {
+      "id" : 5055,
+      "text" : "Carbos"
+    },
+    {
+      "id" : 5056,
+      "text" : "Calcium"
+    },
+    {
+      "id" : 5057,
+      "text" : "Rare Candy"
+    },
+    {
+      "id" : 5058,
+      "text" : "PP Up"
+    },
+    {
+      "id" : 5059,
+      "text" : "Zinc"
+    },
+    {
+      "id" : 5060,
+      "text" : "PP Max"
+    },
+    {
+      "id" : 5061,
+      "text" : "Guard Spec"
+    },
+    {
+      "id" : 5062,
+      "text" : "Dire Hit"
+    },
+    {
+      "id" : 5063,
+      "text" : "X Attack"
+    },
+    {
+      "id" : 5064,
+      "text" : "X Defend"
+    },
+    {
+      "id" : 5065,
+      "text" : "X Speed"
+    },
+    {
+      "id" : 5066,
+      "text" : "X Accuracy"
+    },
+    {
+      "id" : 5067,
+      "text" : "X Special"
+    },
+    {
+      "id" : 5074,
+      "text" : "Sun Stone"
+    },
+    {
+      "id" : 5075,
+      "text" : "Moon Stone"
+    },
+    {
+      "id" : 5076,
+      "text" : "Fire Stone"
+    },
+    {
+      "id" : 5077,
+      "text" : "Thunderstone"
+    },
+    {
+      "id" : 5078,
+      "text" : "Water Stone"
+    },
+    {
+      "id" : 5079,
+      "text" : "Leaf Stone"
+    },
+    {
+      "id" : 5100,
+      "text" : "Cheri Berry"
+    },
+    {
+      "id" : 5101,
+      "text" : "Chesto Berry"
+    },
+    {
+      "id" : 5102,
+      "text" : "Pecha Berry"
+    },
+    {
+      "id" : 5103,
+      "text" : "Rawst Berry"
+    },
+    {
+      "id" : 5104,
+      "text" : "Aspear Berry"
+    },
+    {
+      "id" : 5105,
+      "text" : "Leppa Berry"
+    },
+    {
+      "id" : 5106,
+      "text" : "Oran Berry"
+    },
+    {
+      "id" : 5107,
+      "text" : "Persim Berry"
+    },
+    {
+      "id" : 5108,
+      "text" : "Lum Berry"
+    },
+    {
+      "id" : 5109,
+      "text" : "Sitrus Berry"
+    },
+    {
+      "id" : 5110,
+      "text" : "Figy Berry"
+    },
+    {
+      "id" : 5111,
+      "text" : "Wiki Berry"
+    },
+    {
+      "id" : 5112,
+      "text" : "Mago Berry"
+    },
+    {
+      "id" : 5113,
+      "text" : "Aguav Berry"
+    },
+    {
+      "id" : 5114,
+      "text" : "Iapapa Berry"
+    },
+    {
+      "id" : 5135,
+      "text" : "Liechi Berry"
+    },
+    {
+      "id" : 5136,
+      "text" : "Ganlon Berry"
+    },
+    {
+      "id" : 5137,
+      "text" : "Salac Berry"
+    },
+    {
+      "id" : 5138,
+      "text" : "Petaya Berry"
+    },
+    {
+      "id" : 5139,
+      "text" : "Apicot Berry"
+    },
+    {
+      "id" : 5140,
+      "text" : "Lansat Berry"
+    },
+    {
+      "id" : 5141,
+      "text" : "Starf Berry"
+    },
+    {
+      "id" : 5149,
+      "text" : "Toxic Orb"
+    },
+    {
+      "id" : 5150,
+      "text" : "Choice Band"
+    },
+    {
+      "id" : 5151,
+      "text" : "King's Rock"
+    },
+    {
+      "id" : 5154,
+      "text" : "Flame Orb"
+    },
+    {
+      "id" : 5155,
+      "text" : "Soul Dew"
+    },
+    {
+      "id" : 5156,
+      "text" : "Expert Belt"
+    },
+    {
+      "id" : 5157,
+      "text" : "Pixie Plate"
+    },
+    {
+      "id" : 5158,
+      "text" : "Yellow Flute"
+    },
+    {
+      "id" : 5160,
+      "text" : "Focus Sash"
+    },
+    {
+      "id" : 5164,
+      "text" : "Leftovers"
+    },
+    {
+      "id" : 5165,
+      "text" : "Muscle Band"
+    },
+    {
+      "id" : 5182,
+      "text" : "Ability Capsule"
+    },
+    {
+      "id" : 5184,
+      "text" : "Rocky Helmet"
+    },
+    {
+      "id" : 5186,
+      "text" : "Eviolite"
+    },
+    {
+      "id" : 5187,
+      "text" : "Choice Specs"
+    },
+    {
+      "id" : 5189,
+      "text" : "Choice Scarf"
+    },
+    {
+      "id" : 5195,
+      "text" : "TM01"
+    },
+    {
+      "id" : 5196,
+      "text" : "TM02"
+    },
+    {
+      "id" : 5197,
+      "text" : "TM03"
+    },
+    {
+      "id" : 5198,
+      "text" : "TM04"
+    },
+    {
+      "id" : 5199,
+      "text" : "TM05"
+    },
+    {
+      "id" : 5200,
+      "text" : "TM06"
+    },
+    {
+      "id" : 5201,
+      "text" : "TM07"
+    },
+    {
+      "id" : 5202,
+      "text" : "TM08"
+    },
+    {
+      "id" : 5203,
+      "text" : "TM09"
+    },
+    {
+      "id" : 5204,
+      "text" : "TM10"
+    },
+    {
+      "id" : 5205,
+      "text" : "TM11"
+    },
+    {
+      "id" : 5206,
+      "text" : "TM12"
+    },
+    {
+      "id" : 5207,
+      "text" : "TM13"
+    },
+    {
+      "id" : 5208,
+      "text" : "TM14"
+    },
+    {
+      "id" : 5209,
+      "text" : "TM15"
+    },
+    {
+      "id" : 5210,
+      "text" : "TM16"
+    },
+    {
+      "id" : 5211,
+      "text" : "TM17"
+    },
+    {
+      "id" : 5212,
+      "text" : "TM18"
+    },
+    {
+      "id" : 5213,
+      "text" : "TM19"
+    },
+    {
+      "id" : 5214,
+      "text" : "TM20"
+    },
+    {
+      "id" : 5215,
+      "text" : "TM21"
+    },
+    {
+      "id" : 5216,
+      "text" : "TM22"
+    },
+    {
+      "id" : 5217,
+      "text" : "TM23"
+    },
+    {
+      "id" : 5218,
+      "text" : "TM24"
+    },
+    {
+      "id" : 5219,
+      "text" : "TM25"
+    },
+    {
+      "id" : 5220,
+      "text" : "TM26"
+    },
+    {
+      "id" : 5221,
+      "text" : "TM27"
+    },
+    {
+      "id" : 5222,
+      "text" : "TM28"
+    },
+    {
+      "id" : 5223,
+      "text" : "TM29"
+    },
+    {
+      "id" : 5224,
+      "text" : "TM30"
+    },
+    {
+      "id" : 5225,
+      "text" : "TM31"
+    },
+    {
+      "id" : 5226,
+      "text" : "TM32"
+    },
+    {
+      "id" : 5227,
+      "text" : "TM33"
+    },
+    {
+      "id" : 5228,
+      "text" : "TM34"
+    },
+    {
+      "id" : 5229,
+      "text" : "TM35"
+    },
+    {
+      "id" : 5230,
+      "text" : "TM36"
+    },
+    {
+      "id" : 5231,
+      "text" : "TM37"
+    },
+    {
+      "id" : 5232,
+      "text" : "TM38"
+    },
+    {
+      "id" : 5233,
+      "text" : "TM39"
+    },
+    {
+      "id" : 5234,
+      "text" : "TM40"
+    },
+    {
+      "id" : 5235,
+      "text" : "TM41"
+    },
+    {
+      "id" : 5236,
+      "text" : "TM42"
+    },
+    {
+      "id" : 5237,
+      "text" : "TM43"
+    },
+    {
+      "id" : 5238,
+      "text" : "TM44"
+    },
+    {
+      "id" : 5239,
+      "text" : "TM45"
+    },
+    {
+      "id" : 5240,
+      "text" : "TM46"
+    },
+    {
+      "id" : 5241,
+      "text" : "TM47"
+    },
+    {
+      "id" : 5242,
+      "text" : "TM48"
+    },
+    {
+      "id" : 5243,
+      "text" : "TM49"
+    },
+    {
+      "id" : 5244,
+      "text" : "TM50"
+    },
+    {
+      "id" : 5265,
+      "text" : "Sun Stone*"
+    },
+    {
+      "id" : 5266,
+      "text" : "Moon Stone*"
+    },
+    {
+      "id" : 5320,
+      "text" : "TM51"
+    },
+    {
+      "id" : 5321,
+      "text" : "TM52"
+    },
+    {
+      "id" : 5322,
+      "text" : "TM53"
+    },
+    {
+      "id" : 5323,
+      "text" : "TM54"
+    },
+    {
+      "id" : 5324,
+      "text" : "SM01"
+    },
+    {
+      "id" : 5325,
+      "text" : "SM02"
+    },
+    {
+      "id" : 5326,
+      "text" : "SM03"
+    },
+    {
+      "id" : 5327,
+      "text" : "SM04"
+    },
+    {
+      "id" : 5331,
+      "text" : "Disc Case"
+    },
+    {
+      "id" : 5343,
+      "text" : "Cry Analyzer"
+    },
+    {
+      "id" : 10001,
+      "text" : "The best ball that\ncatches a Pokémon\nwithout fail."
+    },
+    {
+      "id" : 10002,
+      "text" : "A better ball with\na higher catch rate\nthan a Great Ball."
+    },
+    {
+      "id" : 10003,
+      "text" : "A good ball with a\nhigher catch rate\nthan a Poké Ball."
+    },
+    {
+      "id" : 10004,
+      "text" : "A tool used for\ncatching wild\nPokémon."
+    },
+    {
+      "id" : 10005,
+      "text" : "A bug makes these\nprototypes no better\nthan regular balls.."
+    },
+    {
+      "id" : 10006,
+      "text" : "A ball that works\nwell on Water- and\nBug-type Pokémon."
+    },
+    {
+      "id" : 10007,
+      "text" : "A new ball Krane\ncreated for snagging\nShadow Pokémon."
+    },
+    {
+      "id" : 10008,
+      "text" : "A ball that works\nbetter on weaker\nPokémon."
+    },
+    {
+      "id" : 10009,
+      "text" : "A ball that works\nbetter on Pokémon\ncaught before."
+    },
+    {
+      "id" : 10010,
+      "text" : "A ball that gains\npower in battles\ntaking many turns."
+    },
+    {
+      "id" : 10011,
+      "text" : "A cozy ball that\nmakes Pokémon\nmore friendly."
+    },
+    {
+      "id" : 10012,
+      "text" : "A rare ball made\nin commemoration\nof some event."
+    },
+    {
+      "id" : 10013,
+      "text" : "Restores the HP of\na Pokémon by\n20 points."
+    },
+    {
+      "id" : 10014,
+      "text" : "Heals a poisoned\nPokémon."
+    },
+    {
+      "id" : 10015,
+      "text" : "Heals a burned\nPokémon."
+    },
+    {
+      "id" : 10016,
+      "text" : "Defrosts a frozen\nPokémon."
+    },
+    {
+      "id" : 10017,
+      "text" : "Awakens a sleeping\nPokémon."
+    },
+    {
+      "id" : 10018,
+      "text" : "Heals a paralyzed\nPokémon."
+    },
+    {
+      "id" : 10019,
+      "text" : "Fully restores the\nHP and status of a\nPokémon."
+    },
+    {
+      "id" : 10020,
+      "text" : "Fully restores the\nHP of a Pokémon."
+    },
+    {
+      "id" : 10021,
+      "text" : "Restores the HP of\na Pokémon by\n120 points."
+    },
+    {
+      "id" : 10022,
+      "text" : "Restores the HP of\na Pokémon by\n60 points."
+    },
+    {
+      "id" : 10023,
+      "text" : "Heals all the status\nproblems of one\nPokémon."
+    },
+    {
+      "id" : 10024,
+      "text" : "Revives a fainted\nPokémon with half\nits HP."
+    },
+    {
+      "id" : 10025,
+      "text" : "Revives a fainted\nPokémon with all\nits HP."
+    },
+    {
+      "id" : 10026,
+      "text" : "A mineral water\nthat restores HP\nby 30 points."
+    },
+    {
+      "id" : 10027,
+      "text" : "A fizzy soda drink\nthat restores HP\nby 50 points."
+    },
+    {
+      "id" : 10028,
+      "text" : "A very sweet drink\nthat restores HP\nby 70 points."
+    },
+    {
+      "id" : 10029,
+      "text" : "A nutritious milk\nthat restores HP\nby 100 points."
+    },
+    {
+      "id" : 10030,
+      "text" : "A bitter powder\nthat restores HP\nby 50 points."
+    },
+    {
+      "id" : 10031,
+      "text" : "A bitter root\nthat restores HP\nby 120 points."
+    },
+    {
+      "id" : 10032,
+      "text" : "A bitter powder\nthat heals all\nstatus problems."
+    },
+    {
+      "id" : 10033,
+      "text" : "A very bitter herb\nthat revives a\nfainted Pokémon."
+    },
+    {
+      "id" : 10034,
+      "text" : "Restores the PP\nof a selected move\nby 10."
+    },
+    {
+      "id" : 10035,
+      "text" : "Fully restores the\nPP of a selected\nmove."
+    },
+    {
+      "id" : 10036,
+      "text" : "Restores the PP\nof all moves by 10."
+    },
+    {
+      "id" : 10037,
+      "text" : "Fully restores the\nPP of a Pokémon's\nmoves."
+    },
+    {
+      "id" : 10038,
+      "text" : "A local specialty\nthat heals all\nstatus problems."
+    },
+    {
+      "id" : 10039,
+      "text" : "The wearer takes\nhalf damage from\nshadow pokemon."
+    },
+    {
+      "id" : 10040,
+      "text" : "Boosts the defense\nof shadow pokemon\nby 50%."
+    },
+    {
+      "id" : 10041,
+      "text" : "Powers up moves but\nthe holder loses\nHP after an attack."
+    },
+    {
+      "id" : 10042,
+      "text" : "_"
+    },
+    {
+      "id" : 10043,
+      "text" : "_"
+    },
+    {
+      "id" : 10044,
+      "text" : "A 100% pure juice\nthat restores HP\nby 20 points."
+    },
+    {
+      "id" : 10045,
+      "text" : "Fully revives and\nrestores all\nfainted Pokémon."
+    },
+    {
+      "id" : 10046,
+      "text" : "_"
+    },
+    {
+      "id" : 10047,
+      "text" : "_"
+    },
+    {
+      "id" : 10048,
+      "text" : "_"
+    },
+    {
+      "id" : 10049,
+      "text" : "_"
+    },
+    {
+      "id" : 10050,
+      "text" : "_"
+    },
+    {
+      "id" : 10051,
+      "text" : "_"
+    },
+    {
+      "id" : 10052,
+      "text" : "Raises the base HP\nof one Pokémon."
+    },
+    {
+      "id" : 10053,
+      "text" : "Raises the base\nAttack stat of\none Pokémon."
+    },
+    {
+      "id" : 10054,
+      "text" : "Raises the base\nDefense stat of\none Pokémon."
+    },
+    {
+      "id" : 10055,
+      "text" : "Raises the base\nSpeed stat of\none Pokémon."
+    },
+    {
+      "id" : 10056,
+      "text" : "Raises the base\nSp. Atk stat of\none Pokémon."
+    },
+    {
+      "id" : 10057,
+      "text" : "Raises the level\nof a Pokémon by\none."
+    },
+    {
+      "id" : 10058,
+      "text" : "Raises the maximum\nPP of a selected\nmove."
+    },
+    {
+      "id" : 10059,
+      "text" : "Raises the base\nSp. Def stat of\none Pokémon."
+    },
+    {
+      "id" : 10060,
+      "text" : "Raises the PP of a\nmove to its maximum\npoints."
+    },
+    {
+      "id" : 10061,
+      "text" : "Prevents stat\nreduction when\nused in battle."
+    },
+    {
+      "id" : 10062,
+      "text" : "Raises the\ncritical-hit ratio\nduring one battle."
+    },
+    {
+      "id" : 10063,
+      "text" : "Raises the stat\nAttack during one\nbattle."
+    },
+    {
+      "id" : 10064,
+      "text" : "Raises the stat\nDefense during one\nbattle."
+    },
+    {
+      "id" : 10065,
+      "text" : "Raises the stat\nSpeed during one\nbattle."
+    },
+    {
+      "id" : 10066,
+      "text" : "Raises accuracy\nof attack moves\nduring one battle."
+    },
+    {
+      "id" : 10067,
+      "text" : "Raises the stat\nSp. Atk during one\nbattle."
+    },
+    {
+      "id" : 10068,
+      "text" : "_"
+    },
+    {
+      "id" : 10069,
+      "text" : "_"
+    },
+    {
+      "id" : 10070,
+      "text" : "_"
+    },
+    {
+      "id" : 10071,
+      "text" : "_"
+    },
+    {
+      "id" : 10072,
+      "text" : "_"
+    },
+    {
+      "id" : 10073,
+      "text" : "Slightly boosts the\npower of a shadow\npokémon's moves."
+    },
+    {
+      "id" : 10074,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10075,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10076,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10077,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10078,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10079,
+      "text" : "Makes certain\nspecies of Pokémon\nevolve."
+    },
+    {
+      "id" : 10080,
+      "text" : "A plain, ordinary\nmushroom.\nCan be sold cheaply."
+    },
+    {
+      "id" : 10081,
+      "text" : "A rare mushroom\nthat would sell at a\nhigh price."
+    },
+    {
+      "id" : 10082,
+      "text" : "A pretty pearl.\nCan be sold cheaply."
+    },
+    {
+      "id" : 10083,
+      "text" : "A lovely large pearl\nthat would sell at a\nhigh price."
+    },
+    {
+      "id" : 10084,
+      "text" : "Boosts Sp.Def but\nonly permits\nattacking moves."
+    },
+    {
+      "id" : 10085,
+      "text" : "A red gem shard.\nIt would sell for a\nvery high price."
+    },
+    {
+      "id" : 10086,
+      "text" : "A nugget of pure\ngold. Can be sold at\na high price."
+    },
+    {
+      "id" : 10087,
+      "text" : "An item brought\nover from a faraway\nplace."
+    },
+    {
+      "id" : 10088,
+      "text" : "Weakens one\nsuper effective\nghost type move."
+    },
+    {
+      "id" : 10089,
+      "text" : "Weakens one\nsuper effective\nsteel type move."
+    },
+    {
+      "id" : 10090,
+      "text" : "Weakens one\nsuper effective\nfairy type move."
+    },
+    {
+      "id" : 10091,
+      "text" : "Weakens one\nsuper effective\nfire type move."
+    },
+    {
+      "id" : 10092,
+      "text" : "Weakens one\nsuper effective\nwater type move."
+    },
+    {
+      "id" : 10093,
+      "text" : "Weakens one\nsuper effective\ngrass type move."
+    },
+    {
+      "id" : 10094,
+      "text" : "Weakens one\nsuper effective\nelectric move."
+    },
+    {
+      "id" : 10095,
+      "text" : "Weakens one\nsuper effective\npsychic type move."
+    },
+    {
+      "id" : 10096,
+      "text" : "Weakens one\nsuper effective\nice type move."
+    },
+    {
+      "id" : 10097,
+      "text" : "Weakens one\nsuper effective\ndragon type move."
+    },
+    {
+      "id" : 10098,
+      "text" : "Weakens one\nsuper effective\ndark type move."
+    },
+    {
+      "id" : 10099,
+      "text" : "A hold item\nthat weakens one\nshadow move."
+    },
+    {
+      "id" : 10100,
+      "text" : "A hold item that\nheals paralysis\nin battle."
+    },
+    {
+      "id" : 10101,
+      "text" : "A hold item that\nawakens Pokémon\nin battle."
+    },
+    {
+      "id" : 10102,
+      "text" : "A hold item that\nheals poisoning\nin battle."
+    },
+    {
+      "id" : 10103,
+      "text" : "A hold item that\nheals a burn in\nbattle."
+    },
+    {
+      "id" : 10104,
+      "text" : "A hold item that\ndefrosts Pokémon\nin battle."
+    },
+    {
+      "id" : 10105,
+      "text" : "A hold item that\nrestores 10 PP in\nbattle."
+    },
+    {
+      "id" : 10106,
+      "text" : "A hold item that\nrestores 10 HP in\nbattle."
+    },
+    {
+      "id" : 10107,
+      "text" : "A hold item that\nheals confusion\nin battle."
+    },
+    {
+      "id" : 10108,
+      "text" : "A hold item that\nheals any status\nchange in battle."
+    },
+    {
+      "id" : 10109,
+      "text" : "A hold item that\nrestores HP\nwhen low."
+    },
+    {
+      "id" : 10110,
+      "text" : "A hold item that\nrestores HP but\nmay confuse."
+    },
+    {
+      "id" : 10111,
+      "text" : "A hold item that\nrestores HP but\nmay confuse."
+    },
+    {
+      "id" : 10112,
+      "text" : "A hold item that\nrestores HP but\nmay confuse."
+    },
+    {
+      "id" : 10113,
+      "text" : "A hold item that\nrestores HP but\nmay confuse."
+    },
+    {
+      "id" : 10114,
+      "text" : "A hold item that\nrestores HP but\nmay confuse."
+    },
+    {
+      "id" : 10115,
+      "text" : "_"
+    },
+    {
+      "id" : 10116,
+      "text" : "_"
+    },
+    {
+      "id" : 10117,
+      "text" : "_"
+    },
+    {
+      "id" : 10118,
+      "text" : "_"
+    },
+    {
+      "id" : 10119,
+      "text" : "_"
+    },
+    {
+      "id" : 10120,
+      "text" : "_"
+    },
+    {
+      "id" : 10121,
+      "text" : "_"
+    },
+    {
+      "id" : 10122,
+      "text" : "_"
+    },
+    {
+      "id" : 10123,
+      "text" : "_"
+    },
+    {
+      "id" : 10124,
+      "text" : "_"
+    },
+    {
+      "id" : 10125,
+      "text" : "_"
+    },
+    {
+      "id" : 10126,
+      "text" : "_"
+    },
+    {
+      "id" : 10127,
+      "text" : "_"
+    },
+    {
+      "id" : 10128,
+      "text" : "_"
+    },
+    {
+      "id" : 10129,
+      "text" : "_"
+    },
+    {
+      "id" : 10130,
+      "text" : "_"
+    },
+    {
+      "id" : 10131,
+      "text" : "_"
+    },
+    {
+      "id" : 10132,
+      "text" : "_"
+    },
+    {
+      "id" : 10133,
+      "text" : "_"
+    },
+    {
+      "id" : 10134,
+      "text" : "_"
+    },
+    {
+      "id" : 10135,
+      "text" : "A hold item that\nraises Attack in\na pinch."
+    },
+    {
+      "id" : 10136,
+      "text" : "A hold item that\nraises Defense in\na pinch."
+    },
+    {
+      "id" : 10137,
+      "text" : "A hold item that\nraises Speed in\na pinch."
+    },
+    {
+      "id" : 10138,
+      "text" : "A hold item that\nraises Sp. Atk in\na pinch."
+    },
+    {
+      "id" : 10139,
+      "text" : "A hold item that\nraises Sp. Def in\na pinch."
+    },
+    {
+      "id" : 10140,
+      "text" : "An aura surrounds\nthe foe and halves\nits HP."
+    },
+    {
+      "id" : 10141,
+      "text" : "A hold item that\nsharply boosts a\nstat in a pinch."
+    },
+    {
+      "id" : 10142,
+      "text" : "_"
+    },
+    {
+      "id" : 10143,
+      "text" : "A hold item that\ncasts a glare to\nreduce accuracy."
+    },
+    {
+      "id" : 10144,
+      "text" : "A hold item that\nrestores any\nlowered stat."
+    },
+    {
+      "id" : 10145,
+      "text" : "A hold item that\npromotes growth,\nbut reduces Speed."
+    },
+    {
+      "id" : 10146,
+      "text" : "A hold item that\ngets Exp. points\nfrom battles."
+    },
+    {
+      "id" : 10147,
+      "text" : "A hold item that\noccasionally allows\nthe first strike."
+    },
+    {
+      "id" : 10148,
+      "text" : "A hold item that\ncalms spirits and\nfosters friendship."
+    },
+    {
+      "id" : 10149,
+      "text" : "Badly poisons the\nholder at the end\nof the turn."
+    },
+    {
+      "id" : 10150,
+      "text" : "Raises attack\nbut permits only\none move."
+    },
+    {
+      "id" : 10151,
+      "text" : "A hold item that\nmay cause flinching\nwhen the foe is hit."
+    },
+    {
+      "id" : 10152,
+      "text" : "A hold item that\nraises the power of\nBug-type moves."
+    },
+    {
+      "id" : 10153,
+      "text" : "Doubles money in\nbattle if the holder\ntakes part."
+    },
+    {
+      "id" : 10154,
+      "text" : "_"
+    },
+    {
+      "id" : 10155,
+      "text" : "Slightly raises\nSp. Atk & Sp. Def\nof Latios & Latias."
+    },
+    {
+      "id" : 10156,
+      "text" : "Slightly boosts the\npower of super\neffective moves."
+    },
+    {
+      "id" : 10157,
+      "text" : "A hold item that\nraises the power of\nFairy-type moves."
+    },
+    {
+      "id" : 10158,
+      "text" : "Snaps a\npokemon out\nof confusion."
+    },
+    {
+      "id" : 10159,
+      "text" : "A wondrous stone\n& a hold item that\nprevents evolution."
+    },
+    {
+      "id" : 10160,
+      "text" : "Prevents fainting at\nmax HP."
+    },
+    {
+      "id" : 10161,
+      "text" : "A hold item that\nboosts Exp. points\nearned in battle."
+    },
+    {
+      "id" : 10162,
+      "text" : "A hold item that\nraises the critical-\nhit rate."
+    },
+    {
+      "id" : 10163,
+      "text" : "A hold item that\nraises the power of\nSteel-type moves."
+    },
+    {
+      "id" : 10164,
+      "text" : "A hold item that\ngradually restores\nHP in battle."
+    },
+    {
+      "id" : 10165,
+      "text" : "Slightly boosts\npower of\nphysical moves."
+    },
+    {
+      "id" : 10166,
+      "text" : "A hold item that\ndoubles Pikachu's\nAtk and Sp. atk."
+    },
+    {
+      "id" : 10167,
+      "text" : "A hold item that\nraises the power of\nGround-type moves."
+    },
+    {
+      "id" : 10168,
+      "text" : "A hold item that\nraises the power of\nRock-type moves."
+    },
+    {
+      "id" : 10169,
+      "text" : "A hold item that\nraises the power of\nGrass-type moves."
+    },
+    {
+      "id" : 10170,
+      "text" : "A hold item that\nraises the power of\nDark-type moves."
+    },
+    {
+      "id" : 10171,
+      "text" : "A hold item that\nboosts Fighting-\ntype moves."
+    },
+    {
+      "id" : 10172,
+      "text" : "A hold item that\nboosts Electric-\ntype moves."
+    },
+    {
+      "id" : 10173,
+      "text" : "A hold item that\nraises the power of\nWater-type moves."
+    },
+    {
+      "id" : 10174,
+      "text" : "A hold item that\nraises the power of\nFlying-type moves."
+    },
+    {
+      "id" : 10175,
+      "text" : "A hold item that\nraises the power of\nPoison-type moves."
+    },
+    {
+      "id" : 10176,
+      "text" : "A hold item that\nraises the power of\nIce-type moves."
+    },
+    {
+      "id" : 10177,
+      "text" : "A hold item that\nraises the power of\nGhost-type moves."
+    },
+    {
+      "id" : 10178,
+      "text" : "A hold item that\nboosts Psychic-\ntype moves."
+    },
+    {
+      "id" : 10179,
+      "text" : "A hold item that\nraises the power of\nFire-type moves."
+    },
+    {
+      "id" : 10180,
+      "text" : "A hold item that\nraises the power of\nDragon-type moves."
+    },
+    {
+      "id" : 10181,
+      "text" : "A hold item that\nraises the power of\nNormal-type moves."
+    },
+    {
+      "id" : 10182,
+      "text" : "Switches a\nPokémon's ability."
+    },
+    {
+      "id" : 10183,
+      "text" : "A hold item that\nrestores HP upon\nstriking the foe."
+    },
+    {
+      "id" : 10184,
+      "text" : "A hold item that\nhurts foes that\nmake contact."
+    },
+    {
+      "id" : 10185,
+      "text" : "A hold item that\nslightly lowers the\nfoe's accuracy."
+    },
+    {
+      "id" : 10186,
+      "text" : "Raises defenses if\nholder can evolve,\nIncluding Gen IV."
+    },
+    {
+      "id" : 10187,
+      "text" : "Raises sp.atk\nbut permits only\none move."
+    },
+    {
+      "id" : 10188,
+      "text" : "A hold item that \nraises Marowak or\nCubone's Attack."
+    },
+    {
+      "id" : 10189,
+      "text" : "Raises speed\nbut permits only\none move."
+    },
+    {
+      "id" : 10190,
+      "text" : "_"
+    },
+    {
+      "id" : 10191,
+      "text" : "_"
+    },
+    {
+      "id" : 10192,
+      "text" : "_"
+    },
+    {
+      "id" : 10193,
+      "text" : "_"
+    },
+    {
+      "id" : 10194,
+      "text" : "_"
+    },
+    {
+      "id" : 10195,
+      "text" : "Strong winds double\nally speed for 4\nturns."
+    },
+    {
+      "id" : 10196,
+      "text" : "A fiery blast that\nmay cause a burn."
+    },
+    {
+      "id" : 10197,
+      "text" : "After it attacks, it\nrushes to switch\nout."
+    },
+    {
+      "id" : 10198,
+      "text" : "Whips up a vicious\ngale which may\ncause confusion."
+    },
+    {
+      "id" : 10199,
+      "text" : "Sprays sludge all\naround. May poison\ntargets."
+    },
+    {
+      "id" : 10200,
+      "text" : "Damages the\nopposing team with a\npowerful flash."
+    },
+    {
+      "id" : 10201,
+      "text" : "Uses the foe's\nattack against them."
+    },
+    {
+      "id" : 10202,
+      "text" : "Hardens the user's\nfist raising Atk\neach hit."
+    },
+    {
+      "id" : 10203,
+      "text" : "A weak jolt of\nelectricity that\nparalyzes the foe."
+    },
+    {
+      "id" : 10204,
+      "text" : "Blasts the target\nwith an icy beam\nthat may freeze it."
+    },
+    {
+      "id" : 10205,
+      "text" : "Inflicts a burn on\nthe target with\nintense fire."
+    },
+    {
+      "id" : 10206,
+      "text" : "A life-risking\ntackle that also\nhurts the user."
+    },
+    {
+      "id" : 10207,
+      "text" : "Slower pokemon\nmove first for 5\nturns."
+    },
+    {
+      "id" : 10208,
+      "text" : "Shoots boiling water\nat the foe. May\ncause a burn."
+    },
+    {
+      "id" : 10209,
+      "text" : "A powerful fire\nattack that may\ninflict a burn."
+    },
+    {
+      "id" : 10210,
+      "text" : "Slams the foe with a\nsteel hard head. May\ncause flinching."
+    },
+    {
+      "id" : 10211,
+      "text" : "A strong electrical\nattack. It may\nparalyze the target."
+    },
+    {
+      "id" : 10212,
+      "text" : "Freezes liquid.\nEffective against\nwater."
+    },
+    {
+      "id" : 10213,
+      "text" : "Sludge is hurled to\ninflict damage. May\nalso poison."
+    },
+    {
+      "id" : 10214,
+      "text" : "Draws from the\npower of nature\nand then launches."
+    },
+    {
+      "id" : 10215,
+      "text" : "Focuses willpower in\nthe head. May cause\nflinching."
+    },
+    {
+      "id" : 10216,
+      "text" : "Looses sparks in all\ndirections."
+    },
+    {
+      "id" : 10217,
+      "text" : "The user launches a\nshockwave from its\ngaping mouth."
+    },
+    {
+      "id" : 10218,
+      "text" : "Boosts strength\nsharply, but lowers\nabilities."
+    },
+    {
+      "id" : 10219,
+      "text" : "A strong quake, has\nno effect on flying\ntargets."
+    },
+    {
+      "id" : 10220,
+      "text" : "Erupts the ground\nwith power. May\nlower Sp.Def"
+    },
+    {
+      "id" : 10221,
+      "text" : "Exhales a hot breath\non the target. May\ninflict a burn."
+    },
+    {
+      "id" : 10222,
+      "text" : "A blast of ice and\nsnow which may\nfreeze the target."
+    },
+    {
+      "id" : 10223,
+      "text" : "A preemptive strike.\nFails if target\ndoesn't attack."
+    },
+    {
+      "id" : 10224,
+      "text" : "Hurls garbage at the\nfoe. May poison."
+    },
+    {
+      "id" : 10225,
+      "text" : "Manifests physical\nobjects to hit\ndefenses."
+    },
+    {
+      "id" : 10226,
+      "text" : "Hurls a black blob\nthat may lower the\ntarget's Sp. Def."
+    },
+    {
+      "id" : 10227,
+      "text" : "May cause a hit\ntarget to flinch."
+    },
+    {
+      "id" : 10228,
+      "text" : "Absorbs light in one\nturn, then attacks\nnext turn."
+    },
+    {
+      "id" : 10229,
+      "text" : "The user heightens\nfocus and unleashes\npower."
+    },
+    {
+      "id" : 10230,
+      "text" : "Slashes the target\nwith crossed blades"
+    },
+    {
+      "id" : 10231,
+      "text" : "A lightning attack\nthat may cause\nparalysis."
+    },
+    {
+      "id" : 10232,
+      "text" : "An extremely speedy\nand unavoidable\nattack."
+    },
+    {
+      "id" : 10233,
+      "text" : "Charges the target\nwith speed to climb\nwaterfalls."
+    },
+    {
+      "id" : 10234,
+      "text" : "Scratches the target\nwith sharp claws."
+    },
+    {
+      "id" : 10235,
+      "text" : "Poisons the target\nwith an intensifying\ntoxin."
+    },
+    {
+      "id" : 10236,
+      "text" : "A flaming tackle\nthat builds up\nspeed."
+    },
+    {
+      "id" : 10237,
+      "text" : "Stabs the foe with a\npoison steeped arm\nor tentacle."
+    },
+    {
+      "id" : 10238,
+      "text" : "Knocks off the foe's\nheld item to prevent\nuse."
+    },
+    {
+      "id" : 10239,
+      "text" : "Creates a wall of\nlight that weakens\nphysical attacks."
+    },
+    {
+      "id" : 10240,
+      "text" : "Creates a wall of\nlight that lowers\nSp. Atk damage."
+    },
+    {
+      "id" : 10241,
+      "text" : "Creates a huge wave,\nthen crashes it down\non the foe."
+    },
+    {
+      "id" : 10242,
+      "text" : "Stabs the foe with\nsharp stones."
+    },
+    {
+      "id" : 10243,
+      "text" : "A powerful psychic\nattack that may\nlower Sp. Def."
+    },
+    {
+      "id" : 10244,
+      "text" : "Attacks with an aura\nof wicked thoughts."
+    },
+    {
+      "id" : 10245,
+      "text" : "A powerful tremor\nhits all grounded\nPokémon in play."
+    },
+    {
+      "id" : 10246,
+      "text" : "The key for the\nelevator in the Pre\nGym."
+    },
+    {
+      "id" : 10247,
+      "text" : "A set of plans with\ncomplex diagrams\nand formulas."
+    },
+    {
+      "id" : 10248,
+      "text" : "Special VR tech\nrequired for the\npurify chamber."
+    },
+    {
+      "id" : 10249,
+      "text" : "\u0000A Scent that\ngreatly pleases\nPokémon."
+    },
+    {
+      "id" : 10250,
+      "text" : "A memory device\nthat may contain\nCipher's secrets."
+    },
+    {
+      "id" : 10251,
+      "text" : "An item used for\nsecurity checks at\nCipher buildings.\n"
+    },
+    {
+      "id" : 10252,
+      "text" : "A popular love\nsong by Taylor Swift.\nIt is a big seller."
+    },
+    {
+      "id" : 10253,
+      "text" : "A memo written by\nKrane about the\nSnag System."
+    },
+    {
+      "id" : 10254,
+      "text" : "\u0000"
+    },
+    {
+      "id" : 10255,
+      "text" : "\u0000"
+    },
+    {
+      "id" : 10256,
+      "text" : "\u0000"
+    },
+    {
+      "id" : 10257,
+      "text" : "\u0000A memo written by\nKrane about the\nAura Reader."
+    },
+    {
+      "id" : 10258,
+      "text" : "A memo written by\nKrane about the\nAura Reader."
+    },
+    {
+      "id" : 10259,
+      "text" : "A handle-shaped\nlever that controls\na machine."
+    },
+    {
+      "id" : 10260,
+      "text" : "\u0000A case for carrying\nScents that appeal\nto Pokémon."
+    },
+    {
+      "id" : 10261,
+      "text" : "A case for carrying\nScents that appeal\nto Pokémon."
+    },
+    {
+      "id" : 10262,
+      "text" : "A Scent that\nslightly pleases\nPokémon."
+    },
+    {
+      "id" : 10263,
+      "text" : "A Scent that\npleases Pokémon."
+    },
+    {
+      "id" : 10264,
+      "text" : "A Scent that\ngreatly pleases\nPokémon."
+    },
+    {
+      "id" : 10265,
+      "text" : "An item brought\nover from a faraway\nplace."
+    },
+    {
+      "id" : 10266,
+      "text" : "A delicious treat\nthat is irresistible\nto wild Pokémon."
+    },
+    {
+      "id" : 10267,
+      "text" : "\u0000An odd shard that\nmakes Eevee evolve\ninto Espeon."
+    },
+    {
+      "id" : 10268,
+      "text" : "An odd shard that\nmakes Eevee evolve\ninto Espeon."
+    },
+    {
+      "id" : 10269,
+      "text" : "An odd shard that\nmakes Eevee evolve\ninto Umbreon."
+    },
+    {
+      "id" : 10270,
+      "text" : "A case for storing\nBattle CDs."
+    },
+    {
+      "id" : 10271,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10272,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10273,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10274,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10275,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10276,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10277,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10278,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10279,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10280,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10281,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10282,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10283,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10284,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10285,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10286,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10287,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10288,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10289,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10290,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10291,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10292,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10293,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10294,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10295,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10296,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10297,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10298,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10299,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10300,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10301,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10302,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10303,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10304,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10305,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10306,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10307,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10308,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10309,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10310,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10311,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10312,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10313,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10314,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10315,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10316,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10317,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10318,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10319,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10320,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10321,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10322,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10323,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10324,
+      "text" : "A CD used at the\nRealgam Tower\nfor Battle Sims."
+    },
+    {
+      "id" : 10325,
+      "text" : "Boosts the power of\nthe recipient's\nmoves."
+    },
+    {
+      "id" : 10326,
+      "text" : "Creates a decoy\nusing 1\/4 of the\nuser's maximum HP."
+    },
+    {
+      "id" : 10327,
+      "text" : "Boosts Attack when\nburned, paralyzed,\nor poisoned."
+    },
+    {
+      "id" : 10328,
+      "text" : "The user attacks\ndriven by rage."
+    },
+    {
+      "id" : 10329,
+      "text" : "A shady tackle with\nrecoil but\nconsistent damage."
+    },
+    {
+      "id" : 10330,
+      "text" : "Darkness hurts all\nexcept Shadow\nPokémon for 5 turns."
+    },
+    {
+      "id" : 10331,
+      "text" : "A memo written by\nKrane about the\nSnag Machine."
+    },
+    {
+      "id" : 10332,
+      "text" : "A memo written by\nKrane on purifying\nShadow Pokémon."
+    },
+    {
+      "id" : 10333,
+      "text" : "A memo written by\nKrane about the\nPurify Chamber."
+    },
+    {
+      "id" : 10334,
+      "text" : "An important letter\nfrom the Mayor to\nJusty."
+    },
+    {
+      "id" : 10335,
+      "text" : "A list of Shadow\nPokémon made by\nCipher."
+    },
+    {
+      "id" : 10336,
+      "text" : "A key obtained from\nGonzap to open\na treasure chest."
+    },
+    {
+      "id" : 10337,
+      "text" : "A device that\nsenses Mirror B.'s\npresence."
+    },
+    {
+      "id" : 10338,
+      "text" : "Take this to the\nreceptionist to\nbattle Bonsly."
+    },
+    {
+      "id" : 10339,
+      "text" : "An ominous photo..."
+    },
+    {
+      "id" : 10340,
+      "text" : "A special case that\ncontains the cry of\na Pokémon."
+    },
+    {
+      "id" : 10341,
+      "text" : "A special case that\ncontains the cry of\na Pokémon."
+    },
+    {
+      "id" : 10342,
+      "text" : "A special case that\ncontains the cry of\na Pokémon."
+    },
+    {
+      "id" : 10343,
+      "text" : "A special case that\ncontains the cry of\na Pokémon."
+    },
+    {
+      "id" : 10344,
+      "text" : "A special case that\ncontains the cry of\na Pokémon."
+    },
+    {
+      "id" : 10345,
+      "text" : "A device that\nanalyzes the cries\nof Pokémon."
+    },
+    {
+      "id" : 15001,
+      "text" : "Items"
+    },
+    {
+      "id" : 15002,
+      "text" : "Balls"
+    },
+    {
+      "id" : 15003,
+      "text" : "TMs"
+    },
+    {
+      "id" : 15004,
+      "text" : "Berries"
+    },
+    {
+      "id" : 15005,
+      "text" : "Key Items"
+    },
+    {
+      "id" : 15006,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15007,
+      "text" : "[7]{03}No"
+    },
+    {
+      "id" : 15008,
+      "text" : "SM"
+    },
+    {
+      "id" : 15009,
+      "text" : "Return to the field."
+    },
+    {
+      "id" : 15010,
+      "text" : "Return to the battle."
+    },
+    {
+      "id" : 15011,
+      "text" : "Summary"
+    },
+    {
+      "id" : 15012,
+      "text" : "Switch"
+    },
+    {
+      "id" : 15013,
+      "text" : "Shift"
+    },
+    {
+      "id" : 15014,
+      "text" : "Withdraw"
+    },
+    {
+      "id" : 15015,
+      "text" : "Return to the\nPokémon list."
+    },
+    {
+      "id" : 15016,
+      "text" : "Return to the\nPokéMart."
+    },
+    {
+      "id" : 15017,
+      "text" : "[Item 45]?\nSell how many?"
+    },
+    {
+      "id" : 15018,
+      "text" : "Toss how many?"
+    },
+    {
+      "id" : 15019,
+      "text" : "Is it okay to\ntoss out [Quantity 47]\n[Item 45](s)?"
+    },
+    {
+      "id" : 15020,
+      "text" : "Store how many?"
+    },
+    {
+      "id" : 15021,
+      "text" : "Move where?"
+    },
+    {
+      "id" : 15022,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15023,
+      "text" : "Quit shopping"
+    },
+    {
+      "id" : 15024,
+      "text" : "[Item 45]"
+    },
+    {
+      "id" : 15025,
+      "text" : "Quantity held x[97]"
+    },
+    {
+      "id" : 15026,
+      "text" : "Quit exchanging\nPoké Coupons."
+    },
+    {
+      "id" : 15027,
+      "text" : "[7]{00}Buy"
+    },
+    {
+      "id" : 15028,
+      "text" : "[7]{00}Sell"
+    },
+    {
+      "id" : 15029,
+      "text" : "[7]{00}Quit"
+    },
+    {
+      "id" : 15030,
+      "text" : "Switch"
+    },
+    {
+      "id" : 15031,
+      "text" : "Return to the PC."
+    },
+    {
+      "id" : 15032,
+      "text" : "Use which Scent?"
+    },
+    {
+      "id" : 15033,
+      "text" : "[7]{00}Exchange"
+    },
+    {
+      "id" : 15034,
+      "text" : "[7]{00}Prize List"
+    },
+    {
+      "id" : 15035,
+      "text" : "[7]{00}Info"
+    },
+    {
+      "id" : 15036,
+      "text" : "[7]{00}Exit"
+    },
+    {
+      "id" : 15037,
+      "text" : "Close Prize List."
+    },
+    {
+      "id" : 15038,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15039,
+      "text" : "Send Out"
+    },
+    {
+      "id" : 15040,
+      "text" : "[7]{00}Your PC is full.\nYou can't store\n[Item 45](s).[Dialogue End]"
+    },
+    {
+      "id" : 15041,
+      "text" : "Choose a Pokémon."
+    },
+    {
+      "id" : 15042,
+      "text" : "Do what with\n[String 50]?"
+    },
+    {
+      "id" : 15043,
+      "text" : "Move to where?"
+    },
+    {
+      "id" : 15044,
+      "text" : "Do what with\nan item?"
+    },
+    {
+      "id" : 15045,
+      "text" : "Use on which\nPokémon?"
+    },
+    {
+      "id" : 15046,
+      "text" : "Give to which\nPokémon?"
+    },
+    {
+      "id" : 15047,
+      "text" : "Teach which\nPokémon?"
+    },
+    {
+      "id" : 15048,
+      "text" : "Able"
+    },
+    {
+      "id" : 15049,
+      "text" : "Not Able"
+    },
+    {
+      "id" : 15050,
+      "text" : "[7]{00}[String 50] is already holding one\n[Item 45].[Clear Window]Would you like to switch the two items?"
+    },
+    {
+      "id" : 15051,
+      "text" : "[7]{00}The [Item 45] was taken and\nreplaced with the [Item 46].[Dialogue End]"
+    },
+    {
+      "id" : 15052,
+      "text" : "[7]{00}[String 50] was given the [Item 45]\nto hold.[Dialogue End]"
+    },
+    {
+      "id" : 15053,
+      "text" : "[7]{00}Received the [Item 45]\nfrom [String 50].[Dialogue End]"
+    },
+    {
+      "id" : 15054,
+      "text" : "[7]{00}[String 50] isn't holding anything.[Dialogue End]"
+    },
+    {
+      "id" : 15055,
+      "text" : "[7]{00}You have no room for it.[Dialogue End]"
+    },
+    {
+      "id" : 15056,
+      "text" : "[7]{00}[String 50] is in Hyper Mode!\nIt won't accept an item!"
+    },
+    {
+      "id" : 15061,
+      "text" : "[Predef Colour]{04}OT"
+    },
+    {
+      "id" : 15062,
+      "text" : "[Predef Colour]{04}ID No."
+    },
+    {
+      "id" : 15063,
+      "text" : "[Predef Colour]{04}Type"
+    },
+    {
+      "id" : 15064,
+      "text" : "[Predef Colour]{04}Lv"
+    },
+    {
+      "id" : 15065,
+      "text" : "[Predef Colour]{04}  HP"
+    },
+    {
+      "id" : 15066,
+      "text" : "[Predef Colour]{04}Attack"
+    },
+    {
+      "id" : 15067,
+      "text" : "[Predef Colour]{04}Defense"
+    },
+    {
+      "id" : 15068,
+      "text" : "[Predef Colour]{04}Sp. Atk"
+    },
+    {
+      "id" : 15069,
+      "text" : "[Predef Colour]{04}Sp. Def"
+    },
+    {
+      "id" : 15070,
+      "text" : "[Predef Colour]{04}Speed"
+    },
+    {
+      "id" : 15071,
+      "text" : "[Predef Colour]{04}Exp.Points"
+    },
+    {
+      "id" : 15072,
+      "text" : "[Predef Colour]{04}Next Lv."
+    },
+    {
+      "id" : 15073,
+      "text" : "[85] [Predef Colour]{04}nature[Predef Colour]{00}, [Predef Colour]{04}Lv [Predef Colour]{00}[52],"
+    },
+    {
+      "id" : 15074,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15075,
+      "text" : "Info"
+    },
+    {
+      "id" : 15076,
+      "text" : "Switch"
+    },
+    {
+      "id" : 15077,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15078,
+      "text" : "Details"
+    },
+    {
+      "id" : 15079,
+      "text" : "[7]{03}[Item 45]"
+    },
+    {
+      "id" : 15080,
+      "text" : "\/"
+    },
+    {
+      "id" : 15081,
+      "text" : "[Predef Colour]{04}Power"
+    },
+    {
+      "id" : 15082,
+      "text" : "[Predef Colour]{04}Accuracy"
+    },
+    {
+      "id" : 15083,
+      "text" : "[55] [Predef Colour]{04}(met)[Predef Colour]{00}."
+    },
+    {
+      "id" : 15084,
+      "text" : "\u0000The door to its heart\nis tightly shut."
+    },
+    {
+      "id" : 15085,
+      "text" : "The door to its heart\nis tightly shut."
+    },
+    {
+      "id" : 15086,
+      "text" : "The door to its heart is\nstarting to open."
+    },
+    {
+      "id" : 15087,
+      "text" : "The door to its heart is\nopening up."
+    },
+    {
+      "id" : 15088,
+      "text" : "The door to its heart is\nopening wider."
+    },
+    {
+      "id" : 15089,
+      "text" : "The door to its heart is\nnearly open."
+    },
+    {
+      "id" : 15090,
+      "text" : "The door to its heart is\nalmost fully open."
+    },
+    {
+      "id" : 15091,
+      "text" : "The door to its heart is about\nto open. Undo the final lock!"
+    },
+    {
+      "id" : 15095,
+      "text" : "[85] [Predef Colour]{04}nature."
+    },
+    {
+      "id" : 15096,
+      "text" : "Obtained from [Player Field 43]'s dad."
+    },
+    {
+      "id" : 15097,
+      "text" : "fateful encounter."
+    },
+    {
+      "id" : 15098,
+      "text" : "met in a distant land."
+    },
+    {
+      "id" : 15099,
+      "text" : "PP:"
+    },
+    {
+      "id" : 15100,
+      "text" : "[7]{00}That move is too well learned.\nIt can't be forgotten now.[Dialogue End]"
+    },
+    {
+      "id" : 15357,
+      "text" : "[Predef Colour]{04}Name"
+    },
+    {
+      "id" : 15376,
+      "text" : "Exp"
+    },
+    {
+      "id" : 15377,
+      "text" : "[7]{03}Heart Gauge"
+    },
+    {
+      "id" : 15381,
+      "text" : "Move"
+    },
+    {
+      "id" : 15382,
+      "text" : "Sort"
+    },
+    {
+      "id" : 15386,
+      "text" : "None"
+    },
+    {
+      "id" : 15387,
+      "text" : "Scan which\nBattle Disc?"
+    },
+    {
+      "id" : 15388,
+      "text" : "[7]{00}There is no\nresponse at all...[Dialogue End]"
+    },
+    {
+      "id" : 15389,
+      "text" : "[7]{00}There isn't much of a response...[Dialogue End]"
+    },
+    {
+      "id" : 15390,
+      "text" : "[7]{00}It's responding just a little![Dialogue End]"
+    },
+    {
+      "id" : 15391,
+      "text" : "[7]{00}Mirror B. is at [MsgID 77]![Dialogue End]"
+    },
+    {
+      "id" : 15392,
+      "text" : "[7]{00}Krane Memo 1\nRe: The Snag System[Clear Window]Shadow Pokémon are victims of criminals who\nuse them for misdeeds.\nThey must be taken from their bad masters and\nprotected.[Clear Window]The most effective means of taking such\nPokémon from criminals is the Snag System\ndeveloped by Cipher five years ago.[Clear Window]It is an unforgivable act among Trainers to\nsteal another Trainer's Pokémon, but there is\nno other way to save Shadow Pokémon.[Clear Window]The Snag System was originally designed to\nsteal any Pokémon from Trainers.[Clear Window]We must immediately develop a system that\nsnags only Shadow Pokémon...and nothing\nelse.[Dialogue End]"
+    },
+    {
+      "id" : 15393,
+      "text" : "[7]{00}Krane Memo 2\nRe: The Aura Reader[Clear Window]It is impossible for ordinary people to distinguish\nShadow Pokémon from regular Pokémon based\non appearance.[Clear Window]In developing a new Snag System, our biggest\nchallenge was devising some means of \nrecognizing Shadow Pokémon immediately.[Clear Window]We solved this challenge with a headset device\nthat senses Shadow Pokémon.[Clear Window]We named this headset the Aura Reader.[Dialogue End]"
+    },
+    {
+      "id" : 15394,
+      "text" : "[7]{00}Krane Memo 3\nRe: The Snag Machine[Clear Window]The Aura Reader's development made it\npossible to create a workable new Snag\nMachine.[Clear Window]We realized that we could integrate the Aura\nReader with the original Snag Machine\ndeveloped by Cipher.[Clear Window]The Aura Reader can be made to sound\na warning and prevent the Snag Machine from\nworking if a regular, non- Shadow Pokémon is\ntargeted.[Clear Window]The likelihood of the Snag Machine being\nabused should be diminished.\nHowever, one must always be vigilant.\nIt must be treated with caution![Dialogue End]"
+    },
+    {
+      "id" : 15395,
+      "text" : "[7]{00}Krane Memo 4\nRe: Purification[Clear Window]Once captured,Shadow Pokémon must have\ntheir hearts reopened in a process called\npurification so that they may return to their\nnormal state.[Clear Window]The best-known method of purification was to\nhave the Shadow Pokémon spend time with\na Trainer and allow their hearts to gradually\nreopen.[Clear Window]However, because it required Shadow Pokémon\nto be with the Trainer, this method placed\na limit on the number of Pokémon that could be\ntreated.[Clear Window]We needed a process for efficiently purifying\nmany Shadow Pokémon.\nOur studies led us to the idea of the Purify\nChamber.[Dialogue End]"
+    },
+    {
+      "id" : 15396,
+      "text" : "[7]{00}Krane Memo 5\nRe: The Purify Chamber[Clear Window]The Purify Chamber is a radical new concept\nthat differs from the usual purification method of\nhaving Shadow Pokémon be with a Trainer\nconstantly.[Clear Window]It represents a new approach that places\nShadow Pokémon among regular Pokémon\nso that they become purified naturally.[Clear Window]Much time is still needed to make this concept\nreal.\nWe need to acquire systems, collect data,\nand make adjustments.[Clear Window]We eagerly look forward to seeing the Purify\nChamber concept in operation.[Dialogue End]"
+    },
+    {
+      "id" : 15397,
+      "text" : "[7]{00}Pyrite Town"
+    },
+    {
+      "id" : 15398,
+      "text" : "[7]{00}Realgam Tower"
+    },
+    {
+      "id" : 15399,
+      "text" : "[7]{00}Rock Poké Spot"
+    },
+    {
+      "id" : 15400,
+      "text" : "[7]{00}Oasis Poké Spot"
+    },
+    {
+      "id" : 15401,
+      "text" : "[7]{00}Cave Poké Spot"
+    },
+    {
+      "id" : 15409,
+      "text" : "[7]{00}Outskirt Stand"
+    },
+    {
+      "id" : 15410,
+      "text" : "[7]{00}Gateon Port"
+    },
+    {
+      "id" : 15418,
+      "text" : "Use on which\nmove?"
+    },
+    {
+      "id" : 15419,
+      "text" : "Set"
+    },
+    {
+      "id" : 15420,
+      "text" : "Learned"
+    },
+    {
+      "id" : 15421,
+      "text" : "[Predef Colour]{04}Item"
+    },
+    {
+      "id" : 15422,
+      "text" : "Cancel"
+    },
+    {
+      "id" : 15423,
+      "text" : "Exit"
+    },
+    {
+      "id" : 50001,
+      "text" : "[7]{00}[String 50] regained health by [Quantity 47]![Dialogue End]"
+    },
+    {
+      "id" : 50002,
+      "text" : "[7]{00}[String 50] regained health.[Dialogue End]"
+    },
+    {
+      "id" : 50003,
+      "text" : "[7]{00}[String 50] woke up.[Dialogue End]"
+    },
+    {
+      "id" : 50004,
+      "text" : "[7]{00}[String 50] was cured of its poisoning.[Dialogue End]"
+    },
+    {
+      "id" : 50005,
+      "text" : "[7]{00}[String 50]'s burn was healed.[Dialogue End]"
+    },
+    {
+      "id" : 50006,
+      "text" : "[7]{00}[String 50] was thawed out.[Dialogue End]"
+    },
+    {
+      "id" : 50007,
+      "text" : "[7]{00}[String 50] was cured of paralysis.[Dialogue End]"
+    },
+    {
+      "id" : 50008,
+      "text" : "[7]{00}[String 50] got over its infatuation.[Dialogue End]"
+    },
+    {
+      "id" : 50009,
+      "text" : "[7]{00}[String 50] became healthy.[Dialogue End]"
+    },
+    {
+      "id" : 50010,
+      "text" : "[7]{00}[String 50]'s base Attack was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50011,
+      "text" : "[7]{00}[String 50]'s base HP was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50012,
+      "text" : "[7]{00}[String 50]'s base Sp. Atk was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50013,
+      "text" : "[7]{00}[String 50]'s base Sp. Def was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50014,
+      "text" : "[7]{00}[String 50]'s base Speed was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50015,
+      "text" : "[7]{00}[String 50]'s base Defense was raised.[Dialogue End]"
+    },
+    {
+      "id" : 50016,
+      "text" : "[7]{00}[String 50]'s PP increased.[Dialogue End]"
+    },
+    {
+      "id" : 50017,
+      "text" : "[7]{00}PP was restored.[Dialogue End]"
+    },
+    {
+      "id" : 50018,
+      "text" : "[7]{00}The dimensions became twisted![Dialogue End]"
+    },
+    {
+      "id" : 50019,
+      "text" : "[7]{00}[String 50]'s Accuracy increased![Dialogue End]"
+    },
+    {
+      "id" : 50020,
+      "text" : "[7]{00}[String 50]'s Sp. Atk increased![Dialogue End]"
+    },
+    {
+      "id" : 50021,
+      "text" : "[7]{00}[String 50]'s Defense increased![Dialogue End]"
+    },
+    {
+      "id" : 50022,
+      "text" : "[7]{00}[String 50]'s Speed increased![Dialogue End]"
+    },
+    {
+      "id" : 50031,
+      "text" : "[7]{00}[String 50]'s Attack increased![Dialogue End]"
+    },
+    {
+      "id" : 50032,
+      "text" : "[7]{00}[String 50] is getting pumped![Dialogue End]"
+    },
+    {
+      "id" : 50033,
+      "text" : "[7]{00}It can't be used on a Shadow Pokémon![Dialogue End]"
+    },
+    {
+      "id" : 50034,
+      "text" : "[7]{00}[String 50] is in Rage Mode!\nIt won't accept the item![Dialogue End]"
+    },
+    {
+      "id" : 50035,
+      "text" : "[7]{00}This item can't be used now.[Dialogue End]"
+    },
+    {
+      "id" : 50036,
+      "text" : "[7]{00}It's meaningless to use that item.[Dialogue End]"
+    },
+    {
+      "id" : 50037,
+      "text" : "[7]{00}Booted up a TM.[Dialogue End]"
+    },
+    {
+      "id" : 50038,
+      "text" : "[7]{00}Booted up an SM.[Dialogue End]"
+    },
+    {
+      "id" : 50039,
+      "text" : "[7]{00}It contained [57].[Clear Window]Would you like to teach [57]\nto a Pokémon?"
+    },
+    {
+      "id" : 50040,
+      "text" : "[7]{00}The Snag Machine is charging after use.\nIt can't be used again right away.[Dialogue End]"
+    },
+    {
+      "id" : 50041,
+      "text" : "[7]{00}Threw away [Quantity 47] [Item 45](s).[Dialogue End]"
+    },
+    {
+      "id" : 50042,
+      "text" : "[7]{00}[Item 45] isn't an item for\na Pokémon to hold.[Dialogue End]"
+    },
+    {
+      "id" : 50043,
+      "text" : "[7]{00}[Item 45] can't be put into storage![Dialogue End]"
+    },
+    {
+      "id" : 50044,
+      "text" : "[7]{00}Stored [Quantity 47] [Item 45](s).[Dialogue End]"
+    },
+    {
+      "id" : 50045,
+      "text" : "[7]{00}The Box is full.\nYou can't snag any more Pokémon.[Dialogue End]"
+    },
+    {
+      "id" : 50048,
+      "text" : "[7]{00}This item's use is forbidden in the Orre Region.[Dialogue End]"
+    },
+    {
+      "id" : 50049,
+      "text" : "[7]{00}[String 50] snapped out of its confusion.[Dialogue End]"
+    },
+    {
+      "id" : 50050,
+      "text" : "[7]{00}The Box is full.\nYou can't catch any more Pokémon.[Dialogue End]"
+    },
+    {
+      "id" : 50508,
+      "text" : "[7]{00}The door to that Pokémon's heart isn't closed.[Dialogue End]"
+    },
+    {
+      "id" : 50509,
+      "text" : "[7]{00}The door to that Pokémon's heart can't be\nopened yet.[Dialogue End]"
+    },
+    {
+      "id" : 50601,
+      "text" : "[7]{00}[Speaker]: Hello!\nWelcome to our Pokémart.\nHow may I serve you?"
+    },
+    {
+      "id" : 50602,
+      "text" : "[7]{00}[Speaker]: May I help you with anything else?"
+    },
+    {
+      "id" : 50603,
+      "text" : "[7]{00}[Speaker]: We look forward to your next visit.[Dialogue End]"
+    },
+    {
+      "id" : 50604,
+      "text" : "[7]{00}[Speaker]: [Item 45], okay.\nAnd you wanted [Quantity 47].\nThat will be $[75].\nIs that okay?"
+    },
+    {
+      "id" : 50605,
+      "text" : "[7]{00}[Speaker]: Thank you very much.[Dialogue End]"
+    },
+    {
+      "id" : 50606,
+      "text" : "[7]{00}[Speaker]: I'm terribly sorry, but...\nYou don't have enough money.[Dialogue End]"
+    },
+    {
+      "id" : 50607,
+      "text" : "[7]{00}[Speaker]: Oh?\nYou don't appear to have room for your\nmerchandise.[Dialogue End]"
+    },
+    {
+      "id" : 50608,
+      "text" : "[7]{00}[Speaker]: I'll include a Premier Ball as a free\nbonus.[Dialogue End]"
+    },
+    {
+      "id" : 50609,
+      "text" : "[7]{00}[Speaker]: We can pay you $[75] for your\nmerchandise.\nIs that okay?"
+    },
+    {
+      "id" : 50610,
+      "text" : "[7]{00}Received $[75] for the\n[Item 45] sale.[Dialogue End]"
+    },
+    {
+      "id" : 50611,
+      "text" : "[7]{00}[Speaker]: I'm sorry, we can't buy that item from\nyou.[Dialogue End]"
+    },
+    {
+      "id" : 50612,
+      "text" : "[Item 45]?\nAnd how many would\nyou like?"
+    },
+    {
+      "id" : 50613,
+      "text" : "[Item 45]?\nAnd how many would\nyou like to sell?"
+    },
+    {
+      "id" : 50614,
+      "text" : "[7]{00}[Speaker]: I'm terribly sorry, but I can't sell you a\nScent since you don't have a Cologne Case.[Dialogue End]"
+    },
+    {
+      "id" : 50615,
+      "text" : "[7]{00}[Speaker]: This is the Coupon Exchange.\nHow may I help you?"
+    },
+    {
+      "id" : 50616,
+      "text" : "[7]{00}[Speaker]: May I help you with anything else?"
+    },
+    {
+      "id" : 50617,
+      "text" : "[7]{00}[Speaker]: I hope you'll visit us again.[Dialogue End]"
+    },
+    {
+      "id" : 50618,
+      "text" : "[7]{00}[Speaker]: What do you want to exchange your\nPoké Coupons for?[Dialogue End]"
+    },
+    {
+      "id" : 50619,
+      "text" : "[7]{00}[Speaker]: Oh? I'm sorry, but you don't have enough\nPoké Coupons for exchanging.[Dialogue End]"
+    },
+    {
+      "id" : 50620,
+      "text" : "[7]{00}[Speaker]: Fine, [Item 45].\nAnd you wanted [Quantity 47].\nIs that correct?"
+    },
+    {
+      "id" : 50621,
+      "text" : "[7]{00}[Speaker]: Okay, here's your\n[Quantity 47]-[Item 45] prize.[Clear Window][Player Field 43] received the prize.[Dialogue End]"
+    },
+    {
+      "id" : 50622,
+      "text" : "[7]{00}[Speaker]: Would you like to exchange Poké\nCoupons for anything else?"
+    },
+    {
+      "id" : 50623,
+      "text" : "[7]{00}[Speaker]: I'm sorry, but you don't have enough\nPoké Coupons for that prize.[Dialogue End]"
+    },
+    {
+      "id" : 50624,
+      "text" : "[7]{00}[Speaker]: Oh?\nYou don't appear to have enough space for\nyour prize.[Dialogue End]"
+    },
+    {
+      "id" : 50625,
+      "text" : "[7]{00}[Speaker]: You may exchange your Poké Coupons\nfor these prizes.[Dialogue End]"
+    },
+    {
+      "id" : 50626,
+      "text" : "[7]{00}[Speaker]: By training at Mt. Battle, you may be\nrewarded with Poké Coupons.\nYou get some for every ten Trainers you\ndefeat.[Clear Window][Speaker]: Pick up your Poké\nCoupons from the Area Leaders.[Clear Window][Speaker]: Poké Coupons can be exchanged for\nsuper prizes.\nCollect them and win big![Clear Window][Speaker]: Remember, if you quit your Mt. Battle\nchallenge before defeating ten Trainers, you\nwon't earn any Poké Coupons.[Dialogue End]"
+    },
+    {
+      "id" : 50627,
+      "text" : "[Item 45]...\nAnd how many would\nyou like?"
+    },
+    {
+      "id" : 50628,
+      "text" : "[7]{00}It's a Vending Machine.\nWhich drink would you like?[Dialogue End]"
+    },
+    {
+      "id" : 50629,
+      "text" : "[7]{00}Clang!\nA can of [Item 45] dropped down.[Clear Window][Player Field 43] put the\n[Item 45] away.[Dialogue End]"
+    },
+    {
+      "id" : 50630,
+      "text" : "[7]{00}Decided not to buy a drink.[Dialogue End]"
+    },
+    {
+      "id" : 50631,
+      "text" : "[7]{00}Not enough money...[Dialogue End]"
+    },
+    {
+      "id" : 50632,
+      "text" : "[7]{00}There's no room for it.[Dialogue End]"
+    },
+    {
+      "id" : 50633,
+      "text" : "[7]{00}[Speaker]: Are you wanting to buy something?"
+    },
+    {
+      "id" : 50634,
+      "text" : "[7]{00}[Speaker]: Is there anything else I can do for you?"
+    },
+    {
+      "id" : 50635,
+      "text" : "[7]{00}[Speaker]: All right, then.\nCome again![Dialogue End]"
+    },
+    {
+      "id" : 50636,
+      "text" : "[7]{00}[Speaker]: So that's [Item 45],\nand you want [Quantity 47].\nGreat!\n$[75] it is!"
+    },
+    {
+      "id" : 50637,
+      "text" : "[7]{00}[Speaker]: Thank you kindly![Dialogue End]"
+    },
+    {
+      "id" : 50638,
+      "text" : "[7]{00}[Speaker]: I hate to say it, but you don't have\nenough money.[Dialogue End]"
+    },
+    {
+      "id" : 50639,
+      "text" : "[7]{00}[Speaker]: Whoa, hold it.\nYou don't have enough space for your\nmerchandise.[Dialogue End]"
+    },
+    {
+      "id" : 50640,
+      "text" : "[7]{00}[Speaker]: I'll even throw in a Premier Ball as\na free bonus.[Dialogue End]"
+    },
+    {
+      "id" : 50641,
+      "text" : "[7]{00}[Speaker]: I'll buy your merchandise for $[75].\nDoes that work for you?"
+    },
+    {
+      "id" : 50642,
+      "text" : "[7]{00}Received $[75] for the\n[Item 45] sale.[Dialogue End]"
+    },
+    {
+      "id" : 50643,
+      "text" : "[7]{00}[Speaker]: Sorry, no can do.\nI can't buy that.[Dialogue End]"
+    },
+    {
+      "id" : 50644,
+      "text" : "[Item 45]?\nAnd how many would\nyou like?"
+    },
+    {
+      "id" : 50645,
+      "text" : "[Item 45]?\nHow many do you\nwant to sell?"
+    },
+    {
+      "id" : 50646,
+      "text" : "[7]{00}[Speaker]: Yes, I'm an Herbalist.\nYou'll find my herbal medicines inexpensive,\nbut very effective.\nWould you like some?"
+    },
+    {
+      "id" : 50647,
+      "text" : "[7]{00}[Speaker]: Do you need help with anything else?"
+    },
+    {
+      "id" : 50648,
+      "text" : "[7]{00}[Speaker]: Do come again.\nI'll be waiting.[Dialogue End]"
+    },
+    {
+      "id" : 50649,
+      "text" : "[7]{00}[Speaker]: [Item 45]...\nAnd you were wanting [Quantity 47].\nCan you afford the $[75] price?"
+    },
+    {
+      "id" : 50650,
+      "text" : "[7]{00}[Speaker]: Thank you, dear.[Dialogue End]"
+    },
+    {
+      "id" : 50651,
+      "text" : "[7]{00}[Speaker]: Such a shame.\nYou haven't enough money to pay me.[Dialogue End]"
+    },
+    {
+      "id" : 50652,
+      "text" : "[7]{00}[Speaker]: Oh?\nYou seem to have no room for your purchase.[Dialogue End]"
+    },
+    {
+      "id" : 50653,
+      "text" : "[7]{00}[Speaker]: For what you've offered, I can pay\nyou $[75].\nWill that do?"
+    },
+    {
+      "id" : 50654,
+      "text" : "[7]{00}Received $[75] for the\n[Item 45] sale.[Dialogue End]"
+    },
+    {
+      "id" : 50655,
+      "text" : "[7]{00}[Speaker]: I'm awfully sorry, but I cannot buy that\nfrom you.[Dialogue End]"
+    },
+    {
+      "id" : 50656,
+      "text" : "[Item 45].\nAnd how many did\nyou want?"
+    },
+    {
+      "id" : 50657,
+      "text" : "[Item 45].\nHow many did you\nwant to sell?"
+    },
+    {
+      "id" : 50658,
+      "text" : "Pokémart"
+    },
+    {
+      "id" : 50659,
+      "text" : "Herb Shop"
+    },
+    {
+      "id" : 50660,
+      "text" : "Vending Machine"
+    },
+    {
+      "id" : 50661,
+      "text" : "[7]{00}[Speaker]: Oh, hello.\nWould you like some of my inexpensive, but very\neffective, herbal medicines?"
+    },
+    {
+      "id" : 50662,
+      "text" : "[7]{00}Buy"
+    },
+    {
+      "id" : 50663,
+      "text" : "[7]{00}Sell"
+    },
+    {
+      "id" : 50664,
+      "text" : "[7]{00}See Ya"
+    },
+    {
+      "id" : 50665,
+      "text" : "Coupon Exchange"
+    },
+    {
+      "id" : 50666,
+      "text" : "[7]{00}[Speaker]: We haven't received any new Battle\nCDs yet.[Clear Window][Speaker]: May I suggest that you challenge the\nBattle CDs that you've already purchased?[Clear Window][Speaker]: I have this feeling we will be receiving\nnew releases just about when you clear the three\nyou have.[Dialogue End]"
+    },
+    {
+      "id" : 50667,
+      "text" : "Own"
+    },
+    {
+      "id" : 50668,
+      "text" : "[7]{00}[Speaker]: The [Item 45] [57]?\nAnd you want [Quantity 47]?\nThat will be $[75].\nIs that okay?"
+    },
+    {
+      "id" : 50669,
+      "text" : "[Item 45]?\nAnd how many would\nyou like?"
+    },
+    {
+      "id" : 50670,
+      "text" : "[Item 45]?\nAnd how many would\nyou like to sell?"
+    },
+    {
+      "id" : 50671,
+      "text" : "[7]{00}[Speaker]: Fine, [Item 45] [57].\nAnd you wanted [Quantity 47].\nIs that correct?"
+    },
+    {
+      "id" : 50672,
+      "text" : "[7]{00}[Speaker]: Welcome to the Battle CD Shop.\nHow may I serve you?"
+    },
+    {
+      "id" : 50673,
+      "text" : "Battle CD Shop"
+    }
+  ]
+}

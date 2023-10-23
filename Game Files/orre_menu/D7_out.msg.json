@@ -1,0 +1,308 @@
+{
+  "startOffset" : 0,
+  "fixedFileSize" : 0,
+  "file" : {
+    "name" : "D7_out.msg",
+    "folder" : {
+      "path" : "\/Game Files\/orre_menu"
+    }
+  },
+  "strings" : [
+    {
+      "id" : 35501,
+      "text" : "[Speaker]: Hello, [Player Field 43].\nVery good of you to come.[Clear Window][Speaker]: If you plan to take the Orre \nColosseum challenge, go to the reception \narea there.[Dialogue End]"
+    },
+    {
+      "id" : 35502,
+      "text" : "[Speaker]: It's too bad how things \nturned out this time.\nStill, it was to be expected since there were\nso many tough Trainers.[Clear Window][Speaker]: Go off and train some more.\nEveryone will be looking forward to a battle with\nyou, [Player Field 43].[Dialogue End]"
+    },
+    {
+      "id" : 35503,
+      "text" : "[Speaker]: Congratulations!\nMy hat's off to you for a most splendid victory![Clear Window][Speaker]: In recognition of your brave \nachievement, [Player Field 43], [MsgID 77]\nhas conferred on you a new title.[Clear Window][Speaker]: This is it.\nDo accept it.[Dialogue End]"
+    },
+    {
+      "id" : 35504,
+      "text" : "[Player Field 43] received the title\n\"[MsgID 77]\"\nfrom Eagun![Dialogue End]"
+    },
+    {
+      "id" : 35505,
+      "text" : "[Speaker]: This title seems to express \n[MsgID 77]'s feelings.[Dialogue End]"
+    },
+    {
+      "id" : 35506,
+      "text" : "[Speaker]: [Player Field 43].\nDon't be satisfied with this victory.\nKeep up with your training![Dialogue End]"
+    },
+    {
+      "id" : 35507,
+      "text" : "[Speaker]: Congratulations!\nMy hat's off to you for a most splendid victory![Clear Window][Speaker]: However, don't be satisfied \nwith this victory.\nKeep up with training every day![Dialogue End]"
+    },
+    {
+      "id" : 35508,
+      "text" : "[Speaker]: Welcome to the Orre Colosseum.[Clear Window][Speaker]: At the Orre Colosseum, we use different\nrules from the Pyrite and Realgam\nColosseums.[Clear Window][Speaker]: If you wish, I can explain the rules.\nWould you like me to do that?"
+    },
+    {
+      "id" : 35509,
+      "text" : "[Speaker]: That's fine, then.\nIf you need anything, please feel free to \nlet me know.[Dialogue End]"
+    },
+    {
+      "id" : 35510,
+      "text" : "[Speaker]: Welcome to the Orre Colosseum.\nHow may I serve you today?"
+    },
+    {
+      "id" : 35511,
+      "text" : "[7]{01}Enter"
+    },
+    {
+      "id" : 35512,
+      "text" : "[7]{01}Info"
+    },
+    {
+      "id" : 35513,
+      "text" : "[7]{01}Cancel"
+    },
+    {
+      "id" : 35514,
+      "text" : "[Speaker]: Which topic would you like me to explain?"
+    },
+    {
+      "id" : 35515,
+      "text" : "[7]{01}Orre Colosseum"
+    },
+    {
+      "id" : 35516,
+      "text" : "Set Style: Single"
+    },
+    {
+      "id" : 35517,
+      "text" : "Set Style: Double"
+    },
+    {
+      "id" : 35518,
+      "text" : "[Speaker]: At the Orre Colosseum, battles\nare conducted.\nYou are permitted to battle with 6 Pokémon.[Clear Window][Speaker]: Battles are held in knockout style.\nYou must beat four trainers in a row to win \nthe challenge.[Clear Window][Speaker]: If you win a challenge, you may advance to\nthe next group of opponents.[Clear Window][Speaker]: If you manage to win a round, you will be\nawarded Poké Coupons.[Clear Window][Speaker]: You can choose to compete in\nsingle or double battles through\nthis menu.[Dialogue End]"
+    },
+    {
+      "id" : 35519,
+      "text" : "[Speaker]: Battle Style set to Single.[Dialogue End]"
+    },
+    {
+      "id" : 35520,
+      "text" : "[Speaker]: Battle Style set to Double.[Dialogue End]"
+    },
+    {
+      "id" : 35521,
+      "text" : "[Speaker]: Perhaps you should make a challenge to gain\nexperience.\nAre you ready to enter?"
+    },
+    {
+      "id" : 35522,
+      "text" : "[Speaker]: Please let me know when you are ready.[Dialogue End]"
+    },
+    {
+      "id" : 35523,
+      "text" : "[Speaker]: Which set would you like to challenge?"
+    },
+    {
+      "id" : 35524,
+      "text" : "[7]{01}Lovrina"
+    },
+    {
+      "id" : 35525,
+      "text" : "[7]{01}Snattle"
+    },
+    {
+      "id" : 35526,
+      "text" : "[7]{01}Gorigan"
+    },
+    {
+      "id" : 35527,
+      "text" : "[7]{01}Gonzap"
+    },
+    {
+      "id" : 35528,
+      "text" : "[7]{01}Ardos"
+    },
+    {
+      "id" : 35529,
+      "text" : "[7]{01}Eldes"
+    },
+    {
+      "id" : 35530,
+      "text" : "[7]{01}StarsMmd"
+    },
+    {
+      "id" : 35531,
+      "text" : "[7]{01}?????"
+    },
+    {
+      "id" : 35532,
+      "text" : "[Speaker]: Thank you.[Clear Window][Speaker]: Let the Orre Colosseum Battles begin! \nPlease, go in![Dialogue End]"
+    },
+    {
+      "id" : 35533,
+      "text" : "[7]{01}Please choose four Pokémon."
+    },
+    {
+      "id" : 35534,
+      "text" : "[7]{01}Enter"
+    },
+    {
+      "id" : 35535,
+      "text" : "[7]{01}Summary"
+    },
+    {
+      "id" : 35536,
+      "text" : "[7]{01}Cancel"
+    },
+    {
+      "id" : 35537,
+      "text" : "[Speaker]: Are you happy with these choices?"
+    },
+    {
+      "id" : 35538,
+      "text" : "Your party isn't a full one.\nIt has fewer than six Pokémon.[Clear Window]Please fill your party with six different Pokémon,\nthen make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35539,
+      "text" : "There is at least one Shadow Pokémon \nin your party.\nShadow Pokémon are prohibited.[Clear Window]Please store your Shadow Pokémon in the PC \nStorage System, then make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35540,
+      "text" : "There is at least one Egg in your party.\nPlease store Eggs in the PC Storage System,\nthen make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35541,
+      "text" : "[Pokemon 78] is a Pokémon that is prohibited \nfrom entry.[Clear Window]Please store [Pokemon 78] in the PC Storage \nSystem, then make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35542,
+      "text" : "Identical kinds of Pokémon are in your party.\nOnly one Pokémon of each kind may be\nentered.[Clear Window]Please store the extra Pokémon in the PC \nStorage System, then make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35543,
+      "text" : "A Pokémon holding the item\n[Item 45] may not enter.[Clear Window]Please take the [Item 45] from the Pokémon,\nthen make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35544,
+      "text" : "There are Pokémon holding the same kinds of \nitems.\nItems held by your Pokémon must be all \ndifferent.[Clear Window]Please take the extra items from the Pokémon, \nthen make a new challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35545,
+      "text" : "[Speaker]: Thank you for visiting.\nWe look forward to your next challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35546,
+      "text" : "[Speaker]: Thank you for entering![Clear Window][Speaker]: And congratulations! \nHere are your Poké Coupons for winning \nyour challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35547,
+      "text" : "[Player Field 43] received\n[Quantity 47] Poké Coupons![Dialogue End]"
+    },
+    {
+      "id" : 35548,
+      "text" : "[Speaker]: You have also won a special award provided\nby Mr. Eagun, the Orre Colosseum's\nPresident.[Clear Window][Speaker]: Please go see Mr. Eagun to claim it.[Dialogue End]"
+    },
+    {
+      "id" : 35549,
+      "text" : "[Speaker]: Mr. Eagun is waiting to see you.[Dialogue End]"
+    },
+    {
+      "id" : 35550,
+      "text" : "[Speaker]: Congratulations for your marvelous victory.\nWe look forward to your next challenge.[Dialogue End]"
+    },
+    {
+      "id" : 35551,
+      "text" : "[Speaker]: That is all I can tell you.\nI will be happy to give you this information \nwhenever you like.[Clear Window][Speaker]: Please feel free to approach me for\ninformation.[Dialogue End]"
+    },
+    {
+      "id" : 35552,
+      "text" : "[Speaker]: Let the Orre Colosseum Battle\nNo. [Quantity 47] begin!"
+    },
+    {
+      "id" : 35553,
+      "text" : "I so was #Impressed by your toughness!\nI'll let you in on my #SecretResearch![Clear Window]We use special TMs called Shadow Machines\nto force pokémon to learn those\n#Dank Shadow Moves.\n                                      Lovrina[Dialogue End]"
+    },
+    {
+      "id" : 35554,
+      "text" : "In the near future, when I become the \nGovernor of Orre, I shall appoint you as my\nofficial secretary.[Clear Window]Let that be a motivation for you to constantly \nbetter your skills.\n　　　　　　　　　　　　　　　　　Snattle[Dialogue End]"
+    },
+    {
+      "id" : 35555,
+      "text" : "You're some kind of special.\nYou're worthy of sharing my camaraderie \nas a friend.[Clear Window]I therefore award you the title \"Hexagonal Bolt \nof Friendship Holder.\"[Clear Window]The Hexagonal Bolt of Friendship is the perfect\nfit for my wrench, and is its truest friend.[Clear Window]In a spirit of unchanging friendship,\n　　　　　　　　　　　　　　　      Gorigan[Dialogue End]"
+    },
+    {
+      "id" : 35556,
+      "text" : "It's a rotten shame, but you're in a way bigger \nleague than Snagem Gang.\nIt's sad, but Snagem Gang's not big enough \nfor you.[Clear Window]I'll do the next best thing.\nI'll make you an honorary member of Team \nSnagem.[Clear Window]If you get sick of your life, come to us anytime. \nYou're always welcome.\n　　　　　　　　　　　　　　         Gonzap[Dialogue End]"
+    },
+    {
+      "id" : 35557,
+      "text" : "In all of Orre, I've never seen a Pokémon \nTrainer of your caliber.[Clear Window]You appear to be the biggest threat to Cipher.[Clear Window]To make sure my underlings watch you with \ncaution, I give you the title \"Cipher's Biggest \nEnemy.\"[Clear Window]From now on, Cipher's battle crews will be \nconstantly tracking you.\nWatch yourself.\n　　　　　                             Ardos[Dialogue End]"
+    },
+    {
+      "id" : 35558,
+      "text" : "I'm satisfied that I was able to battle to \nmy heart's content.[Clear Window]I would like to confer on you the title \n\"Super Star.\"[Clear Window]With your skills, you shouldn't lose against even\nthe best Trainers from around the world.\nI guarantee it.[Clear Window]Let us meet again.\n　　　　　　　　　　　　　　　         Eldes[Dialogue End]"
+    },
+    {
+      "id" : 35559,
+      "text" : "Well done for completing Orre colosseum!\nTry Mt. battle if you haven't beaten it yet.\nThere are some nice surprises at the top.[Clear Window]Thanks for playing this hack and\nfollow me on twitter @StarsMmd\nto keep up with my latest hacks.\n　　　　　                             StarsMmd[Dialogue End]"
+    },
+    {
+      "id" : 35560,
+      "text" : "Lovrina Fan Club Member No. 1"
+    },
+    {
+      "id" : 35561,
+      "text" : "Orre Governor's Secretary Candidate"
+    },
+    {
+      "id" : 35562,
+      "text" : "Hexagonal Bolt of Friendship Holder"
+    },
+    {
+      "id" : 35563,
+      "text" : "Honorary Snagem Gang Member"
+    },
+    {
+      "id" : 35564,
+      "text" : "Cipher's Biggest Enemy"
+    },
+    {
+      "id" : 35565,
+      "text" : "Eldes's Top Rival"
+    },
+    {
+      "id" : 35566,
+      "text" : "Super Star"
+    },
+    {
+      "id" : 35567,
+      "text" : "[Speaker]: Also, I have a reward for \nyou, too.\nGo on, take it.[Dialogue End]"
+    },
+    {
+      "id" : 35568,
+      "text" : "[Player Field 43] received the\ngift [Item 45].[Dialogue End]"
+    },
+    {
+      "id" : 35569,
+      "text" : "[7]{01}Cancel Entry"
+    },
+    {
+      "id" : 35570,
+      "text" : "The mail message is cut off...[Dialogue End]"
+    },
+    {
+      "id" : 35571,
+      "text" : "[Speaker]: I'm sorry.\nPlease don't go any farther.[Dialogue End]"
+    },
+    {
+      "id" : 35572,
+      "text" : "[Speaker]: Next!\nYour second-round battle![Dialogue End]"
+    },
+    {
+      "id" : 35573,
+      "text" : "[Speaker]: This is the third round!\nBattle tough![Dialogue End]"
+    },
+    {
+      "id" : 35574,
+      "text" : "[Speaker]: This is it!\nThe final battle!\nBattle your toughest![Dialogue End]"
+    }
+  ]
+}

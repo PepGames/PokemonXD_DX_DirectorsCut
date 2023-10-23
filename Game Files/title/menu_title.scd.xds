@@ -1,0 +1,43 @@
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+////                                                     ////
+//// menu_title.xds                                      ////
+//// Decompiled using Gale of Darkness Tool by @StarsMmd ////
+//// on 2023-10-23 21:42:42 +0000.                       ////
+////                                                     ////
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+
+
+// function 0: hero_main @location_0
+
+
+
+// Compiler options
+define ++XDSVersion 2.0 // lets future versions of the compiler know which rules to follow
+define ++ScriptIdentifier 0xFE404C4F // best not to change this
+// define ++CreateBackup YES // before saving the compiled .scd file, if it already exists it will be backed up
+// define ++BaseStringID 0x10000 // This overrides the compiler's base string id when searching for unused string ids
+
+// Macro defintions
+define #player player_character    
+
+assign player_character GroupID: 0 ResourceID: 100  // Michael
+assign character_01 GroupID: 0 ResourceID: 101  // Jovi
+assign character_02 GroupID: 0 ResourceID: 104  // Kandee
+assign character_03 GroupID: 0 ResourceID: 105  // Prof. Krane
+
+
+
+
+
+
+function @hero_main() {
+
+    var_1.Map.showTitleScreen()
+    return
+
+}
+
+
+
