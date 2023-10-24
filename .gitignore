@@ -20,6 +20,7 @@
 .pkx
 *.psd
 *.xds
+!M5_labo_1F.scd.xds
 *.txt
 !kyogre.txt
 !groudon.txt
