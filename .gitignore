@@ -1,6 +1,11 @@
 *.DS_Store
 *.cam
 *.dat
+!kyogre.dat
+!groudon.dat
+!raikou.dat
+!suicune.dat
+!entei.dat
 *.fnt
 *.msg
 *.fsys
@@ -15,4 +20,10 @@
 .pkx
 *.psd
 *.xds
+*.txt
+!kyogre.txt
+!groudon.txt
+!raikou.txt
+!suicune.txt
+!entei.txt
 
