@@ -1,0 +1,2969 @@
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+////                                                     ////
+//// M5_labo_1F.xds                                      ////
+//// Decompiled using Gale of Darkness Tool by @StarsMmd ////
+//// on 2023-10-24 16:27:56 +0000.                       ////
+////                                                     ////
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+
+
+// function 0: preprocess @location_0
+// function 1: postprocess @location_1362
+// function 2: modify_floor @location_1364
+// function 3: sound @location_1537
+// function 4: anywaysave_restart @location_1539
+// function 5: pushpop_preprocess @location_1728
+// function 6: hero_main @location_1744
+// function 7: snatch_perfection @location_2310
+// function 8: relive_3d @location_2745
+// function 9: thread_me @location_2785
+// function 10: snatch_give @location_2840
+// function 11: kidnap @location_3789
+// function 12: info_help @location_3994
+// function 13: rint_stop @location_4101
+// function 14: sad_conference @location_4219
+// function 15: daidanen @location_5376
+// function 16: set_start_relivedance @location_5867
+// function 17: start_relivedance @location_6106
+// function 18: after_relivedance @location_6474
+// function 19: lock_relivedance @location_6538
+// function 20: search_121_research @location_6604
+// function 21: masterball_get @location_6945
+// function 22: lock_masterball @location_7304
+// function 23: lugia_relive @location_7375
+// function 24: talk_103_info @location_7474
+// function 25: snatch_talk_104_research1_m @location_7878
+// function 26: talk_104_research1_m @location_7993
+// function 27: talk_105_research1_m @location_8540
+// function 28: talk_106_gyma_m3 @location_8835
+// function 29: talk_107_pc_f @location_9371
+// function 30: talk_111_klein @location_9557
+// function 31: talk_000_mana @location_9676
+// function 32: talk_110_lilya @location_9849
+// function 33: talk_138_happinas @location_10011
+// function 34: check_snatchmachine @location_10023
+// function 35: under_door @location_10079
+// function 36: ev_relive_room_in @location_10081
+// function 37: ev_relive_chart @location_10232
+// function 38: me_relive3d_in @location_10562
+// function 39: me_relive3d_out @location_10588
+// function 40: ev_relive @location_10615
+// function 41: relivedanc_explanation @location_10902
+// function 42: tako_machine @location_11068
+// function 43: complete_relive_lugia @location_11155
+// function 44: set_masterball_event @location_11175
+// function 45: complete_relive_all @location_11230
+// function 46: changebgm @location_11271
+// function 47: lilya_ketui2 @location_11308
+// function 48: snactch_machine_put @location_11372
+
+
+
+// Compiler options
+define ++XDSVersion 2.0 // lets future versions of the compiler know which rules to follow
+define ++ScriptIdentifier 0x6FB67F06 // best not to change this
+// define ++CreateBackup YES // before saving the compiled .scd file, if it already exists it will be backed up
+// define ++BaseStringID 0x10000 // This overrides the compiler's base string id when searching for unused string ids
+
+// Macro defintions
+define #BUTTON_INPUT_A 256
+define #CHARACTERID_AIDAN 4
+define #CHARACTERID_JOVI 1
+define #CHARACTERID_KRANE 3
+define #CHARACTERID_LILY 2
+define #FLAG_1003 0x3EB
+define #FLAG_1010 0x3F2
+define #FLAG_1036 0x40C
+define #FLAG_1188 0x4A4
+define #FLAG_1276 0x4FC
+define #FLAG_1277 0x4FD
+define #FLAG_1432 0x598
+define #FLAG_1979 0x7BB
+define #FLAG_2110 0x83E
+define #FLAG_2111 0x83F
+define #FLAG_2116 0x844
+define #FLAG_2117 0x845
+define #FLAG_2222 0x8AE
+define #FLAG_2223 0x8AF
+define #FLAG_2228 0x8B4
+define #FLAG_2229 0x8B5
+define #FLAG_2230 0x8B6
+define #FLAG_2282 0x8EA
+define #FLAG_972 0x3CC
+define #FLAG_980 0x3D4
+define #FLAG_981 0x3D5
+define #FLAG_982 0x3D6
+define #FLAG_994 0x3E2
+define #FLAG_STORY 0x3C4
+define #INDEX_0 0
+define #INDEX_1 1
+define #INDEX_2 2
+define #INDEX_3 3
+define #INDEX_4 4
+define #INDEX_CANCEL -1
+define #INDEX_YES 0
+define #ITEM_POKE_BALL 4
+define #MODELID_CHARACTERMODEL_2 2
+define #MODELID_GYMA_M_0000DAT 51
+define #MODELID_HAPPINASDAT 192
+define #MODELID_INFO_0000DAT 80
+define #MODELID_KLEIN_0000DAT 90
+define #MODELID_LILYA_0000DAT 96
+define #MODELID_PC_F_1000DAT 124
+define #MODELID_RESEARCH1_M_0000DAT 128
+define #MODEL_CHARACTERMODEL_1 0x16C80400
+define #MODEL_CHARACTERMODEL_10 0x16A00400
+define #MODEL_CHARACTERMODEL_7 0x16C90400
+define #MODEL_CHARACTERMODEL_8 0x169E0400
+define #MODEL_CHARACTERMODEL_9 0x169F0400
+define #MODEL_CHARACTERMODEL_97 0x1ADF0400
+define #MSG_VAR_POKEMON_78 78
+define #MSG_VAR_QUANTITY_47 47
+define #PARTY_MEMBER_NONE 0
+define #POKEMON_BLISSEY 242
+define #ROOM_STAFFROLL 0x39F
+define #SFX_0_SOUND_0 0
+define #SFX_1124_STM_BGM_POKELABO 0x464
+define #SFX_1130_STM_BGM_EV_KINKYU 0x46A
+define #SFX_1228_SOUND_96 0x4CC
+define #SFX_1229_SOUND_93 0x4CD
+define #SFX_1411_STM_BGM_EV_KETSUI 0x583
+define #SFX_1449_STM_BGM_EV_KETSUI2 0x5A9
+define #SFX_39_SOUND_35 39
+define #SFX_8_BGM_ARCHIVE 8
+define #SHADOW_LUGIA_73 73
+define #SPEECH_TYPE_11 11
+define #SPEECH_TYPE_13 13
+define #SPEECH_TYPE_17 17
+define #SPEECH_TYPE_NORMAL 1
+define #SPEECH_TYPE_SILENT 16
+define #SPEECH_TYPE_SPECIES_CRY 15
+define #SPEECH_TYPE_YES_NO_INDEX 8
+define #STORY_ACQUIRED_MACHINE_PART 180
+define #STORY_ARRIVED_AT_PYRITE 400
+define #STORY_ASKED_TO_FIND_MACHINE_PART 120
+define #STORY_DEFEATED_LOVRINA_IN_LAB 350
+define #STORY_DEPARTED_FOR_SSLIBRA_WITH_NEW_SCOOTER 0x2D0
+define #STORY_DIRECTED_TO_AGATE 200
+define #STORY_DIRECTED_TO_CAVE_POKESPOT 470
+define #STORY_DIRECTED_TO_PHENAC 500
+define #STORY_DIRECTED_TO_PYRITE 390
+define #STORY_EXITED_GYM_BASEMENT 0x276
+define #STORY_FOUND_LETTER_FOR_JUSTY 0x226
+define #STORY_GAVE_MACHINE_PART_TO_LILY 191
+define #STORY_HEARD_LILY_GET_MOTIVATED 110
+define #STORY_LEARNED_OF_STOLEN_DRAGONITE 0x366
+define #STORY_LOOKING_FOR_DATAN 380
+define #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS 80
+define #STORY_LOST_SNAG_MACHINE 0x2E4
+define #STORY_PRAISED_BY_VERICH 0x29E
+define #STORY_PURIFIED_FIRST_POKEMON 280
+define #STORY_RECEIVED_FIRST_KRANE_MEMOS 130
+define #STORY_RECEIVED_SNAG_MACHINE 90
+define #STORY_RECLAIMED_SNAG_MACHINE 0x320
+define #STORY_RETURNED_KRANE 360
+define #STORY_SNAGGED_FIRST_POKEMON 100
+define #STORY_STEPPED_FOOT_ON_CITADARK 0x37A
+define #STORY_VIEWED_PURIFICATION_CHAMBER 370
+define #STORY_WATCHED_OUTSKIRT_STAND_NEWS 0x30C
+define #TRANSITION_FADE_IN_BLACK 2
+define #TRANSITION_FADE_OUT_BLACK 3
+define #X5 50
+define #aidan character_05    
+define #jovi character_11    
+define #krane character_10    
+define #lily character_09    
+define #player player_character    
+
+//Global Variables
+assign player_character GroupID: 0 ResourceID: 100  // Michael
+assign character_01 GroupID: 0 ResourceID: 101  // Jovi
+assign character_02 GroupID: 0 ResourceID: 104  // Kandee
+assign character_03 GroupID: 0 ResourceID: 105  // Prof. Krane
+assign character_04 GroupID: 1983 ResourceID: 0 ModelID: #MODELID_INFO_0000DAT MovementID: 10 Flags: 0xF8 X: 0.0 Y: 0.0 Z: -38.66 Script: @talk_103_info 
+assign character_05 GroupID: 1983 ResourceID: 1 CharacterID: #CHARACTERID_AIDAN ModelID: #MODELID_RESEARCH1_M_0000DAT MovementID: 16 Flags: 0xF8 X: -43.0 Y: 0.0 Z: -111.0 Angle: 90 Script: @talk_104_research1_m 
+assign character_06 GroupID: 1983 ResourceID: 2 ModelID: #MODELID_RESEARCH1_M_0000DAT MovementID: 16 Flags: 0xF8 X: 33.4 Y: 0.0 Z: -113.31 Angle: 270 Script: @talk_105_research1_m 
+assign character_07 GroupID: 1983 ResourceID: 3 ModelID: #MODELID_GYMA_M_0000DAT MovementID: 8 Flags: 0xF8 X: 68.22 Y: 0.0 Z: -95.58 Angle: 90 Script: @talk_106_gyma_m3 
+assign character_08 GroupID: 1983 ResourceID: 4 ModelID: #MODELID_PC_F_1000DAT MovementID: 16 Flags: 0xF8 X: 66.65 Y: 0.0 Z: -131.33 Script: @talk_107_pc_f 
+assign character_09 GroupID: 1983 ResourceID: 5 CharacterID: #CHARACTERID_LILY ModelID: #MODELID_LILYA_0000DAT MovementID: 16 Visible: NO Flags: 0x78 X: -56.59 Y: 0.0 Z: -113.3 Script: @talk_110_lilya 
+assign character_10 GroupID: 1983 ResourceID: 6 CharacterID: #CHARACTERID_KRANE ModelID: #MODELID_KLEIN_0000DAT MovementID: 16 Visible: NO Flags: 0x78 X: -32.88 Y: 0.0 Z: -109.93 Angle: 180 Script: @talk_111_klein 
+assign character_11 GroupID: 1983 ResourceID: 7 CharacterID: #CHARACTERID_JOVI ModelID: #MODELID_CHARACTERMODEL_2 MovementID: 16 Visible: NO Flags: 0x78 X: -66.91 Y: 0.0 Z: -113.62 Script: @talk_000_mana 
+assign character_12 GroupID: 1983 ResourceID: 8 ModelID: #MODELID_HAPPINASDAT Flags: 0xF8 X: 56.24 Y: 0.0 Z: -160.99 Script: @talk_138_happinas 
+
+global vector_00 = <25.79 33.94 42.29>
+global vector_01 = <83.00 800.00 111.00>
+global vector_02 = <37.22 -0.19 27.90>
+global vector_03 = <-7.49 0.85 13.22>
+global vector_04 = <50.00 2.00 -125.00>
+global vector_05 = <-47.59 0.00 -113.30>
+global vector_06 = <-43.59 0.00 -105.30>
+global vector_07 = <-43.97 0.00 -75.69>
+global vector_08 = <24.00 50.00 -23.00>
+global vector_09 = <20.00 -15.00 39.22>
+global vector_10 = <-14.56 -3.09 -3.18>
+global vector_11 = <50.00 2.00 -126.00>
+global vector_12 = <17.63 0.00 -19.89>
+global vector_13 = <-19.59 0.00 -19.80>
+
+global array_00 = [ 0 0 ]
+global array_01 = [ 3 5 8 4 7 ]
+global array_02 = [
+$:53504:"[7]{01}Edit Set"
+$:53505:"[7]{01}Info"
+$:53506:"[7]{01}Exit" ]
+global array_03 = [
+$:53510:"[7]{01}Check Program"
+$:53511:"[7]{01}Edit Set"
+$:53512:"[7]{01}Purify Ceremony"
+$:53513:"[7]{01}Usage Demo"
+$:53514:"[7]{01}Cancel" ]
+global array_04 = [
+$:53547:"[7]{01}Basics"
+$:53548:"[7]{01}Flow"
+$:53549:"[7]{01}Tempo"
+$:53550:"[7]{01}Exit" ]
+global array_05 = [ 2 3 4 5 6 7 ]
+global array_06 = [ 1 2 3 4 5 6 0 ]
+
+global gvar_00 = 0.0
+global gvar_01 = array_00
+global gvar_02 = 0
+global gvar_03 = 0
+global gvar_04 = 0
+global gvar_05 = #INDEX_0
+global gvar_06 = #INDEX_0
+global gvar_07 = 0
+global gvar_08 = 0
+
+
+
+function @preprocess() {
+
+    printf("prepro")
+    gvar_00 = 0
+    gvar_02 = 0
+    gvar_03 = 0
+    gvar_04 = 0
+    gvar_05 = #INDEX_0
+    gvar_06 = #INDEX_0
+    gvar_07 = 0
+    gvar_08 = 0
+    Collision.setEnabled(46 YES)
+    Collision.setEnabled(24 NO)
+    Collision.setEnabled(12 NO)
+    Collision.setEnabled(3 NO)
+    Collision.setEnabled(13 NO)
+    character_06.setPosition(30.0 0.0 -105.0)
+    character_06.setRotation(0.0 -90.0 0.0)
+
+    if (getFlag(#FLAG_1277) >= 1) {
+        Collision.setEnabled(46 NO)
+        Collision.setEnabled(24 YES)
+        Collision.setEnabled(12 YES)
+        Collision.setEnabled(3 YES)
+        Collision.setEnabled(13 YES)
+        Map.controlDoor(140 132 1)
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        if (@complete_relive_lugia() = YES) {
+            if (@complete_relive_all() = 0) {
+                if (isFlagSet(#FLAG_2116) = NO) {
+                    #jovi.setPosition(47.0 0.0 -96.0)
+                    #krane.setPosition(42.0 0.0 -102.0)
+                    #lily.setPosition(55.0 0.0 -102.0)
+                    character_08.setPosition(40.0 0.0 -139.0)
+                    #jovi.turnToCharacter(#player 0)
+                    #krane.turnToCharacter(#player 0)
+                    #lily.turnToCharacter(#player 0)
+                    #jovi.setVisibility(YES)
+                    #krane.setVisibility(YES)
+                    #lily.setVisibility(YES)
+                    goto @location_283
+                }
+
+                @set_masterball_event()
+                character_08.setPosition(48.3 0.0 -101.77)
+                @location_283
+                goto @location_442
+            }
+
+            #jovi.setVisibility(NO)
+            #krane.setVisibility(NO)
+            #lily.setVisibility(NO)
+            if (getFlag(#FLAG_1277) = 0) {
+                if (isFlagSet(#FLAG_2228) = YES) {
+                    Map.controlDoor(140 130 1)
+                    Collision.setEnabled(46 NO)
+                    Collision.setEnabled(24 YES)
+                    Collision.setEnabled(12 YES)
+                    Collision.setEnabled(3 YES)
+                    Collision.setEnabled(13 YES)
+                    #krane.setPosition(-40.0 0.0 -151.88)
+                    #krane.setRotation(0.0 180.0 0.0)
+                    #krane.setVisibility(YES)
+                    #aidan.setPosition(-75.0 0.0 -103.0)
+                    Camera.disableDefaultForMap()
+                    Camera.setPosition(-38.623 60.659 -18.677)
+                    Camera.setRotationRadians(-0.427 0.001 0.0)
+                }
+
+            }
+
+            character_08.setPosition(48.3 0.0 -101.77)
+            @location_442
+            goto @location_455
+        }
+
+        @set_masterball_event()
+        character_08.setPosition(48.3 0.0 -101.77)
+        @location_455
+        character_08.pauseWalkTalkMode(YES)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ARRIVED_AT_PYRITE) {
+        character_08.pauseWalkTalkMode(YES)
+        character_08.setPosition(48.3 0.0 -101.77)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PYRITE) {
+        @set_start_relivedance()
+        #jovi.setVisibility(NO)
+        character_08.setPosition(57.3 0.0 -101.77)
+        #krane.setVisibility(NO)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_DATAN) {
+        @set_start_relivedance()
+        #jovi.setVisibility(NO)
+        character_08.setPosition(57.3 0.0 -101.77)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        @set_start_relivedance()
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DEFEATED_LOVRINA_IN_LAB) {
+        Player.setFollower(#PARTY_MEMBER_NONE 0)
+        character_03.setVisibility(NO)
+        #krane.resetHeadTilt(0)
+        #jovi.resetHeadTilt(0)
+        #lily.resetHeadTilt(0)
+        #aidan.resetHeadTilt(0)
+        character_06.resetHeadTilt(0)
+        #player.setPosition(-51.49 0 -99.18)
+        #krane.setPosition(-63 0 -110)
+        #jovi.setPosition(-67.49 0 -88.03)
+        #lily.setPosition(-59.52 0.0 -88.79)
+        #aidan.setPosition(-75.2 0 -100.45)
+        character_06.setPosition(-42.43 0.0 -44.0)
+        #krane.turnToCharacter(#player 0.0)
+        #player.turnToCharacter(#krane 0.0)
+        #jovi.turnToCharacter(#krane 0.0)
+        #lily.turnToCharacter(#krane 0.0)
+        #aidan.turnToCharacter(#krane 0.0)
+        #krane.setVisibility(YES)
+        #jovi.setVisibility(YES)
+        #lily.setVisibility(YES)
+        #aidan.setVisibility(YES)
+        Camera.disableDefaultForMap()
+        Camera.setPosition(-51.49 124.0 76.997)
+        Camera.setRotationRadians(-0.558 0.0 0.0)
+        Camera.setFieldOfView(20)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_AGATE) {
+        if (getFlag(#FLAG_994) = 2) {
+            #jovi.setPosition(-51.68 0.0 -137.33)
+            #lily.setPosition(53.16 0.0 -86.55)
+            #jovi.setVisibility(YES)
+            #lily.setVisibility(YES)
+            goto @location_849
+        }
+
+        #jovi.setPosition(38.15 0.0 -100.01)
+        #jovi.setRotation(0.0 90.0 0.0)
+        #jovi.setVisibility(YES)
+        @location_849
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_GAVE_MACHINE_PART_TO_LILY) {
+        #jovi.setPosition(38.15 0.0 -100.01)
+        #jovi.setRotation(0.0 90.0 0.0)
+        #jovi.setVisibility(YES)
+        #aidan.setVisibility(NO)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ACQUIRED_MACHINE_PART) {
+        #aidan.setVisibility(NO)
+        #jovi.setVisibility(NO)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_FIRST_KRANE_MEMOS) {
+        #jovi.setVisibility(NO)
+        if (isFlagSet(#FLAG_972) = YES) {
+            #aidan.setVisibility(YES)
+            goto @location_955
+        }
+
+        #aidan.setVisibility(NO)
+        @location_955
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ASKED_TO_FIND_MACHINE_PART) {
+        #jovi.setVisibility(NO)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_HEARD_LILY_GET_MOTIVATED) {
+        #jovi.setModel(#MODEL_CHARACTERMODEL_1)
+        #jovi.setAnimationOverride()
+        #jovi.setAnimation(86 0 YES)
+        #jovi.setVisibility(YES)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_SNAGGED_FIRST_POKEMON) {
+        Light.setPosition(1 vector_00)
+        Light.setPosition(2 vector_01)
+        Light.setPosition(3 vector_02)
+        Light.setPosition(4 vector_03)
+        Sound.stopBGM(#SFX_1228_SOUND_96 0)
+        Camera.disableDefaultForMap()
+        Camera.setPosition(12.646 118.333 86.144)
+        Camera.setRotationRadians(-0.524 0.391 0)
+        gvar_00 = Camera.getFieldOfView()
+        Camera.setFieldOfView(20)
+        #player.setPosition(-52.5 0 -110.43)
+        #player.setRotation(0 -95 0)
+        #player.setModel(#MODEL_CHARACTERMODEL_10)
+        #aidan.setPosition(-73.78 0 -110.9)
+        #aidan.setRotation(0 71 0)
+        #jovi.setVisibility(YES)
+        #jovi.setPosition(-65.9 0 -111.62)
+        #jovi.setRotation(0 24 0)
+        #lily.setVisibility(YES)
+        #lily.setPosition(-59.59 0 -113.3)
+        #lily.setRotation(0 -10 0)
+        #lily.turnHeadTowardsWorldAngle(-10 15 0)
+        #jovi.setModel(#MODEL_CHARACTERMODEL_1)
+        #lily.setModel(#MODEL_CHARACTERMODEL_97)
+        #lily.unsetCharacterFlags(32)
+        #lily.unsetCharacterFlags(16)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RECEIVED_SNAG_MACHINE) {
+        #aidan.setPosition(-32 0 -123.98)
+        character_07.setPosition(44.22 0 -99.69)
+        character_04.setPosition(-6.65 0 -48.12)
+        if (getFlag(#FLAG_981) = 1) {
+            character_07.setVisibility(NO)
+        }
+
+        character_04.setCharacterFlags(16)
+        character_04.setCharacterFlags(32)
+        goto @location_1320
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        #krane.setVisibility(YES)
+        #aidan.setPosition(-32 0 -123.98)
+    }
+
+    @location_1320
+
+    if (getFlag(#FLAG_STORY) <= #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        character_04.resetHeadTilt(0)
+        if (isFlagSet(#FLAG_980) = NO) {
+            character_04.setAnimationOverride()
+            character_04.setAnimation(75 0 YES)
+        }
+
+    }
+
+    return
+
+}
+
+
+function @postprocess() {
+
+    return
+
+}
+
+
+function @modify_floor() {
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECLAIMED_SNAG_MACHINE) {
+        if (getFlag(#FLAG_1188) = 2) {
+            setFlagToTrue(#FLAG_1276)
+        }
+
+    }
+
+
+    if (@complete_relive_all() = 0) {
+        if ((@complete_relive_lugia() = YES) and (isFlagSet(#FLAG_2117) = NO)) {
+            Camera.disableDefaultForMap()
+            Camera.setPosition(49.615 89.539 14.363)
+            Camera.setRotationRadians(-0.6 0.0 0.0)
+            #jovi.setPosition(47.0 0.0 -96.0)
+            #krane.setPosition(42.0 0.0 -102.0)
+            #lily.setPosition(55.0 0.0 -102.0)
+            character_08.setPosition(40.0 0.0 -139.0)
+            #jovi.turnToCharacter(#player 0)
+            #krane.turnToCharacter(#player 0)
+            #lily.turnToCharacter(#player 0)
+            #jovi.setVisibility(YES)
+            #krane.setVisibility(YES)
+            #lily.setVisibility(YES)
+        }
+
+        goto @location_1535
+    }
+
+    #jovi.setVisibility(NO)
+    #krane.setVisibility(NO)
+    #lily.setVisibility(NO)
+    @location_1535
+    return
+
+}
+
+
+function @sound() {
+
+    return
+
+}
+
+
+function @anywaysave_restart() {
+
+
+    if ((getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) and (getFlag(#FLAG_STORY) < #STORY_ARRIVED_AT_PYRITE)) {
+        character_07.setAnimationOverride()
+        character_07.resetWalkingRouteArray()
+        character_07.setAnimation(3 0 YES)
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_HEARD_LILY_GET_MOTIVATED) {
+        #jovi.setModel(#MODEL_CHARACTERMODEL_1)
+        #jovi.setAnimationOverride()
+        #jovi.setAnimation(86 0 YES)
+        #jovi.setVisibility(YES)
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RECEIVED_SNAG_MACHINE) {
+        character_04.setAnimationOverride()
+        character_04.resetWalkingRouteArray()
+        character_04.setAnimation(3 0 YES)
+        character_04.recalculateBounds()
+        if (getFlag(#FLAG_981) = 0) {
+            character_07.setAnimationOverride()
+            character_07.resetWalkingRouteArray()
+            character_07.setAnimation(3 0 YES)
+            character_07.setToDefaultAnimation()
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) <= #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        if (isFlagSet(#FLAG_980) = NO) {
+            character_04.resetHeadTilt(0)
+            character_04.setAnimationOverride()
+            character_04.setAnimation(75 0 YES)
+        }
+
+        printf("TLK_M5_103 = %d" isFlagSet(#FLAG_980))
+    }
+
+    return
+
+}
+
+
+function @pushpop_preprocess() {
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RECEIVED_SNAG_MACHINE) {
+        character_04.recalculateBounds()
+    }
+
+    return
+
+}
+
+
+function @hero_main() {
+
+    var_1 = 0
+    var_2 = 0
+    var_3 = 0
+    array_00[0] = 0
+    array_00[1] = 0
+
+    if (getFlag(#FLAG_2282) > 0) {
+        @snactch_machine_put()
+    }
+
+    @location_1786
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        if (Player.hasPokemonReadyForPurification() = YES) {
+            var_2 = var_1
+            var_1 = Map.countPurifyChamberPokemonReadyToPurify()
+            if ((var_1 != 0) and (var_1 != var_2)) {
+                gvar_02 = 0
+                goto @location_1848
+            }
+
+            if (Map.isPurifyChamberReadyForShadowLugiaPurification() = YES) {
+                if (gvar_04 = 0) {
+                    gvar_02 = 0
+                }
+
+            }
+
+        }
+
+        @location_1848
+        @ev_relive_room_in()
+        @ev_relive()
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        if (#player.isWithinBounds(-55.8 -78.56 -34.17 -72.6) = YES) {
+            if (isFlagSet(#FLAG_2117) = YES) {
+                if (isFlagSet(#FLAG_2116) = YES) {
+                    if (@complete_relive_all() = 0) {
+                        var_3 = @masterball_get(0)
+                        @lock_masterball(var_3)
+                    }
+
+                }
+
+                goto @location_1936
+            }
+
+            if (@complete_relive_all() = 0) {
+                var_3 = @masterball_get(0)
+                @lock_masterball(var_3)
+            }
+
+        }
+
+        @location_1936
+        if (@complete_relive_all() = 0) {
+            if ((@complete_relive_lugia() = YES) and (isFlagSet(#FLAG_2117) = NO)) {
+                @lugia_relive()
+            }
+
+            goto @location_1999
+        }
+
+        if (isFlagSet(#FLAG_2228) = YES) {
+            @masterball_get(1)
+            if (#player.isWithinBounds(-55.8 -78.56 -34.17 -72.6) = YES) {
+                @lock_masterball(0)
+            }
+
+        }
+
+        @location_1999
+        goto @location_2298
+    }
+
+
+    if ((getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) and (getFlag(#FLAG_STORY) < #STORY_LOOKING_FOR_DATAN)) {
+        if (#player.isWithinBounds(33.33 -75.28 49.46 -65.5) = YES) {
+            @search_121_research()
+        }
+
+        goto @location_2298
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RETURNED_KRANE) {
+        if (#player.isWithinBounds(28.0 -107.72 78.78 -99.87) = YES) {
+            if (gvar_03 = 0) {
+                @start_relivedance()
+            }
+
+            goto @location_2094
+        }
+
+        if (#player.isWithinBounds(22.0 -73.63 58.72 -68.5) = YES) {
+            @lock_relivedance()
+        }
+
+        @location_2094
+        if (gvar_03 = 1) {
+            @ev_relive_room_in()
+            @ev_relive()
+            goto @location_2113
+        }
+
+        if (gvar_03 = 2) {
+            @after_relivedance()
+        }
+
+        @location_2113
+        goto @location_2298
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_DEFEATED_LOVRINA_IN_LAB) {
+        @daidanen()
+        goto @location_2298
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_SNAGGED_FIRST_POKEMON) {
+        @sad_conference()
+        setFlag(#FLAG_STORY #STORY_HEARD_LILY_GET_MOTIVATED)
+        goto @location_2298
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RECEIVED_SNAG_MACHINE) {
+        if (#player.didStepOntoLine(14.92 -89.8 -17.2 -89.42 0 YES) > NO) {
+            @rint_stop()
+            goto @location_2219
+        }
+
+        if (#player.isWithinBounds(-27.1 -68.68 -53.98 -60.96) = YES) {
+            if (array_00[1] = 0) {
+                @info_help()
+                array_00[1] = 1
+            }
+
+        }
+
+        @location_2219
+        goto @location_2298
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        if (array_00[0] = 0) {
+            if (#player.isWithinBounds(-34.8 -78.56 -50.17 -72.6) = YES) {
+                @snatch_perfection()
+                array_00[0] = 1
+            }
+
+            goto @location_2298
+        }
+
+        if (#player.didStepOntoLine(-32 -72.56 -51.0 -72.13 0 YES) = YES) {
+            #krane.talk(#SPEECH_TYPE_NORMAL $:40135:"[Speaker]: Hey, wait, [Player Field 43].[New Line]Where do you think you're going?[Dialogue End]")
+        }
+
+    }
+
+    @location_2298
+    Player.processEvents()
+    yield(1)
+    goto @location_1786
+    return
+
+}
+
+
+function @snatch_perfection() {
+
+    var_4 = 1
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #aidan.beginInteraction()
+    #player.setMovementSpeed(1)
+    var_2 = #krane.getPosition()
+    var_3 = var_2
+    #aidan.turnToCharacter(#player 1.0)
+    #aidan.awaitAnimation(YES)
+    #player.turnToCharacter(#krane 1.0)
+    #player.awaitAnimation(YES)
+    #player.turnHeadTowardsTarget(#krane 0.5)
+    #krane.talk(#SPEECH_TYPE_11 $:40126:"[Speaker]: Hi there, [Player Field 43]![New Line]I've been waiting for you![New Line]I wanted to show you the Snag Machine.[Clear Window]")
+    #krane.walkToPosition(1 -38.88 0 -82.93)
+    #krane.awaitAnimation(YES)
+    #krane.unsetCharacterFlags(32)
+    var_4 = #krane.talk(#SPEECH_TYPE_YES_NO_INDEX $:40239:"[Speaker]: Has Aidan said anything to you[New Line]about the Snag Machine?")
+
+    if (var_4 = 0) {
+        #krane.beingDialog($:40240:"[Speaker]: Oh, I see, yes.[New Line]Well, we've named the special machine for [New Line]catching Pokémon the Snag Machine.[Clear Window]" NO)
+        goto @location_2440
+    }
+
+    #krane.beingDialog($:40306:"[Speaker]: The Snag Machine is a special[New Line]device for snagging Pokémon.[Clear Window]" NO)
+    @location_2440
+    var_4 = #krane.talk(#SPEECH_TYPE_YES_NO_INDEX $:40483:"[Speaker]: The two of us, Aidan and I, were[New Line]developing it.[New Line]And now, it's finally finished.[Clear Window][Speaker]: I'd like to begin testing it[New Line]immediately.[New Line][Player Field 43], will you help us?")
+    @location_2451
+
+    if (var_4 = 1) {
+        var_4 = #krane.talk(#SPEECH_TYPE_YES_NO_INDEX $:40485:"[Speaker]: Oh, you can't say that.[New Line][Player Field 43], you're an excellent battler.[New Line]I think you'd be perfect for the job.")
+        yield(1)
+        goto @location_2451
+    }
+
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40484:"[Speaker]: Okay.[New Line]Step inside, please.[Dialogue End]")
+    #krane.setCharacterFlags(32)
+    #krane.resetHeadTilt(1)
+    #krane.walkToPositionVector(1 var_2)
+    Tasks.sleep(0.6)
+    var_3.vz = (getvz(var_3) + 10)
+    #player.walkToPositionVector(1 var_3)
+    #player.resetHeadTilt(1)
+    #krane.awaitAnimation(YES)
+    #player.awaitAnimation(YES)
+    Camera.isCameraDoneMoving(1)
+    #krane.unsetCharacterFlags(16)
+    #krane.unsetCharacterFlags(32)
+    #krane.turnToCharacter(#aidan 1.0)
+    #krane.awaitAnimation(YES)
+    #krane.turnToAngleRadians(90)
+    #krane.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40134:"[Speaker]: I should tell you, the Snag[New Line]Machine is an outrageous piece of work.[New Line]After all, it's used for stealing Pokémon from[New Line]another Trainer in battle.[Clear Window][Speaker]: But we didn't make this to[New Line]steal Pokémon indiscriminately from[New Line]Trainers.[Clear Window][Speaker]: [Player Field 43], you've heard of[New Line]Shadow Pokémon, haven't you?[Clear Window][Speaker]: They're Pokémon that have been[New Line]turned into fighting machines after having their[New Line]hearts closed by artificial means.[New Line]They're to be pitied.[Clear Window][Speaker]: We developed the Snag Machine[New Line]to take back such modified Shadow Pokémon.[Clear Window][Speaker]: Why this machine is needed now[New Line]I can explain later...[Clear Window]")
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40313:"[Speaker]: But for now, I'd like you to test[New Line]our Snag Machine.[New Line]After all, you're the best Trainer at this Lab.[Clear Window]")
+    #krane.turnHeadTowardsWorldAngle(50.0 0.0 1.0)
+    #krane.awaitHeadTilt(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40467:"[Speaker]: The Snag Machine is inside[New Line]this case.[New Line]Try equipping it right away, please.[Dialogue End]")
+    #krane.setSlowdownOff()
+    #krane.walkToPosition(1 -42.65 0 -108.87)
+    #krane.awaitAnimation(YES)
+    #krane.setSlowdownOn()
+    #krane.turnToCharacter(#player 1.0)
+    #krane.awaitAnimation(YES)
+    #krane.setCharacterFlags(16)
+    #krane.setCharacterFlags(32)
+    #aidan.setCharacterFlags(16)
+    #aidan.setCharacterFlags(32)
+    #krane.turnHeadTowardsTarget(#player 0.5)
+    #aidan.turnHeadTowardsTarget(#player 0.5)
+    #krane.awaitHeadTilt(YES)
+    #aidan.awaitHeadTilt(YES)
+    #player.turnHeadByAngle(0.0 0.0 1.0)
+    #player.awaitHeadTilt(YES)
+    #player.resetHeadTilt(1)
+    Player.freeMovement()
+    #krane.endInteraction()
+    #aidan.endInteraction()
+    return
+
+}
+
+
+function @relive_3d() {
+
+    Sound.playEffect(0x572 0 127)
+    var_1 = var_1.Move.initializeSequence()
+    var_1.Move.setPosition(vector_04)
+    var_1.Move.beginAnimation(248 4 0 YES)
+    var_1.Move.deinitializeSequence()
+    return
+
+}
+
+
+function @thread_me(arg_0) {
+
+
+    if (arg_0 = 0) {
+        Sound.playEffect(0x3CE 0 255)
+        goto @location_2838
+    }
+
+
+    if (arg_0 = 1) {
+        Sound.playEffect(0x572 0 127)
+        goto @location_2838
+    }
+
+
+    if (arg_0 = 2) {
+        Sound.playEffect(0x5AB 0 127)
+        goto @location_2838
+    }
+
+    @location_2838
+    return
+
+}
+
+
+function @snatch_give() {
+
+    character_08.setVisibility(NO)
+    var_1 = 0.0
+    var_3 = #SFX_0_SOUND_0
+    var_3 = Sound.getBGM()
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 1.0)
+    Sound.transitionToBGM(#SFX_8_BGM_ARCHIVE 0x3E8 0 127)
+    Transition.await(YES)
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #aidan.beginInteraction()
+    #krane.resetHeadTilt(1)
+    #aidan.resetHeadTilt(1)
+    #krane.setPosition(-42.65 0 -108.87)
+    #krane.setRotation(0 80.6 0)
+    #aidan.setPosition(-40.82 0 -117.08)
+    #aidan.setRotation(0 51.5 0)
+    #player.setModel(#MODEL_CHARACTERMODEL_10)
+    #player.setAnimationOverride()
+    #player.setAnimation(83 0 YES)
+    #player.setPosition(-34.68 0 -108.93)
+    #player.setRotation(0 -83.8 0)
+    #player.setCharacterFlags(0x8000)
+    #player.setAnimationSpeed(0.25)
+    var_1 = Camera.getFieldOfView()
+    Tasks.executeScriptWithNameSync(&thread_me 2 0 0 0)
+    Camera.setCameraType(3)
+    Camera.setFieldOfView(40.177)
+    Camera.setPosition(-38.56 10.674 -101.133)
+    Camera.setRotationRadians(-0.081 -0.468 0)
+    #krane.setVisibility(NO)
+    #aidan.setVisibility(NO)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Camera.moveToPosition(3 -37.53 10.488 -103.171 1.5)
+    Transition.await(YES)
+    Camera.isCameraDoneMoving(1)
+    Camera.setPosition(-38.781 12.483 -106.158)
+    Camera.setRotationRadians(-0.797 -1.428 0)
+    Camera.setFieldOfView(50.499)
+    #player.setPosition(-35.68 0 -108.53)
+    #player.setRotation(-10 -32.8 0)
+    #player.setAnimation(75 0 YES)
+    Camera.moveToPosition(3 -37.806 11.415 -106.326 2)
+    Camera.moveToRotation(3 -0.815 -1.423 0 2)
+    Tasks.sleep(1.6)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Camera.isCameraDoneMoving(1)
+    Transition.await(YES)
+    Camera.setPosition(-40.896 8.633 -104.285)
+    Camera.setRotationRadians(0.093 -1.01 0)
+    Camera.setFieldOfView(50.499)
+    #player.setPosition(-34.68 0 -108.53)
+    #player.setRotation(0 -55.8 0)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Camera.moveToPositionWithAcceleration(3 -44.598 8.376 -101.963 3.2 0.08)
+    Camera.moveToRotationWithAcceleration(3 0.038 -0.979 0 3.2 0.08)
+    Transition.await(YES)
+    Tasks.sleep(2.7)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    Camera.isCameraDoneMoving(1)
+    #player.unsetCharacterFlags(0x8000)
+    Camera.enableDefaultForMap()
+    Sound.transitionToBGM(var_3 0 500 127)
+    #krane.setVisibility(YES)
+    #aidan.setVisibility(YES)
+    #player.setPosition(-31.68 0 -108.93)
+    character_07.setPosition(44.22 0 -99.69)
+    character_07.setAnimationOverride()
+    character_07.resetWalkingRouteArray()
+    character_07.setAnimation(3 0 YES)
+    character_07.setToDefaultAnimation()
+    character_07.setCharacterFlags(32)
+    #player.setModel(#MODEL_CHARACTERMODEL_9)
+    Player.setStyle(2 YES)
+    #player.setAnimation(3 0 YES)
+    #player.setToDefaultAnimation()
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+    #aidan.talk(#SPEECH_TYPE_NORMAL $:40137:"[Set Speaker 106][Speaker]: Wow, it fits you perfectly.[New Line]It looks cool, too, [Player Field 43].[Dialogue End]")
+    #player.turnHeadTowardsTarget(#aidan 1.0)
+    #player.turnToCharacter(#aidan 1.0)
+    #player.awaitAnimation(YES)
+    #aidan.talk(#SPEECH_TYPE_NORMAL $:40138:"[Speaker]: I'll also add a new feature to your[New Line]P★DA.[Clear Window][Speaker]: It's called the Shadow Monitor.[New Line]It lets you check data on the Shadow Pokémon[New Line]you've encountered.[Dialogue End]")
+    setFlagToTrue(#FLAG_1010)
+    Tasks.executeScriptWithNameSync(&thread_me 0 0 0 0)
+    Menu.displayMessageSilently($:40166:"[Player Field 43] obtained the Shadow Monitor[New Line]feature.[Dialogue End]" YES NO)
+    Menu.awaitMessageClose(YES)
+    Menu.addPDAFunctionality(0)
+    #krane.unsetCharacterFlags(16)
+    #krane.unsetCharacterFlags(32)
+    #krane.turnToAngleDegrees(180 1.0)
+    #krane.awaitAnimation(YES)
+    #krane.resetHeadTilt(1)
+    #krane.awaitHeadTilt(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40013:"[Speaker]: Thank you, Aidan.[Clear Window]")
+    #krane.setCharacterFlags(16)
+    #krane.setCharacterFlags(32)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40139:"[Speaker]: That's it, [Player Field 43]![New Line]That's spot-on![Dialogue End]")
+    #player.turnHeadTowardsTarget(#krane 1.0)
+    #player.turnToCharacter(#krane 1.0)
+    #player.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40143:"[Speaker]: From here on, it will be a lot[New Line]easier to just show you how it works in practice[New Line]rather than trying to describe it.[Clear Window][Speaker]: Let's go upstairs to the Battle[New Line]Sim System room.[Dialogue End]")
+    #krane.resetHeadTilt(1)
+    #krane.walkToPosition(1 -42.77 0 -48.87)
+    #aidan.setSlowdownOff()
+    #aidan.resetHeadTilt(1)
+    #aidan.walkToPosition(1 -40.81 0 -110.8)
+    #aidan.awaitAnimation(YES)
+    #aidan.surprisedAnimation(YES)
+    Tasks.sleep(0.5)
+    #aidan.turnToCharacter(#player 1.0)
+    #aidan.awaitAnimation(YES)
+    #aidan.turnHeadTowardsTarget(#player 1.0)
+    #aidan.awaitHeadTilt(YES)
+    #player.turnHeadTowardsTarget(#aidan 1.0)
+    #player.turnToCharacter(#aidan 1.0)
+    #player.awaitAnimation(YES)
+    #player.awaitHeadTilt(YES)
+    #aidan.talk(#SPEECH_TYPE_NORMAL $:40141:"[Speaker]: Whoops![New Line]How silly of me![New Line]I almost forgot to give you these.[Clear Window][Speaker]: In order to use the Snag[New Line]Machine, you need at least one Poké Ball.[New Line]So, I'll give you these.[Dialogue End]")
+    #aidan.setSlowdownOn()
+    Player.receiveItem(#ITEM_POKE_BALL #X5)
+    #aidan.talk(#SPEECH_TYPE_NORMAL $:40179:"[Speaker]: Poké Balls aren't used in the[New Line]Orre Region, so we import them from Kalos.[Clear Window][Speaker]: Okay, now we're set![New Line]Let's hurry over to the Director.[Dialogue End]")
+    #krane.setHeadTiltTowardsPlayer()
+    #aidan.setHeadTiltTowardsPlayer()
+    character_08.setVisibility(YES)
+    Player.freeMovement()
+    #krane.endInteraction()
+    #aidan.endInteraction()
+    return
+
+}
+
+
+function @kidnap() {
+
+    Player.lockMovement()
+    character_04.unsetCharacterFlags(16)
+    Sound.playBGM(#SFX_1229_SOUND_93 0 127)
+    Tasks.sleep(2.0)
+    Sound.playBGM(#SFX_1130_STM_BGM_EV_KINKYU 0 127)
+    character_04.talk(#SPEECH_TYPE_NORMAL $:40142:"[Speaker]: Aiyeeh! Aiyeeh![Dialogue End]")
+    #aidan.surprisedAnimation(YES)
+    #player.surprisedAnimation(YES)
+    Tasks.sleep(0.6)
+    #player.turnToAngleDegrees(0 2.0)
+    #aidan.turnToAngleDegrees(0 2.0)
+    #aidan.resetHeadTilt(1)
+    #player.awaitAnimation(YES)
+    #aidan.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40144:"[Speaker]: W-what's going on?![New Line]Who are you people?![Dialogue End]")
+    #krane.setVisibility(NO)
+    character_04.setCharacterFlags(16)
+    character_04.setCharacterFlags(32)
+    character_04.unsetCharacterFlags(64)
+    character_04.setPosition(-6.65 0 -48.12)
+    character_04.setAnimationOverride()
+    character_04.resetWalkingRouteArray()
+    character_04.setAnimation(3 0 YES)
+    character_04.recalculateBounds()
+    #aidan.turnHeadTowardsTarget(#player 1.0)
+    setFlag(#FLAG_STORY #STORY_RECEIVED_SNAG_MACHINE)
+    setFlag(#FLAG_1979 0)
+    setFlag(#FLAG_2110 1)
+    setFlag(#FLAG_2111 0)
+    printf("kidnap\n")
+    Player.freeMovement()
+    return
+
+}
+
+
+function @info_help() {
+
+    var_1 = 0
+    Player.lockMovement()
+    var_1 = Camera.getFieldOfView()
+    #player.turnToCharacter(character_04 1.0)
+    #player.awaitAnimation(YES)
+    Camera.setCameraType(3)
+    Camera.moveToPosition(3 -19.248 114.215 74.149 1.0)
+    Camera.moveToRotation(3 -0.702 0.0 0.0 1.0)
+    Camera.isCameraDoneMoving(1)
+    character_04.talk(#SPEECH_TYPE_NORMAL $:40148:"[Speaker]: It's terrible, [Player Field 43]![New Line]Some strange men came barging in and took[New Line]off with the Director![Dialogue End]")
+    Camera.setFieldOfView(var_1)
+    Camera.reset(1.0 1)
+    character_04.setHeadTiltTowardsPlayer()
+    Player.freeMovement()
+    Collision.setEnabled(2 NO)
+    return
+
+}
+
+
+function @rint_stop() {
+
+    var_1 = 0
+    Player.lockMovement()
+    var_1 = Camera.getFieldOfView()
+    Camera.disableDefaultForMap()
+    Camera.moveToPosition(3 -9.563 129.759 72.242 1.0)
+    Camera.moveToRotation(3 -0.762 0.0 0.0 1.0)
+    Camera.isCameraDoneMoving(1)
+    character_04.setCharacterFlags(16)
+    character_04.setCharacterFlags(32)
+    character_04.talk(#SPEECH_TYPE_NORMAL $:40056:"[Speaker]: Stop, [Player Field 43]![New Line]Not that way![New Line]The Director was taken out the front![Dialogue End]")
+    var_2 = #player.getPosition()
+    var_2.vz = (getvz(var_2) + 5)
+    #player.walkToPositionVector(1 var_2)
+    #player.awaitAnimation(YES)
+    Camera.setFieldOfView(var_1)
+    Camera.reset(1.0 1)
+    Player.freeMovement()
+    return
+
+}
+
+
+function @sad_conference() {
+
+    Player.lockMovement()
+    #lily.beginInteraction()
+    #lily.startBlinking()
+    #player.startBlinking()
+    Camera.moveToPosition(3 -3.413 93.564 46.404 3.6)
+    Camera.moveToRotation(3 -0.491 0.391 0 3.6)
+    #lily.resetHeadTilt(0)
+    #lily.setAnimationOverride()
+    #lily.setAnimation(75 0 YES)
+    #lily.turnHeadByAngle(-10 20 0)
+    #jovi.setAnimationOverride()
+    #jovi.setAnimation(86 0 YES)
+    Camera.isCameraDoneMoving(1)
+    Camera.setFieldOfView(50)
+    Camera.setPosition(-70.137 32.419 -77.169)
+    Camera.setRotationRadians(-0.665 -0.167 0)
+    #aidan.setHeadTiltTowardsCharacter(#jovi)
+    #player.setHeadTiltTowardsCharacter(#jovi)
+    #lily.setCharacterFlags(2)
+    Camera.moveToPosition(3 -69.357 28.738 -81.8 1.5)
+    Camera.isCameraDoneMoving(1)
+    Tasks.sleep(0.6)
+    #jovi.talk(#SPEECH_TYPE_17 $:40180:"[Speaker]: Waaah![New Line]They took the Professor away![Dialogue End]")
+    #lily.turnHeadByAngle(-70 20 0.2)
+    #lily.turnToAngleDegrees(-70 0.2)
+    #lily.awaitAnimation(YES)
+    #lily.talk(#SPEECH_TYPE_17 $:40181:"[Speaker]: Don't cry, Jovi.[New Line]I'm sure Prof. Krane will be okay.[Dialogue End]")
+    #jovi.talk(#SPEECH_TYPE_17 $:40182:"[Speaker]: Sniff...[Dialogue End]")
+    #aidan.unsetCharacterFlags(16)
+    #aidan.unsetCharacterFlags(32)
+    Tasks.sleep(0.6)
+    #aidan.turnHeadTowardsWorldAngle(100 5 0.5)
+    #aidan.awaitHeadTilt(YES)
+    #aidan.talk(#SPEECH_TYPE_17 $:40183:"[Speaker]: We've contacted the police and[New Line]the proper authorities about Prof. Krane.[New Line]They should let us know if they discover[New Line]anything.[Clear Window][Speaker]: I still can't believe that this is[New Line]happening...[Dialogue End]")
+    #lily.turnHeadTowardsWorldAngle(-20 20 0.1)
+    #lily.turnToAngleDegrees(-20 0.2)
+    #lily.awaitAnimation(YES)
+    #lily.talk(#SPEECH_TYPE_17 $:40184:"[Speaker]: Prof. Krane predicted that[New Line]someone will again try making Shadow[New Line]Pokémon.[New Line]His prediction was on the mark.[Dialogue End]")
+    #aidan.turnHeadTowardsWorldAngle(71 15 0.5)
+    #aidan.awaitHeadTilt(YES)
+    #aidan.talk(#SPEECH_TYPE_17 $:40157:"[Speaker]: [Player Field 43]...[New Line]that probably wasn't the only Shadow[New Line]Pokémon that was made...[Clear Window][Speaker]: When the Purify Chamber is[New Line]completed, we will be able to save many[New Line]Shadow Pokémon at the same time, but...[Clear Window]")
+    #aidan.resetHeadTilt(0.5)
+    #aidan.turnToAngleDegrees(151 0.3)
+    #aidan.awaitHeadTilt(YES)
+    #aidan.awaitAnimation(YES)
+    #aidan.talk(#SPEECH_TYPE_17 $:40096:"[Speaker]: Prof. Krane is crucial to this[New Line]project.[New Line]Without him, there's nothing we can do![Dialogue End]")
+    #lily.stopBlinking()
+    Tasks.executeScriptWithNameSync(&lilya_ketui2 0 0 0 0)
+    setFlag(#FLAG_1979 0)
+    setFlag(#FLAG_2110 0)
+    setFlag(#FLAG_2222 0)
+    setFlag(#FLAG_2111 1)
+    setFlag(#FLAG_2223 0)
+    Tasks.sleep(0.6)
+    #lily.turnHeadByAngle(0 20 1)
+    Camera.setFieldOfView(40)
+    Camera.setPosition(-65.513 14.235 -107.08)
+    Camera.setRotationRadians(0.001 -0.981 0)
+    #lily.setCharacterFlags(0x8000)
+    #lily.setAnimationSpeed(0.25)
+    #lily.setPosition(-56.6 0 -113.3)
+    #lily.setRotation(0 0 0)
+    #player.setVisibility(NO)
+    character_08.pauseWalkTalkMode(YES)
+    Camera.moveToPosition(3 -66.694 14.318 -106.289 8)
+    Camera.moveFieldOfView(3 35.173 8)
+    Camera.isCameraDoneMoving(1)
+    Camera.setPosition(-58.837 14.17 -105.183)
+    Camera.setRotationRadians(0.025 -0.26 0)
+    Camera.setFieldOfView(40)
+    #lily.unsetCharacterFlags(0x8000)
+    character_08.pauseWalkTalkMode(NO)
+    #lily.turnHeadByAngle(0 0 0)
+    #lily.setAnimation(76 0 NO)
+    #lily.awaitAnimation(1)
+    #lily.setAnimation(77 0 YES)
+    Tasks.sleep(1.2)
+    #lily.talk(#SPEECH_TYPE_17 $:40158:"[Speaker]: Let's complete it![New Line]We'll finish the Purify Chamber ourselves![Dialogue End]")
+    #lily.startBlinking()
+    Camera.setFieldOfView(50)
+    Camera.setPosition(-69.357 28.738 -81.8)
+    Camera.setRotationRadians(-0.665 -0.167 0)
+    #player.setVisibility(YES)
+    #player.turnHeadTowardsWorldAngle(-150 -5 0)
+    #lily.setPosition(-59.59 0 -113.3)
+    #lily.setRotation(0 -10 0)
+    #lily.turnHeadTowardsWorldAngle(-10 15 0)
+    #aidan.resetHeadTilt(0)
+    Tasks.sleep(0.6)
+    #aidan.surprisedAnimation(YES)
+    Tasks.sleep(0.6)
+    #aidan.turnToAngleDegrees(109 0.8)
+    #aidan.awaitAnimation(YES)
+    #aidan.talk(#SPEECH_TYPE_17 $:40160:"[Speaker]: Lily?[New Line]The Director's not here![New Line]It's hopeless.[New Line]There isn't any possible way to get it done.[Dialogue End]")
+    Tasks.sleep(0.4)
+    #lily.turnHeadTowardsWorldAngle(-50 0 0.8)
+    #lily.awaitHeadTilt(YES)
+    Tasks.sleep(0.2)
+    Camera.setPosition(-58.837 14.17 -105.183)
+    Camera.setRotationRadians(0.025 -0.26 0)
+    Camera.setFieldOfView(40)
+    #lily.setPosition(-56.6 0 -113.3)
+    #player.setVisibility(NO)
+    Tasks.sleep(0.6)
+    #lily.talk(#SPEECH_TYPE_17 $:40174:"[Speaker]: You're on the verge of finishing![New Line]This isn't the time to feel sorry for[New Line]yourself.[Clear Window][Speaker]: The Purify Chamber project got[New Line]this far not just because Prof. Krane was here.[New Line]We got here because we all worked as a team.[Clear Window][Speaker]: Having come this far, it would[New Line]be wrong to stop now.[New Line]Our pride as scientists is on the line.[New Line]Let's finish the project as one![Dialogue End]")
+    Tasks.sleep(0.6)
+    Camera.setFieldOfView(50)
+    Camera.setPosition(-69.357 28.738 -81.8)
+    Camera.setRotationRadians(-0.665 -0.167 0)
+    #player.setVisibility(YES)
+    #lily.setPosition(-59.59 0 -113.3)
+    #lily.resetHeadTilt(1)
+    Tasks.sleep(0.3)
+    #lily.talk(#SPEECH_TYPE_17 $:40175:"[Speaker]: Things will get very busy around[New Line]here![New Line]I'll go upstairs and check how the data[New Line]processing is progressing.[Dialogue End]")
+    Camera.moveToPositionWithAcceleration(3 -47.571 28.738 -78.195 3.6 0.05)
+    Camera.moveToRotationWithAcceleration(3 -0.665 -0.015 0 3.6 0.05)
+    #lily.turnToAngleDegrees(90 0.6)
+    #lily.awaitAnimation(YES)
+    #lily.setToDefaultAnimation()
+    var_1 = vector_05
+    var_2 = vector_06
+    var_3 = vector_07
+    #lily.initializeNewWalkingRoute(3)
+    #lily.addToWalkingRouteVector(var_1)
+    #lily.addToWalkingRouteVector(var_2)
+    #lily.addToWalkingRouteVector(var_3)
+    #lily.beginWalkingRoute(NO)
+    Tasks.sleep(0.8)
+    #player.turnHeadTowardsWorldAngle(-95 -10 1.2)
+    #player.awaitHeadTilt(YES)
+    #player.resetHeadTilt(0.1)
+    #player.turnToAngleDegrees(25 0.2)
+    #player.awaitAnimation(YES)
+    #player.turnHeadTowardsWorldAngle(25 -15 0.08)
+    Camera.isCameraDoneMoving(1)
+    Tasks.sleep(1.2)
+    Tasks.sleep(0.6)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    #lily.setVisibility(NO)
+    #aidan.setHeadTiltTowardsCharacter(#player)
+    #lily.stopBlinking()
+    #player.stopBlinking()
+    #player.setModel(#MODEL_CHARACTERMODEL_9)
+    Camera.enableDefaultForMap()
+    #aidan.setCharacterFlags(16)
+    #aidan.setCharacterFlags(32)
+    #aidan.setPosition(-75.98 0 -102.9)
+    #aidan.setPosition(-75.98 0 -102.9)
+    Light.setPosition(1 vector_08)
+    Light.setPosition(2 vector_01)
+    Light.setPosition(3 vector_09)
+    Light.setPosition(4 vector_10)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+    Player.freeMovement()
+    #lily.endInteraction()
+    return
+
+}
+
+
+function @daidanen() {
+
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #lily.beginInteraction()
+    #jovi.beginInteraction()
+    #aidan.beginInteraction()
+    character_06.beginInteraction()
+    Tasks.sleep(0.5)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40254:"[Speaker]: Thanks to you, [Player Field 43],[New Line]I was able to return safe and sound.[New Line]Sincerely, thank you.[Clear Window][Speaker]: Though it was a horrible ordeal,[New Line]I learned a few things when I was in that desert[New Line]lab.[Clear Window][Speaker]: First and foremost, Cipher hasn't[New Line]disappeared![New Line]The fact that they're still around is alarming.[Clear Window][Speaker]: Worse, they are making more[New Line]Shadow Pokémon again.[Clear Window][Speaker]: And worst of all, they are trying[New Line]to create the ultimate Shadow Pokémon--one[New Line]that is impossible to purify.[Clear Window][Speaker]: Cipher must be plotting world[New Line]domination using Shadow Pokémon as their[New Line]weapons again.[Clear Window][Speaker]: To counter Cipher's new[New Line]Shadow Pokémon conspiracy...[Dialogue End]")
+    Tasks.sleep(0.5)
+    character_06.setMovementSpeed(2)
+    character_06.walkToPosition(1 -42.43 0.0 -62.0)
+    character_06.awaitAnimation(YES)
+    Map.controlDoor(140 130 0)
+    character_06.walkToPosition(1 -42.43 0.0 -90.48)
+    character_06.awaitAnimation(YES)
+    #player.turnToCharacter(character_06 1.0)
+    #krane.turnToCharacter(character_06 1.0)
+    #lily.turnToCharacter(character_06 1.0)
+    #jovi.turnToCharacter(character_06 1.0)
+    #aidan.turnToCharacter(character_06 1.0)
+    #player.awaitAnimation(YES)
+    #krane.awaitAnimation(YES)
+    #lily.awaitAnimation(YES)
+    #jovi.awaitAnimation(YES)
+    #aidan.awaitAnimation(YES)
+    character_06.turnToCharacter(#krane 1.0)
+    character_06.awaitAnimation(YES)
+    character_06.talk(#SPEECH_TYPE_17 $:40255:"[Speaker]: Director! Lily![New Line]We did it![New Line]The Purify Chamber is finally completed![Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_17 $:40256:"[Speaker]: Oh, my![Dialogue End]")
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40257:"[Speaker]: Oh![New Line]What fantastic timing![New Line]It's finally finished![Clear Window]")
+    #krane.turnToCharacter(#lily 1.0)
+    #lily.turnToCharacter(#krane 1.0)
+    #krane.awaitAnimation(YES)
+    #lily.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40459:"[Speaker]: Lily, thank you![New Line]Thank you for pulling everyone together so[New Line]capably in my absence![Clear Window][Speaker]: Okay![New Line]Let's not waste any time![New Line]Let's all go have a look at the Purify[New Line]Chamber.[Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_17 $:40258:"[Speaker]: Let's![Dialogue End]")
+    #krane.turnToCharacter(character_06 1.0)
+    #lily.turnToCharacter(character_06 1.0)
+    #krane.awaitAnimation(YES)
+    #lily.awaitAnimation(YES)
+    character_06.setMovementSpeed(1)
+    character_06.walkToPosition(1 -42.43 0.0 -55.0)
+    #krane.initializeNewWalkingRoute(3)
+    #krane.addToWalkingRoute(-47.59 0.0 -110.0)
+    #krane.addToWalkingRoute(-42.59 0.0 -105.3)
+    #krane.addToWalkingRoute(-42.59 0.0 -95.69)
+    #krane.beginWalkingRoute(NO)
+    Tasks.sleep(1.5)
+    #lily.walkToPosition(1 -52.43 0.0 -88.79)
+    #jovi.walkToPosition(1 -52.43 0 -88.03)
+    #aidan.walkToPosition(1 -75.2 0 -88.03)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 1.0)
+    #lily.awaitAnimation(YES)
+    #jovi.awaitAnimation(YES)
+    #aidan.awaitAnimation(YES)
+    Transition.await(YES)
+    character_06.setVisibility(NO)
+    #krane.setVisibility(NO)
+    #lily.setVisibility(NO)
+    #jovi.setVisibility(NO)
+    #aidan.setVisibility(NO)
+    Camera.enableDefaultForMap()
+    Camera.reset(0.0 1)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 1.0)
+    Transition.await(YES)
+    setFlag(#FLAG_STORY #STORY_RETURNED_KRANE)
+    @set_start_relivedance()
+    Player.freeMovement()
+    #krane.endInteraction()
+    #lily.endInteraction()
+    #jovi.endInteraction()
+    #aidan.endInteraction()
+    character_06.endInteraction()
+    return
+
+}
+
+
+function @set_start_relivedance() {
+
+    #krane.setPosition(50.0 0 -100.0)
+    #krane.setRotation(0.0 180.0 0.0)
+    #lily.setPosition(30.0 0.0 -128.66)
+    #lily.setRotation(0.0 90.0 0.0)
+    #jovi.setPosition(30.15 0.0 -115.02)
+    #jovi.setRotation(0.0 90.0 0.0)
+    #aidan.setPosition(38.0 0.0 -90.58)
+    #aidan.setRotation(0.0 180.0 0.0)
+    character_06.setPosition(67.0 0.0 -114.6)
+    character_06.setRotation(0.0 270.0 0.0)
+    character_07.setPosition(70.0 0.0 -128.6)
+    character_07.setRotation(0.0 270.0 0.0)
+    character_08.setPosition(42.22 0.0 -142.58)
+    character_08.setRotation(0.0 0.0 0.0)
+    character_08.pauseWalkTalkMode(YES)
+    character_06.setVisibility(YES)
+    #krane.setVisibility(YES)
+    #lily.setVisibility(YES)
+    #jovi.setVisibility(YES)
+    #aidan.setVisibility(YES)
+    #krane.resetHeadTilt(0)
+    #lily.resetHeadTilt(0)
+    #jovi.resetHeadTilt(0)
+    #aidan.resetHeadTilt(0)
+    character_06.resetHeadTilt(0)
+    character_07.resetHeadTilt(0)
+    character_08.resetHeadTilt(0)
+    character_07.setAnimationOverride()
+    character_07.resetWalkingRouteArray()
+    character_07.setAnimation(3 0 YES)
+    return
+
+}
+
+
+function @start_relivedance() {
+
+    var_1 = vector_11
+    var_2 = character_08.getPosition()
+    var_3 = character_06.getPosition()
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #lily.beginInteraction()
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40260:"[Speaker]: Take a good look, [Player Field 43]![New Line]This is the Purify Chamber![Clear Window][Speaker]: [Player Field 43], your father and I[New Line]designed it five years ago when we were[New Line]motivated by the [Quote]Shadow incident.[Quote][Clear Window][Speaker]: If evildoers were to create[New Line]Shadow Pokémon again, we wanted to be able[New Line]to save them ourselves.[Clear Window][Speaker]: [Player Field 43], your father believed[New Line]that passionately. [New Line]To honor your father's wish, I put together our[New Line]Pokémon HQ Lab.[Clear Window][Speaker]: [Player Field 43], if your father were[New Line]here, I'm sure that he would be delighted.[Clear Window]")
+    #krane.turnToCharacter(#lily 1.0)
+    #krane.awaitAnimation(YES)
+    #lily.turnToCharacter(#krane 1.0)
+    #jovi.turnToCharacter(#krane 1.0)
+    #aidan.turnToCharacter(#krane 1.0)
+    character_06.turnToCharacter(#krane 1.0)
+    character_07.turnToCharacter(#krane 1.0)
+    character_08.turnToCharacter(#krane 1.0)
+    #lily.awaitAnimation(YES)
+    #jovi.awaitAnimation(YES)
+    #aidan.awaitAnimation(YES)
+    character_06.awaitAnimation(YES)
+    character_07.awaitAnimation(YES)
+    character_08.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40461:"[Speaker]: While I was gone, everyone[New Line]seems to have rallied around Lily and made[New Line]things happen.[Clear Window]")
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40463:"[Speaker]: Okay, [Player Field 43], we'll have[New Line]you lead the way.[New Line]The glorious history of the Purify Chamber[New Line]will begin with you![Clear Window]")
+    #krane.turnToCharacter(character_06 1.0)
+    #krane.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40261:"[Speaker]: But first, if you would be so kind[New Line]as to briefly explain how the Purify[New Line]Chamber works.[Dialogue End]")
+    character_06.walkToPosition(1 (getvx(var_3) - 3) getvy(var_3) (getvz(var_3) + 3))
+    #player.turnToCharacter(character_06 1.0)
+    #player.awaitAnimation(YES)
+    character_06.awaitAnimation(YES)
+    character_06.talk(#SPEECH_TYPE_NORMAL $:40527:"[Speaker]: Certainly.[New Line]Okay, [Player Field 43], listen closely.[Clear Window]")
+    character_06.talk(#SPEECH_TYPE_NORMAL $:40263:"[Speaker]: The Purify Chamber is a facility in which[New Line]Shadow Pokémon undergo purification through[New Line]contact with regular Pokémon.[Clear Window][Speaker]: Purification is conducted on what we call[New Line]a Set.[New Line]This is where a Shadow Pokémon comes into[New Line]contact with regular Pokémon.[Clear Window][Speaker]: In the center of a Set, one Shadow[New Line]Pokémon is placed.[New Line]Up to four regular Pokémon can be placed[New Line]around the Shadow Pokémon.[Clear Window][Speaker]: We have nine of those Sets here.[New Line]That means we can efficiently purify up to nine[New Line]Shadow Pokémon at the same time.[Clear Window][Speaker]: There is one thing you need to be careful[New Line]about.[New Line]Purification won't proceed if you place only[New Line]a single Shadow Pokémon on a Set.[Clear Window][Speaker]: Purification can only happen if there is at[New Line]least one regular Pokémon on a Set with a[New Line]Shadow Pokémon.[Clear Window][Speaker]: The number of regular Pokémon placed with[New Line]a Shadow Pokémon, and their compatibility,[New Line]are key points.[Clear Window][Speaker]: First, the number of regular Pokémon.[New Line]The more regular Pokémon you place with a[New Line]Shadow Pokémon, the quicker purification is.[Clear Window][Speaker]: Next, the compatibility of Pokémon.[New Line]Compatibility depends on the types of the[New Line]Pokémon involved, and the directions they face.[Clear Window][Speaker]: By adjusting these factors, you'll likely see[New Line]differences in purification speeds.[Clear Window][Speaker]: If you need details, I'll be happy to explain[New Line]later.[New Line]But right now, I'd like you to check the Sets[New Line]out.[Dialogue End]")
+    character_08.walkToPosition(0 getvx(var_2) getvy(var_2) (getvz(var_2) + 5))
+    #player.turnToCharacter(character_08 1.0)
+    character_08.awaitAnimation(YES)
+    #player.awaitAnimation(YES)
+    character_08.talk(#SPEECH_TYPE_NORMAL $:40528:"[Speaker]: The Purify Chamber status is on standby.[New Line]System status is good to go![Clear Window][Speaker]: Step onto that circular plate.[New Line]A holographic image of the Pokémon involved[New Line]in purification will appear.[Clear Window][Speaker]: Well, it would if there were actually some[New Line]Pokémon on the Sets.[Clear Window][Speaker]: When you're checking the hologram, you can[New Line]zoom to individual Sets.[New Line]At any selected Set, you can configure things[New Line]as you see fit.[Clear Window][Speaker]: A control panel will appear for you to pick the[New Line]Pokémon you want to place on the selected Set,[New Line]position them, and so on.[Clear Window][Speaker]: If you bring some Pokémon, [Player Field 43], you[New Line]can place them on Sets.[New Line]Don't worry, you'll figure it out when you[New Line]actually try it.[Clear Window][Speaker]: We'll also be around to provide advice if you[New Line]need it.[New Line]First, check the hologram, please.[Dialogue End]")
+    #krane.turnToRotationVector(var_1 1.0)
+    #lily.turnToRotationVector(var_1 1.0)
+    #jovi.turnToRotationVector(var_1 1.0)
+    #aidan.turnToRotationVector(var_1 1.0)
+    character_06.turnToRotationVector(var_1 1.0)
+    character_07.turnToRotationVector(var_1 1.0)
+    character_08.turnToRotationVector(var_1 1.0)
+    #krane.awaitAnimation(YES)
+    #lily.awaitAnimation(YES)
+    #jovi.awaitAnimation(YES)
+    #aidan.awaitAnimation(YES)
+    character_06.awaitAnimation(YES)
+    character_07.awaitAnimation(YES)
+    character_08.awaitAnimation(YES)
+    gvar_03 = 1
+    Player.freeMovement()
+    #krane.endInteraction()
+    #lily.endInteraction()
+    return
+
+}
+
+
+function @after_relivedance() {
+
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #player.turnToCharacter(#krane 1.0)
+    #player.awaitAnimation(YES)
+    Tasks.sleep(0.5)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40277:"[Speaker]: How did you find the Purify[New Line]Chamber?[Clear Window][Speaker]: Using this system, it's possible to purify[New Line]many Shadow Pokémon at the same time.[Clear Window]")
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40278:"[Speaker]: Oh, also, you can access the[New Line]Purify Chamber from any PC.[New Line]Be sure to try that feature.[Clear Window][Speaker]: Now, the issue is how Shadow[New Line]Pokémon should be recovered from Cipher.[Clear Window][Speaker]: It looks as if you'll have to get[New Line]busy some more with the Snag Machine,[New Line][Player Field 43].[Dialogue End]")
+    setFlag(#FLAG_STORY #STORY_VIEWED_PURIFICATION_CHAMBER)
+    gvar_03 = 0
+    Player.freeMovement()
+    #krane.endInteraction()
+    return
+
+}
+
+
+function @lock_relivedance() {
+
+    var_1 = #player.getPosition()
+
+    if (gvar_03 = 1) {
+        Player.lockMovement()
+        #krane.talk(#SPEECH_TYPE_NORMAL $:40265:"[Speaker]: Whoa, [Player Field 43].[New Line]You've got the honor of launching the Purify[New Line]Chamber.[New Line]It's a moment to cherish.[Dialogue End]")
+        #player.walkToPosition(1 getvx(var_1) 0.0 (getvz(var_1) - 10))
+        #player.awaitAnimation(YES)
+        #krane.turnToAngleDegrees(180.0 1.0)
+        #krane.awaitAnimation(YES)
+        Player.freeMovement()
+    }
+
+    return
+
+}
+
+
+function @search_121_research() {
+
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #lily.beginInteraction()
+    #jovi.beginInteraction()
+    #krane.turnToCharacter(#lily 1.0)
+    #lily.turnToCharacter(#krane 1.0)
+    #krane.awaitAnimation(YES)
+    #lily.awaitAnimation(YES)
+    #player.turnToCharacter(#krane 1.0)
+    #player.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_17 $:40279:"[Speaker]: Oh, speaking of Cipher... Lily,[New Line]have you made any progress with that Data[New Line]Rom we brought back from Cipher's lab?[Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_17 $:40280:"[Speaker]: Oh, yes, I've asked Dex to[New Line]analyze the contents of that SD Card.[New Line]It should be ready soon.[Clear Window]")
+    #lily.walkToPosition(1 37.0 0.0 -128.66)
+    #lily.awaitAnimation(YES)
+    #lily.beingDialog($:40464:"[Speaker]: [Player Field 43], could you go[New Line]upstairs and ask Dex how he's doing?[Dialogue End]" NO)
+    #lily.talk(#SPEECH_TYPE_NORMAL $:40468:"[Speaker]: Dex is the man in the room[New Line]next to the Director's office.[New Line]Remember?[New Line]He was compiling the basic data.[Dialogue End]")
+    #jovi.talk(#SPEECH_TYPE_NORMAL $:40281:"[Speaker]: Big brother's tired, so Jovi[New Line]will go![Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_NORMAL $:40282:"[Speaker]: Oh, Jovi, it's okay![New Line]This is for work![Dialogue End]")
+    #jovi.setMovementSpeed(2.0)
+    #jovi.walkToPosition(1 48.88 0.0 -88.26)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    #jovi.awaitAnimation(YES)
+    Camera.disableDefaultForMap()
+    Camera.setPosition(-2.044 122.25 -8.784)
+    Camera.setRotationRadians(-0.785 0.0 0.0)
+    Camera.setFieldOfView(30)
+    #jovi.setPosition(0.41 0.0 -60.05)
+    #jovi.setRotation(0.0 180.0 0.0)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+    #jovi.walkToPosition(1 0.41 0.0 -125.05)
+    Tasks.sleep(1.0)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    #jovi.awaitAnimation(NO)
+    #jovi.setVisibility(NO)
+    Tasks.sleep(0.5)
+    Camera.enableDefaultForMap()
+    Camera.reset(0.0 1)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40283:"[Speaker]: Ahaha![New Line]Seeing Jovi and her boundless energy makes[New Line]me realize I'm back home.[Clear Window][Speaker]: Anyway, I wonder what's on that[New Line]SD Card.[Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_17 $:40284:"[Speaker]: Oh, Jovi.[New Line]There's no stopping you.[Clear Window][Speaker]: Please, [Player Field 43].[New Line]Go ask Dex how he's doing in his office[New Line]upstairs.[Dialogue End]")
+    setFlag(#FLAG_STORY #STORY_LOOKING_FOR_DATAN)
+    Player.freeMovement()
+    #krane.endInteraction()
+    #lily.endInteraction()
+    #jovi.endInteraction()
+    return
+
+}
+
+
+function @masterball_get(arg_0) {
+
+    var_1 = 0
+
+    if (getFlag(#FLAG_1277) < 1) {
+        if (getFlag(#FLAG_1432) = 2) {
+            Player.lockMovement()
+            #krane.beginInteraction()
+            Collision.setEnabled(46 NO)
+            Collision.setEnabled(24 YES)
+            Collision.setEnabled(12 YES)
+            Collision.setEnabled(3 YES)
+            Collision.setEnabled(13 YES)
+            if (arg_0 = 0) {
+                #krane.surprisedAnimation(YES)
+                Tasks.sleep(0.5)
+                #krane.talk(#SPEECH_TYPE_NORMAL $:40446:"[Speaker]: Hi, [Player Field 43].[New Line]I'm glad to see you back.[Clear Window][Speaker]: There's something I want to give[New Line]you, [Player Field 43].[New Line]Could you come here, please?[Dialogue End]")
+                Camera.disableDefaultForMap()
+                Camera.moveToPosition(3 -38.623 60.659 -18.678 3.0)
+                Camera.moveToRotation(3 -0.427 0.001 0.0 3.0)
+                #krane.walkToPosition(1.0 -40.0 0.0 -151.89)
+                #player.walkToPosition(1.0 -40.0 0.0 -133.5)
+                Camera.isCameraDoneMoving(1)
+                #krane.awaitAnimation(YES)
+                #player.awaitAnimation(YES)
+                var_1 = 1
+            }
+
+            Map.controlDoor(140 132 0)
+            #player.turnToAngleRadians(270.0)
+            #krane.turnToAngleRadians(270.0)
+            #player.awaitAnimation(YES)
+            #krane.awaitAnimation(YES)
+            #krane.talk(#SPEECH_TYPE_NORMAL $:40458:"[Speaker]: Ahaha, did that startle you?[New Line]Now, come with me.[Dialogue End]")
+            #krane.setAnimationOverride()
+            #krane.setAnimation(4 0 NO)
+            #krane.awaitAnimation(1)
+            #krane.setToDefaultAnimation()
+            #krane.initializeNewWalkingRoute(3)
+            #krane.addToWalkingRoute(-40.0 0.0 -145.0)
+            #krane.addToWalkingRoute(-48.0 0.0 -145.0)
+            #krane.addToWalkingRoute(-58.0 -4.0 -145.0)
+            #krane.beginWalkingRoute(NO)
+            #krane.awaitAnimation(YES)
+            Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+            Transition.await(YES)
+            #krane.setVisibility(NO)
+            setFlag(#FLAG_1277 1)
+            Camera.enableDefaultForMap()
+            Camera.reset(0 1)
+            Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+            Transition.await(YES)
+            Player.freeMovement()
+            #krane.endInteraction()
+        }
+
+    }
+
+    return var_1
+    return
+
+}
+
+
+function @lock_masterball(arg_0) {
+
+    var_1 = #player.getPosition()
+
+    if (arg_0 = 0) {
+        if ((getFlag(#FLAG_1277) >= 1) and (getFlag(#FLAG_1277) < 5)) {
+            Player.lockMovement()
+            #aidan.talk(#SPEECH_TYPE_NORMAL $:40176:"[Speaker]: Hey, [Player Field 43].[New Line]Don't you need to chase after the Director?[Dialogue End]")
+            #player.walkToPosition(1 getvx(var_1) 0.0 (getvz(var_1) - 5))
+            #player.awaitAnimation(YES)
+            Player.freeMovement()
+        }
+
+    }
+
+    return
+
+}
+
+
+function @lugia_relive() {
+
+    Player.lockMovement()
+    #krane.beginInteraction()
+    #lily.beginInteraction()
+    #player.turnToAngleRadians(0)
+    #player.awaitAnimation(YES)
+    #krane.talk(#SPEECH_TYPE_NORMAL $:40117:"[Speaker]: Hi, [Player Field 43]![New Line]I've heard that you succeeded in purifying that[New Line]Shadow Lugia![Clear Window][Speaker]: Those Cipher cretins said that it[New Line]couldn't be purified, but you've proven them[New Line]wrong![Dialogue End]")
+    #lily.talk(#SPEECH_TYPE_NORMAL $:40118:"[Speaker]: [Player Field 43], it's because you[New Line]never shirked, and you gave it your all.[New Line]Sincerely, thank you, dear![Dialogue End]")
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    setFlagToTrue(#FLAG_2117)
+    Camera.enableDefaultForMap()
+    Camera.reset(0.0 1)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+    Player.freeMovement()
+    #krane.endInteraction()
+    #lily.endInteraction()
+    return
+
+}
+
+
+function @talk_103_info() {
+
+    Player.lockMovement()
+    #player.turnToCharacter(character_04 1.0)
+    #player.awaitAnimation(YES)
+
+    if (getFlag(#FLAG_STORY) >= #STORY_STEPPED_FOOT_ON_CITADARK) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40327:"[Speaker]: I've heard, [Player Field 43]![New Line]You even went to Cipher's headquarters?![Clear Window][Speaker]: I've decided![New Line]I'm going to be the [Player Field 43] Fan Club's[New Line]honorary lifetime chairperson![New Line]And that's settled![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DEPARTED_FOR_SSLIBRA_WITH_NEW_SCOOTER) {
+        if (getFlag(#FLAG_1003) = 2) {
+            character_04.talk(#SPEECH_TYPE_NORMAL $:40408:"[Speaker]: Huh?[New Line]There's a ship in the desert?[Clear Window][Speaker]: Oh, don't be silly![New Line]The sea is the only place for a ship![New Line]Even I know that.[Dialogue End]")
+            goto @location_7548
+        }
+
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40397:"[Speaker]: Oh, [Player Field 43]![New Line]I heard, I heard![New Line]You're becoming more incredible![Clear Window][Speaker]: Someone will make a fan club, for sure![New Line]Actually, I'll do it![New Line]I'm the first fan-club chairperson![Dialogue End]")
+        @location_7548
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_PRAISED_BY_VERICH) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40397:"[Speaker]: Oh, [Player Field 43]![New Line]I heard, I heard![New Line]You're becoming more incredible![Clear Window][Speaker]: Someone will make a fan club, for sure![New Line]Actually, I'll do it![New Line]I'm the first fan-club chairperson![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_EXITED_GYM_BASEMENT) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40386:"[Speaker]: Oh, wowee, really?![New Line]You saved Phenac City now?[New Line]That's just wow![Clear Window][Speaker]: You keep adding to your incredible[New Line]achievements![New Line]Your fame keeps growing, too![New Line]I bet you'll get a fan club![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PHENAC) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40360:"[Speaker]: Maybe I should go to Pyrite Town and stroll[New Line]around ONBS.[Clear Window][Speaker]: And then maybe one of their talent scouts[New Line]will try to recruit me![New Line]That would be a scream![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CAVE_POKESPOT) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40348:"[Speaker]: Wow, [Player Field 43]![New Line]I heard, I heard![Clear Window][Speaker]: You were on TV, weren't you?[New Line]You're so high-profile, you're practically a star![New Line]I might even become your fan![Clear Window][Speaker]: What am I saying?[New Line]I'm already your fan![New Line]I'm your number-one fan, I've decided![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40286:"[Speaker]: Wow, [Player Field 43]![New Line]I heard, I heard![Clear Window][Speaker]: You've done amazing things![New Line]You're putting even grown-ups to shame![New Line]I might become your fan![Clear Window][Speaker]: If I'm ever kidnapped, promise me that you'll[New Line]come save me![New Line]Giggle![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_PURIFIED_FIRST_POKEMON) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40193:"[Speaker]: Keep my back straight, like so, and smile,[New Line]smile![New Line]Grin![Clear Window][Speaker]: News crews may come here, too.[New Line]One needs to be properly ready.[Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_SNAGGED_FIRST_POKEMON) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40190:"[Speaker]: Shudder..[New Line]If those horrible men come back, they'll come[New Line]after me, I'm sure of it![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40148:"[Speaker]: It's terrible, [Player Field 43]![New Line]Some strange men came barging in and took[New Line]off with the Director![Dialogue End]")
+        goto @location_7872
+    }
+
+
+    if (getFlag(#FLAG_980) = 0) {
+        var_1 = vector_12
+        var_2 = vector_13
+        character_04.unsetCharacterFlags(16)
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40030:"[Speaker]: Ssssnore...[Clear Window]")
+        character_04.setAnimationOverride()
+        character_04.setAnimation(76 0 NO)
+        character_04.surprisedAnimation(YES)
+        Tasks.sleep(0.6)
+        character_04.setAnimation(10 0 YES)
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40031:"[Speaker]: ...Hunh?![Clear Window][Speaker]: Here![New Line]Here at the Pokémon HQ Lab, we undertake a[New Line]great variety of research on Pokémon, from their[New Line]ecosystems to battling...[Clear Window]")
+        character_04.turnHeadTowardsPosition(17.63 0 -19.89 1.0)
+        Tasks.sleep(0.5)
+        character_04.turnHeadTowardsPosition(-19.59 0 -19.8 1.0)
+        Tasks.sleep(0.5)
+        character_04.setCharacterFlags(2)
+        character_04.setCharacterFlags(16)
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40032:"[Speaker]: Uh... Oh, it's you, [Player Field 43].[New Line]You scared me out of my wits![Dialogue End]" 1)
+        character_04.unsetCharacterFlags(2)
+        setFlagToTrue(#FLAG_980)
+        goto @location_7863
+    }
+
+
+    if (getFlag(#FLAG_980) = 1) {
+        character_04.talk(#SPEECH_TYPE_NORMAL $:40033:"[Speaker]: You know, I'm so dedicated to my job, even[New Line]when I'm asleep I constantly think about work.[Dialogue End]")
+    }
+
+    @location_7863
+    printf("TLK_M5_103 = %d" isFlagSet(#FLAG_980))
+    @location_7872
+    Player.freeMovement()
+    return
+
+}
+
+
+function @snatch_talk_104_research1_m(arg_0) {
+
+    var_1 = 0
+    var_1 = Player.countCaughtShadowPokemon()
+    printf("snatch_num = %d" var_1)
+
+    if (var_1 > 1) {
+        Menu.setMessageVariable(#MSG_VAR_QUANTITY_47 var_1)
+    }
+
+    arg_0.Character.beingDialog($:40377:"[Speaker]: Hi, [Player Field 43].[New Line]How many Shadow Pokémon have you managed[New Line]to snag?[Clear Window]" NO)
+
+    if (var_1 <= 1) {
+        Menu.setMessageVariable(#MSG_VAR_POKEMON_78 216)
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40378:"[Speaker]: Uh-oh...[New Line]You've only caught that [Pokemon 78], and[New Line]that's it?[New Line]That's hard to believe![Clear Window][Speaker]: After all, you've got the Snag[New Line]Machine.[New Line]I wish you'd use it and snag more Shadow[New Line]Pokémon.[Dialogue End]")
+        goto @location_7991
+    }
+
+
+    if (var_1 <= 25) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40379:"[Speaker]: You've caught [Quantity 47]?[New Line]That's not really enough.[Clear Window][Speaker]: If you could snag some more,[New Line]they'd become useful for battling, and we'd be[New Line]able to save them through purification, too.[New Line]Keep at it![Dialogue End]")
+        goto @location_7991
+    }
+
+
+    if (var_1 <= 42) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40380:"[Speaker]: Is that right![New Line]You've already snagged [Quantity 47]![Clear Window][Speaker]: I can just imagine how furious[New Line]those Cipher goons must be.[Dialogue End]")
+        goto @location_7991
+    }
+
+
+    if (var_1 <= 82) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40381:"[Speaker]: This is amazing![New Line]You've already snagged [Quantity 47]Shadow[New Line]Pokémon![Clear Window][Speaker]: At the pace you're going, it[New Line]might not be far off before all the Shadow[New Line]Pokémon are saved.[Dialogue End]")
+        goto @location_7991
+    }
+
+    arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40531:"[Speaker]: Oh![New Line]You've snagged the Ho-oh, which we[New Line]believe to be the last Shadow Pokémon.[Clear Window][Speaker]: That means you've rescued all[New Line]the Shadow Pokémon that Cipher created.[Clear Window][Speaker]: Thanks for your great effort![New Line][Player Field 43], I'm glad I was able to help in my[New Line]own way.[Dialogue End]")
+    @location_7991
+    return
+
+}
+
+
+function @talk_104_research1_m(arg_0) {
+
+    var_1 = arg_0.Character.getRotation()
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        if ((getFlag(#FLAG_1277) >= 1) and (getFlag(#FLAG_1277) < 5)) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40451:"[Speaker]: Whoa![New Line]Am I surprised![New Line]It shocks me that there's a basement room[New Line]in a place like this![Dialogue End]")
+            goto @location_8058
+        }
+
+        if (@complete_relive_all() = 1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40531:"[Speaker]: Oh![New Line]You've snagged the Ho-oh, which we[New Line]believe to be the last Shadow Pokémon.[Clear Window][Speaker]: That means you've rescued all[New Line]the Shadow Pokémon that Cipher created.[Clear Window][Speaker]: Thanks for your great effort![New Line][Player Field 43], I'm glad I was able to help in my[New Line]own way.[Dialogue End]")
+            goto @location_8058
+        }
+
+        @snatch_talk_104_research1_m(arg_0)
+        @location_8058
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECLAIMED_SNAG_MACHINE) {
+        if ((isFlagSet(#FLAG_1276) = YES) or (getFlag(#FLAG_1188) < 1)) {
+            @snatch_talk_104_research1_m(arg_0)
+            goto @location_8118
+        }
+
+        if (getFlag(#FLAG_1188) >= 1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40431:"[Speaker]: Oh! [Player Field 43]![New Line]You've recovered the Snag Machine![New Line]Am I glad to see that![Clear Window][Speaker]: Now you can go back to[New Line]recovering Shadow Pokémon from the[New Line]bad guys![Dialogue End]")
+            setFlag(#FLAG_1188 2)
+        }
+
+        @location_8118
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_WATCHED_OUTSKIRT_STAND_NEWS) {
+        if (getFlag(#FLAG_1188) < 1) {
+            arg_0.Character.beingDialog($:40419:"[Speaker]: What's going on, [Player Field 43]?[New Line]Why did you take the Snag Machine off?[Clear Window][Speaker]: What, what, whaat?![New Line]Snagem Gang stole it?[New Line]That's really bad news![Clear Window]" NO)
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40420:"[Speaker]: I'd heard that Snagem Gang[New Line]had to close up shop because they lost their[New Line]Snag Machine.[Clear Window][Speaker]: But with [Player Field 43]'s Snag[New Line]Machine, they might get up to no-good again.[Clear Window][Speaker]: Cipher and Snagem Gang...[New Line]It could be disastrous if they decide to join[New Line]forces again.[Dialogue End]")
+            setFlag(#FLAG_1188 1)
+            goto @location_8171
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40420:"[Speaker]: I'd heard that Snagem Gang[New Line]had to close up shop because they lost their[New Line]Snag Machine.[Clear Window][Speaker]: But with [Player Field 43]'s Snag[New Line]Machine, they might get up to no-good again.[Clear Window][Speaker]: Cipher and Snagem Gang...[New Line]It could be disastrous if they decide to join[New Line]forces again.[Dialogue End]")
+        @location_8171
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOST_SNAG_MACHINE) {
+        if (getFlag(#FLAG_1188) < 1) {
+            arg_0.Character.beingDialog($:40419:"[Speaker]: What's going on, [Player Field 43]?[New Line]Why did you take the Snag Machine off?[Clear Window][Speaker]: What, what, whaat?![New Line]Snagem Gang stole it?[New Line]That's really bad news![Clear Window]" NO)
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40420:"[Speaker]: I'd heard that Snagem Gang[New Line]had to close up shop because they lost their[New Line]Snag Machine.[Clear Window][Speaker]: But with [Player Field 43]'s Snag[New Line]Machine, they might get up to no-good again.[Clear Window][Speaker]: Cipher and Snagem Gang...[New Line]It could be disastrous if they decide to join[New Line]forces again.[Dialogue End]")
+            setFlag(#FLAG_1188 1)
+            goto @location_8224
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40420:"[Speaker]: I'd heard that Snagem Gang[New Line]had to close up shop because they lost their[New Line]Snag Machine.[Clear Window][Speaker]: But with [Player Field 43]'s Snag[New Line]Machine, they might get up to no-good again.[Clear Window][Speaker]: Cipher and Snagem Gang...[New Line]It could be disastrous if they decide to join[New Line]forces again.[Dialogue End]")
+        @location_8224
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_FOUND_LETTER_FOR_JUSTY) {
+        @snatch_talk_104_research1_m(arg_0)
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PHENAC) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40361:"[Speaker]: You're serious?![New Line]Cipher appeared in Pyrite Town?[Clear Window][Speaker]: Man, oh man![New Line]They're getting bolder and bolder![Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CAVE_POKESPOT) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40349:"[Speaker]: Hi, [Player Field 43]![New Line]Boy, were we ever surprised to see you suddenly[New Line]pop up on television.[Clear Window][Speaker]: We all agreed that you look[New Line]good on TV.[New Line]Everyone thought you look better than a b-list[New Line]celebrity.[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ARRIVED_AT_PYRITE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40325:"[Speaker]: Oh?[New Line]You went off to Pyrite Town this time?[Clear Window][Speaker]: That place was known as a town[New Line]of rogues and roughnecks before.[New Line]Now it's famous as ONBS's base of operations.[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_DATAN) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40287:"[Speaker]: Dex's trying to analyze that[New Line]SD Card.[New Line]He's very good at that sort of thing.[Clear Window][Speaker]: But then again, I did see him[New Line]yanking out his hair in handfuls.[New Line]The encryption on that SD Card must be[New Line]awfully difficult to crack.[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40259:"[Speaker]: Wow...[New Line]Our long-held dream...[New Line]The Purify Chamber is finally finished.[Clear Window][Speaker]: It stirs up emotions...[New Line]It's bringing up a lump in my throat...[New Line]Sigh...[Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_1 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_PURIFIED_FIRST_POKEMON) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40217:"[Speaker]: Oh, [Player Field 43]![New Line]Good job![New Line]Your Pokémon's purification was a success![Clear Window][Speaker]: I thought you could do it,[New Line][Player Field 43].[New Line]Am I glad for you![Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_AGATE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40253:"[Speaker]: The Relic Stone in Agate[New Line]Village is said to be imbued with Celebi's[New Line]ability to travel through time.[Clear Window][Speaker]: That magical power must open up[New Line]the closed hearts of Shadow Pokémon.[Clear Window][Speaker]: Best of luck with the purification[New Line]of your Shadow Pokémon![Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_FIRST_KRANE_MEMOS) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40517:"[Speaker]: The Snag Machine is actually a[New Line]very dangerous machine if it's not used properly.[New Line]By all rights, it should actually be kept under[New Line]secure storage.[Clear Window][Speaker]: But having said that, after what[New Line]happened here, it may be safer if you kept it,[New Line][Player Field 43], rather than keeping it here.[New Line]We're relying on you.[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_HEARD_LILY_GET_MOTIVATED) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40185:"[Speaker]: [Player Field 43], we've got to purify[New Line]that Shadow Pokémon you've caught[New Line]soon, too.[Clear Window][Speaker]: But the Purify Chamber won't[New Line]be ready for a while yet.[New Line]What would be a good idea?[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        if (array_00[1] = 0) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40149:"[Speaker]: What's happening?![New Line]Did you hear screaming from the reception[New Line]area?![Dialogue End]")
+            goto @location_8462
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40237:"[Speaker]: Whaaat?![New Line]Prof. Krane was taken by some strange men?![New Line]That's got to be trouble![Dialogue End]")
+        @location_8462
+        goto @location_8538
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40136:"[Set Speaker 106][Speaker]: Hmm...[New Line]I feel all nervous and excited.[Dialogue End]")
+        goto @location_8538
+    }
+
+
+    if (isFlagSet(#FLAG_2229) = YES) {
+        if (isFlagSet(#FLAG_2230) = YES) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40227:"[Speaker]: Huh?[New Line]You want to know if my machine for catching[New Line]Pokémon has anything to do with the Purify[New Line]Chamber?[Clear Window][Speaker]: You called it.[New Line]This machine and the Purify Chamber are both[New Line]the results of the same project.[Clear Window][Speaker]: Having said that, I sincerely hope that the[New Line]need to use this machine never arises.[Dialogue End]")
+            goto @location_8524
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40226:"[Speaker]: Hiya, [Player Field 43].[New Line]I haven't seen you for a while.[New Line]Are you doing well?[Clear Window][Speaker]: What I happen to be working on is a special[New Line]machine for catching Pokémon.[Clear Window][Speaker]: Huh?[New Line]You want to know if it has anything to do with[New Line]the Purify Chamber?[Clear Window][Speaker]: You called it.[New Line]This machine and the Purify Chamber are both[New Line]the results of the same project.[Clear Window][Speaker]: Having said that, I sincerely hope that the[New Line]need to use this machine never arises.[Dialogue End]")
+        setFlagToTrue(#FLAG_2230)
+        @location_8524
+        goto @location_8538
+    }
+
+    arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40034:"[Speaker]: Hiya, [Player Field 43].[New Line]I haven't seen you for a while.[New Line]Are you doing well?[Clear Window][Speaker]: What I happen to be working on is a special[New Line]machine for catching Pokémon.[Clear Window][Speaker]: It's finally almost completed, my machine.[New Line]I need to focus and work to get it done![Dialogue End]")
+    setFlagToTrue(#FLAG_2230)
+    @location_8538
+    return
+
+}
+
+
+function @talk_105_research1_m(arg_0) {
+
+    var_2 = 0
+    var_1 = arg_0.Character.getRotation()
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ARRIVED_AT_PYRITE) {
+        if (@complete_relive_all() = 1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40129:"[Speaker]: Finally![New Line]Finally, all the Shadow Pokémon you recovered[New Line]from Cipher have been purified![Clear Window]")
+            arg_0.Character.turnToRotation(50.0 2.0 -123.0 1.0)
+            arg_0.Character.awaitAnimation(YES)
+            arg_0.Character.talk(#SPEECH_TYPE_17 $:40130:"[Speaker]: I guess this won't be needed anymore...[Dialogue End]")
+            goto @location_8607
+        }
+
+        @relivedanc_explanation(arg_0)
+        @location_8607
+        goto @location_8833
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        if (getFlag(#FLAG_1036) < 2) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40269:"[Speaker]: It's been a long and winding road getting[New Line]here.[Clear Window][Speaker]: But now that we've finally finished, I'll forget[New Line]all the trials and tribulations we had to endure.[Clear Window][Speaker]: Whoops![New Line]I've got a job to do![Dialogue End]")
+            setFlag(#FLAG_1036 2)
+            @relivedanc_explanation(arg_0)
+            goto @location_8652
+        }
+
+        @relivedanc_explanation(arg_0)
+        @location_8652
+        goto @location_8833
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40263:"[Speaker]: The Purify Chamber is a facility in which[New Line]Shadow Pokémon undergo purification through[New Line]contact with regular Pokémon.[Clear Window][Speaker]: Purification is conducted on what we call[New Line]a Set.[New Line]This is where a Shadow Pokémon comes into[New Line]contact with regular Pokémon.[Clear Window][Speaker]: In the center of a Set, one Shadow[New Line]Pokémon is placed.[New Line]Up to four regular Pokémon can be placed[New Line]around the Shadow Pokémon.[Clear Window][Speaker]: We have nine of those Sets here.[New Line]That means we can efficiently purify up to nine[New Line]Shadow Pokémon at the same time.[Clear Window][Speaker]: There is one thing you need to be careful[New Line]about.[New Line]Purification won't proceed if you place only[New Line]a single Shadow Pokémon on a Set.[Clear Window][Speaker]: Purification can only happen if there is at[New Line]least one regular Pokémon on a Set with a[New Line]Shadow Pokémon.[Clear Window][Speaker]: The number of regular Pokémon placed with[New Line]a Shadow Pokémon, and their compatibility,[New Line]are key points.[Clear Window][Speaker]: First, the number of regular Pokémon.[New Line]The more regular Pokémon you place with a[New Line]Shadow Pokémon, the quicker purification is.[Clear Window][Speaker]: Next, the compatibility of Pokémon.[New Line]Compatibility depends on the types of the[New Line]Pokémon involved, and the directions they face.[Clear Window][Speaker]: By adjusting these factors, you'll likely see[New Line]differences in purification speeds.[Clear Window][Speaker]: If you need details, I'll be happy to explain[New Line]later.[New Line]But right now, I'd like you to check the Sets[New Line]out.[Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_1 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_8833
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_SNAGGED_FIRST_POKEMON) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40191:"[Speaker]: We were so close to finishing[New Line]the Purify Chamber when the Director was[New Line]taken away...[Clear Window][Speaker]: No, no, no![New Line]This is no time for moping![New Line]I've got to focus and work at getting the project[New Line]finished![Dialogue End]")
+        goto @location_8833
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        if (isFlagSet(#FLAG_1036) = YES) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40236:"[Speaker]: Uh... Don't panic![New Line]Whatever the situation, if you're going to take[New Line]a break, don't forget to Save![Dialogue End]")
+            goto @location_8786
+        }
+
+        arg_0.Character.unsetCharacterFlags(16)
+        arg_0.Character.unsetCharacterFlags(32)
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40150:"[Speaker]: Whew![New Line]This switch is okay![New Line]Next, to adjust this here...[Clear Window]")
+        arg_0.Character.setCharacterFlags(16)
+        arg_0.Character.setCharacterFlags(32)
+        arg_0.Character.beingDialog($:40151:"[Speaker]: You're kidding![New Line]Some shady characters stormed our HQ Lab?[Clear Window]" NO)
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40236:"[Speaker]: Uh... Don't panic![New Line]Whatever the situation, if you're going to take[New Line]a break, don't forget to Save![Dialogue End]")
+        setFlagToTrue(#FLAG_1036)
+        @location_8786
+        goto @location_8833
+    }
+
+    arg_0.Character.unsetCharacterFlags(16)
+    arg_0.Character.unsetCharacterFlags(32)
+    arg_0.Character.talk(#SPEECH_TYPE_13 $:40035:"[Speaker]: Whew![New Line]This switch is okay![New Line]Next, to adjust this here...[Clear Window]")
+    arg_0.Character.setCharacterFlags(16)
+    arg_0.Character.setCharacterFlags(32)
+    arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40036:"[Speaker]: Man, there's so much to do, I'm not far from[New Line]a panic attack.[New Line]I might have to take a break![Clear Window][Speaker]: Oh, that's right, [Player Field 43]![New Line]If you're going to take a break, don't forget to[New Line]Save![Dialogue End]")
+    arg_0.Character.turnToAngleRadians(270)
+    @location_8833
+    return
+
+}
+
+
+function @talk_106_gyma_m3(arg_0) {
+
+    var_3 = 0
+    var_5 = 0
+    var_4 = arg_0.Character.getRotation()
+    var_5 = Camera.getFieldOfView()
+    arg_0.Character.setCharacterFlags(2)
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CAVE_POKESPOT) {
+        if (@complete_relive_all() = 1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40131:"[Speaker]: All the effort you've put in has finally borne[New Line]fruit.[New Line]Congratulations, [Player Field 43]![Clear Window][Speaker]: Your efforts made all our research work[New Line]worthwhile, too.[Dialogue End]")
+            goto @location_8915
+        }
+
+        if (getFlag(#FLAG_1277) = 5) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40538:"[Speaker]: [Player Field 43], I think you've noticed by now,[New Line]but when there are four regular Pokémon[New Line]surrounding the Shadow Pokémon, their type[New Line]matchups affect purification.[Clear Window][Speaker]: If all four regular Pokémon are of[New Line]advantageous types, the Set's purification[New Line]tempo is boosted to the top speed.[Clear Window][Speaker]: Just think of the type as being [Quote]super[New Line]effective[Quote] against the Shadow Pokémon.[New Line]When the Set's top speed is reached, I call it[New Line]a [Quote]Best Circle.[Quote][Clear Window][Speaker]: That's not all.[New Line]If more than one Set reaches the Best Circle[New Line]status, there appears to be an added bonus.[Clear Window][Speaker]: The purification speed surpasses calculated[New Line]scores.[New Line]It may be because the Best Circle Sets[New Line]harmonize.[Clear Window][Speaker]: If that's the case, I wonder what will happen if[New Line]all the Sets reach the Best Circle status?[Dialogue End]")
+            goto @location_8915
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40350:"[Speaker]: I'm studying what combinations of regular[New Line]Pokémon and Shadow Pokémon work best for[New Line]purification.[Clear Window][Speaker]: If you were to catch many wild Pokémon and[New Line]put them in the Purify Chamber with the[New Line]Shadow Pokémon, the pace of purification[New Line]would really pick up.[Dialogue End]")
+        @location_8915
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ARRIVED_AT_PYRITE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40328:"[Speaker]: I'm checking the compatibility of regular[New Line]Pokémon and Shadow Pokémon.[New Line]I'm trying to see what combinations work well.[Clear Window][Speaker]: Depending on the combination, the[New Line]effectiveness of purification may change.[New Line]If I find a good combination, I'll be sure to let[New Line]you know, [Player Field 43].[Dialogue End]")
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40272:"[Speaker]: All right, [Player Field 43]![New Line]Now, all systems are go for purifying Shadow[New Line]Pokémon.[Clear Window][Speaker]: Those thugs came after the Director[New Line]because he was researching purification.[Clear Window][Speaker]: They were going to misuse his research so[New Line]they could make Shadow Pokémon that can't[New Line]be purified.[New Line]It's unforgivable![Dialogue End]")
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40268:"[Speaker]: Great![New Line]When this system starts working, Cipher's[New Line]Shadow Pokémon plan can be thwarted![Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_4 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ASKED_TO_FIND_MACHINE_PART) {
+        if (getFlag(#FLAG_994) = 2) {
+            var_3 = arg_0.Character.talk(#SPEECH_TYPE_YES_NO_INDEX $:40232:"[Speaker]: Hi, [Player Field 43].[New Line]Did you want to ask about purification?")
+            goto @location_9052
+        }
+
+        if (getFlag(#FLAG_981) = 1) {
+            arg_0.Character.beingDialog($:40194:"[Speaker]: Boy, did I embarrass myself![New Line]Rushing outside at them may've been brave,[New Line]but that's the only positive...[Clear Window]" NO)
+            setFlag(#FLAG_981 2)
+        }
+
+        var_3 = arg_0.Character.talk(#SPEECH_TYPE_YES_NO_INDEX $:40195:"[Speaker]: Hm?[New Line]You want to know what purify means?")
+        @location_9052
+        if (var_3 = 0) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40196:"[Speaker]: [Quote]Purify[Quote] is the term we use to describe how[New Line]a Pokémon with its heart closed is restored to[New Line]its natural state.[Clear Window][Speaker]: Research on purification started here at the[New Line]Pokémon HQ Lab around five years ago,[New Line]I guess.[Clear Window][Speaker]: It was after the [Quote]Shadow Pokémon incident[Quote][New Line]when Pokémon with their hearts artificially shut[New Line]were used as fighting machines by criminals.[Clear Window][Speaker]: You don't suppose Prof. Krane was targeted[New Line]for his research into purification?[Dialogue End]")
+            goto @location_9075
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40197:"[Speaker]: Okay.[New Line]I'm always here if you need information.[Dialogue End]")
+        @location_9075
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_SNAGGED_FIRST_POKEMON) {
+        if (getFlag(#FLAG_981) = 1) {
+            arg_0.Character.beingDialog($:40194:"[Speaker]: Boy, did I embarrass myself![New Line]Rushing outside at them may've been brave,[New Line]but that's the only positive...[Clear Window]" NO)
+            setFlag(#FLAG_981 2)
+        }
+
+        var_3 = arg_0.Character.talk(#SPEECH_TYPE_YES_NO_INDEX $:40195:"[Speaker]: Hm?[New Line]You want to know what purify means?")
+        if (var_3 = 0) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40196:"[Speaker]: [Quote]Purify[Quote] is the term we use to describe how[New Line]a Pokémon with its heart closed is restored to[New Line]its natural state.[Clear Window][Speaker]: Research on purification started here at the[New Line]Pokémon HQ Lab around five years ago,[New Line]I guess.[Clear Window][Speaker]: It was after the [Quote]Shadow Pokémon incident[Quote][New Line]when Pokémon with their hearts artificially shut[New Line]were used as fighting machines by criminals.[Clear Window][Speaker]: You don't suppose Prof. Krane was targeted[New Line]for his research into purification?[Dialogue End]")
+            goto @location_9144
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40197:"[Speaker]: Okay.[New Line]I'm always here if you need information.[Dialogue End]")
+        @location_9144
+        goto @location_9363
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40153:"[Speaker]: I heard a lot of noise coming from the lobby.[New Line]Is anything the matter?[Clear Window][Speaker]: What?![New Line]Prof. Krane was taken away by some strange[New Line]men?![Clear Window][Speaker]: There's not a moment to waste![New Line]Let's get a move on. They must be still in[New Line]the area![Dialogue End]")
+        arg_0.Character.resetHeadTilt(0)
+        arg_0.Character.setMovementSpeed(2.0)
+        Camera.disableDefaultForMap()
+        Camera.setPosition(15.608 114 89.863)
+        Camera.setRotationRadians(-0.785 0 0)
+        arg_0.Character.setPosition(41.74 0 -62.14)
+        arg_0.Character.setRotation(0 330 0)
+        arg_0.Character.setCanCollide(NO)
+        arg_0.Character.walkToPosition(1 5.74 0 -0.14)
+        Tasks.sleep(1.2)
+        Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+        Transition.await(YES)
+        arg_0.Character.awaitAnimation(YES)
+        arg_0.Character.setCanCollide(YES)
+        Camera.setFieldOfView(var_5)
+        Camera.enableDefaultForMap()
+        arg_0.Character.setVisibility(NO)
+        setFlag(#FLAG_981 1)
+        Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+        Transition.await(YES)
+        goto @location_9363
+    }
+
+
+    if (isFlagSet(#FLAG_2229) = YES) {
+        var_3 = arg_0.Character.talk(#SPEECH_TYPE_YES_NO_INDEX $:40037:"[Speaker]: Do you want to hear about purification again?")
+        if (var_3 = 0) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40038:"[Speaker]: We're in the midst of developing a system to[New Line]purify Shadow Pokémon.[Clear Window][Speaker]: [Quote]Purify[Quote] is the term we use to describe the[New Line]process in which a Shadow Pokémon's closed[New Line]heart is made to open again back to its natural[New Line]state.[Clear Window][Speaker]: You see, five years ago, criminals used[New Line]artificial means to close the hearts of Pokémon,[New Line]turning them into fighting machines.[Clear Window][Speaker]: We're developing this system to save such[New Line]afflicted Pokémon.[New Line]We call this system the Purify Chamber.[Clear Window][Speaker]: It's not necessary in today's peaceful times,[New Line]but one never knows what may happen.[Dialogue End]")
+            goto @location_9349
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40039:"[Speaker]: If there's anything you don't understand about[New Line]the Purify Chamber, just ask me anytime.[Dialogue End]")
+        @location_9349
+        goto @location_9363
+    }
+
+    arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40038:"[Speaker]: We're in the midst of developing a system to[New Line]purify Shadow Pokémon.[Clear Window][Speaker]: [Quote]Purify[Quote] is the term we use to describe the[New Line]process in which a Shadow Pokémon's closed[New Line]heart is made to open again back to its natural[New Line]state.[Clear Window][Speaker]: You see, five years ago, criminals used[New Line]artificial means to close the hearts of Pokémon,[New Line]turning them into fighting machines.[Clear Window][Speaker]: We're developing this system to save such[New Line]afflicted Pokémon.[New Line]We call this system the Purify Chamber.[Clear Window][Speaker]: It's not necessary in today's peaceful times,[New Line]but one never knows what may happen.[Dialogue End]")
+    setFlagToTrue(#FLAG_2229)
+    @location_9363
+    arg_0.Character.unsetCharacterFlags(2)
+    return
+
+}
+
+
+function @talk_107_pc_f(arg_0) {
+
+    var_1 = arg_0.Character.getRotation()
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        if (@complete_relive_all() = 1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40132:"[Speaker]: You're fabulous, [Player Field 43]![New Line]You've purified all the Shadow Pokémon![Dialogue End]")
+            goto @location_9434
+        }
+
+        if (getFlag(#FLAG_982) < 2) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40273:"[Speaker]: Oh, what should I do?[New Line]My knees are shaking.[New Line]I feel so inspired![Clear Window][Speaker]: Please let me know if you want to use the[New Line]Purify Chamber from now on.[Dialogue End]")
+            setFlag(#FLAG_982 2)
+            goto @location_9434
+        }
+
+        @ev_relive_chart(arg_0)
+        @location_9434
+        goto @location_9555
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40262:"[Speaker]: Oh...[New Line]This day has finally arrived.[New Line]I'm on the edge of tears.[Clear Window][Speaker]: But there's no time for crying.[New Line]There's still work to be done![Clear Window][Speaker]: The Purify Chamber status is on standby.[New Line]System status is good to go![Clear Window][Speaker]: Step onto that circular plate.[New Line]A holographic image of the Pokémon involved[New Line]in purification will appear.[Clear Window][Speaker]: Well, it would if there were actually some[New Line]Pokémon on the Sets.[Clear Window][Speaker]: When you're checking the hologram, you can[New Line]zoom to individual Sets.[New Line]At any selected Set, you can configure things[New Line]as you see fit.[Clear Window][Speaker]: A control panel will appear for you to pick the[New Line]Pokémon you want to place on the selected Set,[New Line]position them, and so on.[Clear Window][Speaker]: If you bring some Pokémon, [Player Field 43], you[New Line]can place them on Sets.[New Line]Don't worry, you'll figure it out when you[New Line]actually try it.[Clear Window][Speaker]: We'll also be around to provide advice if you[New Line]need it.[New Line]First, check the hologram, please.[Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_1 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_9555
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_HEARD_LILY_GET_MOTIVATED) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40198:"[Speaker]: I get it now![New Line]I understand why Prof. Krane and Lily were in[New Line]such a hurry to get this project completed.[Clear Window][Speaker]: If Shadow Pokémon are being made[New Line]somewhere by criminals, we have to restore them[New Line]to their natural state using our system.[Dialogue End]")
+        goto @location_9555
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        if (isFlagSet(#FLAG_982) = NO) {
+            arg_0.Character.beingDialog($:40154:"[Speaker]: Really?![New Line]Intruders broke into our Lab?![Clear Window]" NO)
+            setFlagToTrue(#FLAG_982)
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40155:"[Speaker]: W-what should I do?[New Line]It will be a disaster if our secret data is stolen![Dialogue End]")
+        goto @location_9555
+    }
+
+
+    if (isFlagSet(#FLAG_2229) = YES) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40167:"[Speaker]: Hi, [Player Field 43]![New Line]The Purify Chamber is almost ready.[Clear Window][Speaker]: But I don't get it.[New Line]There's no need to purify Pokémon now.[New Line]I wonder why Prof. Krane and Lily are in such[New Line]a hurry to get the Purify Chamber finished?[Clear Window][Speaker]: Oh, yes.[New Line]Feel free to use the PC and Healing Machine.[Dialogue End]")
+        goto @location_9555
+    }
+
+    arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40040:"[Speaker]: Oh, [Player Field 43], welcome.[New Line]Our project is at a critical junction, so we're[New Line]very busy.[Clear Window][Speaker]: Oh, yes![New Line]Feel free to use the PC and Healing Machine.[Dialogue End]")
+    @location_9555
+    return
+
+}
+
+
+function @talk_111_klein(arg_0) {
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        #krane.talk(#SPEECH_TYPE_NORMAL $:40120:"[Speaker]: It's huge that you've managed[New Line]to purify the Shadow Lugia, which Cipher[New Line]claimed to be purification-proof.[Clear Window][Speaker]: This will be a major blow to[New Line]Cipher![Dialogue End]")
+        goto @location_9674
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_DATAN) {
+        #krane.talk(#SPEECH_TYPE_NORMAL $:40283:"[Speaker]: Ahaha![New Line]Seeing Jovi and her boundless energy makes[New Line]me realize I'm back home.[Clear Window][Speaker]: Anyway, I wonder what's on that[New Line]SD Card.[Dialogue End]")
+        goto @location_9674
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        #krane.talk(#SPEECH_TYPE_NORMAL $:40278:"[Speaker]: Oh, also, you can access the[New Line]Purify Chamber from any PC.[New Line]Be sure to try that feature.[Clear Window][Speaker]: Now, the issue is how Shadow[New Line]Pokémon should be recovered from Cipher.[Clear Window][Speaker]: It looks as if you'll have to get[New Line]busy some more with the Snag Machine,[New Line][Player Field 43].[Dialogue End]")
+        goto @location_9674
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_RETURNED_KRANE) {
+        if (gvar_03 = 0) {
+            @start_relivedance()
+            goto @location_9655
+        }
+
+        if (gvar_03 = 1) {
+            #krane.talk(#SPEECH_TYPE_NORMAL $:40460:"[Speaker]: Step on the circular plate.[New Line]You'll get a holographic image of Pokémon in[New Line]the purification process.[Clear Window][Speaker]: To place Pokémon on the[New Line]various Sets, use the control panel.[Dialogue End]")
+            #krane.turnToAngleDegrees(180 1.0)
+        }
+
+        @location_9655
+        goto @location_9674
+    }
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40055:"[Speaker]: The Snag Machine is inside[New Line]that case.[New Line]Try equipping it right away, please.[Dialogue End]")
+    }
+
+    @location_9674
+    return
+
+}
+
+
+function @talk_000_mana(arg_0) {
+
+    var_1 = arg_0.Character.getRotation()
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40127:"[Speaker]: Wow, big brother![New Line]The Shadow Lugia was really hard to purify,[New Line]wasn't it?[Dialogue End]")
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40275:"[Speaker]: The Purify Chamber was very[New Line]pretty, with things spinning around.[Clear Window][Speaker]: Jovi wishes she could ride, too.[New Line]Will the Professor let Jovi go on it if Jovi[New Line]asks nicely?[Dialogue End]")
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40267:"[Speaker]: Jovi wonders how it works.[New Line]Big brother, hurry and make it work![Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_1 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_PURIFIED_FIRST_POKEMON) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40218:"[Speaker]: Big brother, awesome![New Line]You did that purify thing![Clear Window][Speaker]: But Jovi is even more, lots more,[New Line]awesome than that![Dialogue End]")
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_AGATE) {
+        if (getFlag(#FLAG_994) = 2) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40230:"[Speaker]: Awww, it's not fair.[New Line]Big brother gets to go everywhere by himself.[Clear Window][Speaker]: Jovi wants to go on adventures,[New Line]too.[New Line]Jovi knows she won't lose to big brother,[New Line]nuh-uh![Dialogue End]")
+            goto @location_9809
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40019:"[Speaker]: That Machine Part Jovi carried[New Line]is on that big machine.[New Line]They put it on the middle part with the ring.[Clear Window][Speaker]: It went right in the middle.[New Line]It must be the most important part![Dialogue End]")
+        @location_9809
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_GAVE_MACHINE_PART_TO_LILY) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40019:"[Speaker]: That Machine Part Jovi carried[New Line]is on that big machine.[New Line]They put it on the middle part with the ring.[Clear Window][Speaker]: It went right in the middle.[New Line]It must be the most important part![Dialogue End]")
+        goto @location_9847
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_HEARD_LILY_GET_MOTIVATED) {
+        arg_0.Character.talk(#SPEECH_TYPE_17 $:40187:"[Speaker]: Sniff...[New Line]Jovi hopes the Professor is okay...[New Line]Jovi hopes he isn't hurt...[Clear Window][Speaker]: Will he wait until Jovi gets bigger[New Line]and goes to rescue him?[Dialogue End]")
+    }
+
+    @location_9847
+    return
+
+}
+
+
+function @talk_110_lilya(arg_0) {
+
+    var_1 = arg_0.Character.getRotation()
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LEARNED_OF_STOLEN_DRAGONITE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40123:"[Speaker]: [Player Field 43], that Lugia was[New Line]purified because you gave it your all.[New Line]Sincerely, thank you.[Dialogue End]")
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PYRITE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40285:"[Speaker]: Oh...[New Line]You're going to Pyrite Town.[New Line]It's so far off in the desert...[Clear Window][Speaker]: [Player Field 43],Prof. Krane[New Line]entrusted you with this job because he believes[New Line]in you.[New Line]But please be careful.[Dialogue End]")
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_DATAN) {
+        arg_0.Character.beingDialog($:40464:"[Speaker]: [Player Field 43], could you go[New Line]upstairs and ask Dex how he's doing?[Dialogue End]" NO)
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40468:"[Speaker]: Dex is the man in the room[New Line]next to the Director's office.[New Line]Remember?[New Line]He was compiling the basic data.[Dialogue End]")
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_VIEWED_PURIFICATION_CHAMBER) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40276:"[Speaker]: The Director came back safely,[New Line]and the Purify Chamber was completed.[New Line]We can finally slow down and catch our breath.[Clear Window][Speaker]: After your father passed away,[New Line]Prof. Krane and I carried on with his studies.[Clear Window][Speaker]: If he were here to see this, I'm[New Line]sure that your father would be happy and proud.[Dialogue End]")
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40266:"[Speaker]: The Purify Chamber was your[New Line]father's dream.[Clear Window][Speaker]: Please, [Player Field 43], start the[New Line]system with your own hands.[Dialogue End]")
+        arg_0.Character.turnToAngleDegrees(var_1 1.0)
+        arg_0.Character.awaitAnimation(YES)
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_PURIFIED_FIRST_POKEMON) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40222:"[Speaker]: Eagun sent word about you.[New Line]It sounds like your Shadow Pokémon's[New Line]purification was a total success.[Clear Window][Speaker]: Until the Purify Chamber is[New Line]completed, that's how you'll need to do things.[New Line]Keep it up![Dialogue End]")
+        goto @location_10009
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_AGATE) {
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:40228:"[Speaker]: Everyone's pulling together to[New Line]bring the Purify Chamber to completion.[Clear Window][Speaker]: What happened to the Director[New Line]is worrying, but all we can do is hope that he's[New Line]unharmed.[Dialogue End]")
+    }
+
+    @location_10009
+    return
+
+}
+
+
+function @talk_138_happinas(arg_0) {
+
+    arg_0.Character.talk(#SPEECH_TYPE_SPECIES_CRY #POKEMON_BLISSEY $:40246:"[Speaker]: Blissbliss![Dialogue End]")
+    return
+
+}
+
+
+function @check_snatchmachine() {
+
+
+    if (getFlag(#FLAG_STORY) = #STORY_LOOKING_FOR_KRANE_DOWNSTAIRS) {
+        if (array_00[0] = 1) {
+            @snatch_give()
+            @kidnap()
+        }
+
+        goto @location_10077
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        #player.talk(#SPEECH_TYPE_SILENT $:54125:"It's the case that contained the Snag Machine.[Dialogue End]")
+        goto @location_10077
+    }
+
+    #player.talk(#SPEECH_TYPE_SILENT $:54179:"It appears to be a storage case of some sort.[Dialogue End]")
+    @location_10077
+    return
+
+}
+
+
+function @under_door() {
+
+    return
+
+}
+
+
+function @ev_relive_room_in() {
+
+
+    if (gvar_02 = 0) {
+        if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+            if (#player.didStepOntoLine(34 -70 51 -70 0 NO) > NO) {
+                if (Map.isPurifyChamberReadyForShadowLugiaPurification() = YES) {
+                    Player.lockMovement()
+                    if (Player.isPCFull() > NO) {
+                        #player.talk(#SPEECH_TYPE_SILENT $:53588:"The Lugia seems to have changed![Clear Window]...But the PC Storage System is full.[New Line]Please make room in the selected Box.[Dialogue End]")
+                        gvar_02 = 1
+                        gvar_04 = 1
+                        goto @location_10174
+                    }
+
+                    #player.talk(#SPEECH_TYPE_SILENT $:53587:"The Lugia seems to have changed![Dialogue End]")
+                    gvar_02 = 1
+                    gvar_04 = 1
+                    @location_10174
+                    Player.freeMovement()
+                    goto @location_10230
+                }
+
+                if (Player.hasPokemonReadyForPurification() != NO) {
+                    Player.lockMovement()
+                    if (Player.isPCFull() > NO) {
+                        #player.talk(#SPEECH_TYPE_SILENT $:53551:"[7]{00}There is a Pokémon that is ready to open[New Line]its heart![Clear Window]...But the PC Storage System is full.[New Line]Please make room.[Dialogue End]")
+                        gvar_02 = 1
+                        goto @location_10226
+                    }
+
+                    #player.talk(#SPEECH_TYPE_SILENT $:53501:"[7]{00}There is a Pokémon that is ready to open[New Line]its heart![Dialogue End]")
+                    gvar_02 = 1
+                    @location_10226
+                    Player.freeMovement()
+                }
+
+            }
+
+        }
+
+    }
+
+    @location_10230
+    return
+
+}
+
+
+function @ev_relive_chart(arg_0) {
+
+    var_1 = #INDEX_0
+    var_2 = 0
+    var_3 = NO
+
+    if (Map.isPurifyChamberReadyForShadowLugiaPurification() = YES) {
+        if (Player.isPCFull() > NO) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53590:"[Speaker]: The Lugia appears to be very happy and[New Line]playful.[Clear Window][Speaker]: It may be ready for the purification[New Line]ceremony...[Clear Window][Speaker]: Oh, but your PC Storage System is full.[Clear Window][Speaker]: It's impossible to edit Sets this way.[New Line]Please make room in your PC's selected Box,[New Line]then come see me again.[Dialogue End]")
+            goto @location_10280
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53589:"[Speaker]: The Lugia appears to be very happy and[New Line]playful.[Clear Window][Speaker]: It may be ready for the purification ceremony![Dialogue End]")
+        @location_10280
+        goto @location_10560
+    }
+
+
+    if (Player.hasPokemonReadyForPurification() != NO) {
+        if (Player.isPCFull() > NO) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53552:"[Speaker]: Oh?[Clear Window][Speaker]: There is a Pokémon that's ready for the[New Line]purification ceremony, but your PC Storage[New Line]System is full.[Clear Window][Speaker]: It's impossible to edit Sets this way.[New Line]Please make room in your PC's selected Box,[New Line]then come see me again.[Dialogue End]")
+            goto @location_10316
+        }
+
+        arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53502:"[Speaker]: We're ready to do a purification ceremony.[Dialogue End]")
+        @location_10316
+        goto @location_10560
+    }
+
+    @location_10318
+
+    if (YES) {
+        arg_0.Character.beingDialog($:53503:"[Speaker]: Welcome to the Purify Chamber![New Line]The system's on standby and ready to go.[Clear Window][Speaker]: How may I help you today?" NO)
+        var_1 = Menu.displayMenuWithOptions("WIN_OPEN_AUTO_CLOSE" array_02 3 70 70 0 3 1)
+        if (var_1 = #INDEX_0) {
+            Map.showPurifyChamber()
+            goto @location_10560
+            goto @location_10559
+        }
+
+        if (var_1 = #INDEX_1) {
+            gvar_05 = #INDEX_0
+            @location_10372
+            if (YES) {
+                arg_0.Character.beingDialog($:53508:"[Speaker]: What do you need information on?" NO)
+                var_1 = Menu.displayMenuWithOptions("WIN_OPEN_AUTO_CLOSE" array_03 5 70 70 gvar_05 5 1)
+                if (var_1 = #INDEX_0) {
+                    arg_0.Character.beingDialog($:53515:"[Speaker]: Stand on the circular plate in the center of[New Line]the room, then press the A Button to display the[New Line]hologram.[Clear Window][Speaker]: To view the hologram of another Set, select[New Line]the Set number using the L or R Buttons, then[New Line]select [Quote]Switch.[Quote][Clear Window][Speaker]: You may also edit a Set directly from its[New Line]hologram.[Clear Window][Speaker]: Select the number of the Set to be edited,[New Line]then select [Quote]Edit.[Quote][Dialogue End]" YES)
+                    gvar_05 = var_1
+                    goto @location_10544
+                }
+
+                if (var_1 = #INDEX_1) {
+                    arg_0.Character.beingDialog($:53516:"[Speaker]: You may place your own Shadow Pokémon[New Line]on the selected Set.[New Line]Regular Pokémon may also be placed and[New Line]positioned on the Set.[Clear Window][Speaker]: For editing a Set, you may directly enter the[New Line]Set from its hologram.[New Line]You may also edit Sets remotely through PCs.[Dialogue End]" YES)
+                    gvar_05 = var_1
+                    goto @location_10544
+                }
+
+                if (var_1 = #INDEX_2) {
+                    arg_0.Character.beingDialog($:53517:"[Speaker]: If a Shadow Pokémon's Heart Gauge[New Line]falls to zero, it is ready for a purification[New Line]ceremony on its Set.[Clear Window][Speaker]: Selecting this command while the hologram is[New Line]displayed automatically launches the purification[New Line]ceremony sequence.[Dialogue End]" YES)
+                    gvar_05 = var_1
+                    goto @location_10544
+                }
+
+                if (var_1 = #INDEX_3) {
+                    var_2 = arg_0.Character.talk(#SPEECH_TYPE_YES_NO_INDEX $:53518:"[Speaker]: I will guide you through the operation of the[New Line]Purify Chamber using shots of the actual[New Line]process.[Clear Window][Speaker]: Please press the A Button to advance.[New Line]You may cancel the guided tour anytime by[New Line]pressing the B Button.[Clear Window][Speaker]: Would you like to see the Usage Demo?")
+                    if (var_2 = 0) {
+                        Map.showPurifyChamber2()
+                        var_3 = Map.getPurifyChamberTutorialCancelled()
+                        yield(1)
+                        Transition.await(YES)
+                        Tasks.sleep(0.5)
+                        printf("cancel = %d" var_3)
+                        if (var_3 != YES) {
+                            arg_0.Character.beingDialog($:53582:"[Speaker]: That concludes my guided tour of the[New Line]Purification Chamber's edit screen.[Clear Window][Speaker]: I hope everything is clear to you.[Dialogue End]" NO)
+                        }
+
+                    }
+
+                    gvar_05 = var_1
+                    goto @location_10544
+                }
+
+                if ((var_1 = #INDEX_CANCEL) or (var_1 = #INDEX_4)) {
+                    gvar_05 = #INDEX_0
+                    goto @location_10545
+                }
+
+                @location_10544
+                goto @location_10372
+            }
+
+            @location_10545
+            goto @location_10559
+        }
+
+        arg_0.Character.beingDialog($:53509:"[Speaker]: If you're not sure about how to use the[New Line]Purify Chamber, you can ask me anytime.[Dialogue End]" YES)
+        gvar_05 = #INDEX_0
+        goto @location_10560
+        @location_10559
+        goto @location_10318
+    }
+
+    @location_10560
+    return
+
+}
+
+
+function @me_relive3d_in() {
+
+
+    if (gvar_07 = 0) {
+        gvar_07 = 1
+        Sound.playEffect(0x572 0 127)
+        gvar_07 = 0
+    }
+
+    return
+
+}
+
+
+function @me_relive3d_out() {
+
+
+    if (gvar_08 = 0) {
+        gvar_08 = 1
+        Sound.playEffect(0x572 0 127)
+        gvar_08 = 0
+    }
+
+    return
+
+}
+
+
+function @ev_relive() {
+
+    var_2 = 0
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        if (#player.isWithinBounds(42 -127 54 -121) > NO) {
+            if (Controller.getPressedButtons() = #BUTTON_INPUT_A) {
+                Player.lockMovement()
+                if ((Player.isPCFull() = YES) and ((Player.hasPokemonReadyForPurification() = YES) or (Map.isPurifyChamberReadyForShadowLugiaPurification() = YES))) {
+                    #player.talk(#SPEECH_TYPE_SILENT $:53551:"[7]{00}There is a Pokémon that is ready to open[New Line]its heart![Clear Window]...But the PC Storage System is full.[New Line]Please make room.[Dialogue End]")
+                    printf("PC_ALL_000")
+                    goto @location_10896
+                }
+
+                setFlag(#FLAG_2222 1)
+                setFlag(#FLAG_1979 0)
+                Sound.stopBGM(#SFX_1124_STM_BGM_POKELABO 0)
+                if (gvar_07 = 1) {
+                    printf("Wait01")
+                    gvar_07 = 0
+                    goto @location_10750
+                }
+
+                Tasks.executeScriptWithNameSync(&me_relive3d_in 0 0 0 0)
+                @location_10750
+                var_1 = var_1.Move.initializeSequence()
+                var_1.Move.setPosition(vector_04)
+                var_1.Move.beginAnimation(246 4 0 YES)
+                var_1.Move.deinitializeSequence()
+                Map.showPurifyChamberHolograms()
+                if (gvar_03 = 1) {
+                    gvar_03 = 2
+                }
+
+                if (gvar_03 = 2) {
+                    character_08.setPosition(42.22 0.0 -142.58)
+                }
+
+                yield(2)
+                if (gvar_08 = 1) {
+                    printf("Wait02")
+                    gvar_08 = 0
+                    goto @location_10841
+                }
+
+                Tasks.executeScriptWithNameSync(&me_relive3d_out 0 0 0 0)
+                @location_10841
+                var_1 = var_1.Move.initializeSequence()
+                var_1.Move.setPosition(vector_04)
+                var_1.Move.beginAnimation(248 4 0 YES)
+                var_1.Move.deinitializeSequence()
+                printf("WAZA_ATO")
+                setFlag(#FLAG_2222 0)
+                setFlag(#FLAG_1979 1)
+                Sound.playBGM(#SFX_1124_STM_BGM_POKELABO 0 127)
+                @location_10896
+                Player.freeMovement()
+            }
+
+        }
+
+    }
+
+    return
+
+}
+
+
+function @relivedanc_explanation(arg_0) {
+
+    var_1 = #INDEX_0
+    var_2 = 0
+    gvar_06 = #INDEX_0
+    @location_10916
+
+    if (YES) {
+        arg_0.Character.beingDialog($:40270:"[Speaker]: I'll explain how the Purify Chamber[New Line]operates.[Clear Window][Speaker]: What should I explain?" NO)
+        var_1 = Menu.displayMenuWithOptions("WIN_OPEN_AUTO_CLOSE" array_04 4 70 70 gvar_06 4 1)
+        if (var_1 = #INDEX_0) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53544:"[Speaker]: In total, there are nine Sets in the Purify[New Line]Chamber.[Clear Window][Speaker]: One Shadow Pokémon can be placed in the[New Line]center of each Set.[New Line]The Shadow Pokémon is referred to as the[New Line]Visitor.[Clear Window][Speaker]: Up to four regular Pokémon can be placed[New Line]around the Visitor.[Clear Window][Speaker]: Depending on the number and kinds of regular[New Line]Pokémon, and how they are positioned, the[New Line]pace of purification will be affected.[Clear Window][Speaker]: You should try different combinations and see[New Line]for yourself what works best.[Dialogue End]")
+            gvar_06 = var_1
+            goto @location_11048
+        }
+
+        if (var_1 = #INDEX_1) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53545:"[Speaker]: The speed at which a Shadow[New Line]Pokémon is purified is referred to as [Quote]Flow.[Quote][Clear Window][Speaker]: In order to heighten Flow, it's necessary to[New Line]boost the Tempo of the Set.[Clear Window][Speaker]: One other thing: the direction in which the[New Line]Visitor in the center is facing is also important.[Clear Window][Speaker]: For the best Flow, the Shadow Pokémon[New Line]should be facing a regular Pokémon type[New Line]against which its attacks would be [New Line][Quote]super effective.[Quote][Dialogue End]")
+            gvar_06 = var_1
+            goto @location_11048
+        }
+
+        if (var_1 = #INDEX_2) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53546:"[Speaker]: The type matchups among the regular[New Line]Pokémon surrounding the Shadow Pokémon[New Line]determine the [Quote]Tempo[Quote] of that Set.[Clear Window][Speaker]: A Set with high Tempo is the key to[New Line]purifying Shadow Pokémon efficiently.[Clear Window][Speaker]: To make a Set with good Tempo, the[New Line]important thing is to place as many regular[New Line]Pokémon as possible.[Clear Window][Speaker]: As mentioned, type matchups among the[New Line]regular Pokémon are also important.[Clear Window][Speaker]: The regular Pokémon should form a ring[New Line]in which each Pokémon has a type advantage to[New Line]the one next to it in one direction.[Dialogue End]")
+            gvar_06 = var_1
+            goto @location_11048
+        }
+
+        if (var_1 = #INDEX_3) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53543:"[Speaker]: If there's anything you don't understand[New Line]about the Purify Chamber's operation, just let[New Line]me know.[Dialogue End]")
+            var_2 = 1
+            gvar_06 = #INDEX_0
+            goto @location_11048
+        }
+
+        if (var_1 = #INDEX_CANCEL) {
+            arg_0.Character.talk(#SPEECH_TYPE_NORMAL $:53543:"[Speaker]: If there's anything you don't understand[New Line]about the Purify Chamber's operation, just let[New Line]me know.[Dialogue End]")
+            var_2 = 1
+            gvar_06 = #INDEX_0
+            goto @location_11048
+        }
+
+        @location_11048
+        printf("num = %d" var_1)
+        printf("end_flag = %d" var_2)
+        if (var_2 = 1) {
+            goto @location_11066
+        }
+
+        goto @location_10916
+    }
+
+    @location_11066
+    return
+
+}
+
+
+function @tako_machine() {
+
+    Player.lockMovement()
+    Menu.displayMessageSilently($:50405:"[7]{00}There is a Pokémon Healing Machine.[New Line]Want to use it?" YES NO)
+
+    if (Menu.displayYesNoMenu() = #INDEX_YES) {
+        Menu.awaitMessageClose(YES)
+        #player.useHealingMachine(0x153E1008 array_05 array_06)
+        if (Player.countPartyPokemon() = 1) {
+            Menu.displayMessageSilently($:50408:"[7]{00}The Pokémon was healed to full health.[Dialogue End]" YES NO)
+            goto @location_11136
+        }
+
+        Menu.displayMessageSilently($:50406:"[7]{00}All the party Pokémon were healed to full health.[Dialogue End]" YES NO)
+        @location_11136
+        Menu.awaitMessageClose(YES)
+        goto @location_11149
+    }
+
+    Menu.awaitMessageClose(YES)
+    @location_11149
+    Player.freeMovement()
+    return
+
+}
+
+
+function @complete_relive_lugia() {
+
+    var_1 = NO
+    var_1 = var_2.ShadowPokemon.isShadowPokemonPurified(#SHADOW_LUGIA_73)
+    return var_1
+    return
+
+}
+
+
+function @set_masterball_event() {
+
+
+    if (getFlag(#FLAG_1432) = 2) {
+        if (getFlag(#FLAG_1277) = 0) {
+            #aidan.setPosition(-75.0 0.0 -103.0)
+            #krane.setPosition(-42.65 0 -108.87)
+            #krane.setVisibility(YES)
+            goto @location_11228
+        }
+
+        #krane.setVisibility(NO)
+    }
+
+    @location_11228
+    return
+
+}
+
+
+function @complete_relive_all() {
+
+    var_1 = 0
+    var_2 = 0
+    var_3 = 0
+    var_1 = Player.countPurfiedPokemon()
+    var_2 = Player.countAllShadowPokemon()
+
+    if (var_1 = var_2) {
+        var_3 = 1
+    }
+
+    return var_3
+    return
+
+}
+
+
+function @changebgm() {
+
+    setFlag(#FLAG_1979 0)
+    setFlag(#FLAG_2110 0)
+    setFlag(#FLAG_2222 0)
+    setFlag(#FLAG_2111 0)
+    setFlag(#FLAG_2223 1)
+    return
+
+}
+
+
+function @lilya_ketui2() {
+
+    Sound.playBGM(#SFX_1411_STM_BGM_EV_KETSUI 0 127)
+    Sound.await(0x583)
+    Sound.playBGM(#SFX_1449_STM_BGM_EV_KETSUI2 0 127)
+    setFlag(#FLAG_1979 0)
+    setFlag(#FLAG_2110 0)
+    setFlag(#FLAG_2222 0)
+    setFlag(#FLAG_2111 0)
+    setFlag(#FLAG_2223 1)
+    return
+
+}
+
+
+function @snactch_machine_put() {
+
+    var_2 = 0
+    #player.setModel(#MODEL_CHARACTERMODEL_7)
+    Player.lockMovement()
+    #aidan.setVisibility(NO)
+    Model.setAnimation(0x153E1005 0 30 0)
+    #player.setPosition(-51.8 0 -99.93)
+    #player.setRotation(0 -99.6 0)
+    var_2 = Model.open(0x20800400)
+    var_1 = getCharacterObjectWithIndex(var_2)
+    var_1.Character.setVisibility(YES)
+    var_1.Character.setPosition(-60.9 8 -99.59)
+    var_1.Character.setRotation(0 -89 0)
+    Camera.disableDefaultForMap()
+    Camera.setPosition(-27.552 58.148 -31.892)
+    Camera.setRotationRadians(-0.688 0.301 0)
+    Camera.setFieldOfView(41.027)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 1)
+    Transition.await(YES)
+    Camera.moveToPosition(3 -29.123 53.793 -36.953 6)
+    Sound.playBGM(#SFX_1411_STM_BGM_EV_KETSUI 0 127)
+    Tasks.sleep(2.4)
+    #player.walkToPosition(1 -46.8 0 -85.9)
+    #player.awaitAnimation(YES)
+    Tasks.sleep(0.6)
+    #player.turnHeadTowardsWorldAngle(-39.9 5 0.8)
+    #player.awaitHeadTilt(YES)
+    Camera.isCameraDoneMoving(1)
+    Camera.setPosition(-55.468 13.436 -96.549)
+    Camera.setRotationRadians(-0.68 1.128 0)
+    Camera.setFieldOfView(53.611)
+    Camera.moveToPosition(3 -56.87 12.183 -97.214 4.5)
+    #player.setModel(#MODEL_CHARACTERMODEL_8)
+    #player.setRotation(0 -40 0)
+    #player.turnHeadTowardsWorldAngle(-100 20 0.7)
+    #player.startBlinking()
+    Camera.isCameraDoneMoving(1)
+    Camera.setPosition(-38.137 14.738 -62.65)
+    Camera.setRotationRadians(-0.162 0.424 0)
+    Camera.setFieldOfView(21.266)
+    Tasks.sleep(0.6)
+    Collision.setEnabled(0 NO)
+    #player.turnHeadTowardsWorldAngle(-40 0 0.5)
+    #player.awaitHeadTilt(YES)
+    #player.resetHeadTilt(0)
+    Tasks.sleep(1.2)
+    #player.setAnimationOverride()
+    #player.walkToPosition(1 -16.8 0 -15.9)
+    #player.setAnimation(4 0 NO)
+    #player.setMotionEnded(5 YES)
+    Tasks.sleep(0.3)
+    Camera.setPosition(-13.674 14.229 -20.523)
+    Camera.setRotationRadians(-0.3 0.621 0)
+    Camera.setFieldOfView(37.241)
+    Tasks.sleep(3)
+    Model.setAnimationSpeed(0x153E1005 1 0 0.2 0)
+    Sound.playBGM(#SFX_39_SOUND_35 0 127)
+    Tasks.sleep(1.7)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 1)
+    Transition.await(YES)
+    Model.close(var_2)
+    setFlag(#FLAG_2282 0)
+    #player.awaitAnimation(YES)
+    Camera.enableDefaultForMap()
+    Player.freeMovement()
+    setFlag(#FLAG_1979 1)
+    setFlag(#FLAG_2222 0)
+    setFlag(#FLAG_2110 0)
+    setFlag(#FLAG_2111 0)
+    setFlag(#FLAG_2223 0)
+    Map.warpToMapWithTransitions(#ROOM_STAFFROLL NO Null &Common.fade_in)
+    return
+
+}
+
+
+
