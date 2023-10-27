@@ -1,0 +1,28 @@
+{
+  "index" : 0,
+  "nature" : 255,
+  "gender" : 255,
+  "giftType" : "Demo Starter Pokemon",
+  "move2" : {
+    "index" : 216,
+    "name" : "Return"
+  },
+  "level" : 1,
+  "species" : {
+    "index" : 315,
+    "name" : "Skitty"
+  },
+  "move4" : {
+    "index" : 270,
+    "name" : "Helping Hand"
+  },
+  "shinyValue" : 65535,
+  "move1" : {
+    "index" : 146,
+    "name" : "Disarming Voice"
+  },
+  "move3" : {
+    "index" : 23,
+    "name" : "Baby Doll Eyes"
+  }
+}

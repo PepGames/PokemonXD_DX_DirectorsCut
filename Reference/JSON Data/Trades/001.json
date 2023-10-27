@@ -1,0 +1,29 @@
+{
+  "index" : 1,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 147,
+    "name" : "Spore"
+  },
+  "move1" : {
+    "index" : 121,
+    "name" : "Leaf Storm"
+  },
+  "species" : {
+    "index" : 153,
+    "name" : "Bayleef"
+  },
+  "nature" : 255,
+  "level" : 30,
+  "giftType" : "Duking Trade",
+  "move4" : {
+    "index" : 220,
+    "name" : "Pain Split"
+  },
+  "move2" : {
+    "index" : 73,
+    "name" : "Leech Seed"
+  },
+  "gender" : 255
+}

@@ -1,0 +1,29 @@
+{
+  "index" : 2,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 341,
+    "name" : "Mud Shot"
+  },
+  "move1" : {
+    "index" : 284,
+    "name" : "Eruption"
+  },
+  "species" : {
+    "index" : 156,
+    "name" : "Quilava"
+  },
+  "nature" : 255,
+  "level" : 30,
+  "giftType" : "Duking Trade",
+  "move4" : {
+    "index" : 144,
+    "name" : "Fiery Dance"
+  },
+  "move2" : {
+    "index" : 252,
+    "name" : "Fake Out"
+  },
+  "gender" : 255
+}

@@ -1,0 +1,29 @@
+{
+  "index" : 0,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 273,
+    "name" : "Wish"
+  },
+  "move1" : {
+    "index" : 150,
+    "name" : "Wood Hammer"
+  },
+  "species" : {
+    "index" : 413,
+    "name" : "Bonsly"
+  },
+  "nature" : 255,
+  "level" : 40,
+  "giftType" : "Hordel Trade",
+  "move4" : {
+    "index" : 24,
+    "name" : "First Impression"
+  },
+  "move2" : {
+    "index" : 131,
+    "name" : "Head Smash"
+  },
+  "gender" : 255
+}

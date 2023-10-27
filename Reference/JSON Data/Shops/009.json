@@ -1,0 +1,91 @@
+{
+  "items" : [
+    {
+      "index" : 55,
+      "name" : "Ability Capsule"
+    },
+    {
+      "index" : 108,
+      "name" : "Assault Vest"
+    },
+    {
+      "index" : 186,
+      "name" : "Choice Band"
+    },
+    {
+      "index" : 52,
+      "name" : "Choice Scarf"
+    },
+    {
+      "index" : 53,
+      "name" : "Choice Specs"
+    },
+    {
+      "index" : 54,
+      "name" : "Eviolite"
+    },
+    {
+      "index" : 58,
+      "name" : "Expert Belt"
+    },
+    {
+      "index" : 95,
+      "name" : "Fire Stone"
+    },
+    {
+      "index" : 190,
+      "name" : "Flame Orb"
+    },
+    {
+      "index" : 196,
+      "name" : "Focus Sash"
+    },
+    {
+      "index" : 187,
+      "name" : "King's Rock"
+    },
+    {
+      "index" : 98,
+      "name" : "Leaf Stone"
+    },
+    {
+      "index" : 200,
+      "name" : "Leftovers"
+    },
+    {
+      "index" : 62,
+      "name" : "Life Orb"
+    },
+    {
+      "index" : 99,
+      "name" : "Lode Stone"
+    },
+    {
+      "index" : 94,
+      "name" : "Moon Stone"
+    },
+    {
+      "index" : 220,
+      "name" : "Rocky Helmet"
+    },
+    {
+      "index" : 93,
+      "name" : "Sun Stone"
+    },
+    {
+      "index" : 96,
+      "name" : "Thunderstone"
+    },
+    {
+      "index" : 185,
+      "name" : "Toxic Orb"
+    },
+    {
+      "index" : 97,
+      "name" : "Water Stone"
+    }
+  ],
+  "type" : 2,
+  "subtype" : 2,
+  "index" : 9
+}

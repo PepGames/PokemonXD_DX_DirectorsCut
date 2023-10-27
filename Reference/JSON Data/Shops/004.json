@@ -1,0 +1,23 @@
+{
+  "items" : [
+    {
+      "index" : 26,
+      "name" : "Fresh Water"
+    },
+    {
+      "index" : 27,
+      "name" : "Soda Pop"
+    },
+    {
+      "index" : 28,
+      "name" : "Lemonade"
+    },
+    {
+      "index" : 29,
+      "name" : "Moomoo Milk"
+    }
+  ],
+  "type" : 1,
+  "subtype" : 1,
+  "index" : 4
+}

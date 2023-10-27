@@ -1,0 +1,29 @@
+{
+  "index" : 3,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 46,
+    "name" : "Dragon Tail"
+  },
+  "move1" : {
+    "index" : 37,
+    "name" : "Aqua Jet"
+  },
+  "species" : {
+    "index" : 159,
+    "name" : "Croconaw"
+  },
+  "nature" : 255,
+  "level" : 30,
+  "giftType" : "Duking Trade",
+  "move4" : {
+    "index" : 282,
+    "name" : "Ice Fang"
+  },
+  "move2" : {
+    "index" : 349,
+    "name" : "Dragon Dance"
+  },
+  "gender" : 255
+}

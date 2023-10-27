@@ -1,0 +1,23 @@
+{
+  "items" : [
+    {
+      "index" : 68,
+      "name" : "Rare Candy"
+    },
+    {
+      "index" : 31,
+      "name" : "Energy Root"
+    },
+    {
+      "index" : 32,
+      "name" : "Heal Powder"
+    },
+    {
+      "index" : 33,
+      "name" : "Revival Herb"
+    }
+  ],
+  "type" : 3,
+  "subtype" : 6,
+  "index" : 7
+}

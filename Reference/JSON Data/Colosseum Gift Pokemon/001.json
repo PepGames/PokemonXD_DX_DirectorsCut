@@ -1,0 +1,30 @@
+{
+  "index" : 1,
+  "exp" : -1,
+  "usesLevelUpMoves" : true,
+  "shinyValue" : 0,
+  "move3" : {
+    "index" : 14,
+    "name" : "Swords Dance"
+  },
+  "move1" : {
+    "index" : 65,
+    "name" : "Drill Peck"
+  },
+  "species" : {
+    "index" : 250,
+    "name" : "Ho-Oh"
+  },
+  "nature" : 255,
+  "level" : 70,
+  "giftType" : "Mt.Battle Ho-oh",
+  "move4" : {
+    "index" : 221,
+    "name" : "Sacred Fire"
+  },
+  "move2" : {
+    "index" : 257,
+    "name" : "Heat Wave"
+  },
+  "gender" : 255
+}

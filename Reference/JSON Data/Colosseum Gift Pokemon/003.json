@@ -1,0 +1,30 @@
+{
+  "index" : 3,
+  "exp" : -1,
+  "usesLevelUpMoves" : true,
+  "shinyValue" : 0,
+  "move3" : {
+    "index" : 338,
+    "name" : "Feint"
+  },
+  "move1" : {
+    "index" : 336,
+    "name" : "Nuzzle"
+  },
+  "species" : {
+    "index" : 25,
+    "name" : "Pikachu"
+  },
+  "nature" : 255,
+  "level" : 10,
+  "giftType" : "Agate Pikachu",
+  "move4" : {
+    "index" : 98,
+    "name" : "Quick Attack"
+  },
+  "move2" : {
+    "index" : 23,
+    "name" : "Baby Doll Eyes"
+  },
+  "gender" : 255
+}

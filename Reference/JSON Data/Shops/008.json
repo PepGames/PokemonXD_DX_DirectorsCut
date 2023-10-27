@@ -1,0 +1,31 @@
+{
+  "items" : [
+    {
+      "index" : 2,
+      "name" : "Ultra Ball"
+    },
+    {
+      "index" : 6,
+      "name" : "Net Ball"
+    },
+    {
+      "index" : 9,
+      "name" : "Repeat Ball"
+    },
+    {
+      "index" : 10,
+      "name" : "Timer Ball"
+    },
+    {
+      "index" : 8,
+      "name" : "Nest Ball"
+    },
+    {
+      "index" : 11,
+      "name" : "Luxury Ball"
+    }
+  ],
+  "type" : 2,
+  "subtype" : 0,
+  "index" : 8
+}

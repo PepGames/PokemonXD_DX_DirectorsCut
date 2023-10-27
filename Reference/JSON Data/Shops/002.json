@@ -1,0 +1,31 @@
+{
+  "items" : [
+    {
+      "index" : 63,
+      "name" : "HP Up"
+    },
+    {
+      "index" : 64,
+      "name" : "Protein"
+    },
+    {
+      "index" : 65,
+      "name" : "Iron"
+    },
+    {
+      "index" : 66,
+      "name" : "Carbos"
+    },
+    {
+      "index" : 67,
+      "name" : "Calcium"
+    },
+    {
+      "index" : 70,
+      "name" : "Zinc"
+    }
+  ],
+  "type" : 0,
+  "subtype" : 0,
+  "index" : 2
+}

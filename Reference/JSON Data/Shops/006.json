@@ -1,0 +1,31 @@
+{
+  "items" : [
+    {
+      "index" : 13,
+      "name" : "Potion"
+    },
+    {
+      "index" : 14,
+      "name" : "Antidote"
+    },
+    {
+      "index" : 15,
+      "name" : "Burn Heal"
+    },
+    {
+      "index" : 16,
+      "name" : "Ice Heal"
+    },
+    {
+      "index" : 17,
+      "name" : "Awakening"
+    },
+    {
+      "index" : 18,
+      "name" : "Parlyz Heal"
+    }
+  ],
+  "type" : 0,
+  "subtype" : 0,
+  "index" : 6
+}

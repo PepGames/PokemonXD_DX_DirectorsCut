@@ -1,0 +1,28 @@
+{
+  "index" : 1,
+  "nature" : 255,
+  "gender" : 255,
+  "giftType" : "Demo Starter Pokemon",
+  "move2" : {
+    "index" : 216,
+    "name" : "Return"
+  },
+  "level" : 1,
+  "species" : {
+    "index" : 286,
+    "name" : "Poochyena"
+  },
+  "move4" : {
+    "index" : 137,
+    "name" : "Glare"
+  },
+  "shinyValue" : 65535,
+  "move1" : {
+    "index" : 228,
+    "name" : "Pursuit"
+  },
+  "move3" : {
+    "index" : 45,
+    "name" : "Growl"
+  }
+}

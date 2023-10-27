@@ -1,0 +1,30 @@
+{
+  "index" : 0,
+  "exp" : -1,
+  "usesLevelUpMoves" : true,
+  "shinyValue" : 0,
+  "move3" : {
+    "index" : 98,
+    "name" : "Quick Attack"
+  },
+  "move1" : {
+    "index" : 45,
+    "name" : "Growl"
+  },
+  "species" : {
+    "index" : 353,
+    "name" : "Plusle"
+  },
+  "nature" : 255,
+  "level" : 13,
+  "giftType" : "Duking's Plusle",
+  "move4" : {
+    "index" : 270,
+    "name" : "Helping Hand"
+  },
+  "move2" : {
+    "index" : 86,
+    "name" : "Thunder Wave"
+  },
+  "gender" : 255
+}

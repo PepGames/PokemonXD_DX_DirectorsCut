@@ -1,0 +1,51 @@
+{
+  "items" : [
+    {
+      "index" : 22,
+      "name" : "Super Potion"
+    },
+    {
+      "index" : 13,
+      "name" : "Potion"
+    },
+    {
+      "index" : 3,
+      "name" : "Great Ball"
+    },
+    {
+      "index" : 4,
+      "name" : "Poké Ball"
+    },
+    {
+      "index" : 23,
+      "name" : "Full Heal"
+    },
+    {
+      "index" : 24,
+      "name" : "Revive"
+    },
+    {
+      "index" : 34,
+      "name" : "Ether"
+    },
+    {
+      "index" : 36,
+      "name" : "Elixir"
+    },
+    {
+      "index" : 69,
+      "name" : "PP Up"
+    },
+    {
+      "index" : 180,
+      "name" : "White Herb"
+    },
+    {
+      "index" : 361,
+      "name" : "Poké Snack"
+    }
+  ],
+  "type" : 0,
+  "subtype" : 0,
+  "index" : 3
+}

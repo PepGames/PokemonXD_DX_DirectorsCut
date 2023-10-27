@@ -1,0 +1,43 @@
+{
+  "items" : [
+    {
+      "index" : 385,
+      "name" : "Battle CD 02"
+    },
+    {
+      "index" : 386,
+      "name" : "Battle CD 03"
+    },
+    {
+      "index" : 387,
+      "name" : "Battle CD 04"
+    },
+    {
+      "index" : 392,
+      "name" : "Battle CD 09"
+    },
+    {
+      "index" : 396,
+      "name" : "Battle CD 13"
+    },
+    {
+      "index" : 400,
+      "name" : "Battle CD 17"
+    },
+    {
+      "index" : 408,
+      "name" : "Battle CD 25"
+    },
+    {
+      "index" : 409,
+      "name" : "Battle CD 26"
+    },
+    {
+      "index" : 413,
+      "name" : "Battle CD 30"
+    }
+  ],
+  "type" : 5,
+  "subtype" : 5,
+  "index" : 18
+}

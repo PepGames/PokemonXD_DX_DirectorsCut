@@ -1,0 +1,30 @@
+{
+  "index" : 0,
+  "shadowID" : 81,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 296,
+    "name" : "Moonblast"
+  },
+  "move1" : {
+    "index" : 161,
+    "name" : "Tri Attack"
+  },
+  "species" : {
+    "index" : 175,
+    "name" : "Togepi"
+  },
+  "nature" : 255,
+  "level" : 40,
+  "giftType" : "Shadow Pokemon Gift",
+  "move4" : {
+    "index" : 112,
+    "name" : "Shell Smash"
+  },
+  "move2" : {
+    "index" : 105,
+    "name" : "Recover"
+  },
+  "gender" : 255
+}

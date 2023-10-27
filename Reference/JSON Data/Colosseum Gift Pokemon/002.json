@@ -1,0 +1,30 @@
+{
+  "index" : 2,
+  "exp" : -1,
+  "usesLevelUpMoves" : true,
+  "shinyValue" : 0,
+  "move3" : {
+    "index" : 273,
+    "name" : "Wish"
+  },
+  "move1" : {
+    "index" : 73,
+    "name" : "Leech Seed"
+  },
+  "species" : {
+    "index" : 251,
+    "name" : "Celebi"
+  },
+  "nature" : 255,
+  "level" : 10,
+  "giftType" : "Agate Celebi",
+  "move4" : {
+    "index" : 91,
+    "name" : "Energy Ball"
+  },
+  "move2" : {
+    "index" : 326,
+    "name" : "Extrasensory"
+  },
+  "gender" : 255
+}

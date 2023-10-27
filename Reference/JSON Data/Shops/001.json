@@ -1,0 +1,59 @@
+{
+  "items" : [
+    {
+      "index" : 4,
+      "name" : "Poké Ball"
+    },
+    {
+      "index" : 3,
+      "name" : "Great Ball"
+    },
+    {
+      "index" : 2,
+      "name" : "Ultra Ball"
+    },
+    {
+      "index" : 22,
+      "name" : "Super Potion"
+    },
+    {
+      "index" : 21,
+      "name" : "Hyper Potion"
+    },
+    {
+      "index" : 14,
+      "name" : "Antidote"
+    },
+    {
+      "index" : 15,
+      "name" : "Burn Heal"
+    },
+    {
+      "index" : 16,
+      "name" : "Ice Heal"
+    },
+    {
+      "index" : 17,
+      "name" : "Awakening"
+    },
+    {
+      "index" : 18,
+      "name" : "Parlyz Heal"
+    },
+    {
+      "index" : 23,
+      "name" : "Full Heal"
+    },
+    {
+      "index" : 24,
+      "name" : "Revive"
+    },
+    {
+      "index" : 361,
+      "name" : "Poké Snack"
+    }
+  ],
+  "type" : 0,
+  "subtype" : 0,
+  "index" : 1
+}

@@ -1,0 +1,29 @@
+{
+  "index" : 1,
+  "exp" : -1,
+  "shinyValue" : 65535,
+  "move3" : {
+    "index" : 0,
+    "name" : "-"
+  },
+  "move1" : {
+    "index" : 33,
+    "name" : "Tackle"
+  },
+  "species" : {
+    "index" : 236,
+    "name" : "Tyrogue"
+  },
+  "nature" : 255,
+  "level" : 60,
+  "giftType" : "Mt. Battle Prize",
+  "move4" : {
+    "index" : 0,
+    "name" : "-"
+  },
+  "move2" : {
+    "index" : 0,
+    "name" : "-"
+  },
+  "gender" : 255
+}
