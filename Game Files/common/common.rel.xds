@@ -1,0 +1,1221 @@
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+////                                                     ////
+//// common.xds                                          ////
+//// Decompiled using Gale of Darkness Tool by @StarsMmd ////
+//// on 2023-11-13 15:45:38 +0000.                       ////
+////                                                     ////
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+
+
+// function 0: modify_floor @location_0
+// function 1: preprocess @location_3
+// function 2: postprocess @location_6
+// function 3: hero_main @location_9
+// function 4: floor_link @location_23
+// function 5: door_open @location_38
+// function 6: elevator @location_55
+// function 7: elevator_out @location_214
+// function 8: fade_in @location_400
+// function 9: fade_out @location_411
+// function 10: fade_zero @location_422
+// function 11: tresure_move @location_432
+// function 12: check @location_472
+// function 13: carpet_move @location_497
+// function 14: use_pcbox @location_536
+// function 15: mark_move @location_559
+// function 16: talk_wait @location_571
+// function 17: cologn_use @location_582
+// function 18: evolution @location_591
+// function 19: watch_common_tv @location_598
+// function 20: watch_common_news @location_1260
+// function 21: white_in @location_1807
+// function 22: white_out @location_1818
+// function 23: flagshop @location_1829
+// function 24: tv_flag_check @location_3148
+// function 25: restart_fade_in @location_3644
+
+
+
+// Compiler options
+define ++XDSVersion 2.0 // lets future versions of the compiler know which rules to follow
+define ++ScriptIdentifier 0x00000000 // best not to change this
+// define ++CreateBackup YES // before saving the compiled .scd file, if it already exists it will be backed up
+// define ++BaseStringID 0x10000 // This overrides the compiler's base string id when searching for unused string ids
+
+// Macro defintions
+define #FLAG_1000 0x3E8
+define #FLAG_1001 0x3E9
+define #FLAG_1002 0x3EA
+define #FLAG_1003 0x3EB
+define #FLAG_1004 0x3EC
+define #FLAG_1005 0x3ED
+define #FLAG_1006 0x3EE
+define #FLAG_1007 0x3EF
+define #FLAG_1008 0x3F0
+define #FLAG_1009 0x3F1
+define #FLAG_1010 0x3F2
+define #FLAG_1011 0x3F3
+define #FLAG_1012 0x3F4
+define #FLAG_1097 0x449
+define #FLAG_1255 0x4E7
+define #FLAG_1322 0x52A
+define #FLAG_1730 0x6C2
+define #FLAG_1854 0x73E
+define #FLAG_1977 0x7B9
+define #FLAG_1978 0x7BA
+define #FLAG_1979 0x7BB
+define #FLAG_2109 0x83D
+define #FLAG_2110 0x83E
+define #FLAG_2111 0x83F
+define #FLAG_2112 0x840
+define #FLAG_2114 0x842
+define #FLAG_2118 0x846
+define #FLAG_2119 0x847
+define #FLAG_2120 0x848
+define #FLAG_2222 0x8AE
+define #FLAG_2223 0x8AF
+define #FLAG_2224 0x8B0
+define #FLAG_2225 0x8B1
+define #FLAG_2231 0x8B7
+define #FLAG_2254 0x8CE
+define #FLAG_2255 0x8CF
+define #FLAG_2279 0x8E7
+define #FLAG_2280 0x8E8
+define #FLAG_2287 0x8EF
+define #FLAG_2296 0x8F8
+define #FLAG_2297 0x8F9
+define #FLAG_2309 0x905
+define #FLAG_991 0x3DF
+define #FLAG_992 0x3E0
+define #FLAG_993 0x3E1
+define #FLAG_994 0x3E2
+define #FLAG_997 0x3E5
+define #FLAG_998 0x3E6
+define #FLAG_999 0x3E7
+define #FLAG_HAS_ENCOUNTERED_MIROR_B 0x4A7
+define #FLAG_STORY 0x3C4
+define #INDEX_0 0
+define #INDEX_1 1
+define #ITEM_POKE_BALL 4
+define #MODEL_CHARACTERMODEL_13 0x19180400
+define #PARTY_MEMBER_JOVI 1
+define #PARTY_MEMBER_KANDEE 2
+define #PARTY_MEMBER_KRANE 3
+define #ROOM_D4_OUT_2 58
+define #ROOM_M1_HOUSEA_1F 96
+define #ROOM_M1_HOUSEA_2F 97
+define #ROOM_M1_HOUSEB_1F 98
+define #ROOM_M1_HOUSEC_1F 99
+define #ROOM_M2_BUILDING_1F 108
+define #ROOM_M2_BUILDING_4F 111
+define #ROOM_M2_HOUSEA_1F 118
+define #ROOM_M3_HOUSEB_1F 128
+define #ROOM_M3_HOUSEC_1F 129
+define #ROOM_M5_APART_2F 139
+define #ROOM_M6_CRAB_1F 144
+define #ROOM_M6_CRAB_2F 145
+define #ROOM_M6_HOUSEA 147
+define #ROOM_M6_HOUSEB 148
+define #ROOM_NONE 0
+define #ROOM_PCBOX_MENU 0x391
+define #ROOM_S1_SHOP_1F 164
+define #SFX_1124_STM_BGM_POKELABO 0x464
+define #SFX_870_STM_ME_ME_NEWS 0x366
+define #STORY_ARRIVED_AT_SSLIBRA 0x2D1
+define #STORY_ASKED_TO_FIND_MACHINE_PART 120
+define #STORY_BATTLED_EXOL 490
+define #STORY_BATTLED_MIROR_B_AT_CAVE_POKESPOT 480
+define #STORY_BLEW_FACTORY_POWER 0x352
+define #STORY_CAN_USE_ROBO_KYOGRE 0x370
+define #STORY_COMPLETED_TUTORIAL_BATTLE 10
+define #STORY_DEFEATED_GORIGAN_AT_FACTORY 0x35C
+define #STORY_DEFEATED_LOVRINA_IN_LAB 350
+define #STORY_DEFEATED_ORRE_COLOSSEUM_ROUND_1 0x3DE
+define #STORY_DIRECTED_TO_AGATE 200
+define #STORY_DIRECTED_TO_CAVE_POKESPOT 470
+define #STORY_DIRECTED_TO_CIPHER_KEY_LAIR 0x2EE
+define #STORY_DIRECTED_TO_CIPHER_LAB 310
+define #STORY_DIRECTED_TO_MT_BATTLE 290
+define #STORY_DIRECTED_TO_OASIS_POKESPOT 460
+define #STORY_DIRECTED_TO_OUTSKIRT_STAND 0x2F8
+define #STORY_DIRECTED_TO_PHENAC 500
+define #STORY_DIRECTED_TO_PYRITE 390
+define #STORY_DIRECTED_TO_REALGAM 510
+define #STORY_DIRECTED_TO_ROCK_POKESPOT 430
+define #STORY_DIRECTED_TO_SNAGEM_HIDEOUT 0x316
+define #STORY_ENTERED_INVADED_ONBS 481
+define #STORY_EXITED_GYM_BASEMENT 0x276
+define #STORY_FOUND_LETTER_FOR_JUSTY 0x226
+define #STORY_HEARD_LILY_GET_MOTIVATED 110
+define #STORY_LOOKING_FOR_JOVI 30
+define #STORY_LOOKING_FOR_MAKAN 0x294
+define #STORY_LOOKING_FOR_PDA 20
+define #STORY_RECEIVED_SNAG_MACHINE 90
+define #STORY_RECLAIMED_SNAG_MACHINE 0x320
+define #STORY_RESCUED_GYM_HOSTAGES 0x258
+define #STORY_RETURNED_JOVI 70
+define #STORY_RETURNED_KRANE 360
+define #STORY_SAVED_BY_TEAM_SNAGEM 0x33E
+define #STORY_SNAGGED_FIRST_POKEMON 100
+define #STORY_STEPPED_FOOT_ON_CITADARK 0x37A
+define #STORY_UNLOCKED_ORRE_COLOSSEUM 0x3D4
+define #STORY_WATCHED_OUTSKIRT_STAND_NEWS 0x30C
+define #STORY_WATCHED_ZOOK_GET_WHOOPED 140
+define #TRANSITION_FADE_IN_BLACK 2
+define #TRANSITION_FADE_IN_WHITE 4
+define #TRANSITION_FADE_OUT_BLACK 3
+define #TRANSITION_FADE_OUT_WHITE 5
+define #X1 1
+define #player player_character    
+
+//Global Variables
+assign player_character GroupID: 0 ResourceID: 100  // Michael
+assign character_01 GroupID: 0 ResourceID: 101  // Jovi
+assign character_02 GroupID: 0 ResourceID: 104  // Kandee
+assign character_03 GroupID: 0 ResourceID: 105  // Prof. Krane
+
+
+
+global gvar_00 = #ROOM_NONE
+global gvar_01 = #ROOM_NONE
+global gvar_02 = 0
+global gvar_03 = 0.0
+global gvar_04 = 0
+
+
+
+function @modify_floor() {
+
+    return
+
+}
+
+
+function @preprocess() {
+
+    return
+
+}
+
+
+function @postprocess() {
+
+    return
+
+}
+
+
+function @hero_main() {
+
+    @location_11
+    arg_254.Player.processEvents()
+    yield(1)
+    goto @location_11
+    return
+
+}
+
+
+function @floor_link(arg_0 arg_1 arg_2) {
+
+    Player.setSmoothWarp(YES)
+    Map.warpToMapWithSoundEffect(arg_0 arg_1 arg_2)
+    return
+
+}
+
+
+function @door_open(arg_0) {
+
+    gvar_00 = arg_254.Map.getCurrentMapID()
+    arg_254.Map.controlDoor(gvar_00 arg_0 0)
+    return
+
+}
+
+
+function @elevator(arg_0 arg_1 arg_2 arg_3) {
+
+    Player.lockMovement()
+    #player.setCanCollide(NO)
+    arg_254 = Player.getFollower()
+
+    if (arg_254 = #PARTY_MEMBER_JOVI) {
+        character_01.setCanCollide(NO)
+        goto @location_110
+    }
+
+
+    if (arg_254 = #PARTY_MEMBER_KANDEE) {
+        character_02.setCanCollide(NO)
+        goto @location_110
+    }
+
+
+    if (arg_254 = #PARTY_MEMBER_KRANE) {
+        character_03.setCanCollide(NO)
+    }
+
+    @location_110
+    gvar_00 = Map.getCurrentMapID()
+    Player.controlElevator(gvar_00 arg_0 129 0)
+
+    if (arg_3 = 0) {
+        LastResult = Player.controlElevator(gvar_00 arg_0 164 0)
+        goto @location_157
+    }
+
+    LastResult = Player.controlElevator(gvar_00 arg_0 168 0)
+    @location_157
+    gvar_03 = LastResult / 100.0
+    Tasks.sleep((gvar_03 - 0.5))
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    Player.triggerScript(&Common.elevator_out arg_2 arg_3 0 0)
+    Map.warpToMapWithTransitions(arg_1 NO Null Null)
+    Player.freeMovement()
+    return
+
+}
+
+
+function @elevator_out(arg_0 arg_1) {
+
+    arg_254.Player.lockMovement()
+    gvar_00 = arg_253.Map.getCurrentMapID()
+
+    if (getFlag(#FLAG_STORY) = #STORY_ENTERED_INVADED_ONBS) {
+        if ((arg_253.Map.getPreviousMapID() = #ROOM_M2_BUILDING_1F) and (getFlag(#FLAG_1322) = 0)) {
+            arg_254.Player.setFollower(#PARTY_MEMBER_JOVI 0)
+            character_01.beginInteraction()
+            character_01.setModel(#MODEL_CHARACTERMODEL_13)
+            character_01.setVisibility(YES)
+            character_01.resetHeadTilt(0)
+            character_01.unsetCharacterFlags(2)
+        }
+
+    }
+
+    arg_253.Map.controlDoor(gvar_00 arg_0 3)
+    arg_254.Player.controlElevator(gvar_00 arg_0 256 1)
+
+    if (arg_1 = 0) {
+        arg_254.Player.controlElevator(gvar_00 arg_0 36 1)
+        goto @location_334
+    }
+
+    arg_254.Player.controlElevator(gvar_00 arg_0 40 1)
+    @location_334
+    Camera.setCameraType("CAMERA_TYPE_FOLLOW")
+    Camera.followCharacter(#player)
+    yield(1)
+    arg_252.Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    arg_254.Player.controlElevator(gvar_00 arg_0 192 1)
+    yield(5)
+    arg_252.Transition.await(YES)
+    gvar_00 = arg_253.Map.getCurrentMapID()
+    arg_254.Player.controlElevator(gvar_00 arg_0 130 1)
+    arg_254.Player.freeMovement()
+    return
+
+}
+
+
+function @fade_in() {
+
+    arg_254.Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    return
+
+}
+
+
+function @fade_out() {
+
+    arg_254.Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    return
+
+}
+
+
+function @fade_zero() {
+
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.0)
+    return
+
+}
+
+
+function @tresure_move(arg_0 arg_1 arg_2) {
+
+    @location_434
+
+    if (!(isFlagSet(arg_1))) {
+        if (isFlagSet(arg_2) > NO) {
+            arg_0.Character.setVisibility(YES)
+            goto @location_463
+        }
+
+        arg_0.Character.setVisibility(NO)
+    }
+
+    @location_463
+    arg_254.Tasks.sleep(1)
+    goto @location_434
+    return
+
+}
+
+
+function @check(arg_0) {
+
+    Player.lockMovement()
+    Menu.displayMessageSilently(arg_0 YES NO)
+    Menu.awaitMessageClose(YES)
+    Player.freeMovement()
+    return
+
+}
+
+
+function @carpet_move(arg_0 arg_1 arg_2 arg_3) {
+
+    arg_254.Player.lockMovement()
+    gvar_00 = arg_252.Map.getCurrentMapID()
+    arg_254.Player.triggerScript(&This.12 arg_2 arg_0 arg_3 arg_1)
+    arg_252.Map.warpToMapWithTransitions(#ROOM_D4_OUT_2 YES &Common.fade_out Null)
+    arg_254.Player.freeMovement()
+    return
+
+}
+
+
+function @use_pcbox() {
+
+    arg_254.Player.lockMovement()
+    gvar_01 = arg_253.Map.getPreviousMapID()
+    arg_253.Map.enterMenuMap(#ROOM_PCBOX_MENU)
+    arg_254.Player.freeMovement()
+    return
+
+}
+
+
+function @mark_move(arg_0) {
+
+    arg_0.Character.awaitAnimation(1)
+    arg_0.Character.deinitializeCharacter()
+    return
+
+}
+
+
+function @talk_wait(arg_0) {
+
+    arg_254.Tasks.sleep((arg_0 * 0.6))
+    return
+
+}
+
+
+function @cologn_use(arg_0 arg_1) {
+
+    arg_254.Direction.useCologne(arg_0 arg_1)
+    return
+
+}
+
+
+function @evolution() {
+
+    arg_254.Direction.beginEvolution()
+    return
+
+}
+
+
+function @watch_common_tv(arg_0) {
+
+    arg_254 = 0
+    arg_253 = Camera.getFieldOfView()
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    #player.setVisibility(NO)
+
+    if (Player.getFollower() = #PARTY_MEMBER_JOVI) {
+        character_01.setVisibility(NO)
+        arg_254 = 1
+        goto @location_691
+    }
+
+
+    if (Player.getFollower() = #PARTY_MEMBER_KANDEE) {
+        character_02.setVisibility(NO)
+        arg_254 = 2
+        goto @location_691
+    }
+
+
+    if (Player.getFollower() = #PARTY_MEMBER_KRANE) {
+        character_03.setVisibility(NO)
+        arg_254 = 3
+        goto @location_691
+    }
+
+    @location_691
+    Camera.disableDefaultForMap()
+
+    if (Map.getCurrentMapID() = #ROOM_S1_SHOP_1F) {
+        Camera.setPosition(-27.788 24.665 30.396)
+        Camera.setRotationRadians(-0.334 -0.153 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M1_HOUSEA_1F) {
+        Camera.setPosition(-13.084 22.558 1.162)
+        Camera.setRotationRadians(-0.332 0.334 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M1_HOUSEA_2F) {
+        Camera.setPosition(-9.716 19.315 -5.8)
+        Camera.setRotationRadians(-0.33 0.417 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M1_HOUSEB_1F) {
+        Camera.setPosition(1.353 15.13 4.45)
+        Camera.setRotationRadians(-0.28 -0.792 0)
+        Camera.setFieldOfView(40)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M1_HOUSEC_1F) {
+        Camera.setPosition(14.149 24.447 -3.557)
+        Camera.setRotationRadians(-0.417 0.151 0)
+        Camera.setFieldOfView(38.594)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M2_HOUSEA_1F) {
+        Camera.setPosition(0 20.439 1.417)
+        Camera.setRotationRadians(-0.221 0 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M2_BUILDING_4F) {
+        Camera.setPosition(23.073 17.077 -2.356)
+        Camera.setRotationRadians(-0.043 0.55 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M3_HOUSEB_1F) {
+        Camera.setPosition(5.273 14.589 17.359)
+        Camera.setRotationRadians(-0.227 -0.432 0)
+        Camera.setFieldOfView(33.104)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M3_HOUSEC_1F) {
+        Camera.setPosition(-10.8 20.084 -5.75)
+        Camera.setRotationRadians(-0.348 -0.088 0)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M5_APART_2F) {
+        Camera.setPosition(-77.946 14.843 41.452)
+        Camera.setRotationRadians(-0.062 0.526 0)
+        Camera.setFieldOfView(36.085)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M6_CRAB_1F) {
+        Camera.setPosition(-9.103 19.484 17.145)
+        Camera.setRotationRadians(-0.304 0.323 0)
+        Camera.setFieldOfView(32.525)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M6_CRAB_2F) {
+        if (arg_0 > 0) {
+            Camera.setPosition(-53.382 12.251 -0.682)
+            Camera.setRotationRadians(0.084 -0.272 0)
+            goto @location_1112
+        }
+
+        Camera.setPosition(23.217 12.248 -1.285)
+        Camera.setRotationRadians(0.091 -0.344 0)
+        @location_1112
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M6_HOUSEA) {
+        Camera.setPosition(-7.646 13.666 -9.117)
+        Camera.setRotationRadians(-0.287 -0.306 0)
+        Camera.setFieldOfView(49.167)
+        goto @location_1186
+    }
+
+
+    if (Map.getCurrentMapID() = #ROOM_M6_HOUSEB) {
+        Camera.setPosition(-2.178 12.695 -4.473)
+        Camera.setRotationRadians(-0.249 -0.245 0)
+        Camera.setFieldOfView(47.4)
+        goto @location_1186
+    }
+
+    @location_1186
+    @watch_common_news()
+    Camera.reset(0 1)
+    Camera.setFieldOfView(arg_253)
+    Camera.enableDefaultForMap()
+    #player.setVisibility(YES)
+
+    if (arg_254 = 1) {
+        character_01.setVisibility(YES)
+        goto @location_1252
+    }
+
+
+    if (arg_254 = 2) {
+        character_02.setVisibility(YES)
+        goto @location_1252
+    }
+
+
+    if (arg_254 = 3) {
+        character_03.setVisibility(YES)
+        goto @location_1252
+    }
+
+    @location_1252
+    return 1
+    return
+
+}
+
+
+function @watch_common_news() {
+
+    arg_254 = Sound.getBGM()
+    Sound.playBGM(#SFX_870_STM_ME_ME_NEWS 50 255)
+    Tasks.sleep(0.6)
+
+    if ((getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_MAKAN) and (getFlag(#FLAG_STORY) < #STORY_WATCHED_OUTSKIRT_STAND_NEWS)) {
+        Map.playMovieWithIndex(#INDEX_1)
+        goto @location_1315
+    }
+
+    Map.playMovieWithIndex(#INDEX_0)
+    @location_1315
+    Tasks.sleep(1)
+    Transition.begin(#TRANSITION_FADE_IN_BLACK 0.5)
+    Transition.await(YES)
+
+    if ((getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_MAKAN) and (getFlag(#FLAG_STORY) < #STORY_WATCHED_OUTSKIRT_STAND_NEWS)) {
+        Tasks.sleep(1)
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_STEPPED_FOOT_ON_CITADARK) {
+        Menu.displayMessageWithSoundEffect($:54411:"[7]{00}We bring you ONBS News.[Clear Window]ONBS has received word that Cipher's[New Line]headquarters is on Citadark Isle to the[New Line]south of Gateon Port.[Clear Window]Citadark is surrounded by harsh seas and[New Line]violent weather systems, making it extremely[New Line]difficult to reach.[Clear Window]As a result, the authorities fear that it may take[New Line]some time before the criminal syndicate can be[New Line]brought to justice.[Dialogue End]" YES NO 5)
+        setFlag(#FLAG_2109 10)
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_WATCHED_OUTSKIRT_STAND_NEWS) {
+        Menu.displayMessageWithSoundEffect($:54410:"[7]{00}We bring you a breaking news story![Clear Window]The S.S. Libra was found in the[New Line]desert north of Phenac![New Line]Its disappearance is believed to have[New Line]been caused by Cipher.[Clear Window]It is unclear as to how the ship was transported[New Line]to the desert, however.[New Line]Cipher's motives for taking the ship are also[New Line]unknown.[Clear Window]There was no sign of the[New Line]numerous Pokémon aboard the ship.[New Line]Concern is rising for their safety.[Dialogue End]" YES NO 5)
+        setFlag(#FLAG_2109 9)
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_MAKAN) {
+        Menu.displayMessageWithSoundEffect($:54407:"[7]{00}Hello, viewers![New Line]This is Secc, ONBS's Director.[New Line]We bring you a special scoop.[Clear Window]" YES NO 4)
+        Menu.displayMessageWithSoundEffect($:54408:"[7]{00}The courageous actions of a young boy thwarted[New Line]a group of Cipher operatives who had infiltrated[New Line]Phenac City.[Clear Window]This footage shows the boy and his Pokémon[New Line]driving off a top Cipher Admin from the city's[New Line]Stadium.[Clear Window]Cipher had been trying to take over the entire[New Line]city by replacing its citizens with the syndicate's[New Line]members.[Clear Window]ONBS was also targeted for takeover by Cipher.[New Line]Despite this setback, Cipher appears to be[New Line]growing more active.[Clear Window]The authorities have issued a caution to all[New Line]citizens and organizations to be alert to the[New Line]possibility of further attacks.[Clear Window]" YES NO 4)
+        Menu.displayMessageWithSoundEffect($:54409:"[7]{00}As you have seen, Cipher has returned with[New Line]a vengeance.[New Line]The entire Orre Region is endangered again.[Clear Window]ONBS promises to doggedly pursue this story[New Line]and provide you with the most accurate[New Line]information on Cipher's actions.[Clear Window]We must not allow Cipher to carry out its[New Line]conspiracy of fear.[New Line]Let us all protect the peace of Orre with[New Line]courage![Dialogue End]" YES NO 4)
+        setFlag(#FLAG_2109 8)
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_FOUND_LETTER_FOR_JUSTY) {
+        Menu.displayMessageWithSoundEffect($:54406:"[7]{00}We bring you ONBS News.[Clear Window]Our top story is on the wild Pokémon boom that[New Line]is spreading like wildfire around Pyrite Town.[Clear Window]Pyrite's Duking has confirmed the discovery[New Line]of three Poké Spots.[Clear Window]The boom is expected to heat up on the news[New Line]that different kinds of wild Pokémon appear at[New Line]the various Poké Spots.[Clear Window]Perhaps our viewers will be motivated to seek[New Line]Poké Spots of their own.[Dialogue End]" YES NO 5)
+        setFlag(#FLAG_2109 7)
+        goto @location_1717
+    }
+
+
+    if (((getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) and (getFlag(#FLAG_STORY) < #STORY_DIRECTED_TO_ROCK_POKESPOT)) and (isFlagSet(#FLAG_1255) = YES)) {
+        Menu.displayMessageWithSoundEffect($:54405:"[7]{00}Breaking news![Clear Window]Prof. Krane, the head of the[New Line]Pokémon HQ Lab, has been rescued![Clear Window]Authorities say that Prof. Krane was held in a[New Line]laboratory that was thought to be[New Line]abandoned by Cipher five years ago.[Clear Window]The rescue was made by[New Line]a young boy.[Clear Window]Authorities caution that this abduction is[New Line]evidence that Cipher has returned since its[New Line]eradication five years ago.[Clear Window]Authorities have issued a warning to citizens[New Line]to be on the alert for more heinous acts from[New Line]Cipher.[Dialogue End]" YES NO 5)
+        if (getFlag(#FLAG_2109) <= 3) {
+            setFlag(#FLAG_2109 5)
+            goto @location_1579
+        }
+
+        if (getFlag(#FLAG_2109) <= 4) {
+            setFlag(#FLAG_2109 6)
+        }
+
+        @location_1579
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        Menu.displayMessageWithSoundEffect($:54404:"[7]{00}We bring you ONBS News.[Clear Window]This is a story on the man who works inside[New Line]Pyrite's landmark--the town's giant windmill.[Clear Window]The man is familiar to all with his slogan,[New Line][Quote]Thirty-five long years of cranking gears.[Quote][Clear Window]However, there have been rumors in some[New Line]quarters that perhaps his claim of thirty-five[New Line]years is hugely exaggerated, and that the [New Line]real figure is five years.[Clear Window]Asking the man himself proved fruitless since[New Line]he refused to say anything other than [Quote]Thirty-five[New Line]long years of cranking gears.[Quote][Clear Window]While the truth is shrouded in mystery, ONBS[New Line]pledges to determinedly follow up on this story.[Dialogue End]" YES NO 5)
+        if (getFlag(#FLAG_2109) <= 3) {
+            setFlag(#FLAG_2109 4)
+            goto @location_1637
+        }
+
+        if (getFlag(#FLAG_2109) = 5) {
+            setFlag(#FLAG_2109 6)
+        }
+
+        @location_1637
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_WATCHED_ZOOK_GET_WHOOPED) {
+        Menu.displayMessageWithSoundEffect($:54403:"[7]{00}Breaking news![Clear Window]An unidentified gang swarmed the Pokémon HQ[New Line]Lab and abducted Prof. Krane.[Clear Window]We have reports that one of the[New Line]perpetrators used a Shadow Pokémon[New Line]during the raid.[Clear Window]We will keep you posted.[Dialogue End]" YES NO 5)
+        setFlag(#FLAG_2109 3)
+        goto @location_1717
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_JOVI) {
+        Menu.displayMessageWithSoundEffect($:54402:"[7]{00}We bring you ONBS News.[Clear Window]There have been reports of Pokémon[New Line]attacks on people.[Clear Window]The authorities have launched an investigation to[New Line]determine if there is any connection to the[New Line]Shadow Pokémon incident five years ago.[Clear Window]The investigation also appears to probe the link,[New Line]if any, to the disappearance of the S.S. Libra,[New Line]which vanished with numerous Pokémon[New Line]on board.[Dialogue End]" YES NO 5)
+        setFlag(#FLAG_2109 2)
+        goto @location_1717
+    }
+
+    Menu.displayMessageWithSoundEffect($:54401:"[7]{00}We bring you ONBS News.[Clear Window]Authorities still have failed to find any traces of[New Line]the cargo ship S.S. Libra since its sudden[New Line]disappearance off the coast of Gateon Port.[Clear Window]There have been no reports of flotsam that may[New Line]indicate the ship's sinking.[New Line]The authorities appeared mystified by the way[New Line]the ship vanished like smoke.[Clear Window]There are reports that numerous Pokémon[New Line]were on board.[New Line]Concern is rising over their welfare.[Dialogue End]" YES NO 5)
+    setFlag(#FLAG_2109 1)
+    @location_1717
+    Menu.awaitMessageClose(YES)
+    Transition.begin(#TRANSITION_FADE_OUT_BLACK 0.5)
+    Transition.await(YES)
+    Sound.stopBGM(#SFX_870_STM_ME_ME_NEWS 0x7D0)
+
+    if (getFlag(#FLAG_2254) = 1) {
+        if (Map.getCurrentMapID() = #ROOM_M1_HOUSEA_1F) {
+            Sound.playBGM(arg_254 50 255)
+            goto @location_1795
+        }
+
+        if (Map.getCurrentMapID() = #ROOM_M1_HOUSEA_2F) {
+            Sound.playBGM(arg_254 50 80)
+            goto @location_1795
+        }
+
+        @location_1795
+        goto @location_1805
+    }
+
+    Sound.playBGM(arg_254 50 255)
+    @location_1805
+    return
+
+}
+
+
+function @white_in() {
+
+    arg_254.Transition.begin(#TRANSITION_FADE_IN_WHITE 0.5)
+    return
+
+}
+
+
+function @white_out() {
+
+    arg_254.Transition.begin(#TRANSITION_FADE_OUT_WHITE 0.5)
+    return
+
+}
+
+
+function @flagshop() {
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_COMPLETED_TUTORIAL_BATTLE) {
+        if (getFlag(#FLAG_1979) = 0) {
+            setFlag(#FLAG_1979 1)
+            if (getFlag(#FLAG_STORY) = #STORY_COMPLETED_TUTORIAL_BATTLE) {
+                Sound.playBGM(#SFX_1124_STM_BGM_POKELABO 0 255)
+            }
+
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_PDA) {
+        if (getFlag(#FLAG_1979) = 0) {
+            setFlag(#FLAG_1979 1)
+            if (getFlag(#FLAG_STORY) = #STORY_LOOKING_FOR_PDA) {
+                Sound.playBGM(#SFX_1124_STM_BGM_POKELABO 0 255)
+            }
+
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ASKED_TO_FIND_MACHINE_PART) {
+        if (getFlag(#FLAG_997) = 0) {
+            setFlag(#FLAG_997 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_JOVI) {
+        if (getFlag(#FLAG_1009) = 0) {
+            setFlagToTrue(#FLAG_1009)
+        }
+
+        if (getFlag(#FLAG_1000) = 0) {
+            setFlag(#FLAG_1000 1)
+        }
+
+        if (getFlag(#FLAG_2118) = 0) {
+            setFlag(#FLAG_2118 1)
+            setFlag(#FLAG_2119 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECEIVED_SNAG_MACHINE) {
+        if (getFlag(#FLAG_1010) = 0) {
+            setFlag(#FLAG_1010 1)
+        }
+
+        Player.setStyle(2 NO)
+        if (getFlag(#FLAG_STORY) = #STORY_RECEIVED_SNAG_MACHINE) {
+            Player.receiveItemSilently(#ITEM_POKE_BALL #X1)
+        }
+
+        if (getFlag(#FLAG_2110) = 0) {
+            setFlag(#FLAG_1979 0)
+            setFlag(#FLAG_2222 0)
+            setFlag(#FLAG_2110 1)
+            setFlag(#FLAG_2111 0)
+            setFlag(#FLAG_2223 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_SNAGGED_FIRST_POKEMON) {
+        if (getFlag(#FLAG_2222) = 0) {
+            setFlag(#FLAG_1979 0)
+            setFlag(#FLAG_2222 1)
+            setFlag(#FLAG_2110 0)
+            setFlag(#FLAG_2111 0)
+            setFlag(#FLAG_2223 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_HEARD_LILY_GET_MOTIVATED) {
+        if (getFlag(#FLAG_2223) = 0) {
+            setFlag(#FLAG_1979 0)
+            setFlag(#FLAG_2222 0)
+            setFlag(#FLAG_2110 0)
+            setFlag(#FLAG_2111 0)
+            setFlag(#FLAG_2223 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_AGATE) {
+        if (getFlag(#FLAG_994) = 0) {
+            setFlag(#FLAG_994 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_MT_BATTLE) {
+        if (getFlag(#FLAG_1002) = 0) {
+            setFlag(#FLAG_1002 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CIPHER_LAB) {
+        if (getFlag(#FLAG_1001) = 0) {
+            setFlag(#FLAG_1001 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DEFEATED_LOVRINA_IN_LAB) {
+        if (getFlag(#FLAG_1979) = 0) {
+            setFlag(#FLAG_1979 1)
+            setFlag(#FLAG_2222 0)
+            setFlag(#FLAG_2110 0)
+            setFlag(#FLAG_2111 0)
+            setFlag(#FLAG_2223 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PYRITE) {
+        if (getFlag(#FLAG_993) = 0) {
+            setFlag(#FLAG_993 1)
+        }
+
+        if (getFlag(#FLAG_2114) = 0) {
+            setFlag(#FLAG_2112 0)
+            setFlag(#FLAG_2114 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_ROCK_POKESPOT) {
+        if (getFlag(#FLAG_1007) = 0) {
+            setFlag(#FLAG_1007 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_OASIS_POKESPOT) {
+        if (getFlag(#FLAG_1008) = 0) {
+            setFlag(#FLAG_1008 1)
+        }
+
+        if (getFlag(#FLAG_1011) = 0) {
+            setFlag(#FLAG_1011 1)
+        }
+
+        if (getFlag(#FLAG_HAS_ENCOUNTERED_MIROR_B) = 0) {
+            setFlag(#FLAG_HAS_ENCOUNTERED_MIROR_B 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CAVE_POKESPOT) {
+        if (getFlag(#FLAG_992) = 0) {
+            setFlag(#FLAG_992 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_BATTLED_MIROR_B_AT_CAVE_POKESPOT) {
+        if (getFlag(#FLAG_1012) = 0) {
+            setFlag(#FLAG_1012 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ENTERED_INVADED_ONBS) {
+        if (getFlag(#FLAG_2112) = 0) {
+            setFlag(#FLAG_2255 1)
+            setFlag(#FLAG_2112 0)
+            setFlag(#FLAG_2114 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_BATTLED_EXOL) {
+        if (getFlag(#FLAG_2114) = 0) {
+            setFlag(#FLAG_2255 0)
+            setFlag(#FLAG_2114 1)
+            setFlag(#FLAG_2112 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_PHENAC) {
+        if (getFlag(#FLAG_991) = 0) {
+            setFlag(#FLAG_991 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_REALGAM) {
+        if (getFlag(#FLAG_1004) = 0) {
+            setFlag(#FLAG_1004 1)
+            setFlag(#FLAG_2309 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RESCUED_GYM_HOSTAGES) {
+        if (getFlag(#FLAG_1978) = 0) {
+            setFlag(#FLAG_1977 0)
+            setFlag(#FLAG_1978 1)
+        }
+
+        goto @location_2748
+    }
+
+
+    if (getFlag(#FLAG_1977) = 0) {
+        setFlag(#FLAG_1977 1)
+    }
+
+    @location_2748
+
+    if (getFlag(#FLAG_STORY) >= #STORY_EXITED_GYM_BASEMENT) {
+        if (getFlag(#FLAG_1003) = 0) {
+            setFlag(#FLAG_1003 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_ARRIVED_AT_SSLIBRA) {
+        if (getFlag(#FLAG_2296) = 0) {
+            setFlag(#FLAG_2296 1)
+            setFlag(#FLAG_2297 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_CIPHER_KEY_LAIR) {
+        Player.setStyle(1 NO)
+        if (getFlag(#FLAG_1005) = 0) {
+            setFlag(#FLAG_1005 1)
+            setFlag(#FLAG_2224 1)
+            setFlag(#FLAG_2225 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_OUTSKIRT_STAND) {
+        if (getFlag(#FLAG_998) = 0) {
+            setFlag(#FLAG_998 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DIRECTED_TO_SNAGEM_HIDEOUT) {
+        if (getFlag(#FLAG_999) = 0) {
+            setFlag(#FLAG_999 1)
+        }
+
+        if (getFlag(#FLAG_2280) = 0) {
+            setFlag(#FLAG_2280 1)
+            setFlag(#FLAG_2279 0)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RECLAIMED_SNAG_MACHINE) {
+        Player.setStyle(2 NO)
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_SAVED_BY_TEAM_SNAGEM) {
+        if (getFlag(#FLAG_2287) = 0) {
+            setFlag(#FLAG_2287 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_BLEW_FACTORY_POWER) {
+        setFlag(#FLAG_2224 0)
+        setFlag(#FLAG_2225 1)
+        setFlag(#FLAG_2287 0)
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DEFEATED_GORIGAN_AT_FACTORY) {
+        setFlagToTrue(#FLAG_2120)
+        setFlag(#FLAG_2224 1)
+        setFlag(#FLAG_2225 0)
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_CAN_USE_ROBO_KYOGRE) {
+        if (getFlag(#FLAG_1006) = 0) {
+            setFlag(#FLAG_1006 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_UNLOCKED_ORRE_COLOSSEUM) {
+        if (getFlag(#FLAG_1097) = 0) {
+            setFlag(#FLAG_1097 1)
+        }
+
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_DEFEATED_ORRE_COLOSSEUM_ROUND_1) {
+        if (getFlag(#FLAG_1730) = 0) {
+            setFlag(#FLAG_1730 1)
+            setFlag(#FLAG_1854 2)
+        }
+
+        if (getFlag(#FLAG_2231) = 0) {
+            setFlag(#FLAG_2231 1)
+        }
+
+    }
+
+    return
+
+}
+
+
+function @tv_flag_check(arg_0) {
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_STEPPED_FOOT_ON_CITADARK) {
+        if (getFlag(#FLAG_2109) <= 9) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3200
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3200
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_WATCHED_OUTSKIRT_STAND_NEWS) {
+        if (getFlag(#FLAG_2109) <= 8) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3252
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3252
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_LOOKING_FOR_MAKAN) {
+        if (getFlag(#FLAG_2109) <= 7) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3304
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3304
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_FOUND_LETTER_FOR_JUSTY) {
+        if ((getFlag(#FLAG_2109) <= 4) or (getFlag(#FLAG_2109) <= 6)) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3365
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3365
+        goto @location_3642
+    }
+
+
+    if (((getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) and (getFlag(#FLAG_STORY) < #STORY_DIRECTED_TO_ROCK_POKESPOT)) and (isFlagSet(#FLAG_1255) = YES)) {
+        if (getFlag(#FLAG_2109) <= 4) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3435
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3435
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_KRANE) {
+        if ((getFlag(#FLAG_2109) <= 3) or (getFlag(#FLAG_2109) = 5)) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3496
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3496
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_WATCHED_ZOOK_GET_WHOOPED) {
+        if (getFlag(#FLAG_2109) <= 2) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3548
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3548
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_STORY) >= #STORY_RETURNED_JOVI) {
+        if (getFlag(#FLAG_2109) <= 1) {
+            Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+            goto @location_3600
+        }
+
+        Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+        @location_3600
+        goto @location_3642
+    }
+
+
+    if (getFlag(#FLAG_2109) = 0) {
+        Map.playMovieOnTV(0x9C6 1 1 arg_0 64 48)
+        goto @location_3642
+    }
+
+    Map.playMovieOnTV(0x996 1 1 arg_0 64 48)
+    @location_3642
+    return
+
+}
+
+
+function @restart_fade_in() {
+
+    arg_254.Transition.begin(#TRANSITION_FADE_IN_BLACK 1)
+    return
+
+}
+
+
+
