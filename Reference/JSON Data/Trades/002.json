@@ -3,27 +3,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 341,
-    "name" : "Mud Shot"
+    "index" : 258,
+    "name" : "Hail"
   },
   "move1" : {
-    "index" : 284,
-    "name" : "Eruption"
+    "index" : 180,
+    "name" : "Hidden Power"
   },
   "species" : {
-    "index" : 156,
-    "name" : "Quilava"
+    "index" : 402,
+    "name" : "Regice"
   },
   "nature" : 255,
-  "level" : 30,
+  "level" : 50,
   "giftType" : "Duking Trade",
   "move4" : {
-    "index" : 144,
-    "name" : "Fiery Dance"
+    "index" : 198,
+    "name" : "Freeze Dry"
   },
   "move2" : {
-    "index" : 252,
-    "name" : "Fake Out"
+    "index" : 246,
+    "name" : "Ancientpower"
   },
   "gender" : 255
 }

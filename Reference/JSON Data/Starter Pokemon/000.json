@@ -1,22 +1,22 @@
 {
-  "index" : 0,
   "gender" : 255,
-  "giftType" : "Starter Pokemon",
   "nature" : 255,
+  "giftType" : "Starter Pokemon",
+  "index" : 0,
+  "level" : 10,
   "move2" : {
     "index" : 270,
     "name" : "Helping Hand"
   },
-  "level" : 10,
   "species" : {
     "index" : 133,
     "name" : "Eevee"
   },
+  "shinyValue" : 65535,
   "move4" : {
     "index" : 247,
     "name" : "Shadow Ball"
   },
-  "shinyValue" : 65535,
   "move1" : {
     "index" : 29,
     "name" : "Headbutt"

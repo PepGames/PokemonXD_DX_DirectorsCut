@@ -4,27 +4,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 296,
-    "name" : "Moonblast"
+    "index" : 60,
+    "name" : "Psybeam"
   },
   "move1" : {
-    "index" : 161,
-    "name" : "Tri Attack"
+    "index" : 246,
+    "name" : "Ancientpower"
   },
   "species" : {
-    "index" : 175,
-    "name" : "Togepi"
+    "index" : 137,
+    "name" : "Porygon"
   },
   "nature" : 255,
   "level" : 40,
   "giftType" : "Shadow Pokemon Gift",
   "move4" : {
-    "index" : 112,
-    "name" : "Shell Smash"
+    "index" : 298,
+    "name" : "Skill Swap"
   },
   "move2" : {
-    "index" : 105,
-    "name" : "Recover"
+    "index" : 140,
+    "name" : "Nasty Plot"
   },
   "gender" : 255
 }

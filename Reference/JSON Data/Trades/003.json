@@ -3,27 +3,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 46,
-    "name" : "Dragon Tail"
+    "index" : 174,
+    "name" : "Curse"
   },
   "move1" : {
-    "index" : 37,
-    "name" : "Aqua Jet"
+    "index" : 180,
+    "name" : "Hidden Power"
   },
   "species" : {
-    "index" : 159,
-    "name" : "Croconaw"
+    "index" : 403,
+    "name" : "Registeel"
   },
   "nature" : 255,
-  "level" : 30,
+  "level" : 50,
   "giftType" : "Duking Trade",
   "move4" : {
-    "index" : 282,
-    "name" : "Ice Fang"
+    "index" : 1,
+    "name" : "Bullet Punch"
   },
   "move2" : {
-    "index" : 349,
-    "name" : "Dragon Dance"
+    "index" : 246,
+    "name" : "Ancientpower"
   },
   "gender" : 255
 }

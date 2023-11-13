@@ -3,27 +3,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 273,
-    "name" : "Wish"
+    "index" : 49,
+    "name" : "Aqua Tail"
   },
   "move1" : {
-    "index" : 150,
-    "name" : "Wood Hammer"
+    "index" : 231,
+    "name" : "Iron Tail"
   },
   "species" : {
-    "index" : 413,
-    "name" : "Bonsly"
+    "index" : 128,
+    "name" : "Tauros"
   },
   "nature" : 255,
-  "level" : 40,
+  "level" : 50,
   "giftType" : "Hordel Trade",
   "move4" : {
-    "index" : 24,
-    "name" : "First Impression"
+    "index" : 278,
+    "name" : "High Horsepower"
   },
   "move2" : {
-    "index" : 131,
-    "name" : "Head Smash"
+    "index" : 38,
+    "name" : "Double-Edge"
   },
   "gender" : 255
 }

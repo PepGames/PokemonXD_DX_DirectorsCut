@@ -3,27 +3,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 147,
-    "name" : "Spore"
+    "index" : 201,
+    "name" : "Sandstorm"
   },
   "move1" : {
-    "index" : 121,
-    "name" : "Leaf Storm"
+    "index" : 180,
+    "name" : "Hidden Power"
   },
   "species" : {
-    "index" : 153,
-    "name" : "Bayleef"
+    "index" : 401,
+    "name" : "Regirock"
   },
   "nature" : 255,
-  "level" : 30,
+  "level" : 50,
   "giftType" : "Duking Trade",
   "move4" : {
-    "index" : 220,
-    "name" : "Pain Split"
+    "index" : 22,
+    "name" : "Drain Punch"
   },
   "move2" : {
-    "index" : 73,
-    "name" : "Leech Seed"
+    "index" : 246,
+    "name" : "Ancientpower"
   },
   "gender" : 255
 }
