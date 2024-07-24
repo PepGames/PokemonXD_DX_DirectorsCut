@@ -15,7 +15,7 @@
     "name" : "Tyrogue"
   },
   "nature" : 255,
-  "level" : 60,
+  "level" : 25,
   "giftType" : "Mt. Battle Prize",
   "move4" : {
     "index" : 0,

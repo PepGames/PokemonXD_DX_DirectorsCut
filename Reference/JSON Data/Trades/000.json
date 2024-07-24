@@ -3,27 +3,27 @@
   "exp" : -1,
   "shinyValue" : 65535,
   "move3" : {
-    "index" : 49,
-    "name" : "Aqua Tail"
+    "index" : 222,
+    "name" : "Bulldoze"
   },
   "move1" : {
-    "index" : 231,
-    "name" : "Iron Tail"
+    "index" : 29,
+    "name" : "Headbutt"
   },
   "species" : {
-    "index" : 128,
-    "name" : "Tauros"
+    "index" : 241,
+    "name" : "Miltank"
   },
   "nature" : 255,
-  "level" : 50,
+  "level" : 40,
   "giftType" : "Hordel Trade",
   "move4" : {
-    "index" : 278,
-    "name" : "High Horsepower"
+    "index" : 281,
+    "name" : "Yawn"
   },
   "move2" : {
-    "index" : 38,
-    "name" : "Double-Edge"
+    "index" : 156,
+    "name" : "Rest"
   },
   "gender" : 255
 }

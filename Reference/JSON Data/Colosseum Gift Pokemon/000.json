@@ -4,12 +4,12 @@
   "usesLevelUpMoves" : true,
   "shinyValue" : 0,
   "move3" : {
-    "index" : 98,
-    "name" : "Quick Attack"
+    "index" : 52,
+    "name" : "Ember"
   },
   "move1" : {
-    "index" : 45,
-    "name" : "Growl"
+    "index" : 143,
+    "name" : "Charge Beam"
   },
   "species" : {
     "index" : 353,
@@ -19,12 +19,12 @@
   "level" : 13,
   "giftType" : "Duking's Plusle",
   "move4" : {
-    "index" : 270,
-    "name" : "Helping Hand"
+    "index" : 336,
+    "name" : "Nuzzle"
   },
   "move2" : {
-    "index" : 86,
-    "name" : "Thunder Wave"
+    "index" : 270,
+    "name" : "Helping Hand"
   },
   "gender" : 255
 }

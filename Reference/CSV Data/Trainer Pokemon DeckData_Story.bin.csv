@@ -603,7 +603,7 @@ Raticate - 600,Raticate (20),61,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,
 Farfetch'd - 601,Farfetch'd (83),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Close Combat (119),Leaf Blade (348),Stone Edge (39),Brave Bird (123),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Kangaskhan - 602,Kangaskhan (115),63,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hammer Arm (118),Meteor Mash (309),High Horsepower (278),Wild Charge (248),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Stantler - 603,Stantler (234),61,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Megahorn (224),High Horsepower (278),Double-Edge (38),Swagger (207),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Zangoose - 604,Zangoose (380),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Facade (263),Close Combat (119),Double-Edge (38),Swords Dance (14),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Zangoose - 604,Zangoose (380),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Facade (263),Close Combat (119),Double-Edge (38),Swords Dance (14),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Yanma - 605,Yanma (193),63,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sludge Bomb (188),Hurricane (239),Extrasensory (326),Bug Buzz (30),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Masquerain - 606,Masquerain (312),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sludge Wave (308),Hurricane (239),Sludge Bomb (188),Bug Buzz (30),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Butterfree - 607,Butterfree (12),63,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psystrike (218),Quiver Dance (43),Aeroblast (177),Sludge Bomb (188),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
