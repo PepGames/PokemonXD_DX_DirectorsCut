@@ -1,6 +1,6 @@
 Entry Name,Miror B weighting,Catch Rate,Level,Shadow ID Is Being Used,Pokemon Index In Story Deck,Heart Guage,Shadow Moves 1,Shadow Moves 2,Shadow Moves 3,Shadow Moves 4,Aggression,Flees When Player Loses
-Shadow Pokemon - 0,0 (0x0),75,1,false,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
-Shadow Pokemon - 1,128 (0x80),255,6,true,Ralts  (28),1500,Shadow Pulse (360),Shadow Snooze (267),None (0),None (0),5 (0x5),false
+Shadow Pokemon - 0,0 (0x0),0,0,false,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
+Shadow Pokemon - 1,128 (0x80),200,6,true,Ponyta  (28),1500,Shadow Pulse (360),Shadow Snooze (267),None (0),None (0),5 (0x5),false
 Shadow Pokemon - 2,128 (0x80),150,38,true,Marowak  (200),3000,Shadow Blaze (363),Shadow Club (335),Shadow Burn (288),None (0),2 (0x2),false
 Shadow Pokemon - 3,0 (0x0),200,12,true,Totodile  (721),2000,Shadow Combo (120),Shadow Hunter (373),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 4,0 (0x0),200,12,true,Larvitar  (722),2000,Shadow Slam (357),Shadow Hunter (373),None (0),None (0),1 (0x1),false
@@ -14,7 +14,7 @@ Shadow Pokemon - 11,0 (0x0),45,70,true,Flygon  (281),0,Earthquake (89),Fire Fang
 Shadow Pokemon - 12,128 (0x80),220,22,true,Togepi  (155),2000,Shadow Pulse (360),Shadow Barrier (329),None (0),None (0),3 (0x3),false
 Shadow Pokemon - 13,128 (0x80),255,8,true,Slowpoke  (405),1000,Shadow Pulse (360),Shadow Switch (128),None (0),None (0),4 (0x4),false
 Shadow Pokemon - 14,0 (0x0),200,12,true,Cyndaquil  (715),2000,Shadow Pulse (360),Shadow Slayer (371),None (0),None (0),1 (0x1),false
-Shadow Pokemon - 15,128 (0x80),150,35,true,Ninetales  (210),3000,Shadow Chill (365),Shadow Freeze (237),Shadow Slayer (371),None (0),2 (0x2),false
+Shadow Pokemon - 15,128 (0x80),150,35,true,Ninetales-A  (210),3000,Shadow Chill (365),Shadow Freeze (237),Shadow Slayer (371),None (0),2 (0x2),false
 Shadow Pokemon - 16,128 (0x80),245,10,true,Swinub  (228),1200,Shadow Feint (255),Shadow Freeze (237),None (0),None (0),4 (0x4),false
 Shadow Pokemon - 17,128 (0x80),170,32,true,Cacturne  (236),2500,Shadow Whip (190),Shadow Tease (259),None (0),None (0),3 (0x3),false
 Shadow Pokemon - 18,128 (0x80),245,10,true,Zubat  (239),1200,Shadow Scream (138),Shadow Fang (301),None (0),None (0),3 (0x3),false
@@ -71,7 +71,7 @@ Shadow Pokemon - 68,128 (0x80),60,63,true,Cradily  (682),4500,Shadow Rush (166),
 Shadow Pokemon - 69,128 (0x80),90,60,true,Walrein  (684),4000,Shadow Chill (365),Shadow Snooze (267),Shadow Wave (330),Shadow Freeze (237),1 (0x1),false
 Shadow Pokemon - 70,128 (0x80),40,73,true,Solrock  (685),6000,Shadow Soul (369),Shadow Tribute (343),Shadow Madness (272),Shadow Star (372),1 (0x1),false
 Shadow Pokemon - 71,128 (0x80),20,73,true,Latias  (687),7500,Shadow Speed (229),Shadow Storm (362),Shadow Sky (367),Shadow Breeze (260),1 (0x1),false
-Shadow Pokemon - 72,10 (0xA),15,73,true,Moltres  (688),7500,Shadow Blaze (363),Shadow Breeze (260),Shadow Burn (288),Shadow Storm (362),1 (0x1),false
+Shadow Pokemon - 72,10 (0xA),30,73,true,Moltres  (688),7500,Shadow Blaze (363),Shadow Breeze (260),Shadow Burn (288),Shadow Storm (362),1 (0x1),false
 Shadow Pokemon - 73,0 (0x0),1,80,true,Lugia  (699),15000,Shadow Burst (361),Shadow Blast (366),Shadow Sky (367),Shadow Breeze (260),1 (0x1),false
 Shadow Pokemon - 74,0 (0x0),3,75,true,Deoxys  (705),15000,Shadow Blast (366),Shadow Tantrum (80),Shadow Barrier (329),Shadow Star (372),1 (0x1),false
 Shadow Pokemon - 75,0 (0x0),30,74,true,Slaking  (701),8000,Shadow Crash (291),Shadow Shake (132),Shadow Snooze (267),Shadow Max (262),1 (0x1),false
@@ -97,7 +97,7 @@ Shadow Pokemon - 94,128 (0x80),100,55,true,Arbok  (136),5000,Shadow Speed (229),
 Shadow Pokemon - 95,128 (0x80),200,12,true,Charmander  (137),2000,Shadow Pulse (360),Shadow Slayer (371),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 96,128 (0x80),200,12,true,Torchic  (141),2000,Shadow Combo (120),Shadow Hunter (373),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 97,128 (0x80),200,12,true,Squirtle  (144),2000,Shadow Pulse (360),Shadow Slayer (371),None (0),None (0),1 (0x1),false
-Shadow Pokemon - 98,10 (0xA),15,71,true,Articuno  (151),7500,Shadow Switch (128),Shadow Bolt (364),Shadow Fear (244),Shadow Storm (362),1 (0x1),false
+Shadow Pokemon - 98,10 (0xA),30,71,true,Articuno  (151),7500,Shadow Switch (128),Shadow Bolt (364),Shadow Fear (244),Shadow Storm (362),1 (0x1),false
 Shadow Pokemon - 99,128 (0x80),200,12,true,Mudkip  (166),2000,Shadow Combo (120),Shadow Hunter (373),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 100,128 (0x80),200,12,true,Trapinch  (173),2000,Shadow Slam (357),Shadow Hunter (373),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 101,128 (0x80),200,12,true,Geodude  (272),2000,Shadow Rush (166),Shadow Hunter (373),None (0),None (0),1 (0x1),false
@@ -116,14 +116,14 @@ Shadow Pokemon - 113,128 (0x80),20,50,true,Entei  (372),7500,Shadow Blaze (363),
 Shadow Pokemon - 114,128 (0x80),20,50,true,Suicune  (373),7500,Shadow Chill (365),Shadow Snooze (267),Shadow Slayer (371),Shadow Speed (229),1 (0x1),false
 Shadow Pokemon - 115,128 (0x80),75,63,true,Banette  (380),5000,Shadow Crush (370),Shadow Terrain (300),Shadow Knee (293),Shadow Chant (254),1 (0x1),false
 Shadow Pokemon - 116,128 (0x80),75,63,true,Dusclops  (381),5000,Shadow Crush (370),Shadow Tease (259),Shadow Knee (293),Shadow Chant (254),1 (0x1),false
-Shadow Pokemon - 117,128 (0x80),40,68,true,Weezing  (409),6000,Shadow Colours (203),None (0),None (0),None (0),1 (0x1),false
+Shadow Pokemon - 117,128 (0x80),60,68,true,Weezing  (409),6000,Shadow Colours (203),None (0),None (0),None (0),1 (0x1),false
 Shadow Pokemon - 118,128 (0x80),20,68,true,Mewtwo  (420),9000,Shadow Strike (173),Shadow Crash (291),Shadow Focus (193),Shadow Max (262),1 (0x1),false
 Shadow Pokemon - 119,128 (0x80),70,62,true,Shiftry  (428),4400,Shadow Rush (166),Shadow Agility (294),Shadow Knee (293),Shadow Max (262),1 (0x1),false
 Shadow Pokemon - 120,128 (0x80),35,71,true,Lapras  (431),6000,Shadow Chill (365),Shadow Strike (173),Shadow Terrain (300),Shadow Snooze (267),1 (0x1),false
 Shadow Pokemon - 121,128 (0x80),15,70,true,Rayquaza  (432),10000,Shadow Blast (366),Shadow Smash (359),Shadow Sky (367),Shadow Breeze (260),1 (0x1),false
 Shadow Pokemon - 122,128 (0x80),35,73,true,Torkoal  (440),6000,Shadow Blaze (363),Shadow Guard (197),Shadow Shake (132),Shadow Terrain (300),1 (0x1),false
-Shadow Pokemon - 123,0 (0x0),0,0,true,Ralts  (28),0,None (0),None (0),None (0),None (0),0 (0x0),false
-Shadow Pokemon - 124,0 (0x0),0,0,true,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
-Shadow Pokemon - 125,0 (0x0),225,0,true,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
+Shadow Pokemon - 123,0 (0x0),200,15,true,Zigzagoon  (324),0,None (0),None (0),None (0),None (0),0 (0x0),false
+Shadow Pokemon - 124,0 (0x0),10,15,true,DX002  (330),0,None (0),None (0),None (0),None (0),0 (0x0),false
+Shadow Pokemon - 125,0 (0x0),20,15,true,DX003  (331),0,None (0),None (0),None (0),None (0),0 (0x0),false
 Shadow Pokemon - 126,0 (0x0),0,0,true,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
 Shadow Pokemon - 127,0 (0x0),0,0,true,None  (0),0,None (0),None (0),None (0),None (0),0 (0x0),false
