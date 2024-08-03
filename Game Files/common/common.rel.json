@@ -538,7 +538,7 @@
     },
     {
       "id" : 1132,
-      "text" : "Ditto"
+      "text" : "Def Bag"
     },
     {
       "id" : 1133,
@@ -5698,23 +5698,23 @@
     },
     {
       "id" : 6076,
-      "text" : "Sp. Atk EV Trainer"
+      "text" : "Sp.Atk EVT"
     },
     {
       "id" : 6077,
-      "text" : "Sp. Def EV Trainer"
+      "text" : "Sp.Def EVT"
     },
     {
       "id" : 6078,
-      "text" : "Attack EV Trainer"
+      "text" : "Attack EVT"
     },
     {
       "id" : 6079,
-      "text" : "Speed EV Trainer"
+      "text" : "Speed EVT"
     },
     {
       "id" : 6080,
-      "text" : "Defense EV Trainer"
+      "text" : "Def EVT"
     },
     {
       "id" : 6081,
@@ -6254,23 +6254,23 @@
     },
     {
       "id" : 6522,
-      "text" : "ABONo"
+      "text" : "Health Bag"
     },
     {
       "id" : 6523,
-      "text" : "AGORA"
+      "text" : "Sp.Atk Bag"
     },
     {
       "id" : 6524,
-      "text" : "DULIX"
+      "text" : "Sp.Def Bag"
     },
     {
       "id" : 6525,
-      "text" : "CORD"
+      "text" : "Attack Bag"
     },
     {
       "id" : 6526,
-      "text" : "COKI"
+      "text" : "Speed Bag"
     },
     {
       "id" : 6527,

@@ -13,8 +13,8 @@ Ludicolo - 10,Ludicolo (297),50,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,
 Sharpedo - 11,Sharpedo (331),50,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dragon Hammer (90),Wild Charge (248),Surf (57),Psychic Fangs (135),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Ludicolo - 12,Ludicolo (297),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Solarbeam (76),Hydro Pump (56),First Impression (24),Surf (57),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Medicham - 13,Medicham (357),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Edge (39),Hi Jump Kick (136),Dynamicpunch (223),Ice Hammer (249),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Abra - 14,Abra (63),3,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Teleport (100),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Dratini - 15,Dratini (147),3,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aqua Jet (37),Peck (64),Dragon Dance (349),Ember (52),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Abra - 14,Abra (63),3,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Confusion (93),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Dratini - 15,Dratini (147),2,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aqua Jet (37),Peck (64),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Nidoking - 16,Nidoking (34),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Poison Jab (15),Brick Break (280),Thunder Punch (9),Crunch (242),Never (0x0),false,Male (0),Adamant (3),false,false,false,false
 Wingull - 17,Wingull (309),5,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Water Gun (55),Growl (45),None (0),None (0),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Krabby - 18,Krabby (98),5,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,False Swipe (206),Water Gun (55),None (0),None (0),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
@@ -79,16 +79,16 @@ Gulpin - 76,Gulpin (367),17,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,
 Flaaffy - 77,Flaaffy (180),24,0,Iapapa Berry (147),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Charge Beam (143),Hypnosis (95),Psybeam (60),Volt Switch (289),Never (0x0),true,Female (1),Bold (5),false,false,false,false
 Shroomish - 78,Shroomish (306),10,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Absorb (71),Stun Spore (78),Sleep Powder (79),Leech Seed (73),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Linoone - 79,Linoone (259),59,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Protect (182),Superpower (276),Waterfall (127),Play Rough (70),Never (0x0),false,Male (0),Adamant (3),false,false,false,false
-Gengar - 80,Gengar (94),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Fire Blast (126),Zap Cannon (192),Dragon Pulse (110),Sludge Wave (308),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Sp.Atk Bag - 80,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Ninjask - 81,Ninjask (302),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Protect (182),Aerial Ace (332),U-Turn (287),Cross Poison (342),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Shedinja - 82,Shedinja (303),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Protect (182),Aerial Ace (332),X-Scissor (36),Confuse Ray (109),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Seedot - 83,Seedot (298),17,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Giga Drain (202),U-Turn (287),Bullet Seed (331),Shadow Strength (290),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Vaporeon - 84,Vaporeon (134),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Moonlight (236),Heal Bell (215),Scald (17),Ice Beam (58),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Mawile - 85,Mawile (355),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Play Rough (70),Meteor Mash (309),Foul Play (151),Swords Dance (14),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Pineco - 86,Pineco (204),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Headbutt (29),Leech Seed (73),Infestation (35),Iron Defense (334),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Def Bag - 86,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Claydol - 87,Claydol (319),63,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Edge (39),Cosmic Power (322),Psystrike (218),Earthquake (89),Never (0x0),true,Genderless (2),Hardy (0),false,false,false,false
-Weezing - 88,Weezing (110),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sludge (124),Toxic (92),Silver Wind (318),Confusion (93),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Aggron - 89,Aggron (384),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Night Slash (168),Stomping Tantrum (175),Brick Break (280),Iron Head (19),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Def Bag - 88,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 89,Def Bag (132),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Beedrill - 90,Beedrill (15),62,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Poison Jab (15),Leaf Blade (348),Night Slash (168),Megahorn (224),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Umbreon - 91,Umbreon (197),36,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Revenge (279),Acrobatics (178),Reflect (115),Snarl (6),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Espeon - 92,Espeon (196),36,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Signal Beam (324),Shadow Ball (247),Light Screen (113),Snarl (6),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
@@ -162,23 +162,23 @@ Slowpoke - 159,Slowpoke (79),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,
 Nosepass - 160,Nosepass (320),19,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Polish (159),Sand Tomb (328),Rock Throw (88),Protect (155),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Magnemite - 161,Magnemite (81),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Shock Wave (351),Thunder Wave (86),Tackle (33),Metal Sound (319),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Machop - 162,Machop (66),19,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bullet Punch (1),Power-Up Punch (130),Mach Punch (183),Rock Throw (88),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Ralts - 163,Ralts (392),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Disarming Voice (146),Ember (52),Psybeam (60),Confusion (93),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Torchic - 164,Torchic (280),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flame Charge (77),Low Sweep (27),Aerial Ace (332),Low Kick (67),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Magnemite - 165,Magnemite (81),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Spark (209),Metal Sound (319),Thunder Wave (86),Iron Defense (334),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 163,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 164,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 165,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Mudkip - 166,Mudkip (283),10,0,Shady Ball (5),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Throw (88),Sand-Attack (28),Mud-Slap (189),Aqua Jet (37),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Duskull - 167,Duskull (361),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Shadow Sneak (41),Confuse Ray (109),Ice Punch (8),Will-O-Wisp (261),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Swablu - 168,Swablu (358),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Perish Song (195),Heal Bell (215),Gust (16),Sing (47),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Seel - 169,Seel (86),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Headbutt (29),Growl (45),Snowscape (258),Aurora Beam (62),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Bagon - 170,Bagon (395),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Dragon Dance (125),Bite (44),Fake Out (252),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Poochyena - 171,Poochyena (286),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Fang (282),Poison Fang (305),Bite (44),Fire Fang (213),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Teddiursa - 172,Teddiursa (216),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Belly Drum (187),Fake Out (252),Baby Doll Eyes (23),Metal Claw (232),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 167,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 168,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 169,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 170,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 171,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 172,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Trapinch - 173,Trapinch (332),10,0,Shady Ball (5),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Bite (44),Sand-Attack (28),Rock Throw (88),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Pichu - 174,Pichu (172),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Charm (204),Spark (209),Heart Stamp (170),Quick Attack (98),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Aipom - 175,Aipom (190),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Facade (263),Quick Attack (98),Swords Dance (14),Feint Attack (185),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Treecko - 176,Treecko (277),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bullet Seed (331),Dragon Tail (46),Aerial Ace (332),Leech Seed (73),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Ampharos - 177,Ampharos (181),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Moonblast (296),Zap Cannon (192),Dragon Pulse (110),Thunder (87),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Aron - 178,Aron (382),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Iron Defense (334),Headbutt (29),Rock Throw (88),Metal Claw (232),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Koffing - 179,Koffing (109),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Pain Split (220),Ember (52),Will-O-Wisp (261),Confusion (93),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Speed Bag - 174,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 175,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 176,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 177,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 178,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 179,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Kadabra - 180,Kadabra (64),19,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Disable (50),Hidden Power (314),Confusion (93),Calm Mind (347),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Dratini - 181,Dratini (147),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Flame Charge (77),Dragon Tail (46),Ember (52),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Kadabra - 182,Kadabra (64),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Disable (50),Hidden Power (314),Confusion (93),Calm Mind (347),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
@@ -206,24 +206,24 @@ Cubone - 203,Cubone (104),22,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0
 Meditite - 204,Meditite (356),22,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Force Palm (158),Power-Up Punch (130),Disable (50),Bullet Punch (1),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Combusken - 205,Combusken (281),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flame Charge (77),Low Sweep (27),Aerial Ace (332),Fire Punch (7),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Hitmontop - 206,Hitmontop (237),22,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Wide Guard (266),Low Sweep (27),Mach Punch (183),Bulk Up (339),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Politoed - 207,Politoed (186),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psystrike (218),Rain Dance (240),Nasty Plot (140),Hydro Pump (56),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 207,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Anorith - 208,Anorith (390),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Bug Bite (40),Iron Defense (334),Infestation (35),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Slugma - 209,Slugma (218),22,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Mud Shot (341),Rock Throw (88),Will-O-Wisp (261),Ember (52),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Ninetales-A - 210,Ninetales-A (264),32,0,Star Piece (109),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psybeam (60),Wish (273),Hex (251),Icy Wind (196),Never (0x0),false,Female (1),Modest (15),false,false,false,false
+Ninetales - 210,Ninetales (264),32,0,Star Piece (109),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psybeam (60),Wish (273),Hex (251),Icy Wind (196),Never (0x0),false,Female (1),Modest (15),false,false,false,false
 Surskit - 211,Surskit (311),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rain Dance (240),Infestation (35),Water Gun (55),Quiver Dance (43),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Barboach - 212,Barboach (323),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bulldoze (222),Water Pulse (352),Rain Dance (240),Water Gun (55),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Phanpy - 213,Phanpy (231),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Scary Face (184),Bulldoze (222),Facade (263),Rock Throw (88),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Dustox - 214,Dustox (294),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bug Buzz (30),Quiver Dance (43),Energy Ball (91),Sludge Wave (308),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 214,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Spoink - 215,Spoink (351),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rest (156),Confusion (93),Draining Kiss (167),Mud Shot (341),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Pikachu - 216,Pikachu (25),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Charm (204),Spark (209),Heart Stamp (170),Fire Punch (7),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
 Beedrill - 217,Beedrill (15),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bullet Punch (1),Cross Poison (342),Feint Attack (185),First Impression (24),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Pikachu - 218,Pikachu (25),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Charm (204),Spark (209),Heart Stamp (170),Fire Punch (7),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Hitmonchan - 219,Hitmonchan (107),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Power-Up Punch (130),Mach Punch (183),Bulk Up (339),Taunt (269),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Hariyama - 220,Hariyama (336),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bulk Up (339),Heart Stamp (170),Feint (338),Power-Up Punch (130),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Dragonite - 221,Dragonite (149),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Liquidation (230),Dragon Hammer (90),Iron Tail (231),Dragon Ascent (316),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Attack Bag - 221,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Fearow - 222,Fearow (22),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Throw (88),Growl (45),Mud-Slap (189),Featherdance (297),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Linoone - 223,Linoone (289),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Fake Out (252),Sandstorm (201),Quick Attack (98),Pursuit (228),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Shiftry - 224,Shiftry (300),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Leech Life (81),Swagger (207),Leaf Blade (348),Night Slash (168),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Attack Bag - 224,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Shuckle - 225,Shuckle (213),23,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Curse (174),Shell Smash (112),Stomping Tantrum (175),Leech Life (81),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Sudowoodo - 226,Sudowoodo (185),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Throw (88),Bulldoze (222),Sandstorm (201),Razor Leaf (75),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
 Flareon - 227,Flareon (136),64,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sunny Day (241),Earthquake (89),Iron Tail (231),Flare Blitz (25),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
@@ -231,7 +231,7 @@ Swinub - 228,Swinub (220),8,0,Big Mushroom (104),"フリー"  (1),0,0,0,0,0,0,0,
 Larvitar - 229,Larvitar (246),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Dragon Dance (125),Rock Tomb (317),Rock Blast (350),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Poliwhirl - 230,Poliwhirl (61),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Recover (105),Force Palm (158),Water Pulse (352),Body Slam (34),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Marshtomp - 231,Marshtomp (284),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Arm Thrust (292),Bulldoze (222),Yawn (281),Ice Shard (96),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Magmar - 232,Magmar (126),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flamethrower (53),Earth Power (11),Flash Cannon (295),Energy Ball (91),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Speed Bag - 232,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Breloom - 233,Breloom (307),24,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Needle Arm (302),Force Palm (158),Leech Seed (73),Counter (68),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Hitmonlee - 234,Hitmonlee (106),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Counter (68),Low Kick (67),Feint (338),Bulk Up (339),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Machamp - 235,Machamp (68),64,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Iron Head (19),Hammer Arm (118),Wood Hammer (150),Stone Edge (39),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
@@ -256,14 +256,14 @@ Marill - 253,Marill (183),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0
 Swinub - 254,Swinub (220),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,252,Avalanche (205),Headbutt (29),Swords Dance (14),Stomping Tantrum (175),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Sneasel - 255,Sneasel (215),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hone Claws (12),Ice Punch (8),Slash (163),Knock Off (48),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Umbreon - 256,Umbreon (197),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Quick Attack (98),Acrobatics (178),Baton Pass (226),Payback (107),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Sceptile - 257,Sceptile (279),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Leaf Blade (348),Cross Poison (342),Cross Chop (238),Dragon Hammer (90),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Speed Bag - 257,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Weepinbell - 258,Weepinbell (70),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Razor Leaf (75),Sludge (124),Leech Seed (73),Sleep Powder (79),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Koffing - 259,Koffing (109),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sludge (124),Toxic (92),Will-O-Wisp (261),Confusion (93),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Dustox - 260,Dustox (294),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Moonlight (236),Silver Wind (318),Gust (16),Quiver Dance (43),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Raticate - 261,Raticate (20),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Poison Fang (305),Metal Claw (232),Double Team (104),Baton Pass (226),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Farfetch'd - 262,Farfetch'd (83),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Fury Cutter (210),Rock Tomb (317),Knock Off (48),Aerial Ace (332),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Pinsir - 263,Pinsir (127),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Leech Life (81),Foul Play (151),First Impression (24),Stone Edge (39),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Cloyster - 264,Cloyster (91),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Blizzard (59),Psychic (94),Thunderbolt (85),Moonblast (296),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
+Def Bag - 263,Def Bag (132),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 264,Def Bag (132),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Blissey - 265,Blissey (242),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Protect (155),Seismic Toss (69),Toxic (92),Wish (273),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Noctowl - 266,Noctowl (164),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hypnosis (95),Icy Wind (196),Confusion (93),Fairy Wind (176),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Teddiursa - 267,Teddiursa (216),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Fake Out (252),Baby Doll Eyes (23),Metal Claw (232),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
@@ -306,24 +306,24 @@ Beautifly - 303,Beautifly (292),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0
 Dragonair - 304,Dragonair (148),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dragon Dance (125),Flame Charge (77),Dragon Tail (46),Aerial Ace (332),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Arcanine - 305,Arcanine (59),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Fang (282),Sunny Day (241),Fire Fang (213),Morning Sun (234),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Quilava - 306,Quilava (156),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Mud Shot (341),Toxic (92),Dragonbreath (225),Flame Wheel (172),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Venusaur - 307,Venusaur (3),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Cotton Guard (160),Mega Drain (72),Leech Seed (73),None (0),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Butterfree - 308,Butterfree (12),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psybeam (60),Signal Beam (324),Air Slash (154),Giga Drain (202),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Golduck - 309,Golduck (55),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Bubblebeam (61),Ancientpower (246),Confusion (93),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Sp.Atk Bag - 307,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 308,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 309,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Mareep - 310,Mareep (179),10,0,Shady Ball (5),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Disarming Voice (146),Cotton Guard (160),Baby Doll Eyes (23),Thunder Shock (84),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Milotic - 311,Milotic (329),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Water Pulse (352),Calm Mind (129),Aurora Beam (62),Psybeam (60),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Altaria - 312,Altaria (359),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Body Slam (34),Dragon Claw (337),Roost (117),Dragon Dance (349),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Claydol - 313,Claydol (319),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bulldoze (222),Night Shade (101),Ancientpower (246),Psybeam (60),Never (0x0),true,Genderless (2),Hardy (0),false,false,false,false
-Absol - 314,Absol (376),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Knock Off (48),Pursuit (228),Swords Dance (14),Stomping Tantrum (175),Never (0x0),false,Female (1),Jolly (13),false,false,false,false
-Crawdaunt - 315,Crawdaunt (327),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,252,Aqua Jet (37),Metal Claw (232),Crush Claw (306),Night Slash (168),Never (0x0),false,Male (0),Timid (10),false,false,false,false
-Primeape - 316,Primeape (57),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Close Combat (119),Poison Jab (15),Meteor Mash (309),Belly Drum (187),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 311,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 312,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 313,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 314,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Jolly (13),false,false,false,false
+Attack Bag - 315,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,252,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Timid (10),false,false,false,false
+Attack Bag - 316,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Electrike - 317,Electrike (337),10,0,Shady Ball (5),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Growl (45),Quick Attack (98),Thunder Shock (84),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Pidgeotto - 318,Pidgeotto (17),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aura Sphere (4),Aerial Ace (332),Slash (163),Steel Wing (211),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Pikachu - 319,Pikachu (25),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Punch (8),Thunder Punch (9),Heart Stamp (170),Fire Punch (7),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Rapidash - 320,Rapidash (78),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flame Charge (77),Bulldoze (222),Volt Switch (289),Stomping Tantrum (175),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
+Speed Bag - 318,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 319,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 320,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Armaldo - 321,Armaldo (391),66,0,Protein (64),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Swords Dance (14),Night Slash (168),X-Scissor (36),Rock Slide (157),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Sandslash - 322,Sandslash (28),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Hone Claws (12),Bulldoze (222),Shadow Claw (139),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Graveler - 323,Graveler (75),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Wide Guard (266),Iron Head (19),Bulldoze (222),Rock Slide (157),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Zigzagoon - 324,Zigzagoon (258),13,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,None (0),None (0),None (0),None (0),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Def Bag - 322,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 323,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Zigzagoon - 324,Zigzagoon (258),14,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Fake Out (252),Growl (45),Quick Attack (98),Snarl (6),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Arcanine - 325,Arcanine (59),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Fang (282),Sunny Day (241),Flame Charge (77),Poison Fang (305),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Dratini - 326,Dratini (147),10,0,Shady Ball (5),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aqua Jet (37),Peck (64),Dragon Dance (349),Ember (52),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Shellder - 327,Shellder (90),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Icy Wind (196),Water Gun (55),Snowscape (258),Mud-Slap (189),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
@@ -361,7 +361,7 @@ Scizor - 358,Scizor (212),63,0,Aura Filter (60),"フリー"  (1),0,0,0,0,0,0,0,0
 Milotic - 359,Milotic (329),62,0,Aura Filter (60),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dragon Tail (46),Psychic (94),Hydro Pump (56),Shadow Chill (365),Never (0x0),false,Male (0),Modest (15),false,false,false,false
 Ekans - 360,Ekans (23),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Screech (103),Swords Dance (14),Glare (137),Bite (44),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Gyarados - 361,Gyarados (130),65,0,Aura Filter (60),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Shadow Fang (301),Crunch (242),Aqua Tail (49),Psychic Fangs (135),Never (0x0),false,Male (0),Adamant (3),false,false,false,false
-Gardevoir - 362,Gardevoir (394),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Moonblast (296),Moonlight (236),Psystrike (218),Thunder (87),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
+Sp.Atk Bag - 362,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Banette - 363,Banette (378),64,0,Aura Filter (60),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Snarl (6),Shadow Sky (367),Substitute (164),Will-O-Wisp (261),Never (0x0),false,Female (1),Adamant (3),false,false,false,false
 Gloom - 364,Gloom (44),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Mega Drain (72),Mud Shot (341),Leech Seed (73),Mud-Slap (189),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Smoochum - 365,Smoochum (238),20,0,Star Piece (109),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aurora Veil (32),Sweet Kiss (186),Confusion (93),Draining Kiss (167),Never (0x0),false,Female (1),Modest (15),false,false,false,false
@@ -412,7 +412,7 @@ Weezing - 409,Weezing (257),70,0,Star Piece (109),"フリー"  (1),0,0,0,0,0,0,0
 Ampharos - 410,Ampharos (181),40,0,Scope Lens (198),"フリー"  (1),0,31,31,31,31,31,31,0,0,0,0,0,0,Energy Ball (91),Power Gem (285),Thunderbolt (85),Flamethrower (53),Never (0x0),true,Female (1),Modest (15),false,false,false,false
 Banette - 411,Banette (378),39,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hypnosis (95),Shadow Punch (325),Knock Off (48),Thunder Wave (86),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Charizard - 412,Charizard (6),38,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flamethrower (53),Dragonbreath (225),Morning Sun (234),Fiery Dance (144),Never (0x0),true,Genderless (2),Hardy (0),false,false,false,false
-Aerodactyl - 413,Aerodactyl (142),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bone Club (10),Iron Head (19),Hone Claws (12),Crunch (242),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Speed Bag - 413,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Electabuzz - 414,Electabuzz (125),40,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Taunt (269),Thunder (87),Nasty Plot (140),Thunder Punch (9),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
 Gengar - 415,Gengar (94),40,0,Life Orb (62),"フリー"  (1),0,31,31,31,31,31,31,0,0,0,0,0,0,Destiny Bond (194),Nasty Plot (140),Shadow Ball (247),Sludge Bomb (188),Never (0x0),true,Male (0),Timid (10),false,false,false,false
 Ariados - 416,Ariados (168),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Energy Ball (91),Night Shade (101),Quiver Dance (141),Scary Face (184),Never (0x0),false,Female (1),Serious (12),false,false,false,false
@@ -435,10 +435,10 @@ Rayquaza - 432,Rayquaza (406),72,0,Nugget (110),"フリー"  (1),0,0,0,0,0,0,0,0
 Mightyena - 433,Mightyena (287),66,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flare Blitz (25),Giga Impact (320),Crunch (242),Wild Charge (248),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Octillery - 434,Octillery (224),26,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Water Gun (55),Shadow Shake (132),Psybeam (60),Shadow Whip (190),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Walrein - 435,Walrein (343),63,0,Assault Vest (108),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Blizzard (59),Aurora Veil (32),Hydro Pump (56),Hidden Power (314),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Tyranitar - 436,Tyranitar (248),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Edge (39),Dragon Hammer (90),Iron Tail (231),Earthquake (89),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 436,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Crawdaunt - 437,Crawdaunt (327),32,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Taunt (269),Earth Power (11),Rock Tomb (317),Seed Bomb (106),Never (0x0),false,Male (0),Serious (12),false,false,false,false
 Yanma - 438,Yanma (193),28,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Silver Wind (318),Roost (117),Confusion (93),Double Team (104),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Smeargle - 439,Smeargle (235),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Counter (68),Shadow Tease (259),Mirror Coat (243),Taunt (269),Never (0x0),false,Male (0),Quirky (24),false,false,false,false
+Speed Bag - 439,Speed Bag (235),27,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Counter (68),Shadow Tease (259),Mirror Coat (243),Taunt (269),Never (0x0),false,Genderless (2),Quirky (24),false,false,false,false
 Torkoal - 440,Torkoal (321),75,0,Nugget (110),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Flash Cannon (295),Sunny Day (241),Flamethrower (53),Razor Shell (179),Never (0x0),false,Genderless (2),Relaxed (7),false,false,false,false
 Machoke - 441,Machoke (67),28,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Revenge (279),Shadow Focus (193),Seismic Toss (69),Quiver Dance (43),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Jynx - 442,Jynx (124),40,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Beam (58),Psychic (94),Lovely Kiss (142),Substitute (164),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
@@ -571,7 +571,7 @@ Fearow - 568,Fearow (22),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,
 Persian - 569,Persian (53),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Baton Pass (226),Crunch (242),Substitute (164),Double-Edge (38),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Noctowl - 570,Noctowl (164),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Extrasensory (326),Hyper Voice (304),Moonblast (296),Blizzard (59),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
 Magmar - 571,Magmar (126),40,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Belly Drum (187),Mach Punch (183),Flame Charge (77),Flare Blitz (25),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Ninetales-A - 572,Ninetales-A (264),65,0,Babiri Berry (156),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psystrike (218),Energy Ball (91),Ice Beam (58),Moonblast (296),Never (0x0),false,Female (1),Calm (20),false,false,false,false
+Ninetales - 572,Ninetales (264),65,0,Babiri Berry (156),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psystrike (218),Energy Ball (91),Ice Beam (58),Moonblast (296),Never (0x0),false,Female (1),Calm (20),false,false,false,false
 Sandslash - 573,Sandslash (266),65,0,Occa Berry (158),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hone Claws (12),Meteor Mash (309),Aqua Tail (49),Ice Hammer (249),Never (0x0),false,Male (0),Impish (8),false,false,false,false
 Houndoom - 574,Houndoom (229),66,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dark Pulse (66),Earth Power (11),Flamethrower (53),Nasty Plot (140),Never (0x0),false,Female (1),Brave (2),false,false,false,false
 Delibird - 575,Delibird (225),65,0,Nugget (110),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Air Slash (154),Freeze Dry (198),Snowscape (258),Shadow Ball (247),Never (0x0),false,Male (0),Modest (15),false,false,false,false
@@ -679,7 +679,7 @@ Zapdos - 676,Zapdos (261),72,0,Nugget (110),"フリー"  (1),0,0,0,0,0,0,0,0,0,0
 Jirachi - 677,Jirachi (409),70,0,Star Piece (109),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Extrasensory (326),Iron Head (19),Recover (105),Wish (273),Never (0x0),false,Genderless (2),Rash (19),false,false,false,false
 Solrock - 678,Solrock (349),41,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Morning Sun (234),Flame Wheel (172),Zen Headbutt (5),Rock Slide (157),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Nidoqueen - 679,Nidoqueen (31),65,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Meteor Mash (309),Gunk Shot (148),Blaze Kick (299),Play Rough (70),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Sneasel - 680,Sneasel (215),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hone Claws (12),Ice Punch (8),Shadow Claw (139),Night Slash (168),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
+Attack Bag - 680,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Piloswine - 681,Piloswine (221),66,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Yawn (281),Double-Edge (38),Earthquake (89),Ice Hammer (249),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Cradily - 682,Cradily (389),65,0,Zinc (70),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Leech Seed (73),Seed Bomb (106),Rock Slide (157),Leech Life (81),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Ninetales - 683,Ninetales (38),75,0,Shuca Berry (152),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Solarbeam (76),Overheat (315),Nasty Plot (140),Earth Power (11),Never (0x0),false,Female (1),Modest (15),false,false,false,false
@@ -762,23 +762,23 @@ Nidoqueen - 759,Nidoqueen (31),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,
 Blissey - 760,Blissey (242),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Counter (68),Recover (105),Sucker Punch (21),Seismic Toss (69),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Azumarill - 761,Azumarill (184),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Aqua Tail (49),Play Rough (70),Foul Play (151),Hammer Arm (118),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Exploud - 762,Exploud (372),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dragon Hammer (90),Iron Head (19),Earthquake (89),Ice Hammer (249),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Charizard - 763,Charizard (6),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Air Slash (154),Heat Wave (257),Dragon Pulse (110),Sunny Day (241),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Vileplume - 764,Vileplume (45),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Giga Drain (202),Shadow Ball (247),Sludge Bomb (188),Sunny Day (241),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Alakazam - 765,Alakazam (65),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psystrike (218),Calm Mind (129),Light Screen (113),Thunderbolt (85),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Atk Bag - 763,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 764,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 765,Sp.Atk Bag (97),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Charmander - 766,Charmander (4),10,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ember (52),Tail Glow (102),Smokescreen (108),Absorb (71),Never (0x0),false,Male (0),Modest (15),false,false,false,false
-Blastoise - 767,Blastoise (9),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Scald (17),Flash Cannon (295),Power Gem (285),Hydro Pump (56),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Bellossom - 768,Bellossom (182),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Synthesis (235),Quiver Dance (43),Leaf Storm (121),Sleep Powder (79),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Slowking - 769,Slowking (199),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Light Screen (113),Surf (57),Sludge Bomb (188),Ice Beam (58),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Nidoking - 770,Nidoking (34),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Meteor Mash (309),Gunk Shot (148),Blaze Kick (299),Play Rough (70),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Machamp - 771,Machamp (68),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Meteor Mash (309),Superpower (276),Close Combat (119),Stone Edge (39),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Swampert - 772,Swampert (285),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Liquidation (230),Icicle Crash (99),Earthquake (89),Hammer Arm (118),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Sp.Def Bag - 767,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 768,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 769,Sp.Def Bag (162),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 770,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 771,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 772,Attack Bag (187),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Nidorina - 773,Nidorina (30),20,0,Oran Berry (139),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Bulldoze (222),Force Palm (158),Metal Claw (232),Never (0x0),false,Female (1),Impish (8),false,false,false,false
-Pidgeot - 774,Pidgeot (18),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Roost (117),Hyper Voice (304),Psystrike (218),Aeroblast (177),Never (0x0),true,Female (1),Hardy (0),false,false,false,false
-Raichu - 775,Raichu (26),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Meteor Mash (309),Wild Charge (248),Iron Tail (231),Aqua Tail (49),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Crobat - 776,Crobat (169),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Psycho Cut (307),Brave Bird (123),Drill Run (312),Slash (163),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Speed Bag - 774,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 775,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 776,Speed Bag (235),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Vibrava - 777,Vibrava (333),20,0,Oran Berry (139),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Bulldoze (222),Slash (163),Rock Throw (88),Never (0x0),true,Male (0),Jolly (13),false,false,false,false
-Poliwrath - 778,Poliwrath (62),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bulk Up (339),Liquidation (230),Hammer Arm (118),Ice Hammer (249),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Golem - 779,Golem (76),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Earthquake (89),Double-Edge (38),Wild Charge (248),Flare Blitz (25),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
+Def Bag - 778,Def Bag (132),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 779,Def Bag (132),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Ludicolo - 780,Ludicolo (297),70,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Solarbeam (76),Hydro Pump (56),First Impression (24),Surf (57),Never (0x0),false,Male (0),Quiet (17),false,false,false,false
 Ludicolo - 781,Ludicolo (297),70,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Beam (58),Giga Drain (202),Scald (17),Fake Out (252),Never (0x0),false,Male (0),Brave (2),false,false,false,false
 Ludicolo - 782,Ludicolo (297),70,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Solarbeam (76),Hydro Pump (56),First Impression (24),Surf (57),Never (0x0),false,Female (1),Quiet (17),false,false,false,false
@@ -846,38 +846,38 @@ Ekans - 843,Ekans (23),10,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,
 Swinub - 844,Swinub (220),10,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ice Shard (96),Mud Shot (341),Rock Throw (88),Snowscape (258),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Nidoran♀ - 845,Nidoran♀ (29),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Bulldoze (222),Force Palm (158),Metal Claw (232),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
 Phanpy - 846,Phanpy (231),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Tomb (317),Payback (107),Sand-Attack (28),Bulldoze (222),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Natu - 847,Natu (177),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Roost (117),Gust (16),Confusion (93),Icy Wind (196),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Slugma - 848,Slugma (218),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Mud Shot (341),Rock Throw (88),Will-O-Wisp (261),Ember (52),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Spinda - 849,Spinda (308),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Fake Out (252),Wide Guard (266),Feint Attack (185),Feint (338),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Drowzee - 850,Drowzee (96),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bullet Punch (1),Hypnosis (95),Confusion (93),None (0),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Tentacool - 851,Tentacool (72),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Whirlpool (250),Rain Dance (240),Sludge (124),Mud-Slap (189),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Ledyba - 852,Ledyba (165),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Tackle (33),Light Screen (113),Aerial Ace (332),Silver Wind (318),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Machop - 853,Machop (66),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bullet Punch (1),Power-Up Punch (130),Payback (107),Rock Throw (88),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Spinarak - 854,Spinarak (167),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bug Bite (40),Infestation (35),Scary Face (184),Poison Fang (305),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Dratini - 855,Dratini (147),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Flame Charge (77),Dragon Tail (46),Ember (52),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Ponyta - 856,Ponyta (77),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Ember (52),Sunny Day (241),Mud-Slap (189),Low Kick (67),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Zubat - 857,Zubat (41),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Hone Claws (12),Aerial Ace (332),Razor Leaf (75),Poison Fang (305),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Rattata - 858,Rattata (19),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Poison Fang (305),Growl (45),Double Team (104),Baton Pass (226),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Geodude - 859,Geodude (74),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rock Blast (350),Sandstorm (201),Bulldoze (222),Rock Slide (157),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Squirtle - 860,Squirtle (7),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Rain Dance (240),Shell Smash (112),Snarl (6),Whirlpool (250),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Shuckle - 861,Shuckle (213),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Curse (174),Shell Smash (112),Stomping Tantrum (175),Leech Life (81),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Atk Bag - 847,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 848,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 849,Sp.Atk Bag (97),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 850,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 851,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 852,Sp.Def Bag (162),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 853,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 854,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 855,Attack Bag (187),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 856,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 857,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 858,Speed Bag (235),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 859,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 860,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 861,Def Bag (132),20,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Swalot - 862,Swalot (368),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sludge (124),Mega Drain (72),Leech Seed (73),Absorb (71),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Hariyama - 863,Hariyama (336),25,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bulk Up (339),Heart Stamp (170),Feint (338),Power-Up Punch (130),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Magneton - 864,Magneton (82),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Tri Attack (161),Discharge (134),Flash Cannon (295),Metal Sound (319),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Jynx - 865,Jynx (124),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Icy Wind (196),Lovely Kiss (142),Psybeam (60),Sweet Kiss (186),Never (0x0),false,Female (1),Hardy (0),false,false,false,false
-Magmar - 866,Magmar (126),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Mud Shot (341),Dragonbreath (225),Ancientpower (246),Flame Wheel (172),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Hitmontop - 867,Hitmontop (237),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Revenge (279),Circle Throw (116),Mach Punch (183),Bulk Up (339),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Umbreon - 868,Umbreon (197),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Quick Attack (98),Acrobatics (178),Reflect (115),Payback (107),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Togetic - 869,Togetic (176),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Dragonbreath (225),Ancientpower (246),Roost (117),Wish (273),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Ursaring - 870,Ursaring (217),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bite (44),Hone Claws (12),Force Palm (158),Metal Claw (232),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Ariados - 871,Ariados (168),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Bug Bite (40),Needle Arm (302),Ice Fang (282),Fire Fang (213),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Dragonair - 872,Dragonair (148),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Thunder Punch (9),Flame Charge (77),Dragon Tail (46),Aerial Ace (332),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Dugtrio - 873,Dugtrio (51),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Wide Guard (266),Iron Defense (334),Spikes (191),Revenge (279),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Poliwhirl - 874,Poliwhirl (61),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Recover (105),Force Palm (158),Waterfall (127),Zen Headbutt (5),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
-Electrode - 875,Electrode (101),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Shock Wave (351),Psybeam (60),Nasty Plot (140),Silver Wind (318),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Metang - 876,Metang (399),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Metal Claw (232),Skill Swap (298),Bullet Punch (1),Hone Claws (12),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
-Pelipper - 877,Pelipper (310),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Substitute (164),Water Pulse (352),Icy Wind (196),Swagger (207),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
-Forretress - 878,Forretress (205),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,U-Turn (287),Iron Defense (334),Headbutt (29),X-Scissor (36),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
+Sp.Atk Bag - 864,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 865,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Atk Bag - 866,Sp.Atk Bag (97),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 867,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 868,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Sp.Def Bag - 869,Sp.Def Bag (162),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 870,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 871,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Attack Bag - 872,Attack Bag (187),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 873,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 874,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Speed Bag - 875,Speed Bag (235),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 876,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 877,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
+Def Bag - 878,Def Bag (132),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Splash (74),None (0),None (0),None (0),Never (0x0),false,Genderless (2),Hardy (0),false,false,false,false
 Jigglypuff - 879,Jigglypuff (39),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Confusion (93),Cosmic Power (322),Baton Pass (226),Disarming Voice (146),Never (0x0),true,Male (0),Hardy (0),false,false,false,false
 Lanturn - 880,Lanturn (171),30,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Pain Split (220),Aurora Beam (62),Bubblebeam (61),Water Gun (55),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
 Slaking - 881,Slaking (366),60,0,None (0),"フリー"  (1),0,0,0,0,0,0,0,0,0,0,0,0,0,Sucker Punch (21),Facade (263),Brick Break (280),Fake Out (252),Never (0x0),false,Male (0),Hardy (0),false,false,false,false
